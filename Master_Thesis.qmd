@@ -1,0 +1,10 @@
+---
+title: "Master Thesis"
+description: Research project on the evolution of ethnic and social inequalities in access to care amongst Medicare beneficiaries. Submitted for the fulfillment of my Master in Management at ESCP BS
+---
+<p class="m-0">Please find below the Stata code used for this project as well as the finalized deliverables:</p>
+- [Presentation support](Thesis_presentation_RF.pdf)
+- [Final paper](Master_Thesis_Romain_Fernex.pdf)
+- Stata code used to format the dataset and run the regressions (Version Stata 17.0)
+    - [code used for the replication of the 2013 study used as reference]()
+    - [code used for the analysis conducted for 2020, including interaction effects]()

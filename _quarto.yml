@@ -1,0 +1,34 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  site-url: https://rfernex.com
+  title: "Romain Fernex"
+  page-footer: "[![](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/) Romain Fernex" 
+  navbar:
+    title : false
+    background : '#BEDDBA'
+    search : true
+    left:
+      - text: Home
+        href: index.qmd
+      - text: Projects
+        href: projects.qmd
+        menu: 
+          - text: "Master Thesis"
+            href: Master_Thesis.qmd  
+          - text: "MBA Python project : Causes for financial recession"
+            href: KUBS_Recession.qmd  
+          - text: "MBA Python project : Mortality causes"
+            href: KUBS_Mortality.qmd
+      - about.qmd
+      
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true
+
+

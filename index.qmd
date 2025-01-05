@@ -1,0 +1,22 @@
+---
+title: "Home"
+about:
+  template: jolla
+  links:
+    - icon: github
+      text: Github
+      href: https://github.com/Rfernex
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/romain-fernex/
+---
+
+Hello, I am Romain Fernex, a first-year student of the [Master in Economics](https://www.sciencespo.fr/ecole-recherche/en/academics/masters/master-economics/) at [SciencesPo Paris](https://www.sciencespo.fr/fr/). 
+Before I joined this master, I graduated in management, with a major in finance, from [ESCP Europe](https://escp.eu) and [Korea University](https://www.korea.edu/sites/en/index.do). 
+I am mainly interested in the topic of inequalities, environmental economics and health economics. 
+Countrywise, I have a keen interest for the East Asian area (notably South Korea and Japan). 
+
+<p>**Feel free to reach out to me using the following address :** <br>
+"romain.fernex" followed by "@sciencespo.fr" <p>
+
+[You can find my complete CV here](CV_Romain_Fernex_2024.pdf)

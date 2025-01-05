@@ -1,0 +1,30 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Please feel free to contact me at the following email address : romain.fernex followed by “@sciencespo.fr”, or via linkedin"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Please find below a list of the projects I completed before joining SciencesPo :\n\nMaster Thesis on Ethnicity-related discrepancies in access to medication and service utilization amongst Medicare beneficiaries : This study uses the Medicare Current Beneficiary Survey(MCBS) Public Use Files(PUF) for 2013 and 2020 and investigates differences in access to medication across different ethnic groups using chi-square tests and multiple variable logistic regressions, adjusting for age, gender, education, starting health status (including chronic conditions) and type of health insurance coverage. This project was done on Stata\nGroup project on visualizing data on mortality causes globally : This group project investigates the leading causes of mortality worldwide over time, using data drawn from kaggle. The analysis begins by generating comparative tables highlighting predominant causes and exploring decadal shifts in patterns. To better understand global trends, the project groups mortality causes into broader categories and tracks their annual changes. The investigation then focuses on geographical variations as of 2019, examining mortality patterns across different nations and comparing trends between developed and developing economies. This project was done on Python\nGroup project on identifying key drivers of financial recession in the US : This group project consists in identifying major indicators associated with financial recessions in the US, using data from the Federal reserve bank in Saint Louis. To do so we rely on a multiple variable logistic regression modeling the probability of a recession taking place as a function of several economic indicators that have been grouped in separate categories using two different methods (VIF and PCA analysis). To evaluate the relevance of each of the aforementioned grouping method used, we look at ROC curves obtained for each of them and conclude that the PCA method tends to perform better in this situation. This project was done on Python"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Hello, I am Romain Fernex, a first-year student of the Master in Economics at SciencesPo Paris. Before I joined this master, I graduated in management, with a major in finance, from ESCP Europe and Korea University. I am mainly interested in the topic of inequalities, environmental economics and health economics. Countrywise, I have a keen interest for the East Asian area (notably South Korea and Japan).\n\nFeel free to reach out to me using the following address :  “romain.fernex” followed by “@sciencespo.fr”\n\nYou can find my complete CV here"
+  },
+  {
+    "objectID": "Master_Thesis.html",
+    "href": "Master_Thesis.html",
+    "title": "Master Thesis",
+    "section": "",
+    "text": "Please find below the Stata code used for this project as well as the finalized deliverables:\n\n\nPresentation support\nFinal paper\nStata code used to format the dataset and run the regressions (Version Stata 17.0)\n\ncode used for the replication of the 2013 study used as reference\ncode used for the analysis conducted for 2020, including interaction effects"
+  }
+]

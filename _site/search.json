@@ -1,0 +1,51 @@
+[
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Home",
+    "section": "",
+    "text": "Hello, I am Romain Fernex, a first-year student of the Master in Economics at SciencesPo Paris. Before I joined this master, I graduated in management, with a major in finance, from ESCP Europe and Korea University. I am mainly interested in the topic of inequalities, environmental economics and health economics. Countrywise, I have a keen interest for the East Asian area (notably South Korea and Japan).\nFeel free to reach out to me using the following address :  “romain.fernex” followed by “@sciencespo.fr”"
+  },
+  {
+    "objectID": "index.html#title-1",
+    "href": "index.html#title-1",
+    "title": "Home",
+    "section": "Title 1",
+    "text": "Title 1"
+  },
+  {
+    "objectID": "index.html#past-projects",
+    "href": "index.html#past-projects",
+    "title": "Home",
+    "section": "Past Projects",
+    "text": "Past Projects\n\nA short list of class projects I have worked on, and of relevant articles I have written outside of school\n\n\nMy previous master thesis on Inequalities in Access to Care in the US (written under the supervision of Pr. Jérôme Creel). You can find my presentation support here"
+  },
+  {
+    "objectID": "index.html#curriculum-vitae",
+    "href": "index.html#curriculum-vitae",
+    "title": "Home",
+    "section": "Curriculum Vitae",
+    "text": "Curriculum Vitae"
+  },
+  {
+    "objectID": "index.html#code-demo",
+    "href": "index.html#code-demo",
+    "title": "Home",
+    "section": "Code Demo",
+    "text": "Code Demo\n\ndata(iris) # load the freely accessible dataset named \"iris\"\nsummary(iris) # display a simple statistical summary of this dataset\n\n  Sepal.Length    Sepal.Width     Petal.Length    Petal.Width   \n Min.   :4.300   Min.   :2.000   Min.   :1.000   Min.   :0.100  \n 1st Qu.:5.100   1st Qu.:2.800   1st Qu.:1.600   1st Qu.:0.300  \n Median :5.800   Median :3.000   Median :4.350   Median :1.300  \n Mean   :5.843   Mean   :3.057   Mean   :3.758   Mean   :1.199  \n 3rd Qu.:6.400   3rd Qu.:3.300   3rd Qu.:5.100   3rd Qu.:1.800  \n Max.   :7.900   Max.   :4.400   Max.   :6.900   Max.   :2.500  \n       Species  \n setosa    :50  \n versicolor:50  \n virginica :50  \n                \n                \n                \n\nmodel = lm(iris$Sepal.Length ~ iris$Petal.Length)\n# create a linear model trying to explain the sepal length by the petal length\nplot(x = iris$Petal.Length,\n  y = iris$Sepal.Length, \n  xlab = \"Petal Length\",\n  ylab = \"Sepal Length\") # plot those two variables\nabline(model) # draw the linear regression line on the plot"
+  },
+  {
+    "objectID": "projects.html",
+    "href": "projects.html",
+    "title": "Projects",
+    "section": "",
+    "text": "Welcome to my projects webpage. You will find here a list of ongoing or past projects I worked on."
+  }
+]

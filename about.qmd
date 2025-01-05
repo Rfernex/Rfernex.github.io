@@ -1,0 +1,8 @@
+---
+title: "Contact"
+about:
+  template: jolla
+---
+
+<p>Please feel free to contact me at the following email address : romain.fernex followed by “@sciencespo.fr”,<br>
+or [via linkedin](https://www.linkedin.com/in/romain-fernex/)<p>
