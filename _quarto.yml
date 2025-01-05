@@ -3,7 +3,6 @@ project:
   output-dir: docs
 
 website:
-  site-url: https://rfernex.com
   title: "Romain Fernex"
   page-footer: "[![](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/) Romain Fernex" 
   navbar:
