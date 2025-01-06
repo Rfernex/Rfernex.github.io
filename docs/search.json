@@ -26,5 +26,19 @@
     "title": "Master Thesis",
     "section": "",
     "text": "Please find below the Stata code used for this project as well as the finalized deliverables:\n\n\nPresentation support\nFinal paper\nStata code used to format the dataset and run the regressions (Version Stata 17.0)\n\ncode used for the replication of the 2013 study used as reference\ncode used for the analysis conducted for 2020, including interaction effects"
+  },
+  {
+    "objectID": "KUBS_Mortality.html",
+    "href": "KUBS_Mortality.html",
+    "title": "Group project on mortality causes",
+    "section": "",
+    "text": "Please find below the finalized deliverables for this project :\n\n\nPresentation support\nFinal report"
+  },
+  {
+    "objectID": "KUBS_Recession.html",
+    "href": "KUBS_Recession.html",
+    "title": "Group project on mortality causes",
+    "section": "",
+    "text": "Please find below the finalized delivarables as well as a link to the github repository for this project:\n\n\nGithub with the python code and processed dataset\nFinal report"
   }
 ]

@@ -1,0 +1,7 @@
+---
+title: "Group project on mortality causes"
+description: This group project was realized in Python, for the completion of a "Machine Learning for Business and Economics" course at Korea University.
+---
+<p class="m-0">Please find below the finalized delivarables as well as a link to the github repository for this project:</p>
+- [Github with the python code and processed dataset]()
+- [Final report](final_report_recession.pdf)
