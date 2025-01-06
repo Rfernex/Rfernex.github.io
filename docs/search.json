@@ -25,7 +25,7 @@
     "href": "Master_Thesis.html",
     "title": "Master Thesis",
     "section": "",
-    "text": "Please find below the Stata code used for this project as well as the finalized deliverables:\n\n\nPresentation support\nFinal paper\nStata code used to format the dataset and run the regressions (Version Stata 17.0)\n\ncode used for the replication of the 2013 study used as reference\ncode used for the analysis conducted for 2020, including interaction effects"
+    "text": "Please find below the Stata code used for this project as well as the finalized deliverables:\n\n\nPresentation support\nFinal paper\nStata code used to format the dataset and run the regressions (Version Stata 17.0)\n\nGithub with the code and dataset used"
   },
   {
     "objectID": "KUBS_Mortality.html",
