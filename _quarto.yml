@@ -19,8 +19,6 @@ website:
             href: Master_Thesis.qmd  
           - text: "MBA Python project : Causes for financial recession"
             href: KUBS_Recession.qmd  
-          - text: "MBA Python project : Mortality causes"
-            href: KUBS_Mortality.qmd
       - about.qmd
       
 

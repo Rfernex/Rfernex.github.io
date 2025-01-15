@@ -1,7 +1,0 @@
----
-title: "Group project on mortality causes"
-description: This group project was realized in Python, for the completion of a "Machine Learning for Business and Economics" course at Korea University.
----
-<p class="m-0">Please find below the finalized deliverables for this project :</p>
-- [Presentation support](Death_Causes_Presentation.pdf)
-- [Final report](final_report_death_causes.pdf)
