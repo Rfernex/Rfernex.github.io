@@ -3,7 +3,7 @@ title: "Projects"
 --- 
 
 Here is my latest personal project :
-*
+* **Ongoing** : Project on identifying patterns in the speeches of the Bank of Japan that predict decisions to raise/lower or keep key interest rate levels. **This project is done in R and Python**
 
 Please find below a list of the projects I completed before joining SciencesPo : 
 
