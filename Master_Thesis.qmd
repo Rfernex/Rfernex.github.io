@@ -5,5 +5,3 @@ description: Research project on the evolution of ethnic and social inequalities
 <p class="m-0">Please find below the Stata code used for this project as well as the finalized deliverables:</p>
 - [Presentation support](Thesis_presentation_RF.pdf)
 - [Final paper](Master_Thesis_Romain_Fernex.pdf)
-- Stata code used to format the dataset and run the regressions (Version Stata 17.0)
-    - [Github with the code and dataset used](https://github.com/Rfernex/Projects/tree/main/Master%20thesis%20project)
