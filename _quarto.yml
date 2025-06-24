@@ -7,7 +7,7 @@ website:
   page-footer: "[![](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/) Romain Fernex" 
   navbar:
     title : false
-    background : '#BEDDBA'
+    background : '#111184'
     search : true
     left:
       - text: Home
@@ -34,5 +34,6 @@ format:
     theme: cosmo
     css: styles.css
     toc: true
+
 
 
