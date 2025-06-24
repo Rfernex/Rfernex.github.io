@@ -1,7 +1,10 @@
 ---
 title: "Romain Fernex"
+subtitle: "Economics Student at SciencesPo | Research Assistant"
+image: Resources/Photo_Romain_Fernex.jpg
 about:
   template: jolla
+  image-shape: round
   links:
     - icon: github
       text: Github
@@ -19,4 +22,4 @@ Countrywise, I have a keen interest for the East Asian area (notably South Korea
 <p>**Feel free to reach out to me using the following address :** <br>
 "romain.fernex" followed by "@sciencespo.fr" <p>
 
-[You can find my complete CV here](CV_Romain_Fernex_2024.pdf)
+[You can find my complete CV here](Resources/CV_Romain_Fernex_2024.pdf)

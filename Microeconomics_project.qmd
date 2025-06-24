@@ -1,0 +1,9 @@
+---
+title: "Superbonus : A Game Theoretic Analysis"
+description: Research project on game theory applied to the Italian tax-credit "Superbonus" policy
+---
+<p class="m-0">Please find below the links for documents/files related to this project :</p>
+- [Github repository](https://github.com/Rfernex/Microeconomics-Homework/tree/main) 
+- [Project Paper](Resources/Micro_Project_Sovereign_Debt.pdf)
+
+Grade : 18/20

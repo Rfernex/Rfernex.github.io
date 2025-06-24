@@ -19,6 +19,13 @@ website:
             href: Master_Thesis.qmd  
           - text: "MBA Python project : Causes for financial recession"
             href: KUBS_Recession.qmd  
+      - text: Coursework
+        href: Coursework.qmd
+        menu:
+          - text: "Macroeconomics Project"
+            href: Macroeconomics_project.qmd
+          - text: "Microeconomics Project"
+            href: Microeconomics_project.qmd
       - about.qmd
       
 

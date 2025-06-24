@@ -1,0 +1,12 @@
+---
+title: "Article presentation on DSGE models"
+description: Presentation on the paper titled "An Estimated Dynamic Stochastic General Equilibrium Model of the Euro Area", published by Frank Smets and Raf Wouters in 2003.
+---
+
+<p class="m-0">Please find below the links for documents/files related to this project :</p>
+- [Github repository](https://github.com/Rfernex/Macroeconomics-Homework/tree/main)
+- [Slides for the presentation](Resources/Macro_Article_Presentation.pdf)
+- [Article presented](Resources/Article_Smets_Wouters_2003.pdf)
+
+Grade : 18.9/20
+

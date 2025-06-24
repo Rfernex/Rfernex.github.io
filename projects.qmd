@@ -1,9 +1,15 @@
 ---
-title: "Projects"
+title: "Personal Projects"
+format: html
+engine: knitr
 --- 
-
-Here is my latest personal project :
-* **Ongoing** : Project focused on analyzing patterns in the Bank of Japan's speeches using natural language processing (NLP) to identify linguistic and thematic indicators that predict decisions to raise, lower, or maintain key interest rate levels. **This project is done in R and Python**
+```{css}
+#| echo: false
+p, li {  
+  text-align: justify;  
+}  
+```
+Here is my latest personal project (**Ongoing**) :  Project focused on analyzing patterns in the Bank of Japan's speeches using natural language processing (NLP) to identify linguistic and thematic indicators that predict decisions to raise, lower, or maintain key interest rate levels. **This project is done in R and Python**
 
 Please find below a list of the projects I completed before joining SciencesPo : 
 

@@ -16,9 +16,9 @@
   {
     "objectID": "projects.html",
     "href": "projects.html",
-    "title": "Projects",
+    "title": "Personal Projects",
     "section": "",
-    "text": "Here is my latest personal project : * Ongoing : Project focused on analyzing patterns in the Bank of Japan’s speeches using natural language processing (NLP) to identify linguistic and thematic indicators that predict decisions to raise, lower, or maintain key interest rate levels. This project is done in R and Python\nPlease find below a list of the projects I completed before joining SciencesPo :\n\nMaster Thesis on Ethnicity-related discrepancies in access to medication and service utilization amongst Medicare beneficiaries : This study uses the Medicare Current Beneficiary Survey(MCBS) Public Use Files(PUF) for 2013 and 2020 and investigates differences in access to medication across different ethnic groups using chi-square tests and multiple variable logistic regressions, adjusting for age, gender, education, starting health status (including chronic conditions) and type of health insurance coverage. This project was done on Stata\nGroup project on identifying key drivers of financial recession in the US : This group project consists in identifying major indicators associated with financial recessions in the US, using data from the Federal reserve bank in Saint Louis. To do so we rely on a multiple variable logistic regression modeling the probability of a recession taking place as a function of several economic indicators that have been grouped in separate categories using two different methods (VIF and PCA analysis). To evaluate the relevance of each of the aforementioned grouping method used, we look at ROC curves obtained for each of them and conclude that the PCA method tends to perform better in this situation. This project was done on Python"
+    "text": "Here is my latest personal project (Ongoing) : Project focused on analyzing patterns in the Bank of Japan’s speeches using natural language processing (NLP) to identify linguistic and thematic indicators that predict decisions to raise, lower, or maintain key interest rate levels. This project is done in R and Python\nPlease find below a list of the projects I completed before joining SciencesPo :\n\nMaster Thesis on Ethnicity-related discrepancies in access to medication and service utilization amongst Medicare beneficiaries : This study uses the Medicare Current Beneficiary Survey(MCBS) Public Use Files(PUF) for 2013 and 2020 and investigates differences in access to medication across different ethnic groups using chi-square tests and multiple variable logistic regressions, adjusting for age, gender, education, starting health status (including chronic conditions) and type of health insurance coverage. This project was done on Stata\nGroup project on identifying key drivers of financial recession in the US : This group project consists in identifying major indicators associated with financial recessions in the US, using data from the Federal reserve bank in Saint Louis. To do so we rely on a multiple variable logistic regression modeling the probability of a recession taking place as a function of several economic indicators that have been grouped in separate categories using two different methods (VIF and PCA analysis). To evaluate the relevance of each of the aforementioned grouping method used, we look at ROC curves obtained for each of them and conclude that the PCA method tends to perform better in this situation. This project was done on Python"
   },
   {
     "objectID": "index.html",
@@ -33,5 +33,26 @@
     "title": "Master Thesis",
     "section": "",
     "text": "Please find below the Stata code used for this project as well as the finalized deliverables:\n\n\nPresentation support\nFinal paper"
+  },
+  {
+    "objectID": "Coursework.html",
+    "href": "Coursework.html",
+    "title": "Coursework",
+    "section": "",
+    "text": "Please find below a list of the projects I completed within the scope of my studies at SciencesPo :\n\nMicroeconomics Paper on Game Theory applied to the Italian “Superbonus” policy : This study examines how European governments use off-balance sheet fiscal tools, like Italy’s “Superbonus,” to hide public debt and evade EU fiscal rules. Using a game-theoretic model, we show that strict sanctions and weak enforcement can encourage even responsible governments to conceal debt. We also find that proportional penalties make high-debt countries more likely to cooperate on reducing debt than low-debt countries. This study argues for more comprehensive fiscal rules that account for hidden liabilities, not just official debt figures.\nMacroeconomics Presentation on the DSGE model proposed by Frank Smets and Raf Wouters for the Euro Area : This presentation explains how Frank Smets and Raf Wouters, in the early 2000s, introduced a new way to estimate DSGE (Dynamic Stochastic General Equilibrium) models using Bayesian methods. It walks through the main statistical techniques they used, summarizes their key results, and discusses some of the limitations that were pointed out in later works."
+  },
+  {
+    "objectID": "Microeconomics_project.html",
+    "href": "Microeconomics_project.html",
+    "title": "Superbonus : A Game Theoretic Analysis",
+    "section": "",
+    "text": "Please find below the links for documents/files related to this project :\n\n\nGithub repository\nProject Paper\n\nGrade : 18/20"
+  },
+  {
+    "objectID": "Macroeconomics_project.html",
+    "href": "Macroeconomics_project.html",
+    "title": "Article presentation on DSGE models",
+    "section": "",
+    "text": "Please find below the links for documents/files related to this project :\n\n\nGithub repository\nSlides for the presentation\nArticle presented\n\nGrade : 18.9/20"
   }
 ]
