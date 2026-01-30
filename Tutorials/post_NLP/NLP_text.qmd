@@ -1,0 +1,7 @@
+---
+title: "About NLP's used for text processing"
+editor: visual
+date: Wednesday 25 June 2025
+---
+
+Lorem Ipsum dolor

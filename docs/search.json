@@ -2,16 +2,37 @@
   {
     "objectID": "KUBS_Recession.html",
     "href": "KUBS_Recession.html",
-    "title": "Group project on mortality causes",
+    "title": "Group project on Economics indicators of Recessions",
     "section": "",
     "text": "Please find below the finalized delivarables as well as a link to the github repository for this project:\n\n\nGithub with the python code and processed dataset\nFinal report"
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "Contact",
+    "objectID": "Macroeconomics_project.html",
+    "href": "Macroeconomics_project.html",
+    "title": "Article presentation on DSGE models",
     "section": "",
-    "text": "Please feel free to contact me at the following email address : romain.fernex followed by “@sciencespo.fr”, or via linkedin"
+    "text": "Please find below the links for documents/files related to this project :\n\n\nGithub repository\nSlides for the presentation\nArticle presented\n\nGrade : 18.9/20"
+  },
+  {
+    "objectID": "Tutorials/index.html",
+    "href": "Tutorials/index.html",
+    "title": "Articles & Tutorials",
+    "section": "",
+    "text": "About NLP’s used for text processing\n\n\n\n\n\n\n\n\n\n\n\nJun 25, 2025\n\n\n\n\n\n\n\n\n\n\n\n\nFundamentals of Graph Theory\n\n\n\n\n\n\n\n\n\n\n\nJun 25, 2025\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "Tutorials/post_NLP/NLP_text.html",
+    "href": "Tutorials/post_NLP/NLP_text.html",
+    "title": "About NLP’s used for text processing",
+    "section": "",
+    "text": "Lorem Ipsum dolor"
+  },
+  {
+    "objectID": "Microeconomics_project.html",
+    "href": "Microeconomics_project.html",
+    "title": "Superbonus : A Game Theoretic Analysis",
+    "section": "",
+    "text": "Please find below the links for documents/files related to this project :\n\n\nGithub repository\nProject Paper\n\nGrade : 18/20"
   },
   {
     "objectID": "projects.html",
@@ -28,6 +49,20 @@
     "text": "Hello, I am Romain Fernex, a first-year student of the Master in Economics at SciencesPo Paris. Before I joined this master, I graduated in management, with a major in finance, from ESCP Europe and Korea University. I am mainly interested in the topic of inequalities, environmental economics and health economics. Countrywise, I have a keen interest for the East Asian area (notably South Korea and Japan).\n\nFeel free to reach out to me using the following address :  “romain.fernex” followed by “@sciencespo.fr”\n\nYou can find my complete CV here"
   },
   {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "Contact",
+    "section": "",
+    "text": "Please feel free to contact me at the following email address : romain.fernex followed by “@sciencespo.fr”, or via linkedin"
+  },
+  {
+    "objectID": "Tutorials/post_graph_theory/Graph_theory.html",
+    "href": "Tutorials/post_graph_theory/Graph_theory.html",
+    "title": "Fundamentals of Graph Theory",
+    "section": "",
+    "text": "Lorem Ipsum Dolor Bis"
+  },
+  {
     "objectID": "Master_Thesis.html",
     "href": "Master_Thesis.html",
     "title": "Master Thesis",
@@ -40,19 +75,5 @@
     "title": "Coursework",
     "section": "",
     "text": "Please find below a list of the projects I completed within the scope of my studies at SciencesPo :\n\nMicroeconomics Paper on Game Theory applied to the Italian “Superbonus” policy : This study examines how European governments use off-balance sheet fiscal tools, like Italy’s “Superbonus,” to hide public debt and evade EU fiscal rules. Using a game-theoretic model, we show that strict sanctions and weak enforcement can encourage even responsible governments to conceal debt. We also find that proportional penalties make high-debt countries more likely to cooperate on reducing debt than low-debt countries. This study argues for more comprehensive fiscal rules that account for hidden liabilities, not just official debt figures.\nMacroeconomics Presentation on the DSGE model proposed by Frank Smets and Raf Wouters for the Euro Area : This presentation explains how Frank Smets and Raf Wouters, in the early 2000s, introduced a new way to estimate DSGE (Dynamic Stochastic General Equilibrium) models using Bayesian methods. It walks through the main statistical techniques they used, summarizes their key results, and discusses some of the limitations that were pointed out in later works."
-  },
-  {
-    "objectID": "Microeconomics_project.html",
-    "href": "Microeconomics_project.html",
-    "title": "Superbonus : A Game Theoretic Analysis",
-    "section": "",
-    "text": "Please find below the links for documents/files related to this project :\n\n\nGithub repository\nProject Paper\n\nGrade : 18/20"
-  },
-  {
-    "objectID": "Macroeconomics_project.html",
-    "href": "Macroeconomics_project.html",
-    "title": "Article presentation on DSGE models",
-    "section": "",
-    "text": "Please find below the links for documents/files related to this project :\n\n\nGithub repository\nSlides for the presentation\nArticle presented\n\nGrade : 18.9/20"
   }
 ]

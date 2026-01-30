@@ -4,14 +4,16 @@ project:
 
 website:
   title: "Romain Fernex"
+  open-graph: true
   page-footer: "[![](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/) Romain Fernex" 
   navbar:
-    title : false
-    background : '#111184'
+    title : Romain Fernex
+    background : '#3944BC'
     search : true
     left:
       - text: Home
         href: index.qmd
+        icon: house
       - text: Projects
         href: projects.qmd
         menu: 
@@ -26,6 +28,8 @@ website:
             href: Macroeconomics_project.qmd
           - text: "Microeconomics Project"
             href: Microeconomics_project.qmd
+      - text: Articles & tutorials
+        href: Tutorials/index.qmd
       - about.qmd
       
 

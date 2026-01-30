@@ -2,3 +2,12 @@
 .navbar-nav .nav-link {  
   color: #FFFFFF !important; /* Replace with your desired color */  
 } 
+
+span.menu-text:hover {
+  color: grey;
+  transition-duration: 01s;
+}
+
+.nav-link.active span.menu-text {
+  color: black;
+}
