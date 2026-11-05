@@ -1,0 +1,21 @@
+---
+title: "Beyond access: modelling food demand"
+subtitle: "Research proposal · Essay 2"
+toc: false
+---
+
+<div class="meta"><span>Urban Economics</span><span>Pierre-Philippe Combes</span><span>M2 · May 2026</span><span class="grade">Grade: 18/20</span></div>
+
+[Read the paper (PDF)](../Resources/urban-essay-2.pdf)
+
+## Abstract
+
+Building on Allcott et al. (2019), this proposal examines restrictions imposed by a static, partial-equilibrium model of grocery demand. I discuss retailer and spatial responses, habit formation, and the distinction between preferences and price sensitivity. The proposed extension allows implicit-price sensitivity to differ between product groups with higher and lower nutritional scores, using interactions with chain-level pricing instruments to study how that heterogeneity could affect the interpretation of nutritional inequality and subsidy simulations.
+
+## About this work
+
+I outline an empirical design to test this extension and discuss two further limits: the omission of food consumed away from home and the representation of households facing the strongest access constraints.
+
+[Read the companion paper summary →](urban-summary.qmd)
+
+[← All papers & coursework](../Coursework.qmd)

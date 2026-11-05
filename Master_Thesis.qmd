@@ -1,7 +1,15 @@
 ---
-title: "Master Thesis"
-description: Research project on the evolution of ethnic and social inequalities in access to care amongst Medicare beneficiaries. Submitted for the fulfillment of my Master in Management at ESCP BS
+title: "Access to healthcare among Medicare beneficiaries"
+subtitle: "Master’s thesis"
+toc: false
 ---
-<p class="m-0">Please find below the Stata code used for this project as well as the finalized deliverables:</p>
-- [Presentation support](Resources/Thesis_presentation_RF.pdf)
-- [Final paper](Resources/Master_Thesis_Romain_Fernex.pdf)
+
+<div class="meta"><span>Master in Management · ESCP Business School</span><span>Supervisor: Jérôme Creel</span><span>2024</span><span class="grade">Grade: 18/20</span></div>
+
+[Read the paper (PDF)](Resources/Master_thesis_Romain_Fernex.pdf) · [Presentation (PDF)](Resources/Thesis_presentation_RF.pdf) · [GitHub repository ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Master%20thesis%20ESCP)
+
+## Abstract
+
+This thesis investigates ethnic and socioeconomic differences in access to medication and use of healthcare services among US Medicare beneficiaries. Using the 2013 and 2020 Medicare Current Beneficiary Survey public-use files, I combine descriptive comparisons and chi-square tests with multivariable logistic regressions adjusting for age, gender, education, health, and insurance coverage.
+
+[← All other projects](projects.qmd)

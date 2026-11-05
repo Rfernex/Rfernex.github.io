@@ -1,7 +1,19 @@
 ---
-title: "Group project on Economics indicators of Recessions"
-description: This group project was realized in Python, for the completion of a "Machine Learning for Business and Economics" course at Korea University.
+title: "Economic indicators of US recessions"
+subtitle: "Group project in Python"
+toc: false
 ---
-<p class="m-0">Please find below the finalized delivarables as well as a link to the github repository for this project:</p>
-- [Github with the python code and processed dataset](https://github.com/Rfernex/Projects/tree/main/Financial_Recession_Project)
-- [Final report](Resources/final_report_recession.pdf)
+
+<div class="meta"><span>Machine Learning for Business and Economics</span><span>Korea University</span></div>
+
+[Read the report (PDF)](Resources/final_report_recession.pdf) · [Code & data on GitHub ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Financial_Recession_Project)
+
+## Abstract
+
+This project examines how macroeconomic indicators predict US recessions over 1996–2020. We compare logistic regressions using principal components and predictors selected through variance-inflation analysis, assessing predictive performance with out-of-sample ROC curves. The analysis brings together financial, labour-market, and monetary indicators and considers the limitations of the data and modelling choices.
+
+## Data and methods
+
+The dataset is obtained through Kaggle and combines series from Yahoo, NBER, Quandl, and Macrotrends. The workflow covers exploratory analysis, scaling, dimension reduction, and model evaluation in Python.
+
+[← All other projects](projects.qmd)

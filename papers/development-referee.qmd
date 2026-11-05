@@ -1,0 +1,19 @@
+---
+title: "Labour market power, self-employment, and development"
+subtitle: "Referee report"
+toc: false
+---
+
+<div class="meta"><span>Development Economics</span><span>Clément Imbert</span><span>M2 · April 2026</span><span class="grade">Grade: 18/20</span></div>
+
+[Read the referee report (PDF)](../Resources/development-referee.pdf)
+
+## Abstract
+
+This report evaluates Amodio, Medina, and Morlacco’s analysis of self-employment as an outside option in concentrated Peruvian labour markets. I examine the identification of wage markdowns, including the possibility that electrification affects wages through rent-sharing, and discuss the interpretation of worker sorting. I propose an extension using the expansion of municipal microfinance institutions to investigate whether improving self-employment opportunities changes wages differently across labour markets with different levels of concentration.
+
+## About this work
+
+The proposed design addresses endogenous branch placement through a shift-share instrument and considers the scope for spatial spillovers.
+
+[← All papers & coursework](../Coursework.qmd)

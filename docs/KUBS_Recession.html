@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="This group project was realized in Python, for the completion of a “Machine Learning for Business and Economics” course at Korea University.">
 
-<title>Group project on Economics indicators of Recessions – Romain Fernex</title>
+<title>Economic indicators of US recessions – Romain Fernex</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -39,7 +38,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-cccbcc015a6ff64e84de2b10997e9b38.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-56e8aaf3b3c10f9ba1dbd9fbd1790a0f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -67,18 +66,36 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #172234;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #172234;
+background: #f3f6fa;
+      }
+</style>
 
 
 <link rel="stylesheet" href="styles.css">
-<meta property="og:title" content="Group project on Economics indicators of Recessions – Romain Fernex">
-<meta property="og:description" content="This group project was realized in Python, for the completion of a “Machine Learning for Business and Economics” course at Korea University.">
+<meta property="og:title" content="Economic indicators of US recessions – Romain Fernex">
+<meta property="og:description" content="Group project in Python">
 <meta property="og:site_name" content="Romain Fernex">
 </head>
 
-<body class="nav-fixed">
+<body class="nav-fixed fullcontent">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
@@ -93,21 +110,40 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> <i class="bi bi-house" role="img">
-</i> 
-<span class="menu-text">Home</span></a>
+    <a class="nav-link" href="./Research.html"> 
+<span class="menu-text">Research</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./projects.html"> 
-<span class="menu-text">Projects</span></a>
+    <a class="nav-link" href="./thesis.html"> 
+<span class="menu-text">Master thesis</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Coursework.html"> 
-<span class="menu-text">Coursework</span></a>
+<span class="menu-text">Papers &amp; coursework</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Other projects</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./Tutorials/index.html"> 
-<span class="menu-text">Articles &amp; tutorials</span></a>
+<span class="menu-text">Notes</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./Resources/CV_Romain_Fernex.pdf"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Rfernex"> <i class="bi bi-github" role="img" aria-label="GitHub profile">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/romain-fernex/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn profile">
+</i> 
+<span class="menu-text"></span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="./about.html"> 
@@ -121,48 +157,49 @@ ul.task-list li input[type="checkbox"] {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Economic indicators of US recessions</h1>
+            <p class="subtitle lead">Group project in Python</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">Group project on Economics indicators of Recessions</h1>
+
+
+
+
+<div class="meta">
+<span>Machine Learning for Business and Economics</span><span>Korea University</span>
 </div>
-
-<div>
-  <div class="description">
-    This group project was realized in Python, for the completion of a “Machine Learning for Business and Economics” course at Korea University.
-  </div>
-</div>
-
-
-<div class="quarto-title-meta">
-
-    
-  
-    
-  </div>
-  
+<p><a href="Resources/final_report_recession.pdf">Read the report (PDF)</a> · <a href="https://github.com/Rfernex/Personal-Projects/tree/main/Financial_Recession_Project">Code &amp; data on GitHub ↗</a></p>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>This project examines how macroeconomic indicators predict US recessions over 1996–2020. We compare logistic regressions using principal components and predictors selected through variance-inflation analysis, assessing predictive performance with out-of-sample ROC curves. The analysis brings together financial, labour-market, and monetary indicators and considers the limitations of the data and modelling choices.</p>
+</section>
+<section id="data-and-methods" class="level2">
+<h2 class="anchored" data-anchor-id="data-and-methods">Data and methods</h2>
+<p>The dataset is obtained through Kaggle and combines series from Yahoo, NBER, Quandl, and Macrotrends. The workflow covers exploratory analysis, scaling, dimension reduction, and model evaluation in Python.</p>
+<p><a href="./projects.html">← All other projects</a></p>
 
 
-</header>
-
-
-<p class="m-0">
-Please find below the finalized delivarables as well as a link to the github repository for this project:
-</p>
-<ul>
-<li><a href="https://github.com/Rfernex/Projects/tree/main/Financial_Recession_Project">Github with the python code and processed dataset</a></li>
-<li><a href="Resources/final_report_recession.pdf">Final report</a></li>
-</ul>
-
-
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -255,7 +292,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/rfernex\.github\.io");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -586,18 +623,19 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-      &nbsp;
-    </div>   
+<p>© Romain Fernex · Economics</p>
+</div>   
     <div class="nav-footer-center">
-<p><a href="https://creativecommons.org/licenses/by-nd/4.0/"><img src="https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg" class="img-fluid"></a> Romain Fernex</p>
-</div>
-    <div class="nav-footer-right">
       &nbsp;
     </div>
+    <div class="nav-footer-right">
+<p><a href="./Resources/CV_Romain_Fernex.pdf">CV</a> · <a href="https://github.com/Rfernex">GitHub</a> · <a href="https://www.linkedin.com/in/romain-fernex/">LinkedIn</a> · <a href="./about.html">Contact</a> · <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a></p>
+</div>
   </div>
 </footer>
 
 
 
 
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
 </body></html>

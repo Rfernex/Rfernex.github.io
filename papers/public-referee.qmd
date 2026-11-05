@@ -1,0 +1,19 @@
+---
+title: "Tax–benefit linkage and payroll tax incidence"
+subtitle: "Referee report"
+toc: false
+---
+
+<div class="meta"><span>Topics in Political, Public and Organizational Economics · Public Economics block</span><span>Antoine Ferey</span><span>M2</span></div>
+
+[Read the referee report (PDF)](../Resources/public-referee.pdf) · [GitHub repository ↗](https://github.com/Rfernex/Referee-Reports/tree/main/Referee_Report___Public_Economics)
+
+## Abstract
+
+This report reviews “Does Tax-Benefit Linkage Matter for the Incidence of Payroll Taxes?” It examines the argument that workers’ perceived benefits from a tax influence its pass-through to earnings. My comments focus on potential asymmetry between tax cuts and increases, heterogeneity in perceived tax–benefit linkage, and the role of industry-specific shocks in the empirical designs.
+
+## About this work
+
+Course team: Antoine Ferey, Roberto Galbiati, and Franz Ostrizek. [Course syllabus](https://syllabus.sciencespo.fr/cours/202510/282526.html).
+
+[← All papers & coursework](../Coursework.qmd)

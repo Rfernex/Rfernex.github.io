@@ -1,0 +1,1007 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.39">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Self-employment and dual jobholding – Romain Fernex</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-e26003cea8cd680ca0c55a263523d882.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-56e8aaf3b3c10f9ba1dbd9fbd1790a0f.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<style>html{ scroll-behavior: smooth; }</style>
+<style>
+
+      .quarto-title-block .quarto-title-banner h1,
+      .quarto-title-block .quarto-title-banner h2,
+      .quarto-title-block .quarto-title-banner h3,
+      .quarto-title-block .quarto-title-banner h4,
+      .quarto-title-block .quarto-title-banner h5,
+      .quarto-title-block .quarto-title-banner h6
+      {
+        color: #172234;
+      }
+
+      .quarto-title-block .quarto-title-banner {
+        color: #172234;
+background: #f3f6fa;
+      }
+</style>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<meta property="og:title" content="Self-employment and dual jobholding – Romain Fernex">
+<meta property="og:description" content="How the 2018 microentrepreneurship reform reshaped occupational choices in France.">
+<meta property="og:site_name" content="Romain Fernex">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">Romain Fernex</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./Research.html"> 
+<span class="menu-text">Research</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./thesis.html" aria-current="page"> 
+<span class="menu-text">Master thesis</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Coursework.html"> 
+<span class="menu-text">Papers &amp; coursework</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./projects.html"> 
+<span class="menu-text">Other projects</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./Tutorials/index.html"> 
+<span class="menu-text">Notes</span></a>
+  </li>  
+</ul>
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./Resources/CV_Romain_Fernex.pdf"> 
+<span class="menu-text">CV</span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://github.com/Rfernex"> <i class="bi bi-github" role="img" aria-label="GitHub profile">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item compact">
+    <a class="nav-link" href="https://www.linkedin.com/in/romain-fernex/"> <i class="bi bi-linkedin" role="img" aria-label="LinkedIn profile">
+</i> 
+<span class="menu-text"></span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">Contact</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Self-employment and dual jobholding</h1>
+            <p class="subtitle lead">How the 2018 microentrepreneurship reform reshaped occupational choices in France.</p>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#abstract" id="toc-abstract" class="nav-link active" data-scroll-target="#abstract">Abstract</a></li>
+  <li><a href="#the-question-behind-the-research" id="toc-the-question-behind-the-research" class="nav-link" data-scroll-target="#the-question-behind-the-research">The question behind the research</a></li>
+  <li><a href="#data" id="toc-data" class="nav-link" data-scroll-target="#data">Data</a></li>
+  <li><a href="#econometric-strategy" id="toc-econometric-strategy" class="nav-link" data-scroll-target="#econometric-strategy">Econometric strategy</a>
+  <ul class="collapse">
+  <li><a href="#detecting-a-break-in-2018" id="toc-detecting-a-break-in-2018" class="nav-link" data-scroll-target="#detecting-a-break-in-2018">Detecting a break in 2018</a></li>
+  <li><a href="#estimating-the-model-before-the-reform" id="toc-estimating-the-model-before-the-reform" class="nav-link" data-scroll-target="#estimating-the-model-before-the-reform">Estimating the model before the reform</a></li>
+  </ul></li>
+  <li><a href="#how-the-model-works" id="toc-how-the-model-works" class="nav-link" data-scroll-target="#how-the-model-works">How the model works</a>
+  <ul class="collapse">
+  <li><a href="#a-higher-ceiling-expands-the-feasible-business-size" id="toc-a-higher-ceiling-expands-the-feasible-business-size" class="nav-link" data-scroll-target="#a-higher-ceiling-expands-the-feasible-business-size">A higher ceiling expands the feasible business size</a></li>
+  <li><a href="#how-much-business-income-is-retained" id="toc-how-much-business-income-is-retained" class="nav-link" data-scroll-target="#how-much-business-income-is-retained">How much business income is retained?</a></li>
+  <li><a href="#when-is-micro-status-financially-attractive" id="toc-when-is-micro-status-financially-attractive" class="nav-link" data-scroll-target="#when-is-micro-status-financially-attractive">When is micro status financially attractive?</a></li>
+  <li><a href="#administrative-effort-and-varied-work" id="toc-administrative-effort-and-varied-work" class="nav-link" data-scroll-target="#administrative-effort-and-varied-work">Administrative effort and varied work</a></li>
+  <li><a href="#a-wage-can-buffer-entrepreneurial-risk" id="toc-a-wage-can-buffer-entrepreneurial-risk" class="nav-link" data-scroll-target="#a-wage-can-buffer-entrepreneurial-risk">A wage can buffer entrepreneurial risk</a></li>
+  <li><a href="#from-values-to-occupational-probabilities" id="toc-from-values-to-occupational-probabilities" class="nav-link" data-scroll-target="#from-values-to-occupational-probabilities">From values to occupational probabilities</a></li>
+  </ul></li>
+  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a>
+  <ul class="collapse">
+  <li><a href="#evidence-from-the-survey" id="toc-evidence-from-the-survey" class="nav-link" data-scroll-target="#evidence-from-the-survey">Evidence from the survey</a></li>
+  <li><a href="#what-the-model-captures-and-what-it-misses" id="toc-what-the-model-captures-and-what-it-misses" class="nav-link" data-scroll-target="#what-the-model-captures-and-what-it-misses">What the model captures and what it misses</a></li>
+  <li><a href="#comparing-two-policy-instruments" id="toc-comparing-two-policy-instruments" class="nav-link" data-scroll-target="#comparing-two-policy-instruments">Comparing two policy instruments</a></li>
+  </ul></li>
+  <li><a href="#limitations-and-further-research" id="toc-limitations-and-further-research" class="nav-link" data-scroll-target="#limitations-and-further-research">Limitations and further research</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<div class="meta">
+<span>Master in Economics · Sciences Po · M2</span><span>May 2026</span><span>Supervisor: Pierre Cahuc</span><span class="grade">17/20</span>
+</div>
+<div class="btn-row">
+<p><a href="Resources/sciences-po-thesis.pdf" class="btn-cta">Read the full thesis (PDF)</a> <a href="https://github.com/Rfernex/Personal-Projects/tree/main/Master%20thesis%20SciencesPo%20%28Ongoing%29" class="btn-ghost">Early-stage project code ↗</a></p>
+</div>
+<div class="stat-grid" aria-label="Key numbers from the thesis">
+<div class="stat">
+<strong>≈ 4×</strong><span>increase in the quarterly growth rate of solo microentrepreneurship after the reform</span>
+</div>
+<div class="stat">
+<strong>≈ 6×</strong><span>increase in the quarterly growth rate of microentrepreneurship alongside a wage job</span>
+</div>
+<div class="stat">
+<strong>7.4×</strong><span>net revenue per induced entrepreneur, higher ceiling relative to a matched micro premium (model)</span>
+</div>
+<div class="stat">
+<strong>878,828</strong><span>person-quarters from the French Labour Force Survey, 2015 to 2019</span>
+</div>
+</div>
+<div class="source-note">
+<p>Full title: <em>Self-Employment and Dual-Jobholding: Compositional Shifts in the French Labour Market in Response to the 2018 Microentrepreneurship Reform</em>.</p>
+</div>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>France’s 2018 reform raised the turnover ceilings for micro-entrepreneurs. Using the French Labour Force Survey (<em>Enquête Emploi en Continu</em>) over 2015–2019, I study how the reform changed solo self-employment and entrepreneurship alongside a wage job. Interrupted time series estimates show a marked acceleration in both forms of microentrepreneurship. I then estimate a static occupational choice model that combines tax treatment, administrative effort, preferences for varied work, and income risk. The model reproduces the direction and solo-over-hybrid ranking of the response but substantially understates its magnitude. Its counterfactual comparison suggests that raising the ceiling generates more revenue per induced entrepreneur than a matched increase in the micro premium, while drawing a much more concentrated group of high-turnover, high-ability entrepreneurs.</p>
+</section>
+<section id="the-question-behind-the-research" class="level2">
+<h2 class="anchored" data-anchor-id="the-question-behind-the-research">The question behind the research</h2>
+<p>A worker can earn a living through one wage job, several wage jobs, a business, or a combination of wage work and self-employment. A simpler regime for small businesses can therefore change both <strong>whether someone becomes an entrepreneur</strong> and <strong>how they combine different kinds of work</strong>.</p>
+<p>The 2018 reform offers a setting to study these choices. It raised the annual micro-regime turnover ceilings from €82,800 to €170,000 for retail activities and from €33,200 to €70,000 for services and liberal professions. VAT thresholds did not rise alongside them. The model isolates the micro-regime eligibility channel and does not represent that VAT decoupling.</p>
+<p>The central questions are who responds, which occupational states they leave, and whether a higher ceiling selects the same entrepreneurs as a broader increase in the regime’s financial advantage.</p>
+</section>
+<section id="data" class="level2">
+<h2 class="anchored" data-anchor-id="data">Data</h2>
+<p>I use <strong>INSEE’s French Labour Force Survey (<em>Enquête Emploi en Continu</em>, EEC)</strong>. Its rotating panel follows respondents for six consecutive quarters, recording employment status, main and secondary jobs, hours, earnings, and demographic characteristics. This makes it possible to distinguish solo self-employment from entrepreneurship alongside a wage job.</p>
+<p>The main analysis covers <strong>2015-Q1 to 2019-Q4</strong>. The wider data window begins in 2014-Q2, when the micro-entrepreneur identifier becomes usable, but I start the main estimates in 2015 to reduce the influence of the short-run effects of the Pinel law. I stop before 2020 to exclude the disruption caused by Covid-19.</p>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Main empirical sample</th>
+<th style="text-align: left;">Coverage</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">Population</td>
+<td style="text-align: left;">Employed respondents aged 15–64</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Observations after filtering</td>
+<td style="text-align: left;">878,828 person-quarters</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Unique respondents</td>
+<td style="text-align: left;">244,591</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Weighting</td>
+<td style="text-align: left;">INSEE survey weights</td>
+</tr>
+</tbody>
+</table>
+<p>I exclude agricultural activities, which are outside the micro-entrepreneur regime, as well as ambiguous occupational classifications and workers with more than one secondary job. Sample sizes vary with the availability of the variables needed for each estimate. The structural framework also includes a non-employment outside option, while the policy comparisons focus on the four working states.</p>
+<p><strong>Hours and earnings provide different levels of precision.</strong> Main-job hours are directly reported. Secondary hours are calculated from the difference between total and main-job hours. Entrepreneurial income is harder to measure: non-response is substantial, solo earnings are reported in brackets with an open top category, and income from a side business is not directly comparable to turnover. I harmonise reported net and gross earnings for the structural estimation. These limitations motivate the ITS design rather than a bunching analysis and make it difficult to identify precisely which businesses are constrained by the turnover ceiling.</p>
+<p>The six-quarter observation window also limits what can be learned about longer-run occupational transitions, experimentation, and learning.</p>
+</section>
+<section id="econometric-strategy" class="level2">
+<h2 class="anchored" data-anchor-id="econometric-strategy">Econometric strategy</h2>
+<section id="detecting-a-break-in-2018" class="level3">
+<h3 class="anchored" data-anchor-id="detecting-a-break-in-2018">Detecting a break in 2018</h3>
+<p>I use an <strong>interrupted time series (ITS)</strong> design. For each occupational category, I compare the path of its survey-weighted share before and after 2018-Q1, allowing for both a one-off level change and a change in trend:</p>
+<p><span class="math display">\[
+Y_{c,t}=\alpha_c+\beta_{1,c}T_t+\beta_{2,c}D_t
++\beta_{3,c}D_t(T_t-T^*)+\sum_{q=2}^{4}\delta_{q,c}\mathbf 1\{Q_t=q\}+\varepsilon_{c,t}.
+\]</span></p>
+<p>Here, <span class="math inline">\(D_t\)</span> switches on at the reform, <span class="math inline">\(\beta_2\)</span> measures an immediate change, and <span class="math inline">\(\beta_3\)</span> measures a change in the quarterly trend. Seasonal indicators absorb regular within-year patterns. Aggregate estimates use Newey–West standard errors with a baseline bandwidth of five quarters.</p>
+<p>Individual-level weighted logits add demographic and professional controls to assess changes in observable composition. Weighted OLS specifications study hours worked. Individual-level standard errors are clustered by respondent.</p>
+<div class="note">
+<p><strong>What identifies the effect?</strong> The design assumes that no other contemporaneous shock would have generated the same break. The RSI-to-SSI transition, the PACTE law, and changes to ACCRE/ACRE are possible confounders. I assess robustness through alternative windows, placebo exercises, HAC bandwidths, and trend diagnostics.</p>
+</div>
+</section>
+<section id="estimating-the-model-before-the-reform" class="level3">
+<h3 class="anchored" data-anchor-id="estimating-the-model-before-the-reform">Estimating the model before the reform</h3>
+<p>I first recover earning-opportunity distributions from pre-reform data. Ten model parameters are then estimated by <strong>two-step GMM</strong>, matching thirteen pre-reform moments involving occupational shares, entrepreneurial earnings, hours, and micro-regime participation by sector and turnover. Other parameters, including risk aversion and within-sector cost dispersion, are calibrated. The actual ceiling reform is reserved for <strong>out-of-sample validation</strong>, with simulation draws held fixed across policy environments.</p>
+</section>
+</section>
+<section id="how-the-model-works" class="level2">
+<h2 class="anchored" data-anchor-id="how-the-model-works">How the model works</h2>
+<p>Each worker compares the value of four working arrangements: a single wage job (<span class="math inline">\(W\)</span>), two wage jobs (<span class="math inline">\(WW\)</span>), a wage job plus a business (<span class="math inline">\(WSE\)</span>), and self-employment alone (<span class="math inline">\(SE\)</span>). A non-employment outside option completes the theoretical model. The policy experiments condition on the four working states.</p>
+<div class="mechanism-flow" aria-label="Three stages of the occupational choice model">
+<div>
+<strong>1 · Opportunities</strong><span>Wages, entrepreneurial ability, income risk, costs, and available time differ across workers.</span>
+</div>
+<div>
+<strong>2 · Best arrangement</strong><span>Within each state, choose hours and, where applicable, the better entrepreneurial regime.</span>
+</div>
+<div>
+<strong>3 · Occupational choice</strong><span>Compare the resulting values, allowing for unobserved preferences.</span>
+</div>
+</div>
+<p>In the <strong>constrained</strong> version, hours in the primary wage job are fixed. In the <strong>unconstrained</strong> version, those hours are chosen jointly with any secondary activity. Both versions account for the time available to work.</p>
+<section id="a-higher-ceiling-expands-the-feasible-business-size" class="level3">
+<h3 class="anchored" data-anchor-id="a-higher-ceiling-expands-the-feasible-business-size">A higher ceiling expands the feasible business size</h3>
+<p>Micro status is available when expected turnover remains below <span class="math inline">\(M\)</span>. If expected hourly turnover is <span class="math inline">\(\mu_y\)</span>, the hours cap is</p>
+<p><span class="math display">\[h^{se}\leq\bar m=\frac{M}{\mu_y}.\]</span></p>
+<p>Raising <span class="math inline">\(M\)</span> relaxes this restriction. It matters most for a worker whose preferred scale was blocked by the old ceiling. A small side business already well below the ceiling need not change at all.</p>
+<div id="cap-explorer" class="explorer">
+<p class="kicker">
+Turnover ceiling · An illustration
+</p>
+<h3 class="anchored">
+How much room does the ceiling create?
+</h3>
+<div class="controls">
+<div class="control">
+<label for="cap-sector">Activity</label><select id="cap-sector"><option value="services">Services / liberal professions</option><option value="retail">Retail</option></select>
+</div>
+<div class="control">
+<label for="cap-return">Expected turnover per hour
+<output for="cap-return" id="cap-return-out">
+</output>
+</label><input id="cap-return" type="range" min="10" max="150" step="1" value="45">
+</div>
+</div>
+<svg id="cap-chart" class="chart" viewbox="0 0 660 300" role="img" aria-label="Maximum micro-eligible hours before and after the reform">
+</svg>
+<div class="legend">
+<span>After the reform</span><span class="alt">Before the reform</span>
+</div>
+<p id="cap-summary" class="chart-summary" aria-live="polite">
+</p>
+<p class="chart-caption">
+Maximum eligible hours: M / μy, subject to an illustrative 3,000-hour annual time budget. These are eligibility limits. Actual hours depend on the worker’s optimal choice.
+</p>
+<button class="reset-button" type="button" data-reset="cap">
+Reset
+</button>
+</div>
+</section>
+<section id="how-much-business-income-is-retained" class="level3">
+<h3 class="anchored" data-anchor-id="how-much-business-income-is-retained">How much business income is retained?</h3>
+<p>The financial return depends on real costs and the tax base. The model writes retained shares as</p>
+<p><span class="math display">\[\rho^m_i=1-c_i-[\kappa^m_s+t^{IR}(1-a_s)],\qquad
+\rho^r_i=(1-c_i)(1-\kappa^r_s)(1-t^{IR}).\]</span></p>
+<p>Here <span class="math inline">\(c_i\)</span> is the real cost share, <span class="math inline">\(a_s\)</span> the micro abatement, and the <span class="math inline">\(\kappa\)</span> terms represent social contributions. A residual premium <span class="math inline">\(\tau\)</span> multiplies micro disposable income by <span class="math inline">\((1+\tau)\)</span>. This is a reduced-form parameter, separate from the statutory rates.</p>
+</section>
+<section id="when-is-micro-status-financially-attractive" class="level3">
+<h3 class="anchored" data-anchor-id="when-is-micro-status-financially-attractive">When is micro status financially attractive?</h3>
+<p>Micro contributions and income tax depend on turnover and a fixed sectoral abatement. Under the régime réel, actual operating costs reduce the tax base. As costs rise, the micro advantage therefore shrinks: a business can qualify for micro status and still retain more income under the régime réel. A larger abatement or micro premium shifts that financial balance towards micro status.</p>
+<div id="regime-explorer" class="explorer">
+<p class="kicker">
+Operating costs and regime choice · An illustration
+</p>
+<h3 class="anchored">
+When does deducting actual costs pay off?
+</h3>
+<div class="controls">
+<div class="control">
+<label for="regime-sector">Activity</label><select id="regime-sector"><option value="bnc">Liberal professions · BNC (SSI)</option><option value="services">Services · BIC</option><option value="retail">Retail · BIC</option></select>
+</div>
+<div class="control">
+<label for="regime-cost">Operating costs (% of turnover)
+<output for="regime-cost" id="regime-cost-out">
+</output>
+</label><input id="regime-cost" type="range" min="0" max="70" step="1" value="40">
+</div>
+<div class="control">
+<label for="regime-premium">Micro premium τ (%)
+<output for="regime-premium" id="regime-premium-out">
+</output>
+</label><input id="regime-premium" type="range" min="0" max="12" step="0.1" value="0">
+</div>
+</div>
+<svg id="regime-chart" class="chart" viewbox="0 0 660 300" role="img" aria-label="Disposable income under micro and réel regimes as operating costs rise">
+</svg>
+<div class="legend">
+<span>Micro, including the premium</span><span class="alt">Régime réel</span>
+</div>
+<p id="regime-summary" class="chart-summary" aria-live="polite">
+</p>
+<p class="chart-caption">
+Income per €100 of turnover: 100 × (1 + τ) × ρm for micro, and 100 × ρr for réel. The calibration uses a 10% income-tax rate, 45% réel contributions, micro contributions of 12.8% in retail and 22% in services/BNC (SSI), and abatements of 71%, 50%, and 34%. The premium starts at zero to isolate tax treatment. My estimated value is 6.94%. Turnover is held fixed and below the ceiling. Administrative effort and changes in hours also affect the full regime choice.
+</p>
+<button class="reset-button" type="button" data-reset="regime">
+Reset
+</button>
+</div>
+</section>
+<section id="administrative-effort-and-varied-work" class="level3">
+<h3 class="anchored" data-anchor-id="administrative-effort-and-varied-work">Administrative effort and varied work</h3>
+<p>The regime also changes the <strong>effort</strong> required to run a business. The model adds recurring administrative effort <span class="math inline">\(S_g\)</span> to productive hours, with <span class="math inline">\(S_L&lt;S_H\)</span> for micro and réel respectively:</p>
+<p><span class="math display">\[\psi^{SE}_g(h)=\chi\gamma\frac{(h+S_g)^{1+\eta_{se}}}{1+\eta_{se}},\qquad
+\psi^{WSE}_g(h)=\phi\,\psi^{SE}_g(h).\]</span></p>
+<p>The parameter <span class="math inline">\(\gamma\)</span> scales entrepreneurial work disutility. A lower <span class="math inline">\(\phi\)</span> makes the entrepreneurial part of a hybrid arrangement less burdensome, representing a taste for varied activities. A separate fixed cost <span class="math inline">\(\gamma_{MH}\)</span> applies to <strong>both</strong> dual-job states. It affects their attractiveness without directly changing their optimal hours.</p>
+</section>
+<section id="a-wage-can-buffer-entrepreneurial-risk" class="level3">
+<h3 class="anchored" data-anchor-id="a-wage-can-buffer-entrepreneurial-risk">A wage can buffer entrepreneurial risk</h3>
+<p>Workers care about expected utility, not just expected income:</p>
+<p><span class="math display">\[u(c)=\begin{cases}c^{1-\sigma}/(1-\sigma),&amp;\sigma\ne1,\\\log c,&amp;\sigma=1.\end{cases}\]</span></p>
+<p>Entrepreneurial returns are lognormal and uncertain. In hybrid work, wage earnings provide a stable component of consumption:</p>
+<p><span class="math display">\[\mathbb E\left[u\left(w_1\bar h+(1+\tau)\rho^m\tilde y h^{se}\right)\right].\]</span></p>
+<p>That wage buffer makes the hybrid expectation different from the solo case. This is an income-diversification channel, distinct from the preference for varied work captured by <span class="math inline">\(\phi\)</span>.</p>
+<div id="risk-explorer" class="explorer">
+<p class="kicker">
+Income risk · An illustration
+</p>
+<h3 class="anchored">
+How does a stable wage buffer risk?
+</h3>
+<div class="controls">
+<div class="control">
+<label for="risk-sigma">Risk aversion σ
+<output for="risk-sigma" id="risk-sigma-out">
+</output>
+</label><input id="risk-sigma" type="range" min="0" max="2" step="0.05" value="0.9">
+</div>
+<div class="control">
+<label for="risk-vol">Log-income volatility σy
+<output for="risk-vol" id="risk-vol-out">
+</output>
+</label><input id="risk-vol" type="range" min="0" max="1.2" step="0.02" value="0.6">
+</div>
+</div>
+<svg id="risk-chart" class="chart" viewbox="0 0 660 300" role="img" aria-label="Certainty-equivalent income with and without a stable wage buffer">
+</svg>
+<div class="legend">
+<span>50% stable wage, 50% business income</span><span class="alt">100% business income</span>
+</div>
+<p id="risk-summary" class="chart-summary" aria-live="polite">
+</p>
+<p class="chart-caption">
+Both portfolios have mean disposable income of 100 illustrative units. The certainty equivalent is the sure income giving the same utility as the risky income. This comparison isolates income risk, holding labour supply, taxes, and work preferences fixed.
+</p>
+<button class="reset-button" type="button" data-reset="risk">
+Reset
+</button>
+</div>
+</section>
+<section id="from-values-to-occupational-probabilities" class="level3">
+<h3 class="anchored" data-anchor-id="from-values-to-occupational-probabilities">From values to occupational probabilities</h3>
+<p>After hours and regimes have been chosen, a multinomial logit maps indirect utilities into probabilities:</p>
+<p><span class="math display">\[P_{ij}=\frac{\exp(\tilde V_i^j/\lambda_L)}{\sum_{k\in\mathcal J_A}\exp(\tilde V_i^k/\lambda_L)}.\]</span></p>
+<p>A small <span class="math inline">\(\lambda_L\)</span> makes choice closely follow the highest modelled value. A larger value gives more weight to idiosyncratic preferences. The denominator here uses the four working states, as in the policy experiments.</p>
+<div id="choice-explorer" class="explorer">
+<p class="kicker">
+Occupational choice · An illustration
+</p>
+<h3 class="anchored">
+Why not simply choose the highest-value job?
+</h3>
+<div class="controls">
+<div class="control">
+<label for="choice-cost">Dual-job fixed cost γMH
+<output for="choice-cost" id="choice-cost-out">
+</output>
+</label><input id="choice-cost" type="range" min="0" max="4" step="0.1" value="1">
+</div>
+<div class="control">
+<label for="choice-scale">Logit scale λL
+<output for="choice-scale" id="choice-scale-out">
+</output>
+</label><input id="choice-scale" type="range" min="0.1" max="5" step="0.1" value="1">
+</div>
+</div>
+<div id="choice-bars" class="choice-bars">
+
+</div>
+<p id="choice-summary" class="chart-summary" aria-live="polite">
+</p>
+<p class="chart-caption">
+Illustrative values before the dual-job cost: W = 3, WW = 4, WSE = 4.5, SE = 3.5 utility units. The same cost is subtracted from WW and WSE. Probabilities follow the logit formula with these fixed illustrative values.
+</p>
+<button class="reset-button" type="button" data-reset="choice">
+Reset
+</button>
+</div>
+<noscript>
+<p class="note">
+JavaScript is needed to use the interactive diagrams. All equations, interpretations, and findings remain available in the text and full paper.
+</p>
+</noscript>
+</section>
+</section>
+<section id="key-findings" class="level2">
+<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
+<section id="evidence-from-the-survey" class="level3">
+<h3 class="anchored" data-anchor-id="evidence-from-the-survey">Evidence from the survey</h3>
+<p>I find that the quarterly growth rate of <strong>solo microentrepreneurship roughly quadrupled</strong>, while that of <strong>hybrid microentrepreneurship increased about sixfold</strong> after the reform. These are changes in growth rates, not statements that the number of entrepreneurs multiplied by four or six. Individual-level controls support the finding that observable compositional changes do not explain the aggregate acceleration.</p>
+</section>
+<section id="what-the-model-captures-and-what-it-misses" class="level3">
+<h3 class="anchored" data-anchor-id="what-the-model-captures-and-what-it-misses">What the model captures and what it misses</h3>
+<p>The model predicts a positive response, with a larger solo than hybrid effect. It strongly attenuates the size of that response. In the validation exercise, the change in the overall solo self-employment share is approximately <strong>0.02 percentage points in the model</strong>, compared with an <strong>ITS fitted change of 0.95 percentage points</strong>. For solo microentrepreneurship, the corresponding changes are <strong>0.29</strong> and <strong>0.89 percentage points</strong>.</p>
+<p>This distinction matters: much of the model’s micro increase comes from existing réel entrepreneurs switching regimes, while the data show more net entry. This mismatch reflects bracketed and open-topped earnings data, too few workers at the modelled ceiling, and omitted dynamics. The fit to hours dispersion is also poor, and administrative-cost levels are weakly identified.</p>
+</section>
+<section id="comparing-two-policy-instruments" class="level3">
+<h3 class="anchored" data-anchor-id="comparing-two-policy-instruments">Comparing two policy instruments</h3>
+<p>The counterfactual compares the higher ceiling with a flat increase in the micro premium, adjusted to generate the <strong>same modelled entry into entrepreneurship</strong>. Within that comparison:</p>
+<ul>
+<li>The ceiling raises around <strong>7.4 times more net collected revenue per induced entrepreneur</strong>, with a range of roughly <strong>6–9</strong> across the cost-dispersion sensitivity exercise. Both instruments are revenue-positive under the accounting used here.</li>
+<li>The ceiling draws high-turnover, high-ability entrepreneurs, concentrated in the liberal professions. The matched premium increase attracts a broader mix of turnover levels, abilities, and sectors.</li>
+<li>The difference in revenue is driven largely by existing constrained businesses expanding their turnover. The model’s net entry margin is small relative to switching between regimes.</li>
+</ul>
+<div class="note">
+<p><strong>How to read the fiscal result.</strong> I interpret the revenue ratio and composition contrast rather than the absolute euro amounts or entrant counts, whose magnitudes are poorly calibrated. The premium experiment keeps statutory collection rates fixed: the premium changes disposable income, and revenue changes through behaviour. It is therefore not a complete budget costing of a cash subsidy programme.</p>
+</div>
+</section>
+</section>
+<section id="limitations-and-further-research" class="level2">
+<h2 class="anchored" data-anchor-id="limitations-and-further-research">Limitations and further research</h2>
+<p>Better data and a richer model would help address several remaining questions.</p>
+<ul>
+<li><strong>Longer panels and better entrepreneurial revenue data</strong>, including the <em>base non-salariés</em>, to investigate learning, experimentation, and the longer-run value of entering self-employment.</li>
+<li><strong>Firm-level cost data</strong>, such as FARE, to measure within-sector cost dispersion more directly and tighten the calibration behind the policy comparison.</li>
+<li><strong>The VAT decoupling</strong> that accompanied the reform, which changes incentives between the old and new ceilings but is not represented in the model.</li>
+<li><strong>General-equilibrium feedback</strong>, to study how large occupational shifts could change the returns to wage employment and entrepreneurship.</li>
+</ul>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/rfernex\.github\.io");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+<p>© Romain Fernex · Economics</p>
+</div>   
+    <div class="nav-footer-center">
+      &nbsp;
+    </div>
+    <div class="nav-footer-right">
+<p><a href="./Resources/CV_Romain_Fernex.pdf">CV</a> · <a href="https://github.com/Rfernex">GitHub</a> · <a href="https://www.linkedin.com/in/romain-fernex/">LinkedIn</a> · <a href="./about.html">Contact</a> · <a href="https://creativecommons.org/licenses/by-nd/4.0/">CC BY-ND 4.0</a></p>
+</div>
+  </div>
+</footer>
+<script src="assets/thesis-explorers.js" defer=""></script>
+
+
+
+
+<script src="site_libs/quarto-html/zenscroll-min.js"></script>
+</body></html>

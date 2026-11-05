@@ -1,25 +1,102 @@
 ---
-title: "Romain Fernex"
-subtitle: "Economics Student at SciencesPo | Research Assistant"
-image: Resources/Photo_Romain_Fernex.jpg
-about:
-  template: jolla
-  image-shape: round
-  links:
-    - icon: github
-      text: Github
-      href: https://github.com/Rfernex
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/romain-fernex/
+pagetitle: Romain Fernex · Economics
+title-block-style: none
+toc: false
 ---
 
-Hello, I am Romain Fernex, a first-year student of the [Master in Economics](https://www.sciencespo.fr/ecole-recherche/en/academics/masters/master-economics/) at [SciencesPo Paris](https://www.sciencespo.fr/fr/). 
-Before I joined this master, I graduated in management, with a major in finance, from [ESCP Europe](https://escp.eu) and [Korea University](https://www.korea.edu/sites/en/index.do). 
-I am mainly interested in the topic of inequalities, environmental economics and health economics. 
-Countrywise, I have a keen interest for the East Asian area (notably South Korea and Japan). 
+::::: {.column-screen .hero-band}
+:::: {.hero-inner}
+::: {.hero-photo}
+<img src="Resources/Photo_Romain_Fernex.jpg" alt="Portrait of Romain Fernex" width="200" height="240">
+:::
 
-<p>**Feel free to reach out to me using the following address :** <br>
-"romain.fernex" followed by "@sciencespo.fr" <p>
+::: {.hero-text}
+[Economics · Labour · Applied econometrics]{.eyebrow}
 
-[You can find my complete CV here](Resources/CV_Romain_Fernex_2024.pdf)
+# Romain Fernex {.unnumbered}
+
+::: {.intro}
+I am a predoctoral research assistant at **Bocconi University (IGIER)**, working with **Giulia Giupponi** and **Thomas Le Barbanchon**.
+:::
+
+My work and academic projects focus on labour economics, occupational choice, and inequality. I combine applied econometrics with structural modelling and computational methods.
+
+::: {.btn-row}
+[Download my CV](Resources/CV_Romain_Fernex.pdf){.btn-cta} [Master thesis](thesis.qmd){.btn-ghost} [Research experience](Research.qmd){.btn-ghost}
+:::
+:::
+::::
+:::::
+
+:::: {.column-page .home-grid}
+::: {}
+## About {.unnumbered}
+
+I completed the Master in Economics at Sciences Po in 2026, following a Master in Management at ESCP Business School and a dual-degree programme at Korea University. Before joining IGIER, I worked as a research assistant to Jean-Marc Robin at Sciences Po.
+
+::: {.chips}
+[Labour economics]{.chip} [Occupational choice]{.chip} [Inequality]{.chip} [Structural modelling]{.chip} [Applied econometrics]{.chip} [Text as data]{.chip}
+:::
+:::
+
+::: {.glance}
+### At a glance {.unnumbered}
+
+<dl>
+<dt>Now</dt><dd>Predoctoral Research Assistant, Bocconi University (IGIER)</dd>
+<dt>Before</dt><dd>Research Assistant to Jean-Marc Robin, Sciences Po</dd>
+<dt>Education</dt><dd>Master in Economics, Sciences Po (cum laude)<br>Master in Management, ESCP</dd>
+<dt>Programming</dt><dd>Python, R, Stata, Julia, MATLAB</dd>
+</dl>
+:::
+::::
+
+:::: {.column-page .section-head}
+## Selected work {.unnumbered}
+
+[All papers & coursework →](Coursework.qmd)
+::::
+
+:::: {.column-page .card-grid}
+::: {.work-card}
+[Master's thesis · Sciences Po]{.eyebrow}
+
+### [Self-employment and dual jobholding](thesis.qmd)
+
+How the 2018 microentrepreneurship reform reshaped occupational choices in France, combining interrupted time series evidence with a structural occupational choice model.
+
+[Read the overview →]{.card-more}
+:::
+
+::: {.work-card .mid}
+[Replication study · Labour economics]{.eyebrow}
+
+### [Workweek restrictions during the Great Depression](papers/labor-replication.qmd)
+
+A replication and robustness analysis of Fishback et al.'s study of the 1933 President's Reemployment Agreement.
+
+[Read the overview →]{.card-more}
+:::
+
+::: {.work-card .warm}
+[Group paper · Game theory]{.eyebrow}
+
+### [Superbonus: a game-theoretic analysis](Microeconomics_project.qmd)
+
+A signalling model of hidden public debt and fiscal-rule enforcement, motivated by Italy's Superbonus policy.
+
+[Read the overview →]{.card-more}
+:::
+::::
+
+:::: {.column-page .cta-band}
+::: {}
+## Get in touch {.unnumbered}
+
+The best way to reach me is by email at [romain.fernex@sciencespo.fr](mailto:romain.fernex@sciencespo.fr){style="color:#fff"}.
+:::
+
+::: {.btn-row}
+[Contact](about.qmd){.btn-ghost} [CV (PDF)](Resources/CV_Romain_Fernex.pdf){.btn-ghost}
+:::
+::::

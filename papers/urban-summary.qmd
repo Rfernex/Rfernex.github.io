@@ -1,0 +1,21 @@
+---
+title: "Food deserts and nutritional inequality"
+subtitle: "Paper summary · Essay 1"
+toc: false
+---
+
+<div class="meta"><span>Urban Economics</span><span>Pierre-Philippe Combes</span><span>M2 · May 2026</span><span class="grade">Grade: 16/20</span></div>
+
+[Read the paper (PDF)](../Resources/urban-essay-1.pdf)
+
+## Abstract
+
+This essay reviews Allcott et al. (2019), “Food Deserts and the Causes of Nutritional Inequality.” It explains the supermarket-entry and household-mover designs, the structural model of grocery demand, and the decomposition of nutritional inequality into supply and demand components. I discuss how the paper arrives at its conclusion that differences in demand explain most of the observed nutrition gap, and how that conclusion informs the comparison between retail-access policies and healthy-food subsidies.
+
+## About this work
+
+The companion research proposal examines the assumptions behind the demand interpretation.
+
+[Read the companion research proposal →](urban-proposal.qmd)
+
+[← All papers & coursework](../Coursework.qmd)

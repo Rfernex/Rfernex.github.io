@@ -1,0 +1,19 @@
+---
+title: "The media language of police killings"
+subtitle: "Referee report"
+toc: false
+---
+
+<div class="meta"><span>Topics in Political, Public and Organizational Economics · Law &amp; Economics block</span><span>Roberto Galbiati</span><span>M2</span></div>
+
+[Read the referee report (PDF)](../Resources/law-referee.pdf) · [GitHub repository ↗](https://github.com/Rfernex/Referee-Reports/tree/main/Referee_Report___Law___Economics)
+
+## Abstract
+
+A critical review of “Officer-Involved: The Media Language of Police Killings.” I examine how linguistic measures of obfuscation relate to accountability and support for policing, and assess the evidence linking police reports to media language. The report proposes refinements to the experimental outcome measures, closer analysis of information attribution, and checks for differences in media exposure and socioeconomic context.
+
+## About this work
+
+Course team: Antoine Ferey, Roberto Galbiati, and Franz Ostrizek. [Course syllabus](https://syllabus.sciencespo.fr/cours/202510/282526.html).
+
+[← All papers & coursework](../Coursework.qmd)

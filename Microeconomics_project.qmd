@@ -1,9 +1,19 @@
 ---
-title: "Superbonus : A Game Theoretic Analysis"
-description: Research project on game theory applied to the Italian tax-credit "Superbonus" policy
+title: "Superbonus: a game-theoretic analysis"
+subtitle: "Group research paper"
+toc: false
 ---
-<p class="m-0">Please find below the links for documents/files related to this project :</p>
-- [Github repository](https://github.com/Rfernex/Microeconomics-Homework/tree/main) 
-- [Project Paper](Resources/Micro_Project_Sovereign_Debt.pdf)
 
-Grade : 18/20
+<div class="meta"><span>Microeconomics II – Game Theory</span><span>Sciences Po · M1 · May 2025</span><span class="grade">Grade: 18/20</span></div>
+
+[Read the paper (PDF)](Resources/Micro_Project_Sovereign_Debt.pdf) · [GitHub repository ↗](https://github.com/Rfernex/Microeconomics-Homework)
+
+## Abstract
+
+Off-budget fiscal schemes can obscure public liabilities and complicate the enforcement of fiscal rules. We develop a signalling model in which a government privately knows its type and chooses whether to report borrowing transparently or conceal it, while the European Commission decides whether to impose sanctions. A two-period extension shows how weak enforcement and severe sanctions can encourage concealment even by a responsible government. A two-country extension examines how debt preferences and unequal bargaining power shape cooperation under proportional and fixed penalties.
+
+## About this work
+
+Joint work with **Henrik Berger, Sara Feore, and Lauri Hannikainen**. The analysis uses Italy’s Superbonus policy to explore the incentives created by fiscal rules and their enforcement.
+
+[← All papers & coursework](Coursework.qmd)

@@ -1,17 +1,42 @@
 ---
-title: "Personal Projects"
-format: html
-engine: knitr
---- 
-```{css}
-#| echo: false
-p, li {  
-  text-align: justify;  
-}  
-```
-Here is my latest personal project (**Ongoing**) :  Project focused on analyzing patterns in the Bank of Japan's speeches using natural language processing (NLP) to identify linguistic and thematic indicators that predict decisions to raise, lower, or maintain key interest rate levels. **This project is done in R and Python**
+title: Other projects
+subtitle: Earlier research and computational work.
+toc: false
+---
 
-Please find below a list of the projects I completed before joining SciencesPo : 
+::: {.work-entry}
+[Master’s thesis]{.eyebrow}
 
-* [Master Thesis on Ethnicity-related discrepancies in access to medication and service utilization amongst Medicare beneficiaries](./Master_Thesis.html) : This study uses the Medicare Current Beneficiary Survey(MCBS) Public Use Files(PUF) for 2013 and 2020 and investigates differences in access to medication across different ethnic groups using chi-square tests and multiple variable logistic regressions, adjusting for age, gender, education, starting health status (including chronic conditions) and type of health insurance coverage. **This project was done on Stata**
-* [Group project on identifying key drivers of financial recession in the US](./KUBS_Recession.html) : This group project consists in identifying major indicators associated with financial recessions in the US, using data from the Federal reserve bank in Saint Louis. To do so we rely on a multiple variable logistic regression modeling the probability of a recession taking place as a function of several economic indicators that have been grouped in separate categories using two different methods (VIF and PCA analysis). To evaluate the relevance of each of the aforementioned grouping method used, we look at ROC curves obtained for each of them and conclude that the PCA method tends to perform better in this situation. **This project was done on Python**
+### [Access to healthcare among Medicare beneficiaries](Master_Thesis.qmd)
+
+<div class="meta"><span>Master in Management · ESCP Business School</span><span>Jérôme Creel</span><span>2024</span><span class="grade">Grade: 18/20</span></div>
+
+My earlier master's thesis studies ethnic and socioeconomic differences in access to medication and service use. It uses the 2013 and 2020 Medicare Current Beneficiary Survey public-use files, chi-square tests, and multivariable logistic regressions, accounting for demographics, education, health, and insurance coverage.
+
+[Paper & presentation →](Master_Thesis.qmd) · [Code on GitHub ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Master%20thesis%20ESCP)
+
+:::
+
+::: {.work-entry}
+[Group project]{.eyebrow}
+
+### [Economic indicators of US recessions](KUBS_Recession.qmd)
+
+<div class="meta"><span>Machine Learning for Business and Economics</span><span>Korea University</span></div>
+
+A group project in Python using macroeconomic data to model recession probabilities. It compares logistic regressions using predictors selected through variance-inflation analysis and principal components, evaluating their predictive performance with ROC curves.
+
+[Report & repository →](KUBS_Recession.qmd)
+
+:::
+
+::: {.work-entry}
+[Text analysis]{.eyebrow}
+
+### Bank of Japan communication
+
+A text-analysis project in R and Python exploring linguistic and thematic signals in Bank of Japan speeches and statements in relation to interest-rate decisions.
+
+[Explore the code ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Project%20BoJ%20%28Ongoing%29)
+
+:::

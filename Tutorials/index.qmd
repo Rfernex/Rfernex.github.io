@@ -1,4 +1,14 @@
 ---
-title: "Articles & Tutorials"
-listing: default
+title: Notes & learning resources
+toc: false
 ---
+
+## Lecture notes
+
+Course notes from my economics studies are available in my [lecture-notes repository](https://github.com/Rfernex/Lecture-notes).
+
+## Econometrics exercises
+
+My [econometrics repository](https://github.com/Rfernex/Econometrics-Homework) contains coursework and coding exercises.
+
+[Browse research papers and replication work →](../Coursework.qmd)

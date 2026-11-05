@@ -1,0 +1,19 @@
+---
+title: "Workweek restrictions during the Great Depression"
+subtitle: "Replication study"
+toc: false
+---
+
+<div class="meta"><span>Labor Economics</span><span>Pierre Cahuc</span><span>M2</span><span class="grade">Grade: 18/20</span></div>
+
+[Read the paper (PDF)](../Resources/labor-replication.pdf) · [GitHub repository ↗](https://github.com/Rfernex/Labor-Economics)
+
+## Abstract
+
+I replicate Fishback et al.’s study of the 1933 President’s Reemployment Agreement, examining workweek limits, employment, and earnings. Additional tests vary macroeconomic controls, clustering, estimation windows, and industry composition across the paper’s regression, bunching, and difference-in-differences designs. Most core results withstand these checks, while conflicting pre-trends qualify the weekly-earnings and payroll findings. An establishment-level earnings proxy provides a further check and produces effects of different magnitudes.
+
+## About this work
+
+The replication combines Stata and R. Extensions include two-way clustering, placebo exercises, leave-one-industry-out estimates, event studies, and a nonparametric specification test. The report distinguishes the authors’ original estimates from my additional robustness exercises.
+
+[← All papers & coursework](../Coursework.qmd)

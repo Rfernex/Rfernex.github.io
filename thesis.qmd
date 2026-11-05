@@ -1,0 +1,231 @@
+---
+title: Self-employment and dual jobholding
+subtitle: How the 2018 microentrepreneurship reform reshaped occupational choices in France.
+include-after-body:
+  text: '<script src="assets/thesis-explorers.js" defer></script>'
+---
+
+<div class="meta"><span>Master in Economics · Sciences Po · M2</span><span>May 2026</span><span>Supervisor: Pierre Cahuc</span><span class="grade">17/20</span></div>
+
+::: {.btn-row}
+[Read the full thesis (PDF)](Resources/sciences-po-thesis.pdf){.btn-cta} [Early-stage project code ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Master%20thesis%20SciencesPo%20%28Ongoing%29){.btn-ghost}
+:::
+
+<div class="stat-grid" aria-label="Key numbers from the thesis">
+<div class="stat"><strong>≈ 4×</strong><span>increase in the quarterly growth rate of solo microentrepreneurship after the reform</span></div>
+<div class="stat"><strong>≈ 6×</strong><span>increase in the quarterly growth rate of microentrepreneurship alongside a wage job</span></div>
+<div class="stat"><strong>7.4×</strong><span>net revenue per induced entrepreneur, higher ceiling relative to a matched micro premium (model)</span></div>
+<div class="stat"><strong>878,828</strong><span>person-quarters from the French Labour Force Survey, 2015 to 2019</span></div>
+</div>
+
+::: {.source-note}
+Full title: *Self-Employment and Dual-Jobholding: Compositional Shifts in the French Labour Market in Response to the 2018 Microentrepreneurship Reform*.
+:::
+
+## Abstract
+
+France's 2018 reform raised the turnover ceilings for micro-entrepreneurs. Using the French Labour Force Survey (*Enquête Emploi en Continu*) over 2015–2019, I study how the reform changed solo self-employment and entrepreneurship alongside a wage job. Interrupted time series estimates show a marked acceleration in both forms of microentrepreneurship. I then estimate a static occupational choice model that combines tax treatment, administrative effort, preferences for varied work, and income risk. The model reproduces the direction and solo-over-hybrid ranking of the response but substantially understates its magnitude. Its counterfactual comparison suggests that raising the ceiling generates more revenue per induced entrepreneur than a matched increase in the micro premium, while drawing a much more concentrated group of high-turnover, high-ability entrepreneurs.
+
+## The question behind the research
+
+A worker can earn a living through one wage job, several wage jobs, a business, or a combination of wage work and self-employment. A simpler regime for small businesses can therefore change both **whether someone becomes an entrepreneur** and **how they combine different kinds of work**.
+
+The 2018 reform offers a setting to study these choices. It raised the annual micro-regime turnover ceilings from €82,800 to €170,000 for retail activities and from €33,200 to €70,000 for services and liberal professions. VAT thresholds did not rise alongside them. The model isolates the micro-regime eligibility channel and does not represent that VAT decoupling.
+
+The central questions are who responds, which occupational states they leave, and whether a higher ceiling selects the same entrepreneurs as a broader increase in the regime's financial advantage.
+
+## Data
+
+I use **INSEE's French Labour Force Survey (*Enquête Emploi en Continu*, EEC)**. Its rotating panel follows respondents for six consecutive quarters, recording employment status, main and secondary jobs, hours, earnings, and demographic characteristics. This makes it possible to distinguish solo self-employment from entrepreneurship alongside a wage job.
+
+The main analysis covers **2015-Q1 to 2019-Q4**. The wider data window begins in 2014-Q2, when the micro-entrepreneur identifier becomes usable, but I start the main estimates in 2015 to reduce the influence of the short-run effects of the Pinel law. I stop before 2020 to exclude the disruption caused by Covid-19.
+
+| Main empirical sample | Coverage |
+|:--|:--|
+| Population | Employed respondents aged 15–64 |
+| Observations after filtering | 878,828 person-quarters |
+| Unique respondents | 244,591 |
+| Weighting | INSEE survey weights |
+
+I exclude agricultural activities, which are outside the micro-entrepreneur regime, as well as ambiguous occupational classifications and workers with more than one secondary job. Sample sizes vary with the availability of the variables needed for each estimate. The structural framework also includes a non-employment outside option, while the policy comparisons focus on the four working states.
+
+**Hours and earnings provide different levels of precision.** Main-job hours are directly reported. Secondary hours are calculated from the difference between total and main-job hours. Entrepreneurial income is harder to measure: non-response is substantial, solo earnings are reported in brackets with an open top category, and income from a side business is not directly comparable to turnover. I harmonise reported net and gross earnings for the structural estimation. These limitations motivate the ITS design rather than a bunching analysis and make it difficult to identify precisely which businesses are constrained by the turnover ceiling.
+
+The six-quarter observation window also limits what can be learned about longer-run occupational transitions, experimentation, and learning.
+
+## Econometric strategy
+
+### Detecting a break in 2018
+
+I use an **interrupted time series (ITS)** design. For each occupational category, I compare the path of its survey-weighted share before and after 2018-Q1, allowing for both a one-off level change and a change in trend:
+
+$$
+Y_{c,t}=\alpha_c+\beta_{1,c}T_t+\beta_{2,c}D_t
++\beta_{3,c}D_t(T_t-T^*)+\sum_{q=2}^{4}\delta_{q,c}\mathbf 1\{Q_t=q\}+\varepsilon_{c,t}.
+$$
+
+Here, $D_t$ switches on at the reform, $\beta_2$ measures an immediate change, and $\beta_3$ measures a change in the quarterly trend. Seasonal indicators absorb regular within-year patterns. Aggregate estimates use Newey–West standard errors with a baseline bandwidth of five quarters.
+
+Individual-level weighted logits add demographic and professional controls to assess changes in observable composition. Weighted OLS specifications study hours worked. Individual-level standard errors are clustered by respondent.
+
+::: {.note}
+**What identifies the effect?** The design assumes that no other contemporaneous shock would have generated the same break. The RSI-to-SSI transition, the PACTE law, and changes to ACCRE/ACRE are possible confounders. I assess robustness through alternative windows, placebo exercises, HAC bandwidths, and trend diagnostics.
+:::
+
+### Estimating the model before the reform
+
+I first recover earning-opportunity distributions from pre-reform data. Ten model parameters are then estimated by **two-step GMM**, matching thirteen pre-reform moments involving occupational shares, entrepreneurial earnings, hours, and micro-regime participation by sector and turnover. Other parameters, including risk aversion and within-sector cost dispersion, are calibrated. The actual ceiling reform is reserved for **out-of-sample validation**, with simulation draws held fixed across policy environments.
+
+## How the model works
+
+Each worker compares the value of four working arrangements: a single wage job ($W$), two wage jobs ($WW$), a wage job plus a business ($WSE$), and self-employment alone ($SE$). A non-employment outside option completes the theoretical model. The policy experiments condition on the four working states.
+
+<div class="mechanism-flow" aria-label="Three stages of the occupational choice model">
+<div><strong>1 · Opportunities</strong><span>Wages, entrepreneurial ability, income risk, costs, and available time differ across workers.</span></div>
+<div><strong>2 · Best arrangement</strong><span>Within each state, choose hours and, where applicable, the better entrepreneurial regime.</span></div>
+<div><strong>3 · Occupational choice</strong><span>Compare the resulting values, allowing for unobserved preferences.</span></div>
+</div>
+
+In the **constrained** version, hours in the primary wage job are fixed. In the **unconstrained** version, those hours are chosen jointly with any secondary activity. Both versions account for the time available to work.
+
+### A higher ceiling expands the feasible business size
+
+Micro status is available when expected turnover remains below $M$. If expected hourly turnover is $\mu_y$, the hours cap is
+
+$$h^{se}\leq\bar m=\frac{M}{\mu_y}.$$
+
+Raising $M$ relaxes this restriction. It matters most for a worker whose preferred scale was blocked by the old ceiling. A small side business already well below the ceiling need not change at all.
+
+<div class="explorer" id="cap-explorer">
+<p class="kicker">Turnover ceiling · An illustration</p>
+<h3>How much room does the ceiling create?</h3>
+<div class="controls">
+<div class="control"><label for="cap-sector">Activity</label><select id="cap-sector"><option value="services">Services / liberal professions</option><option value="retail">Retail</option></select></div>
+<div class="control"><label for="cap-return">Expected turnover per hour <output for="cap-return" id="cap-return-out"></output></label><input id="cap-return" type="range" min="10" max="150" step="1" value="45"></div>
+</div>
+<svg id="cap-chart" class="chart" viewBox="0 0 660 300" role="img" aria-label="Maximum micro-eligible hours before and after the reform"></svg>
+<div class="legend"><span>After the reform</span><span class="alt">Before the reform</span></div>
+<p id="cap-summary" class="chart-summary" aria-live="polite"></p>
+<p class="chart-caption">Maximum eligible hours: M / μy, subject to an illustrative 3,000-hour annual time budget. These are eligibility limits. Actual hours depend on the worker's optimal choice.</p>
+<button class="reset-button" type="button" data-reset="cap">Reset</button>
+</div>
+
+### How much business income is retained?
+
+The financial return depends on real costs and the tax base. The model writes retained shares as
+
+$$\rho^m_i=1-c_i-[\kappa^m_s+t^{IR}(1-a_s)],\qquad
+\rho^r_i=(1-c_i)(1-\kappa^r_s)(1-t^{IR}).$$
+
+Here $c_i$ is the real cost share, $a_s$ the micro abatement, and the $\kappa$ terms represent social contributions. A residual premium $\tau$ multiplies micro disposable income by $(1+\tau)$. This is a reduced-form parameter, separate from the statutory rates.
+
+### When is micro status financially attractive?
+
+Micro contributions and income tax depend on turnover and a fixed sectoral abatement. Under the régime réel, actual operating costs reduce the tax base. As costs rise, the micro advantage therefore shrinks: a business can qualify for micro status and still retain more income under the régime réel. A larger abatement or micro premium shifts that financial balance towards micro status.
+
+<div class="explorer" id="regime-explorer">
+<p class="kicker">Operating costs and regime choice · An illustration</p>
+<h3>When does deducting actual costs pay off?</h3>
+<div class="controls">
+<div class="control"><label for="regime-sector">Activity</label><select id="regime-sector"><option value="bnc">Liberal professions · BNC (SSI)</option><option value="services">Services · BIC</option><option value="retail">Retail · BIC</option></select></div>
+<div class="control"><label for="regime-cost">Operating costs (% of turnover) <output for="regime-cost" id="regime-cost-out"></output></label><input id="regime-cost" type="range" min="0" max="70" step="1" value="40"></div>
+<div class="control"><label for="regime-premium">Micro premium τ (%) <output for="regime-premium" id="regime-premium-out"></output></label><input id="regime-premium" type="range" min="0" max="12" step="0.1" value="0"></div>
+</div>
+<svg id="regime-chart" class="chart" viewBox="0 0 660 300" role="img" aria-label="Disposable income under micro and réel regimes as operating costs rise"></svg>
+<div class="legend"><span>Micro, including the premium</span><span class="alt">Régime réel</span></div>
+<p id="regime-summary" class="chart-summary" aria-live="polite"></p>
+<p class="chart-caption">Income per €100 of turnover: 100 × (1 + τ) × ρm for micro, and 100 × ρr for réel. The calibration uses a 10% income-tax rate, 45% réel contributions, micro contributions of 12.8% in retail and 22% in services/BNC (SSI), and abatements of 71%, 50%, and 34%. The premium starts at zero to isolate tax treatment. My estimated value is 6.94%. Turnover is held fixed and below the ceiling. Administrative effort and changes in hours also affect the full regime choice.</p>
+<button class="reset-button" type="button" data-reset="regime">Reset</button>
+</div>
+
+### Administrative effort and varied work
+
+The regime also changes the **effort** required to run a business. The model adds recurring administrative effort $S_g$ to productive hours, with $S_L<S_H$ for micro and réel respectively:
+
+$$\psi^{SE}_g(h)=\chi\gamma\frac{(h+S_g)^{1+\eta_{se}}}{1+\eta_{se}},\qquad
+\psi^{WSE}_g(h)=\phi\,\psi^{SE}_g(h).$$
+
+The parameter $\gamma$ scales entrepreneurial work disutility. A lower $\phi$ makes the entrepreneurial part of a hybrid arrangement less burdensome, representing a taste for varied activities. A separate fixed cost $\gamma_{MH}$ applies to **both** dual-job states. It affects their attractiveness without directly changing their optimal hours.
+
+### A wage can buffer entrepreneurial risk
+
+Workers care about expected utility, not just expected income:
+
+$$u(c)=\begin{cases}c^{1-\sigma}/(1-\sigma),&\sigma\ne1,\\\log c,&\sigma=1.\end{cases}$$
+
+Entrepreneurial returns are lognormal and uncertain. In hybrid work, wage earnings provide a stable component of consumption:
+
+$$\mathbb E\left[u\left(w_1\bar h+(1+\tau)\rho^m\tilde y h^{se}\right)\right].$$
+
+That wage buffer makes the hybrid expectation different from the solo case. This is an income-diversification channel, distinct from the preference for varied work captured by $\phi$.
+
+<div class="explorer" id="risk-explorer">
+<p class="kicker">Income risk · An illustration</p>
+<h3>How does a stable wage buffer risk?</h3>
+<div class="controls">
+<div class="control"><label for="risk-sigma">Risk aversion σ <output for="risk-sigma" id="risk-sigma-out"></output></label><input id="risk-sigma" type="range" min="0" max="2" step="0.05" value="0.9"></div>
+<div class="control"><label for="risk-vol">Log-income volatility σy <output for="risk-vol" id="risk-vol-out"></output></label><input id="risk-vol" type="range" min="0" max="1.2" step="0.02" value="0.6"></div>
+</div>
+<svg id="risk-chart" class="chart" viewBox="0 0 660 300" role="img" aria-label="Certainty-equivalent income with and without a stable wage buffer"></svg>
+<div class="legend"><span>50% stable wage, 50% business income</span><span class="alt">100% business income</span></div>
+<p id="risk-summary" class="chart-summary" aria-live="polite"></p>
+<p class="chart-caption">Both portfolios have mean disposable income of 100 illustrative units. The certainty equivalent is the sure income giving the same utility as the risky income. This comparison isolates income risk, holding labour supply, taxes, and work preferences fixed.</p>
+<button class="reset-button" type="button" data-reset="risk">Reset</button>
+</div>
+
+### From values to occupational probabilities
+
+After hours and regimes have been chosen, a multinomial logit maps indirect utilities into probabilities:
+
+$$P_{ij}=\frac{\exp(\tilde V_i^j/\lambda_L)}{\sum_{k\in\mathcal J_A}\exp(\tilde V_i^k/\lambda_L)}.$$
+
+A small $\lambda_L$ makes choice closely follow the highest modelled value. A larger value gives more weight to idiosyncratic preferences. The denominator here uses the four working states, as in the policy experiments.
+
+<div class="explorer" id="choice-explorer">
+<p class="kicker">Occupational choice · An illustration</p>
+<h3>Why not simply choose the highest-value job?</h3>
+<div class="controls">
+<div class="control"><label for="choice-cost">Dual-job fixed cost γMH <output for="choice-cost" id="choice-cost-out"></output></label><input id="choice-cost" type="range" min="0" max="4" step="0.1" value="1"></div>
+<div class="control"><label for="choice-scale">Logit scale λL <output for="choice-scale" id="choice-scale-out"></output></label><input id="choice-scale" type="range" min="0.1" max="5" step="0.1" value="1"></div>
+</div>
+<div id="choice-bars" class="choice-bars"></div>
+<p id="choice-summary" class="chart-summary" aria-live="polite"></p>
+<p class="chart-caption">Illustrative values before the dual-job cost: W = 3, WW = 4, WSE = 4.5, SE = 3.5 utility units. The same cost is subtracted from WW and WSE. Probabilities follow the logit formula with these fixed illustrative values.</p>
+<button class="reset-button" type="button" data-reset="choice">Reset</button>
+</div>
+
+<noscript><p class="note">JavaScript is needed to use the interactive diagrams. All equations, interpretations, and findings remain available in the text and full paper.</p></noscript>
+
+## Key findings
+
+### Evidence from the survey
+
+I find that the quarterly growth rate of **solo microentrepreneurship roughly quadrupled**, while that of **hybrid microentrepreneurship increased about sixfold** after the reform. These are changes in growth rates, not statements that the number of entrepreneurs multiplied by four or six. Individual-level controls support the finding that observable compositional changes do not explain the aggregate acceleration.
+
+### What the model captures and what it misses
+
+The model predicts a positive response, with a larger solo than hybrid effect. It strongly attenuates the size of that response. In the validation exercise, the change in the overall solo self-employment share is approximately **0.02 percentage points in the model**, compared with an **ITS fitted change of 0.95 percentage points**. For solo microentrepreneurship, the corresponding changes are **0.29** and **0.89 percentage points**.
+
+This distinction matters: much of the model's micro increase comes from existing réel entrepreneurs switching regimes, while the data show more net entry. This mismatch reflects bracketed and open-topped earnings data, too few workers at the modelled ceiling, and omitted dynamics. The fit to hours dispersion is also poor, and administrative-cost levels are weakly identified.
+
+### Comparing two policy instruments
+
+The counterfactual compares the higher ceiling with a flat increase in the micro premium, adjusted to generate the **same modelled entry into entrepreneurship**. Within that comparison:
+
+- The ceiling raises around **7.4 times more net collected revenue per induced entrepreneur**, with a range of roughly **6–9** across the cost-dispersion sensitivity exercise. Both instruments are revenue-positive under the accounting used here.
+- The ceiling draws high-turnover, high-ability entrepreneurs, concentrated in the liberal professions. The matched premium increase attracts a broader mix of turnover levels, abilities, and sectors.
+- The difference in revenue is driven largely by existing constrained businesses expanding their turnover. The model's net entry margin is small relative to switching between regimes.
+
+::: {.note}
+**How to read the fiscal result.** I interpret the revenue ratio and composition contrast rather than the absolute euro amounts or entrant counts, whose magnitudes are poorly calibrated. The premium experiment keeps statutory collection rates fixed: the premium changes disposable income, and revenue changes through behaviour. It is therefore not a complete budget costing of a cash subsidy programme.
+:::
+
+## Limitations and further research
+
+Better data and a richer model would help address several remaining questions.
+
+- **Longer panels and better entrepreneurial revenue data**, including the *base non-salariés*, to investigate learning, experimentation, and the longer-run value of entering self-employment.
+- **Firm-level cost data**, such as FARE, to measure within-sector cost dispersion more directly and tighten the calibration behind the policy comparison.
+- **The VAT decoupling** that accompanied the reform, which changes incentives between the old and new ceilings but is not represented in the model.
+- **General-equilibrium feedback**, to study how large occupational shifts could change the returns to wage employment and entrepreneurship.
+

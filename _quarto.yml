@@ -1,43 +1,58 @@
 project:
   type: website
   output-dir: docs
-
+  resources:
+    - assets/
+    - Resources/
 website:
-  title: "Romain Fernex"
+  title: Romain Fernex
+  site-url: https://rfernex.github.io
+  description: Romain Fernex, predoctoral research assistant in economics at Bocconi University (IGIER).
   open-graph: true
-  page-footer: "[![](https://img.shields.io/badge/License-CC%20BY--ND%204.0-lightgrey.svg)](https://creativecommons.org/licenses/by-nd/4.0/) Romain Fernex" 
   navbar:
-    title : Romain Fernex
-    background : '#3944BC'
-    search : true
+    background: "#ffffff"
+    foreground: "#3b4554"
+    title: Romain Fernex
+    search: true
     left:
-      - text: Home
-        href: index.qmd
-        icon: house
-      - text: Projects
-        href: projects.qmd
-        menu: 
-          - text: "Master Thesis"
-            href: Master_Thesis.qmd  
-          - text: "MBA Python project : Causes for financial recession"
-            href: KUBS_Recession.qmd  
-      - text: Coursework
+      - text: Research
+        href: Research.qmd
+      - text: Master thesis
+        href: thesis.qmd
+      - text: Papers & coursework
         href: Coursework.qmd
-        menu:
-          - text: "Macroeconomics Project"
-            href: Macroeconomics_project.qmd
-          - text: "Microeconomics Project"
-            href: Microeconomics_project.qmd
-      - text: Articles & tutorials
+      - text: Other projects
+        href: projects.qmd
+      - text: Notes
         href: Tutorials/index.qmd
-      - about.qmd
-      
-
+    right:
+      - text: CV
+        href: Resources/CV_Romain_Fernex.pdf
+        aria-label: Download CV (PDF)
+      - icon: github
+        href: https://github.com/Rfernex
+        aria-label: GitHub profile
+      - icon: linkedin
+        href: https://www.linkedin.com/in/romain-fernex/
+        aria-label: LinkedIn profile
+      - text: Contact
+        href: about.qmd
+  page-footer:
+    left: "© Romain Fernex · Economics"
+    right: "[CV](/Resources/CV_Romain_Fernex.pdf) · [GitHub](https://github.com/Rfernex) · [LinkedIn](https://www.linkedin.com/in/romain-fernex/) · [Contact](/about.qmd) · [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)"
 format:
   html:
-    theme: cosmo
+    theme: [cosmo, theme.scss]
     css: styles.css
+    title-block-banner: "#f3f6fa"
+    title-block-banner-color: "#172234"
     toc: true
-
-
-
+    toc-title: On this page
+    smooth-scroll: true
+    link-external-newwindow: false
+    code-copy: true
+    html-math-method: mathjax
+    lang: en
+    date-format: "MMMM YYYY"
+execute:
+  freeze: auto

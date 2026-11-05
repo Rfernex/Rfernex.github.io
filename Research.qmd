@@ -1,0 +1,41 @@
+---
+title: Research experience
+subtitle: Research appointments, collaborators, and contributions.
+toc: false
+---
+
+:::::: {.timeline}
+::::: {.role}
+[September 2026 to present]{.eyebrow}
+
+## Bocconi University · IGIER {.unnumbered}
+
+**Predoctoral Research Assistant** to **Giulia Giupponi** and **Thomas Le Barbanchon**
+
+- Text-as-data analysis of open-ended answers in a survey on pension reform in Denmark, using a local open-weight large language model and transformer classifiers (BERTopic, DeBERTa).
+- Design of the coding scheme and the classification pipeline for the NLP part of the project.
+- Preparation of the replication package of a paper on the impact of hiring frictions on firm performance, in response to referee requests.
+
+::: {.chips}
+[NLP]{.chip} [Hiring frictions]{.chip} [Labour economics]{.chip} [Political economy]{.chip}
+:::
+:::::
+
+::::: {.role}
+[June 2025 to July 2026]{.eyebrow}
+
+## Sciences Po · Department of Economics {.unnumbered}
+
+**Research Assistant** to **Jean-Marc Robin**
+
+- Processing and analysis of large-scale matched employer-employee administrative data (DADS) for a project on wage dynamics and human capital accumulation.
+- Implementation of a ridge estimator for high-dimensional two-way fixed effects (AKM) models to address limited mobility bias, compared with OLS and with bias-corrected estimators (debiased OLS, KSS).
+- Port of the estimation code from MATLAB to Julia and R, which significantly improved computational efficiency when computing bias corrections and variance-covariance matrices on very large datasets.
+
+::: {.chips}
+[Labour economics]{.chip} [AKM]{.chip} [Graph theory]{.chip} [High-dimensional fixed effects]{.chip}
+:::
+:::::
+::::::
+
+[Download the full CV (PDF)](Resources/CV_Romain_Fernex.pdf){.btn-ghost}

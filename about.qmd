@@ -1,8 +1,33 @@
 ---
-title: "Contact"
-about:
-  template: jolla
+title: Get in touch
+subtitle: I am a predoctoral research assistant at Bocconi University (IGIER), working with Giulia Giupponi and Thomas Le Barbanchon.
+toc: false
 ---
 
-<p>Please feel free to contact me at the following email address : romain.fernex followed by “@sciencespo.fr”,<br>
-or [via linkedin](https://www.linkedin.com/in/romain-fernex/)<p>
+:::: {.contact-grid}
+::: {.contact-card}
+[Email]{.eyebrow}
+
+[romain.fernex@sciencespo.fr](mailto:romain.fernex@sciencespo.fr)
+:::
+
+::: {.contact-card}
+[CV]{.eyebrow}
+
+[Download the PDF](Resources/CV_Romain_Fernex.pdf)
+:::
+
+::: {.contact-card}
+[LinkedIn]{.eyebrow}
+
+[linkedin.com/in/romain-fernex](https://www.linkedin.com/in/romain-fernex/)
+:::
+
+::: {.contact-card}
+[GitHub]{.eyebrow}
+
+[github.com/Rfernex](https://github.com/Rfernex)
+:::
+::::
+
+[Research experience](Research.qmd) · [Master thesis](thesis.qmd) · [Papers & coursework](Coursework.qmd)
