@@ -1,8 +1,10 @@
 ---
-title: Research experience
-subtitle: Research appointments, collaborators, and contributions.
+title: CV
+subtitle: Research appointments, collaborators, and contributions. The full CV, with education and skills, is at the bottom of the page.
 toc: false
 ---
+
+## Research experience
 
 :::::: {.timeline}
 ::::: {.role}
@@ -38,4 +40,6 @@ toc: false
 :::::
 ::::::
 
-[Download the full CV (PDF)](Resources/CV_Romain_Fernex.pdf){.btn-ghost}
+::: {.center-cta}
+[My full CV](Resources/CV_Romain_Fernex.pdf){.btn-cta}
+:::

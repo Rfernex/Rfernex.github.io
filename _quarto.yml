@@ -9,13 +9,14 @@ website:
   site-url: https://rfernex.github.io
   description: Romain Fernex, predoctoral research assistant in economics at Bocconi University (IGIER).
   open-graph: true
+  draft-mode: gone
   navbar:
     background: "#ffffff"
     foreground: "#3b4554"
     title: Romain Fernex
     search: true
     left:
-      - text: Research
+      - text: CV
         href: Research.qmd
       - text: Master thesis
         href: thesis.qmd
@@ -26,9 +27,6 @@ website:
       - text: Notes
         href: Tutorials/index.qmd
     right:
-      - text: CV
-        href: Resources/CV_Romain_Fernex.pdf
-        aria-label: Download CV (PDF)
       - icon: github
         href: https://github.com/Rfernex
         aria-label: GitHub profile

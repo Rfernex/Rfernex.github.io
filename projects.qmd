@@ -18,19 +18,6 @@ My earlier master's thesis studies ethnic and socioeconomic differences in acces
 :::
 
 ::: {.work-entry}
-[Group project]{.eyebrow}
-
-### [Economic indicators of US recessions](KUBS_Recession.qmd)
-
-<div class="meta"><span>Machine Learning for Business and Economics</span><span>Korea University</span></div>
-
-A group project in Python using macroeconomic data to model recession probabilities. It compares logistic regressions using predictors selected through variance-inflation analysis and principal components, evaluating their predictive performance with ROC curves.
-
-[Report & repository →](KUBS_Recession.qmd)
-
-:::
-
-::: {.work-entry}
 [Text analysis]{.eyebrow}
 
 ### Bank of Japan communication

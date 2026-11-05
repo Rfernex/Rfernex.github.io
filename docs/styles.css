@@ -106,6 +106,8 @@ a.btn-ghost:hover { border-color: var(--blue); color: var(--blue); transform: tr
 .table { font-size: .92rem; }
 .table > thead { border-bottom: 2px solid var(--blue); }
 
+.center-cta p { display: flex; justify-content: center; max-width: none; margin: 2.8rem 0 1rem; }
+
 /* --- Home page ---------------------------------------------------------- */
 .hero-band {
   margin-top: -9px !important;
@@ -226,6 +228,14 @@ body:has(.hero-band) main.content { margin-top: 0 !important; padding-top: 0 !im
 .stat strong { display: block; font-family: "Source Serif 4", Georgia, serif; font-size: 1.9rem; line-height: 1.1; color: var(--blue); margin-bottom: .35rem; }
 .stat:nth-child(3) strong { color: var(--warm); }
 .stat span { display: block; font-size: .8rem; line-height: 1.45; color: var(--muted); }
+
+.policy-timeline { display: grid; grid-template-columns: repeat(auto-fit, minmax(210px, 1fr)); gap: .9rem; margin: 1.6rem 0 2rem; }
+.policy-timeline div { background: var(--soft); border: 1px solid var(--line); border-top: 3px solid var(--blue); border-radius: 0 0 var(--radius) var(--radius); padding: .9rem 1.05rem; }
+.policy-timeline div:last-child { border-top-color: var(--warm); background: var(--warm-tint); }
+.policy-timeline strong { display: block; font-family: "Source Serif 4", Georgia, serif; font-size: 1.3rem; color: var(--blue); line-height: 1.2; }
+.policy-timeline div:last-child strong { color: var(--warm); }
+.policy-timeline b { display: block; font-size: .92rem; color: var(--ink); font-weight: 600; margin: .25rem 0 .3rem; }
+.policy-timeline span { display: block; font-size: .84rem; line-height: 1.5; color: var(--muted); }
 
 .mechanism-flow { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1rem; margin: 1.6rem 0; }
 .mechanism-flow div { background: var(--soft); border: 1px solid var(--line); border-top: 3px solid var(--blue); border-radius: 0 0 var(--radius) var(--radius); padding: 1rem 1.1rem; }
