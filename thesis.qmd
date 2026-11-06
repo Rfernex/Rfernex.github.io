@@ -8,7 +8,7 @@ include-after-body:
 <div class="meta"><span>Master in Economics · Sciences Po · M2</span><span>May 2026</span><span>Supervisor: Pierre Cahuc</span><span class="grade">17/20</span></div>
 
 ::: {.btn-row}
-[Read the full thesis (PDF)](Resources/sciences-po-thesis.pdf){.btn-cta} [Online appendix](thesis-appendix.qmd){.btn-ghost} [Early-stage project code ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Master%20thesis%20SciencesPo%20%28Ongoing%29){.btn-ghost}
+[Read the full thesis (PDF)](Resources/sciences-po-thesis.pdf){.btn-cta} [Online appendix](thesis-appendix.qmd){.btn-ghost} [Replication package ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Master%20thesis%20SciencesPo%20%28Ongoing%29){.btn-ghost}
 :::
 
 ::: {.source-note}
