@@ -23,23 +23,9 @@
   {
     "objectID": "Tutorials/index.html",
     "href": "Tutorials/index.html",
-    "title": "Notes & learning resources",
+    "title": "Lecture notes",
     "section": "",
-    "text": "My lecture-notes repository gathers the notes I wrote for the first-year courses of my Master in Economics at Sciences Po, in econometrics, macroeconomics, and microeconomics. I wrote them from scratch and enriched them with other material I found useful, but their content closely follows the slides and structure of those courses. They are therefore study notes on that material rather than original work, and the credit for the content goes to the instructors of those courses."
-  },
-  {
-    "objectID": "Tutorials/index.html#lecture-notes",
-    "href": "Tutorials/index.html#lecture-notes",
-    "title": "Notes & learning resources",
-    "section": "",
-    "text": "My lecture-notes repository gathers the notes I wrote for the first-year courses of my Master in Economics at Sciences Po, in econometrics, macroeconomics, and microeconomics. I wrote them from scratch and enriched them with other material I found useful, but their content closely follows the slides and structure of those courses. They are therefore study notes on that material rather than original work, and the credit for the content goes to the instructors of those courses."
-  },
-  {
-    "objectID": "Tutorials/index.html#econometrics-exercises",
-    "href": "Tutorials/index.html#econometrics-exercises",
-    "title": "Notes & learning resources",
-    "section": "Econometrics exercises",
-    "text": "Econometrics exercises\nMy econometrics repository contains coursework and coding exercises.\nBrowse research papers and replication work →"
+    "text": "My lecture-notes repository gathers the notes I wrote for the first-year courses of my Master in Economics at Sciences Po, in econometrics, macroeconomics, and microeconomics. I wrote them from scratch and enriched them with other material I found useful, but their content closely follows the slides and structure of those courses. They are therefore study notes on that material rather than original work, and the credit for the content goes to the instructors of those courses.\nBrowse research papers and replication work →"
   },
   {
     "objectID": "Microeconomics_project.html",
@@ -385,11 +371,11 @@
     "text": "Selected work\nAll papers & coursework →"
   },
   {
-    "objectID": "index.html#get-in-touch",
-    "href": "index.html#get-in-touch",
+    "objectID": "index.html#lets-get-in-touch",
+    "href": "index.html#lets-get-in-touch",
     "title": "Romain Fernex",
-    "section": "Get in touch !",
-    "text": "Get in touch !\nFeel free to reach me at romain.fernex at sciencespo.fr."
+    "section": "Let’s get in touch !",
+    "text": "Let’s get in touch !\nFeel free to reach out to me at romain.fernex at sciencespo.fr."
   },
   {
     "objectID": "about.html",
@@ -432,12 +418,5 @@
     "title": "Papers & coursework",
     "section": "Earlier coursework",
     "text": "Earlier coursework\n\nGroup research paper\n\nSuperbonus: a game-theoretic analysis\n\nMicroeconomics II – Game TheoryM1 · May 2025Grade: 18/20\n\nA group paper on hidden public debt, fiscal enforcement, and incentives to conceal liabilities under the Italian Superbonus policy.\nOverview & paper →\n\n\n\nArticle presentation\n\nSmets–Wouters: a DSGE model of the euro area\n\nMacroeconomicsM1Grade: 18.9/20\n\nA joint presentation of the model, Bayesian estimation, findings, and limitations of Smets and Wouters (2003).\nOverview & presentation →"
-  },
-  {
-    "objectID": "index.html#lets-get-in-touch",
-    "href": "index.html#lets-get-in-touch",
-    "title": "Romain Fernex",
-    "section": "Let’s get in touch !",
-    "text": "Let’s get in touch !\nFeel free to reach out to me at romain.fernex at sciencespo.fr."
   }
 ]

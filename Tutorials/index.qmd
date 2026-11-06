@@ -1,0 +1,8 @@
+---
+title: Lecture notes
+toc: false
+---
+
+My [lecture-notes repository](https://github.com/Rfernex/Lecture-notes) gathers the notes I wrote for the first-year courses of my Master in Economics at Sciences Po, in econometrics, macroeconomics, and microeconomics. I wrote them from scratch and enriched them with other material I found useful, but their content closely follows the slides and structure of those courses. They are therefore study notes on that material rather than original work, and the credit for the content goes to the instructors of those courses.
+
+[Browse research papers and replication work →](../Coursework.qmd)
