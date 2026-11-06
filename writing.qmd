@@ -90,7 +90,7 @@ The Meiji transformation is often described as having left Japanese women behind
 
 ## Portraits from Japanese history
 
-A series of short portraits of figures from Japanese history, written for a newsletter since 2024. The later issues appear under the heading « Histoire : destins japonais ». All of them are in French. Pick a figure below to read the portrait here, or open it as a PDF.
+My series of short portraits of figures from Japanese history, written for the ESCP Japon newsletter (the ESCP alumni association dedicated to japanese culture of which I am a board member) which is still ongoing. All of them are in French !
 
 ```{=html}
 <div class="pr">
