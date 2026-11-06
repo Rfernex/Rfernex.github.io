@@ -48,6 +48,7 @@ main.content > h2::before {
 }
 .navbar-title { font-family: "Source Serif 4", Georgia, serif; font-weight: 700; font-size: 1.22rem; color: var(--ink) !important; }
 .navbar-nav { font-size: .88rem; font-weight: 500; }
+.navbar .nav-link { white-space: nowrap; }
 .navbar .nav-link { color: #3b4554 !important; }
 .navbar .nav-link:hover { color: var(--blue) !important; }
 .navbar .nav-link.active { color: var(--blue) !important; box-shadow: inset 0 -2px 0 var(--blue); }
@@ -136,6 +137,17 @@ table.reg-table tr.stats:first-of-type td, table.reg-table tr.derived + tr.stats
 .appendix-page main h4 { font-size: 1.05rem; margin-top: 1.8rem; }
 .appendix-page main p:has(> em:first-child) { font-size: .82rem; color: var(--muted); }
 .appendix-page main .quarto-figure img { border: 1px solid var(--line); border-radius: 8px; }
+
+/* --- Beyond economics page --------------------------------------------- */
+.meta .lang { background: var(--warm-tint); border-color: #ecd9c2; color: #8a541f; font-weight: 600; }
+.portrait-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; margin: 1.4rem 0 2.4rem; }
+.portrait-card { position: relative; background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--warm); border-radius: 0 0 var(--radius) var(--radius); padding: 1rem 1.1rem .9rem; transition: box-shadow .18s ease, transform .18s ease; }
+.portrait-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+.portrait-card .eyebrow { margin-bottom: .2rem; color: var(--warm); }
+.portrait-card h4 { font-size: 1.08rem; margin: 0 0 .4rem; }
+.portrait-card h4 a { color: var(--ink); text-decoration: none; }
+.portrait-card h4 a::after { content: ""; position: absolute; inset: 0; }
+.portrait-card p { font-size: .88rem; color: var(--muted); margin: 0; line-height: 1.5; }
 
 /* --- Home page ---------------------------------------------------------- */
 .hero-band {

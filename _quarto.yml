@@ -15,6 +15,7 @@ website:
     foreground: "#3b4554"
     title: Romain Fernex
     search: true
+    collapse-below: xl
     left:
       - text: CV
         href: Research.qmd
@@ -24,6 +25,8 @@ website:
         href: Coursework.qmd
       - text: Other projects
         href: projects.qmd
+      - text: Beyond economics
+        href: writing.qmd
       - text: Notes
         href: Tutorials/index.qmd
     right:
