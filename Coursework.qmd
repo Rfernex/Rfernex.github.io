@@ -1,6 +1,6 @@
 ---
 title: Papers & coursework
-subtitle: Research, replication, and critical reading in economics.
+subtitle: Find below all the papers and essays I wrote as a master student at Sciences Po !
 toc: false
 ---
 

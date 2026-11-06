@@ -1,6 +1,6 @@
 ---
 title: CV
-subtitle: Research appointments, collaborators, and contributions. The full CV, with education and skills, is at the bottom of the page.
+subtitle: An overview of my current position and past collaborations (if you wish to access my full CV, please find it at the bottom of the page)
 toc: false
 ---
 

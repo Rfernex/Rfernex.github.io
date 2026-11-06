@@ -1,6 +1,6 @@
 ---
-title: Get in touch
-subtitle: I am a predoctoral research assistant at Bocconi University (IGIER), working with Giulia Giupponi and Thomas Le Barbanchon.
+title: Let's get in touch !
+subtitle: Feel free to reach out to me if you want to discuss research project or collaboration opportunities ! 
 toc: false
 ---
 

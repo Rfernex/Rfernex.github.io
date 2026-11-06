@@ -1,6 +1,6 @@
 ---
 title: Other projects
-subtitle: Earlier research and computational work.
+subtitle: Earlier research projects I did and other projects related to economics I am working on.
 toc: false
 ---
 
