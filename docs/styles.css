@@ -140,14 +140,95 @@ table.reg-table tr.stats:first-of-type td, table.reg-table tr.derived + tr.stats
 
 /* --- Beyond economics page --------------------------------------------- */
 .meta .lang { background: var(--warm-tint); border-color: #ecd9c2; color: #8a541f; font-weight: 600; }
-.portrait-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(220px, 1fr)); gap: 1rem; margin: 1.4rem 0 2.4rem; }
-.portrait-card { position: relative; background: #fff; border: 1px solid var(--line); border-top: 3px solid var(--warm); border-radius: 0 0 var(--radius) var(--radius); padding: 1rem 1.1rem .9rem; transition: box-shadow .18s ease, transform .18s ease; }
-.portrait-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
-.portrait-card .eyebrow { margin-bottom: .2rem; color: var(--warm); }
-.portrait-card h4 { font-size: 1.08rem; margin: 0 0 .4rem; }
-.portrait-card h4 a { color: var(--ink); text-decoration: none; }
-.portrait-card h4 a::after { content: ""; position: absolute; inset: 0; }
-.portrait-card p { font-size: .88rem; color: var(--muted); margin: 0; line-height: 1.5; }
+/* Featured dossier */
+.featured-work {
+  position: relative; display: grid; grid-template-columns: minmax(150px, 220px) 1fr; gap: 1.9rem; align-items: center;
+  margin: 1.6rem 0 2.8rem; padding: 1.7rem 1.8rem; border: 1px solid var(--line); border-radius: var(--radius);
+  background: linear-gradient(135deg, #fff 0%, var(--soft) 100%); box-shadow: var(--shadow);
+}
+.featured-work::before { content: ""; position: absolute; left: -1px; top: -1px; bottom: -1px; width: 4px; background: var(--blue); border-radius: var(--radius) 0 0 var(--radius); }
+.featured-cover { display: block; border-radius: 4px; overflow: hidden; box-shadow: 0 2px 6px rgba(23, 34, 52, .12), 0 16px 34px rgba(23, 34, 52, .2); transition: transform .2s ease, box-shadow .2s ease; }
+.featured-cover:hover { transform: translateY(-3px); box-shadow: 0 4px 10px rgba(23, 34, 52, .14), 0 22px 40px rgba(23, 34, 52, .22); }
+.featured-cover img { display: block; width: 100%; height: auto; }
+.featured-body .eyebrow { margin-bottom: .4rem; }
+.featured-body h3 { margin: 0; font-size: 1.45rem; line-height: 1.28; }
+.featured-body h3 a { color: var(--ink); text-decoration: none; }
+.featured-body h3 a:hover { color: var(--blue); }
+.featured-body .meta { margin: .8rem 0 .9rem; }
+.featured-body p { font-size: .97rem; margin-bottom: 0; }
+.featured-body .featured-actions { margin-top: 1.2rem; }
+
+/* Portrait reader: a strip of figures, then the selected portrait's pages */
+.pr { margin: 1.4rem 0 2.8rem; scroll-margin-top: 5.5rem; }
+.pr-shelf { position: relative; }
+.pr-strip { list-style: none; display: flex; gap: .85rem; margin: 0; padding: .45rem .25rem 1rem; overflow-x: auto; scroll-snap-type: x proximity; scrollbar-width: thin; }
+.pr:not(.is-ready) .pr-strip { flex-wrap: wrap; overflow: visible; }
+.pr-strip li { flex: 0 0 auto; margin: 0; padding: 0; scroll-snap-align: center; }
+.pr-tile { display: block; width: 104px; color: var(--text); text-decoration: none; }
+.pr-tile:hover { color: var(--text); }
+.pr-thumb { position: relative; display: block; aspect-ratio: 4 / 5; overflow: hidden; border: 1px solid var(--line); border-radius: 8px; background: var(--warm-tint); transition: transform .18s ease, box-shadow .18s ease, border-color .18s ease; }
+.pr-thumb img { display: block; width: 100%; height: 100%; object-fit: cover; filter: saturate(.45); opacity: .9; transition: filter .2s ease, opacity .2s ease; }
+.pr-thumb-text { display: flex; align-items: center; justify-content: center; background: linear-gradient(160deg, var(--warm-tint), #efdcc4); }
+.pr-thumb-text span { writing-mode: vertical-rl; font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif; font-size: 1.35rem; letter-spacing: .14em; color: #8a541f; }
+.pr-tile:hover .pr-thumb { transform: translateY(-2px); box-shadow: var(--shadow-hover); }
+.pr-tile:hover .pr-thumb img, .pr-tile[aria-current] .pr-thumb img { filter: none; opacity: 1; }
+.pr-tile[aria-current] .pr-thumb { border-color: var(--warm); box-shadow: 0 0 0 2px var(--warm), var(--shadow); }
+.pr-label { display: block; margin-top: .5rem; line-height: 1.25; }
+.pr-tile-year { display: block; font-size: .66rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--warm); }
+.pr-tile-name { display: block; font-size: .84rem; font-weight: 500; color: var(--ink); }
+.pr-tile[aria-current] .pr-tile-name { font-weight: 700; }
+.pr-arrow {
+  position: absolute; top: 48px; z-index: 2; display: flex; align-items: center; justify-content: center;
+  width: 2.3rem; height: 2.3rem; padding: 0 0 .15rem; border: 1px solid var(--line); border-radius: 50%;
+  background: #fff; box-shadow: var(--shadow-hover); color: var(--ink); font-size: 1.45rem; line-height: 1; cursor: pointer;
+}
+.pr-arrow:hover { border-color: var(--blue); color: var(--blue); }
+.pr-arrow[hidden] { display: none; }
+.pr-arrow-left { left: -.75rem; }
+.pr-arrow-right { right: -.75rem; }
+
+.pr:not(.is-ready) .pr-viewer { display: none; }
+.pr-viewer { margin-top: .5rem; overflow: hidden; border: 1px solid var(--line); border-top: 3px solid var(--warm); border-radius: 0 0 var(--radius) var(--radius); background: #fff; box-shadow: var(--shadow); }
+.pr-head { display: flex; flex-wrap: wrap; align-items: flex-start; justify-content: space-between; gap: .9rem 1.4rem; padding: 1.1rem 1.3rem 1rem; border-bottom: 1px solid var(--line); }
+.pr-heading { flex: 1 1 320px; min-width: 0; }
+.pr-kicker { display: flex; flex-wrap: wrap; align-items: center; margin: 0 0 .3rem; font-size: .7rem; font-weight: 600; letter-spacing: .12em; text-transform: uppercase; color: var(--warm); }
+.pr-kicker > span + span::before { content: "·"; margin: 0 .5rem; color: var(--muted); }
+.pr-title { margin: 0 0 .3rem; font-size: 1.38rem; }
+.pr-kanji { white-space: nowrap; margin-left: .3rem; font-family: "Hiragino Mincho ProN", "Yu Mincho", "Noto Serif JP", serif; font-size: 1.05rem; font-weight: 400; letter-spacing: .08em; color: var(--muted); }
+.pr-desc { margin: 0; font-size: .92rem; line-height: 1.55; color: var(--muted); }
+.pr-tools { display: flex; flex: 0 0 auto; align-items: center; gap: .35rem; }
+.pr-tools button, .pr-open {
+  display: inline-flex; align-items: center; justify-content: center; height: 2.15rem; min-width: 2.15rem; padding: 0 .55rem;
+  border: 1px solid var(--line); border-radius: 7px; background: #fff; color: var(--ink); font-size: .95rem; line-height: 1;
+  white-space: nowrap; text-decoration: none; cursor: pointer; transition: border-color .15s ease, color .15s ease;
+}
+.pr-tools button:hover:not(:disabled), .pr-open:hover { border-color: var(--blue); color: var(--blue); }
+.pr-tools button:disabled { opacity: .38; cursor: default; }
+.pr-tools .pr-zoom { min-width: 3.3rem; font-size: .78rem; font-variant-numeric: tabular-nums; }
+.pr-tools .pr-open { margin-left: .2rem; font-size: .84rem; font-weight: 600; color: var(--blue); }
+.pr-sep { width: 1px; height: 1.4rem; margin: 0 .2rem; background: var(--line); }
+.pr-pages { height: clamp(420px, 80vh, 1050px); overflow: auto; padding: 1.1rem; background: var(--soft); }
+.pr-pages:focus-visible { outline-offset: -3px; }
+.pr-sheet { width: min(100%, 860px); aspect-ratio: 595 / 842; margin: 0 auto 1rem; background: #fff; box-shadow: 0 1px 3px rgba(23, 34, 52, .08), 0 8px 22px rgba(23, 34, 52, .08); }
+.pr-sheet:last-child { margin-bottom: 0; }
+.pr-sheet canvas { display: block; width: 100%; height: 100%; }
+.pr-sheet.is-loading { background: linear-gradient(100deg, #fff 30%, #eef1f6 50%, #fff 70%); background-size: 200% 100%; animation: pr-shimmer 1.3s linear infinite; }
+@keyframes pr-shimmer { from { background-position: 100% 0; } to { background-position: -100% 0; } }
+.pr-message { max-width: none; margin: 0; padding: 3rem 1rem; text-align: center; color: var(--muted); }
+@media (max-width: 640px) {
+  .featured-work { grid-template-columns: 1fr; gap: 1.3rem; padding: 1.3rem 1.2rem; }
+  .featured-cover { width: min(190px, 62%); margin: 0 auto; }
+  .featured-body h3 { font-size: 1.25rem; }
+  .pr-tile { width: 88px; }
+  .pr-arrow { display: none !important; }
+  .pr-head { padding: 1rem; }
+  .pr-tools { width: 100%; }
+  .pr-tools .pr-open { margin-left: auto; }
+  .pr-pages { height: 72vh; padding: .6rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .pr-sheet.is-loading { animation: none; }
+}
 
 /* --- Home page ---------------------------------------------------------- */
 .hero-band {
