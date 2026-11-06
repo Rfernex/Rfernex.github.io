@@ -108,6 +108,35 @@ a.btn-ghost:hover { border-color: var(--blue); color: var(--blue); transform: tr
 
 .center-cta p { display: flex; justify-content: center; max-width: none; margin: 2.8rem 0 1rem; }
 
+/* --- Regression tables (thesis page) and appendix tables ------------- */
+.table-scroll { overflow-x: auto; margin: 1.6rem 0 .4rem; -webkit-overflow-scrolling: touch; }
+table.reg-table { width: 100%; min-width: 520px; border-collapse: collapse; font-size: .86rem; font-variant-numeric: tabular-nums; border-top: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink); }
+table.reg-table caption { caption-side: top; text-align: left; font-weight: 600; font-size: .9rem; color: var(--ink); padding: 0 0 .55rem; }
+table.reg-table th { font-weight: 600; color: var(--ink); text-align: center; padding: .5rem .55rem; border-bottom: 1px solid var(--line); vertical-align: bottom; }
+table.reg-table thead tr:last-child th { border-bottom: 1.5px solid var(--blue); }
+table.reg-table td { text-align: center; padding: .45rem .55rem; vertical-align: top; line-height: 1.35; }
+table.reg-table td:first-child { text-align: left; color: var(--ink); font-weight: 500; }
+table.reg-table tbody tr:nth-child(odd):not(.stats):not(.derived) { background: #fafbfc; }
+table.reg-table .se { font-size: .78rem; color: var(--muted); }
+table.reg-table sup { color: var(--blue); font-weight: 600; }
+table.reg-table .th-sub { font-size: .74rem; font-weight: 400; color: var(--muted); }
+table.reg-table tr.derived td { border-top: 1px dashed #cfd6e0; color: var(--blue); font-weight: 600; }
+table.reg-table tr.derived td:first-child { color: var(--ink); font-weight: 500; }
+table.reg-table tr.stats td { font-size: .8rem; color: var(--muted); }
+table.reg-table tr.stats:first-of-type td, table.reg-table tr.derived + tr.stats td { border-top: 1px solid var(--line); }
+.table-note { font-size: .8rem; color: var(--muted); line-height: 1.55; margin: .4rem 0 1.6rem; max-width: none; }
+
+.appendix-page main table { display: block; overflow-x: auto; max-width: 100%; margin: 1.6rem auto .6rem; border-collapse: collapse; font-size: .82rem; font-variant-numeric: tabular-nums; border-top: 1.5px solid var(--ink); border-bottom: 1.5px solid var(--ink); }
+.appendix-page main table caption { caption-side: top; text-align: left; font-weight: 600; font-size: .88rem; color: var(--ink); padding: 0 0 .5rem; }
+.appendix-page main table th { padding: .45rem .6rem; border-bottom: 1.5px solid var(--blue); color: var(--ink); vertical-align: bottom; }
+.appendix-page main table td { padding: .28rem .6rem; border: 0; }
+.appendix-page main table tbody tr:nth-child(odd) { background: #fafbfc; }
+.appendix-page main table code { font-size: .78rem; background: transparent; padding: 0; }
+.appendix-page main h2 { margin-top: 3.6rem; }
+.appendix-page main h4 { font-size: 1.05rem; margin-top: 1.8rem; }
+.appendix-page main p:has(> em:first-child) { font-size: .82rem; color: var(--muted); }
+.appendix-page main .quarto-figure img { border: 1px solid var(--line); border-radius: 8px; }
+
 /* --- Home page ---------------------------------------------------------- */
 .hero-band {
   margin-top: -9px !important;

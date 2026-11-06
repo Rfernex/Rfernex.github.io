@@ -9,9 +9,9 @@ toc: false
 
 ### [Access to healthcare among Medicare beneficiaries](Master_Thesis.qmd)
 
-<div class="meta"><span>Master in Management · ESCP Business School</span><span>Jérôme Creel</span><span>2024</span><span class="grade">Grade: 18/20</span></div>
+<div class="meta"><span>Master in Management · ESCP Business School</span><span>Jérôme Creel</span><span>2023</span><span class="grade">Grade: 18/20</span></div>
 
-My earlier master's thesis studies ethnic and socioeconomic differences in access to medication and service use. It uses the 2013 and 2020 Medicare Current Beneficiary Survey public-use files, chi-square tests, and multivariable logistic regressions, accounting for demographics, education, health, and insurance coverage.
+My earlier master's thesis studies ethnic and socioeconomic differences in access to medication and service use. It uses the 2013 and 2020 Medicare Current Beneficiary Survey public-use files, chi-square tests, and multivariable logistic regressions, accounting for demographics, education, health, and insurance coverage. It is nothing to write home about but I believe it is a good indicator of my level before joining Sciences Po :)
 
 [Paper & presentation →](Master_Thesis.qmd) · [Code on GitHub ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Master%20thesis%20ESCP)
 
@@ -22,7 +22,7 @@ My earlier master's thesis studies ethnic and socioeconomic differences in acces
 
 ### Bank of Japan communication
 
-A text-analysis project in R and Python exploring linguistic and thematic signals in Bank of Japan speeches and statements in relation to interest-rate decisions.
+A text-analysis project in R and Python exploring linguistic and thematic signals in Bank of Japan speeches and statements in relation to interest-rate decisions. I have put this project on ICE for the moment but do intend to return to it at some point when I can spare the time...
 
 [Explore the code ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Project%20BoJ%20%28Ongoing%29)
 

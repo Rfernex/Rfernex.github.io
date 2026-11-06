@@ -4,9 +4,9 @@ subtitle: "Master’s thesis"
 toc: false
 ---
 
-<div class="meta"><span>Master in Management · ESCP Business School</span><span>Supervisor: Jérôme Creel</span><span>2024</span><span class="grade">Grade: 18/20</span></div>
+<div class="meta"><span>Master in Management · ESCP Business School</span><span>Supervisor: Jérôme Creel</span><span>2023</span><span class="grade">Grade: 18/20</span></div>
 
-[Read the paper (PDF)](Resources/Master_thesis_Romain_Fernex.pdf) · [Presentation (PDF)](Resources/Thesis_presentation_RF.pdf) · [GitHub repository ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Master%20thesis%20ESCP)
+[Read the paper (PDF)](Resources/escp-medicare-paper.pdf) · [LaTeX source](Resources/escp-medicare-paper-source.zip) · [Presentation (PDF)](Resources/Thesis_presentation_RF.pdf) · [GitHub repository ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Master%20thesis%20ESCP)
 
 ## Abstract
 

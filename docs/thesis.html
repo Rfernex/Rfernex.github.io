@@ -222,6 +222,13 @@ window.Quarto = {
   <li><a href="#detecting-a-break-in-2018" id="toc-detecting-a-break-in-2018" class="nav-link" data-scroll-target="#detecting-a-break-in-2018">Detecting a break in 2018</a></li>
   <li><a href="#estimating-the-model-before-the-reform" id="toc-estimating-the-model-before-the-reform" class="nav-link" data-scroll-target="#estimating-the-model-before-the-reform">Estimating the model before the reform</a></li>
   </ul></li>
+  <li><a href="#empirical-results" id="toc-empirical-results" class="nav-link" data-scroll-target="#empirical-results">Empirical results</a>
+  <ul class="collapse">
+  <li><a href="#occupational-shares" id="toc-occupational-shares" class="nav-link" data-scroll-target="#occupational-shares">Occupational shares</a></li>
+  <li><a href="#hours-worked" id="toc-hours-worked" class="nav-link" data-scroll-target="#hours-worked">Hours worked</a></li>
+  <li><a href="#individual-level-estimates" id="toc-individual-level-estimates" class="nav-link" data-scroll-target="#individual-level-estimates">Individual-level estimates</a></li>
+  <li><a href="#robustness" id="toc-robustness" class="nav-link" data-scroll-target="#robustness">Robustness</a></li>
+  </ul></li>
   <li><a href="#how-the-model-works" id="toc-how-the-model-works" class="nav-link" data-scroll-target="#how-the-model-works">How the model works</a>
   <ul class="collapse">
   <li><a href="#a-higher-ceiling-expands-the-feasible-business-size" id="toc-a-higher-ceiling-expands-the-feasible-business-size" class="nav-link" data-scroll-target="#a-higher-ceiling-expands-the-feasible-business-size">A higher ceiling expands the feasible business size</a></li>
@@ -231,9 +238,8 @@ window.Quarto = {
   <li><a href="#a-wage-can-buffer-entrepreneurial-risk" id="toc-a-wage-can-buffer-entrepreneurial-risk" class="nav-link" data-scroll-target="#a-wage-can-buffer-entrepreneurial-risk">A wage can buffer entrepreneurial risk</a></li>
   <li><a href="#from-values-to-occupational-probabilities" id="toc-from-values-to-occupational-probabilities" class="nav-link" data-scroll-target="#from-values-to-occupational-probabilities">From values to occupational probabilities</a></li>
   </ul></li>
-  <li><a href="#key-findings" id="toc-key-findings" class="nav-link" data-scroll-target="#key-findings">Key findings</a>
+  <li><a href="#structural-results" id="toc-structural-results" class="nav-link" data-scroll-target="#structural-results">Structural results</a>
   <ul class="collapse">
-  <li><a href="#evidence-from-the-survey" id="toc-evidence-from-the-survey" class="nav-link" data-scroll-target="#evidence-from-the-survey">Evidence from the survey</a></li>
   <li><a href="#what-the-model-captures-and-what-it-misses" id="toc-what-the-model-captures-and-what-it-misses" class="nav-link" data-scroll-target="#what-the-model-captures-and-what-it-misses">What the model captures and what it misses</a></li>
   <li><a href="#comparing-two-policy-instruments" id="toc-comparing-two-policy-instruments" class="nav-link" data-scroll-target="#comparing-two-policy-instruments">Comparing two policy instruments</a></li>
   </ul></li>
@@ -259,7 +265,7 @@ window.Quarto = {
 <span>Master in Economics · Sciences Po · M2</span><span>May 2026</span><span>Supervisor: Pierre Cahuc</span><span class="grade">17/20</span>
 </div>
 <div class="btn-row">
-<p><a href="Resources/sciences-po-thesis.pdf" class="btn-cta">Read the full thesis (PDF)</a> <a href="https://github.com/Rfernex/Personal-Projects/tree/main/Master%20thesis%20SciencesPo%20%28Ongoing%29" class="btn-ghost">Early-stage project code ↗</a></p>
+<p><a href="Resources/sciences-po-thesis.pdf" class="btn-cta">Read the full thesis (PDF)</a> <a href="./thesis-appendix.html" class="btn-ghost">Online appendix</a> <a href="https://github.com/Rfernex/Personal-Projects/tree/main/Master%20thesis%20SciencesPo%20%28Ongoing%29" class="btn-ghost">Early-stage project code ↗</a></p>
 </div>
 <div class="source-note">
 <p>Full title: <em>Self-Employment and Dual-Jobholding: Compositional Shifts in the French Labour Market in Response to the 2018 Microentrepreneurship Reform</em>.</p>
@@ -364,12 +370,432 @@ Y_{c,t}=\alpha_c+\beta_{1,c}T_t+\beta_{2,c}D_t
 <p>Here, <span class="math inline">\(D_t\)</span> switches on at the reform, <span class="math inline">\(\beta_2\)</span> measures an immediate change, and <span class="math inline">\(\beta_3\)</span> measures a change in the quarterly trend. Seasonal indicators absorb regular within-year patterns. Aggregate estimates use Newey–West standard errors with a baseline bandwidth of five quarters.</p>
 <p>Individual-level weighted logits add demographic and professional controls to assess changes in observable composition. Weighted OLS specifications study hours worked. Individual-level standard errors are clustered by respondent.</p>
 <div class="note">
-<p><strong>What identifies the effect?</strong> The design assumes that no other contemporaneous shock would have generated the same break. The RSI-to-SSI transition, the PACTE law, and changes to ACCRE/ACRE are possible confounders. I assess robustness through alternative windows, placebo exercises, HAC bandwidths, and trend diagnostics.</p>
+<p><strong>What identifies the effect?</strong> The design assumes that no other contemporaneous shock would have generated the same break. The main candidates are the abolition of the RSI, which took effect on the same day, the PACTE law of 2019, and the conversion of the CICE into employer contribution cuts in 2019. I assess robustness through alternative windows, placebo exercises, HAC bandwidths, and trend diagnostics.</p>
 </div>
 </section>
 <section id="estimating-the-model-before-the-reform" class="level3">
 <h3 class="anchored" data-anchor-id="estimating-the-model-before-the-reform">Estimating the model before the reform</h3>
 <p>I first recover earning-opportunity distributions from pre-reform data. Ten model parameters are then estimated by <strong>two-step GMM</strong>, matching thirteen pre-reform moments involving occupational shares, entrepreneurial earnings, hours, and micro-regime participation by sector and turnover. Other parameters, including risk aversion and within-sector cost dispersion, are calibrated. The actual ceiling reform is reserved for <strong>out-of-sample validation</strong>, with simulation draws held fixed across policy environments.</p>
+</section>
+</section>
+<section id="empirical-results" class="level2">
+<h2 class="anchored" data-anchor-id="empirical-results">Empirical results</h2>
+<p>I estimate the interrupted time series at two levels. The aggregate design uses the 20 quarterly survey-weighted shares, or mean hours, of each occupational category. The individual-level design uses the person-quarter observations, which makes it possible to control for observable characteristics and to check whether changes in the composition of the workforce drive the aggregate results. The tables below report the coefficients of interest, and the <a href="./thesis-appendix.html">online appendix</a> gives the full tables, the classification rules, and the robustness checks.</p>
+<section id="occupational-shares" class="level3">
+<h3 class="anchored" data-anchor-id="occupational-shares">Occupational shares</h3>
+<div class="table-scroll">
+<table class="reg-table">
+<caption>
+Table 1. Aggregate interrupted time series: share of the active population, in percentage points
+</caption>
+<thead>
+<tr>
+<th>
+</th>
+<th>
+Wage only
+</th>
+<th>
+Micro only
+</th>
+<th>
+Wage + Wage
+</th>
+<th>
+Wage + Micro
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Pre-reform trend <span class="math inline">\(\hat\beta_1\)</span>
+</td>
+<td>
+0.004<br><span class="se">(0.006)</span>
+</td>
+<td>
+0.028<sup>***</sup><br><span class="se">(0.004)</span>
+</td>
+<td>
+−0.027<sup>***</sup><br><span class="se">(0.005)</span>
+</td>
+<td>
+0.006<sup>***</sup><br><span class="se">(0.001)</span>
+</td>
+</tr>
+<tr>
+<td>
+Level shift at the reform <span class="math inline">\(\hat\beta_2\)</span>
+</td>
+<td>
+−0.216<sup>***</sup><br><span class="se">(0.048)</span>
+</td>
+<td>
+−0.113<sup>**</sup><br><span class="se">(0.036)</span>
+</td>
+<td>
+0.410<sup>***</sup><br><span class="se">(0.072)</span>
+</td>
+<td>
+−0.045<sup>*</sup><br><span class="se">(0.017)</span>
+</td>
+</tr>
+<tr>
+<td>
+Post-reform slope change <span class="math inline">\(\hat\beta_3\)</span>
+</td>
+<td>
+−0.111<sup>***</sup><br><span class="se">(0.010)</span>
+</td>
+<td>
+0.083<sup>***</sup><br><span class="se">(0.007)</span>
+</td>
+<td>
+−0.033<sup>**</sup><br><span class="se">(0.010)</span>
+</td>
+<td>
+0.030<sup>***</sup><br><span class="se">(0.004)</span>
+</td>
+</tr>
+<tr class="derived">
+<td>
+Post-reform trend <span class="math inline">\(\hat\beta_1\)</span> + <span class="math inline">\(\hat\beta_3\)</span>
+</td>
+<td>
+−0.107
+</td>
+<td>
+0.111
+</td>
+<td>
+−0.060
+</td>
+<td>
+0.036
+</td>
+</tr>
+<tr class="stats">
+<td>
+R²
+</td>
+<td>
+0.919
+</td>
+<td>
+0.971
+</td>
+<td>
+0.760
+</td>
+<td>
+0.928
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="table-note">
+20 quarterly observations per column, 2015-Q1 to 2019-Q4. OLS with quarter fixed effects and Newey–West standard errors with a bandwidth of five quarters, in parentheses. <sup>***</sup> p &lt; 0.001, <sup>**</sup> p &lt; 0.01, <sup>*</sup> p &lt; 0.05. The last row adds up the first and third rows.
+</p>
+<p>Before the reform, the share of solo micro-entrepreneurs in the active population grew by 0.028 percentage points per quarter. After the reform, it grew by 0.111 points per quarter, about four times faster, which compensates within two quarters for the negative level shift of 0.113 points at the reform date. This negative jump is counterintuitive for a reform meant to expand the regime. A plausible explanation is an anticipation effect: since the law was passed in late December 2017 and applied retroactively to 2017, some workers may have shifted their registration or reporting, creating a dip in 2018-Q1 relative to the pre-reform trend. The level shift indeed becomes insignificant in the individual-level models below. At the same time, the share of wage-only workers, which was flat before the reform, starts declining by about 0.11 points per quarter, which suggests that some substitution away from wage work took place.</p>
+<p>Hybrid micro-entrepreneurs, who combine a wage job and a micro-business, accelerate even more in relative terms, from 0.006 to 0.036 points per quarter, a sixfold increase, although their growth remains much smaller in absolute terms than that of solo micro-entrepreneurs. More puzzling is the large upward level shift of 0.410 points in dual wage employment at the reform date. Although a faster decline afterwards partly offsets it, it means that substitution between dual wage employment and hybrid entrepreneurship is likely to have been negligible. Lastly, the broader category of independents follows a very similar path (a post-reform slope change of 0.095 points per quarter for solo independents), which indicates that micro-entrepreneurs are the main, though not the only, driver of growth in self-employment over the period.</p>
+</section>
+<section id="hours-worked" class="level3">
+<h3 class="anchored" data-anchor-id="hours-worked">Hours worked</h3>
+<div class="table-scroll">
+<table class="reg-table">
+<caption>
+Table 2. Aggregate interrupted time series: weekly hours worked
+</caption>
+<thead>
+<tr>
+<th>
+</th>
+<th>
+Micro only<br><span class="th-sub">main activity</span>
+</th>
+<th>
+Wage + Micro<br><span class="th-sub">business</span>
+</th>
+<th>
+Wage + Micro<br><span class="th-sub">wage job</span>
+</th>
+<th>
+Wage + Indep.<br><span class="th-sub">independent activity</span>
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Pre-reform trend <span class="math inline">\(\hat\beta_1\)</span>
+</td>
+<td>
+0.066<sup>*</sup><br><span class="se">(0.030)</span>
+</td>
+<td>
+−0.036<br><span class="se">(0.035)</span>
+</td>
+<td>
+−0.002<br><span class="se">(0.046)</span>
+</td>
+<td>
+−0.112<sup>***</sup><br><span class="se">(0.020)</span>
+</td>
+</tr>
+<tr>
+<td>
+Level shift at the reform <span class="math inline">\(\hat\beta_2\)</span>
+</td>
+<td>
+0.748<sup>**</sup><br><span class="se">(0.190)</span>
+</td>
+<td>
+0.300<br><span class="se">(0.255)</span>
+</td>
+<td>
+0.313<br><span class="se">(0.486)</span>
+</td>
+<td>
+1.184<sup>***</sup><br><span class="se">(0.201)</span>
+</td>
+</tr>
+<tr>
+<td>
+Post-reform slope change <span class="math inline">\(\hat\beta_3\)</span>
+</td>
+<td>
+−0.138<sup>**</sup><br><span class="se">(0.044)</span>
+</td>
+<td>
+0.043<br><span class="se">(0.045)</span>
+</td>
+<td>
+−0.010<br><span class="se">(0.068)</span>
+</td>
+<td>
+0.022<br><span class="se">(0.036)</span>
+</td>
+</tr>
+<tr class="stats">
+<td>
+R²
+</td>
+<td>
+0.597
+</td>
+<td>
+0.415
+</td>
+<td>
+0.103
+</td>
+<td>
+0.593
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="table-note">
+20 quarterly observations per column, 2015-Q1 to 2019-Q4. Outcomes are survey-weighted mean weekly hours in the activity indicated. The third column checks whether hybrid micro-entrepreneurs moved hours away from their wage job. Same estimator and significance levels as Table 1.
+</p>
+<p>Solo micro-entrepreneurs work 0.748 more hours per week right after the reform, but the post-reform slope change of 0.138 hours per quarter in the opposite direction gradually erodes this gain, at a pace that would take more than ten quarters to offset it. In other words, the reform had a moderately positive effect on weekly hours, which the entry of new workers then progressively diluted. A possible explanation is that new entrants have a higher return to entrepreneurship and benefit from the reform even when they work fewer hours than the average incumbent. For hybrid micro-entrepreneurs, neither coefficient on the hours spent in the business is significant, and the hours spent in their wage job do not fall either, which goes against the idea that they moved time from their wage job toward their business.</p>
+</section>
+<section id="individual-level-estimates" class="level3">
+<h3 class="anchored" data-anchor-id="individual-level-estimates">Individual-level estimates</h3>
+<div class="table-scroll">
+<table class="reg-table">
+<caption>
+Table 3. Individual-level logits: probability of being in each state, log-odds
+</caption>
+<thead>
+<tr>
+<th>
+</th>
+<th colspan="3">
+Micro only
+</th>
+<th colspan="3">
+Wage + Micro
+</th>
+</tr>
+<tr>
+<th>
+</th>
+<th>
+(1)
+</th>
+<th>
+(2)
+</th>
+<th>
+(3)
+</th>
+<th>
+(4)
+</th>
+<th>
+(5)
+</th>
+<th>
+(6)
+</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>
+Pre-reform trend <span class="math inline">\(\hat\beta_1\)</span>
+</td>
+<td>
+0.015<sup>**</sup><br><span class="se">(0.006)</span>
+</td>
+<td>
+0.015<sup>**</sup><br><span class="se">(0.006)</span>
+</td>
+<td>
+0.016<sup>**</sup><br><span class="se">(0.006)</span>
+</td>
+<td>
+0.013<br><span class="se">(0.011)</span>
+</td>
+<td>
+0.012<br><span class="se">(0.011)</span>
+</td>
+<td>
+0.013<br><span class="se">(0.011)</span>
+</td>
+</tr>
+<tr>
+<td>
+Level shift at the reform <span class="math inline">\(\hat\beta_2\)</span>
+</td>
+<td>
+−0.009<br><span class="se">(0.050)</span>
+</td>
+<td>
+−0.008<br><span class="se">(0.050)</span>
+</td>
+<td>
+−0.015<br><span class="se">(0.050)</span>
+</td>
+<td>
+−0.021<br><span class="se">(0.101)</span>
+</td>
+<td>
+−0.019<br><span class="se">(0.101)</span>
+</td>
+<td>
+−0.018<br><span class="se">(0.101)</span>
+</td>
+</tr>
+<tr>
+<td>
+Post-reform slope change <span class="math inline">\(\hat\beta_3\)</span>
+</td>
+<td>
+0.031<sup>**</sup><br><span class="se">(0.011)</span>
+</td>
+<td>
+0.031<sup>**</sup><br><span class="se">(0.011)</span>
+</td>
+<td>
+0.034<sup>**</sup><br><span class="se">(0.011)</span>
+</td>
+<td>
+0.052<sup>*</sup><br><span class="se">(0.022)</span>
+</td>
+<td>
+0.051<sup>*</sup><br><span class="se">(0.022)</span>
+</td>
+<td>
+0.051<sup>*</sup><br><span class="se">(0.022)</span>
+</td>
+</tr>
+<tr class="stats">
+<td>
+Demographic controls
+</td>
+<td>
+No
+</td>
+<td>
+Yes
+</td>
+<td>
+Yes
+</td>
+<td>
+No
+</td>
+<td>
+Yes
+</td>
+<td>
+Yes
+</td>
+</tr>
+<tr class="stats">
+<td>
+Sector and underemployment
+</td>
+<td>
+No
+</td>
+<td>
+No
+</td>
+<td>
+Yes
+</td>
+<td>
+No
+</td>
+<td>
+No
+</td>
+<td>
+Yes
+</td>
+</tr>
+<tr class="stats">
+<td>
+Person-quarters
+</td>
+<td>
+894,374
+</td>
+<td>
+894,374
+</td>
+<td>
+884,013
+</td>
+<td>
+894,374
+</td>
+<td>
+894,374
+</td>
+<td>
+884,013
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p class="table-note">
+Weighted logits with survey weights normalised to a mean of one, seasonal controls in every column, and standard errors clustered by respondent, in parentheses. Demographic controls are education, number of children, gender, age, and age squared. <sup>***</sup> p &lt; 0.001, <sup>**</sup> p &lt; 0.01, <sup>*</sup> p &lt; 0.05. Covariate coefficients and interactions are in <a href="thesis-appendix.html#app-indiv_interactions">Appendix C</a>.
+</p>
+<p>The individual-level logits confirm the aggregate results. For solo micro-entrepreneurs, the post-reform slope change is positive and significant at the 1% level in all three specifications, and it even increases slightly as demographic and professional controls are added. This stability indicates that changes in the observable composition of the active population do not drive the acceleration. For hybrid micro-entrepreneurs, the slope change is also positive but only significant at the 5% level, which is most likely explained by the small size of this group, at about 0.5% of observations. The level shift is small and insignificant in every specification. Interacting the post-reform slope with each covariate yields almost no significant term, so I find no evidence that the reform affected specific demographic or professional groups differently.</p>
+<p>None of the individual-level hours effects is significant, whether for solo or hybrid micro-entrepreneurs or for the wage job of hybrids. These regressions rely on far fewer observations (18,402 and 3,523 person-quarters, against nearly 900,000 for the logits), so the null results may reflect a lack of power rather than a true absence of effect. The only notable heterogeneity is that women show a stronger post-reform growth in hours spent on their side business, which is consistent with women who already ran one seizing the opportunity to work more on it.</p>
+</section>
+<section id="robustness" class="level3">
+<h3 class="anchored" data-anchor-id="robustness">Robustness</h3>
+<p>Appendix B of the <a href="./thesis-appendix.html#app-robustness">online appendix</a> reports several checks. Re-estimating the aggregate model on a shorter window starting in 2016 barely changes the results, with a post-reform slope change of 0.076 instead of 0.083 for solo micro-entrepreneurs and 0.025 instead of 0.030 for hybrids. The slope changes remain significant at the 0.1% level for bandwidths of three, five, and seven quarters. A RESET test does not reject the linear specification (p = 0.37 for solo and 0.39 for hybrid micro-entrepreneurs), and the residuals show no systematic pattern. At the individual level, a rolling placebo over candidate reform dates from 2015-Q3 to 2017-Q2 gives estimates centred near zero for all four outcomes, while the estimate at the true reform date stands clearly apart.</p>
+<p>One check is less reassuring. A placebo reform dated 2016-Q1 in the aggregate model produces no slope change for solo micro-entrepreneurs (0.002), but a significant one for hybrids (0.019), which means that hybrid micro-entrepreneurship was already accelerating before 2018. The slope change at the true reform date is about 30% larger, so part of the hybrid acceleration can be associated with the reform period, but the sixfold figure, which compares the post-reform trend with a single linear pre-reform trend, most likely overstates it.</p>
 </section>
 </section>
 <section id="how-the-model-works" class="level2">
@@ -569,12 +995,8 @@ JavaScript is needed to use the interactive diagrams. All equations, interpretat
 </noscript>
 </section>
 </section>
-<section id="key-findings" class="level2">
-<h2 class="anchored" data-anchor-id="key-findings">Key findings</h2>
-<section id="evidence-from-the-survey" class="level3">
-<h3 class="anchored" data-anchor-id="evidence-from-the-survey">Evidence from the survey</h3>
-<p>I find that the quarterly growth rate of <strong>solo microentrepreneurship roughly quadrupled</strong>, while that of <strong>hybrid microentrepreneurship increased about sixfold</strong> after the reform. These are changes in growth rates, not statements that the number of entrepreneurs multiplied by four or six. Individual-level controls support the finding that observable compositional changes do not explain the aggregate acceleration.</p>
-</section>
+<section id="structural-results" class="level2">
+<h2 class="anchored" data-anchor-id="structural-results">Structural results</h2>
 <section id="what-the-model-captures-and-what-it-misses" class="level3">
 <h3 class="anchored" data-anchor-id="what-the-model-captures-and-what-it-misses">What the model captures and what it misses</h3>
 <p>The model predicts a positive response, with a larger solo than hybrid effect. It strongly attenuates the size of that response. In the validation exercise, the change in the overall solo self-employment share is approximately <strong>0.02 percentage points in the model</strong>, compared with an <strong>ITS fitted change of 0.95 percentage points</strong>. For solo microentrepreneurship, the corresponding changes are <strong>0.29</strong> and <strong>0.89 percentage points</strong>.</p>
@@ -598,7 +1020,7 @@ JavaScript is needed to use the interactive diagrams. All equations, interpretat
 <p>These results come with serious caveats, and I would rather state them plainly than let the headline numbers speak for themselves.</p>
 <section id="the-reduced-form-break-is-not-a-clean-causal-effect" class="level3">
 <h3 class="anchored" data-anchor-id="the-reduced-form-break-is-not-a-clean-causal-effect">The reduced-form break is not a clean causal effect</h3>
-<p>The interrupted time series compares the trend of each occupational share before and after 2018-Q1 within a single national series, without any comparison group. With at most twelve quarters on each side of the reform, the design has limited power, and it rests entirely on the assumption that nothing else changed at the same moment. That assumption is hard to defend here, since the abolition of the RSI and the transfer of independent workers to the general social security system took effect on 1 January 2018, the very day the ceilings were raised. As both reforms concern the same population, I cannot separate their effects in the data. I argue in the thesis that the RSI transition was gradual and that the 2019 wage-side reforms (the PACTE law and the conversion of the CICE into employer contribution cuts) work against finding an effect, but this argument rests on reasoning about timing and target populations rather than on a test. The placebo and specification checks rule out spurious breaks at other dates, not a confounding shock on the same date. The estimates are therefore best read as a break in trend that coincides with the reform, rather than as the isolated effect of the higher ceiling.</p>
+<p>The interrupted time series compares the trend of each occupational share before and after 2018-Q1 within a single national series, without any comparison group. With at most twelve quarters on each side of the reform, the design has limited power, and it rests entirely on the assumption that nothing else changed at the same moment. That assumption is hard to defend here, since the abolition of the RSI and the transfer of independent workers to the general social security system took effect on 1 January 2018, the very day the ceilings were raised. As both reforms concern the same population, I cannot separate their effects in the data. I argue in the thesis that the RSI transition was gradual and that the 2019 wage-side reforms (the PACTE law and the conversion of the CICE into employer contribution cuts) work against finding an effect, but this argument rests on reasoning about timing and target populations rather than on a test. The placebo and specification checks rule out spurious breaks at other dates, not a confounding shock on the same date. The estimates are therefore best read as a break in trend that coincides with the reform, rather than as the isolated effect of the higher ceiling. For hybrid micro-entrepreneurs the problem is sharper still, since a placebo reform dated 2016-Q1 already detects a significant acceleration, so part of their growth predates the reform.</p>
 </section>
 <section id="the-data-cannot-see-the-businesses-the-reform-targets" class="level3">
 <h3 class="anchored" data-anchor-id="the-data-cannot-see-the-businesses-the-reform-targets">The data cannot see the businesses the reform targets</h3>

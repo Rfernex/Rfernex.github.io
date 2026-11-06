@@ -16,10 +16,10 @@ toc: false
 # Romain Fernex {.unnumbered}
 
 ::: {.intro}
-I am a predoctoral research assistant at **Bocconi University (IGIER)**, working with **Giulia Giupponi** and **Thomas Le Barbanchon**.
+Hello ! I am a predoctoral research assistant at **Bocconi University (IGIER)**, working with **Giulia Giupponi** and **Thomas Le Barbanchon** on projects related to Labour Economics and Polical Economy. 
 :::
 
-My work and academic projects focus on labour economics, occupational choice, and inequality. I combine applied econometrics with structural modelling and computational methods.
+My work and academic projects focus mainly on labour and public economics, with a strong interest for topics that relate to socio-economic inequalities and alternative forms of employment (notably pluriactivity and self-employment which are at the core of my thesis). Be it as a RA or for my own projects, I like combining applied econometrics with structural modelling to quantify and understand economic mechanism in depths and am always open to trying new methods in computational social sciences wherever they genuinely outperform the old (especially when it comes to NLP !). 
 
 ::: {.btn-row}
 [Download my CV](Resources/CV_Romain_Fernex.pdf){.btn-cta} [Master thesis](thesis.qmd){.btn-ghost} [Research experience](Research.qmd){.btn-ghost}
@@ -32,10 +32,10 @@ My work and academic projects focus on labour economics, occupational choice, an
 ::: {}
 ## About {.unnumbered}
 
-I completed the Master in Economics at Sciences Po in 2026, following a Master in Management at ESCP Business School and a dual-degree programme at Korea University. Before joining IGIER, I worked as a research assistant to Jean-Marc Robin at Sciences Po.
+I graduated from Sciences Po in 2026 (MPhil. Economics), following a Master in Management (major in Finance) at ESCP Business School and a dual-degree in consulting and data science at Korea University. Before joining IGIER, I worked as a research assistant to Jean-Marc Robin on testing a ML model (ridge) for firm and worker fixed effects estimations. This involved comparing how well this new estimator performed for this taks relative to standard biased and non debiased OLS models usually found in the AKM literature. 
 
 ::: {.chips}
-[Labour economics]{.chip} [Occupational choice]{.chip} [Inequality]{.chip} [Structural modelling]{.chip} [Applied econometrics]{.chip} [Text as data]{.chip}
+[Labour economics]{.chip} [Political Economy]{.chip} [Inequality]{.chip} [Structural modelling]{.chip} [Applied econometrics]{.chip} [Computational Social Sciences]{.chip} [NLP]{.chip}
 :::
 :::
 
@@ -91,9 +91,9 @@ A signalling model of hidden public debt and fiscal-rule enforcement, motivated 
 
 :::: {.column-page .cta-band}
 ::: {}
-## Get in touch {.unnumbered}
+## Let's get in touch ! {.unnumbered}
 
-The best way to reach me is by email at [romain.fernex@sciencespo.fr](mailto:romain.fernex@sciencespo.fr){style="color:#fff"}.
+Feel free to reach out to me at [romain.fernex at sciencespo.fr](mailto:romain.fernex@sciencespo.fr){style="color:#fff"}.
 :::
 
 ::: {.btn-row}
