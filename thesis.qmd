@@ -115,7 +115,7 @@ I estimate the interrupted time series at two levels. The aggregate design uses 
 
 ### Occupational shares
 
-Before going into the tables, Figure 1 shows the break for the two groups the reform matters most for. In both cases, the share of the active population grows faster after 2018-Q1 than the pre-reform trend would predict, and the gap widens with every quarter. For hybrids, part of this acceleration predates the reform, as the robustness checks below show.
+Figure 1 shows the break for the two groups the reform matters most for. In both cases, the share of the active population grows faster after 2018-Q1 than the pre-reform trend would predict, and the gap widens with every quarter. For hybrids, part of this acceleration predates the reform, as the robustness checks below show.
 
 ::: {#fig-its layout-ncol=1}
 ![Solo micro-entrepreneurs](assets/thesis/its-micro-only.png){fig-alt="Quarterly share of solo micro-entrepreneurs in the active population, 2015 to 2019, rising from about 1.6 to 2.7 percent, with a steeper fitted trend after 2018-Q1 than the extrapolated pre-reform trend."}
@@ -199,7 +199,7 @@ One check is less reassuring. A placebo reform dated 2016-Q1 in the aggregate mo
 
 ## How the model works
 
-The structural part of the thesis is exploratory. It is a first attempt at formalising the mechanisms behind the reduced-form results, and its calibration is poor, as the limitations below make clear. I present it for the trade-offs it makes explicit rather than for its numbers.
+The structural part of the thesis is exploratory. It is a first attempt at formalising the mechanisms behind the reduced-form results, and its calibration is poor, as the limitations below make clear.
 
 Each worker compares the value of four working arrangements: a single wage job ($W$), two wage jobs ($WW$), a wage job plus a business ($WSE$), and self-employment alone ($SE$). A non-employment outside option completes the theoretical model. The policy experiments condition on the four working states.
 
@@ -343,8 +343,6 @@ The counterfactual compares the higher ceiling with a flat increase in the micro
 
 ## Limitations
 
-These results come with serious caveats, and I would rather state them plainly than let the headline numbers speak for themselves.
-
 ### The reduced-form break is not a clean causal effect
 
 The interrupted time series compares the trend of each occupational share before and after 2018-Q1 within a single national series, without any comparison group. With at most twelve quarters on each side of the reform, the design has limited power, and it rests entirely on the assumption that nothing else changed at the same moment. That assumption is hard to defend here, since the abolition of the RSI and the transfer of independent workers to the general social security system took effect on 1 January 2018, the very day the ceilings were raised. As both reforms concern the same population, I cannot separate their effects in the data. I argue in the thesis that the RSI transition was gradual and that the 2019 wage-side reforms (the PACTE law and the conversion of the CICE into employer contribution cuts) work against finding an effect, but this argument rests on reasoning about timing and target populations rather than on a test. The placebo and specification checks rule out spurious breaks at other dates, not a confounding shock on the same date. The estimates are therefore best read as a break in trend that coincides with the reform, rather than as the isolated effect of the higher ceiling. For hybrid micro-entrepreneurs the problem is sharper still, since a placebo reform dated 2016-Q1 already detects a significant acceleration, so part of their growth predates the reform.
@@ -364,10 +362,6 @@ Other parts of the fit are weak as well. With risk aversion calibrated close to 
 Because of this attenuation, the absolute euro amounts and the number of induced entrepreneurs are not calibrated quantities and should not be read as such. The comparison between the ceiling and the premium only holds because the two instruments are matched on the same induced entry, so that the common attenuation cancels in the ratio. Even this ratio depends on the within-sector dispersion of operating costs, which I calibrate to reproduce the observed micro share rather than measure directly, and it moves from about 6 to about 9 across the values I consider. The composition contrast is robust to both problems, but it is close to built in. In the model, the ceiling can only act on the workers it binds, all of whom have high turnover, so finding that it attracts high-turnover entrepreneurs largely reflects the structure of the model rather than an independent finding. More broadly, the model is static and partial-equilibrium, it ignores the VAT decoupling that accompanied the reform, and it leaves out the option value of trying out entrepreneurship, which is likely to matter most for the low-earning entrants that the model barely produces.
 
 ## Further research
-
-Most of these limitations come from the data and from the tractability trade-offs of the model rather than from the question itself, and further work would have to start by addressing them.
-
-The most pressing issue is identification. Separating the higher ceiling from the abolition of the RSI, which took effect on the same day and concerned the same workers, would require a source of variation that a single national series does not offer. Until then, the reduced-form estimates remain a break in trend that coincides with the reform rather than its isolated effect.
 
 Further work to assess the relevance of a learning channel in this setting would require longer-run panel data, for instance the *base non-salariés*, which would track entrepreneurial revenues more accurately than the EEC allows. Such data would also show which businesses were actually constrained by the old ceiling, which is the very margin the reform acts on and the one this thesis cannot observe. On the model side, measuring the within-sector dispersion of operating costs directly from the firm-level FARE file, available through the CASD, would pin down a parameter that I currently calibrate and on which the fiscal comparison depends.
 
