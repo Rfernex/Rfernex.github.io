@@ -115,6 +115,16 @@ I estimate the interrupted time series at two levels. The aggregate design uses 
 
 ### Occupational shares
 
+Before going into the tables, Figure 1 shows the break for the two groups the reform matters most for. In both cases, the share of the active population grows faster after 2018-Q1 than the pre-reform trend would predict, and the gap widens with every quarter. For hybrids, part of this acceleration predates the reform, as the robustness checks below show.
+
+::: {#fig-its layout-ncol=1}
+![Solo micro-entrepreneurs](assets/thesis/its-micro-only.png){fig-alt="Quarterly share of solo micro-entrepreneurs in the active population, 2015 to 2019, rising from about 1.6 to 2.7 percent, with a steeper fitted trend after 2018-Q1 than the extrapolated pre-reform trend."}
+
+![Hybrid micro-entrepreneurs (a wage job and a micro-business)](assets/thesis/its-wage-micro.png){fig-alt="Quarterly share of hybrid micro-entrepreneurs in the active population, 2015 to 2019, rising from about 0.37 to 0.61 percent, with a much steeper fitted trend after 2018-Q1 than the extrapolated pre-reform trend."}
+
+Interrupted time series, share of the active population (%). Points are observed quarterly shares, solid lines are the fitted ITS trends, and the dashed line extends the pre-reform trend past 2018-Q1. The fitted lines are drawn for the first quarter, so they sit slightly off the points in other quarters.
+:::
+
 <div class="table-scroll">
 <table class="reg-table">
 <caption>Table 1. Aggregate interrupted time series: share of the active population, in percentage points</caption>
@@ -351,9 +361,10 @@ Because of this attenuation, the absolute euro amounts and the number of induced
 
 ## Further research
 
-Better data and a richer model would help address these questions.
+Most of these limitations come from the data and from the tractability trade-offs of the model rather than from the question itself, and further work would have to start by addressing them.
 
-- **Longer panels and better entrepreneurial revenue data**, including the *base non-salariés*, to investigate learning, experimentation, and the longer-run value of entering self-employment.
-- **Firm-level cost data**, such as FARE, to measure within-sector cost dispersion directly rather than calibrating it.
-- **The VAT decoupling** that accompanied the reform, which changes incentives between the old and new ceilings but is not represented in the model.
-- **General-equilibrium feedback**, to study how large occupational shifts could change the returns to wage employment and entrepreneurship.
+The most pressing issue is identification. Separating the higher ceiling from the abolition of the RSI, which took effect on the same day and concerned the same workers, would require a source of variation that a single national series does not offer. Until then, the reduced-form estimates remain a break in trend that coincides with the reform rather than its isolated effect.
+
+Further work to assess the relevance of a learning channel in this setting would require longer-run panel data, for instance the *base non-salariés*, which would track entrepreneurial revenues more accurately than the EEC allows. Such data would also show which businesses were actually constrained by the old ceiling, which is the very margin the reform acts on and the one this thesis cannot observe. On the model side, measuring the within-sector dispersion of operating costs directly from the firm-level FARE file, available through the CASD, would pin down a parameter that I currently calibrate and on which the fiscal comparison depends.
+
+The VAT decoupling that accompanied the reform also deserves attention in its own right, since it altered incentives in the band between the old and new thresholds in ways the present model does not represent. Lastly, moving from a static, partial-equilibrium framework to a dynamic and general-equilibrium one would be needed to capture the option value of trying out entrepreneurship, to test whether a learning value of hybrid employment explains the surge that the current model leaves unexplained, and to see how a large entry response feeds back into the returns to wage work and self-employment.
