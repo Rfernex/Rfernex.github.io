@@ -17,7 +17,7 @@ Full title: *Self-Employment and Dual-Jobholding: Compositional Shifts in the Fr
 
 ## Abstract
 
-France's 2018 reform raised the turnover ceilings for micro-entrepreneurs. Using the French Labour Force Survey (*Enquête Emploi en Continu*) over 2015–2019, I study how the reform changed solo self-employment and entrepreneurship alongside a wage job. Interrupted time series estimates show a marked acceleration in both forms of microentrepreneurship. I then estimate a static occupational choice model that combines tax treatment, administrative effort, preferences for varied work, and income risk. The model reproduces the direction and solo-over-hybrid ranking of the response but substantially understates its magnitude. Its counterfactual comparison suggests that raising the ceiling generates more revenue per induced entrepreneur than a matched increase in the micro premium, while drawing a much more concentrated group of high-turnover, high-ability entrepreneurs.
+France's 2018 reform raised the turnover ceilings for micro-entrepreneurs. Using the French Labour Force Survey (*Enquête Emploi en Continu*) over 2015–2019, I study how the reform changed solo self-employment and entrepreneurship alongside a wage job. Interrupted time series estimates show a marked acceleration in both forms of microentrepreneurship. As an exploratory complement, I then estimate a static occupational choice model that combines tax treatment, administrative effort, preferences for varied work, and income risk. The model reproduces the direction and solo-over-hybrid ranking of the response but substantially understates its magnitude. Its counterfactual comparison suggests that raising the ceiling generates more revenue per induced entrepreneur than a matched increase in the micro premium, while drawing a much more concentrated group of high-turnover, high-ability entrepreneurs.
 
 ## The question behind the research
 
@@ -199,6 +199,8 @@ One check is less reassuring. A placebo reform dated 2016-Q1 in the aggregate mo
 
 ## How the model works
 
+The structural part of the thesis is exploratory. It is a first attempt at formalising the mechanisms behind the reduced-form results, and its calibration is poor, as the limitations below make clear. I present it for the trade-offs it makes explicit rather than for its numbers.
+
 Each worker compares the value of four working arrangements: a single wage job ($W$), two wage jobs ($WW$), a wage job plus a business ($WSE$), and self-employment alone ($SE$). A non-employment outside option completes the theoretical model. The policy experiments condition on the four working states.
 
 <div class="mechanism-flow" aria-label="Three stages of the occupational choice model">
@@ -318,6 +320,8 @@ A small $\lambda_L$ makes choice closely follow the highest modelled value. A la
 <noscript><p class="note">JavaScript is needed to use the interactive diagrams. All equations, interpretations, and findings remain available in the text and full paper.</p></noscript>
 
 ## Structural results
+
+Given the exploratory nature of the model, these results illustrate how the mechanism could work rather than measure the effect of the reform.
 
 ### What the model captures and what it misses
 

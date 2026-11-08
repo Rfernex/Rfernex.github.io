@@ -63,7 +63,7 @@ I graduated from Sciences Po in 2026 (MPhil. Economics), following a Master in M
 
 ### [Self-employment and dual jobholding](thesis.qmd)
 
-How the 2018 microentrepreneurship reform reshaped occupational choices in France, combining interrupted time series evidence with a structural occupational choice model.
+How the 2018 microentrepreneurship reform reshaped occupational choices in France, combining interrupted time series evidence with an exploratory structural model of occupational choice.
 
 [Read the overview →]{.card-more}
 :::

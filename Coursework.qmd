@@ -85,7 +85,7 @@ This report reviews “Does Tax-Benefit Linkage Matter for the Incidence of Payr
 
 <div class="meta"><span>Master in Economics · Sciences Po</span><span>Supervisor: Pierre Cahuc</span><span>M2 · May 2026</span><span class="grade">Grade: 17/20</span></div>
 
-An analysis of the 2018 French microentrepreneurship reform, combining interrupted time series evidence with a structural occupational choice model.
+An analysis of the 2018 French microentrepreneurship reform, combining interrupted time series evidence with an exploratory structural model of occupational choice.
 
 [Overview & interactive model →](thesis.qmd)
 :::
