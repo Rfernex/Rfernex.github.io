@@ -285,7 +285,10 @@ body:has(.hero-band) main.content { margin-top: 0 !important; padding-top: 0 !im
 .work-card:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); border-color: #d3deeb; }
 .work-card h3 { font-size: 1.18rem; margin: .1rem 0 .5rem; }
 .work-card h3 a { color: var(--ink); text-decoration: none; }
-.work-card h3 a::after { content: ""; position: absolute; inset: 0; }
+/* Only the title link covers the card. Quarto adds an anchor link to every heading,
+   which must not be stretched over the card or it swallows the click. */
+.work-card h3 a:not(.anchorjs-link)::after { content: ""; position: absolute; inset: 0; }
+.work-card h3 .anchorjs-link { display: none; }
 .work-card p { font-size: .92rem; color: var(--muted); margin-bottom: .6rem; }
 .work-card .meta { margin: .2rem 0 .7rem; }
 .work-card .card-more { margin-top: auto; font-size: .87rem; font-weight: 600; color: var(--blue); }
