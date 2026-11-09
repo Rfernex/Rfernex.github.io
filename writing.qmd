@@ -95,54 +95,54 @@ My series of short portraits of figures from Japanese history, written for the E
 ```{=html}
 <div class="pr">
   <div class="pr-shelf">
-    <button class="pr-arrow pr-arrow-left" type="button" data-act="scroll-left" aria-label="Show earlier portraits" hidden>‹</button>
+    <button class="pr-arrow pr-arrow-left" type="button" data-act="scroll-left" aria-label="Show newer portraits" hidden>‹</button>
     <ol class="pr-strip">
-      <li><a class="pr-tile" href="Resources/writing/kishida-toshiko.pdf" data-slug="kishida-toshiko" data-name="Kishida Toshiko" data-kanji="岸田俊子" data-year="2024" data-desc="One of the first figures of the Japanese feminist movement, from tutor to the empress to public speaker.">
-        <span class="pr-thumb"><img src="assets/writing/portraits/kishida-toshiko.jpg" alt="" width="300" height="375" loading="lazy"></span>
-        <span class="pr-label"><span class="pr-tile-year">2024</span><span class="pr-tile-name">Kishida Toshiko</span></span>
-      </a></li>
-      <li><a class="pr-tile" href="Resources/writing/fukuzawa-yukichi.pdf" data-slug="fukuzawa-yukichi" data-name="Fukuzawa Yukichi" data-kanji="福澤諭吉" data-year="2024" data-desc="A thinker in the image of the Meiji era, who studied Western knowledge and founded the ancestor of Keio University.">
-        <span class="pr-thumb"><img src="assets/writing/portraits/fukuzawa-yukichi.jpg" alt="" width="300" height="375" loading="lazy"></span>
-        <span class="pr-label"><span class="pr-tile-year">2024</span><span class="pr-tile-name">Fukuzawa Yukichi</span></span>
-      </a></li>
-      <li><a class="pr-tile" href="Resources/writing/oda-nobunaga.pdf" data-slug="oda-nobunaga" data-name="Oda Nobunaga" data-kanji="織田信長" data-year="2024" data-desc="The daimyo who began the unification of Japan, from the conquest of Owari to his death in 1582.">
-        <span class="pr-thumb pr-thumb-text" aria-hidden="true"><span lang="ja">織田信長</span></span>
-        <span class="pr-label"><span class="pr-tile-year">2024</span><span class="pr-tile-name">Oda Nobunaga</span></span>
-      </a></li>
-      <li><a class="pr-tile" href="Resources/writing/date-masamune.pdf" data-slug="date-masamune" data-name="Masamune Date" data-kanji="伊達政宗" data-year="2024" data-desc="The “one-eyed dragon” who conquered northern Japan, rallied Hideyoshi, and left a lasting mark on the Tohoku region.">
-        <span class="pr-thumb"><img src="assets/writing/portraits/date-masamune.jpg" alt="" width="300" height="375" loading="lazy"></span>
-        <span class="pr-label"><span class="pr-tile-year">2024</span><span class="pr-tile-name">Masamune Date</span></span>
-      </a></li>
-      <li><a class="pr-tile" href="Resources/writing/kusunoki-masashige.pdf" data-slug="kusunoki-masashige" data-name="Kusunoki Masashige" data-kanji="楠木正成" data-year="2024" data-desc="The fourteenth-century warrior whose sacrifice in the service of the emperor made him a heroic figure.">
-        <span class="pr-thumb"><img src="assets/writing/portraits/kusunoki-masashige.jpg" alt="" width="300" height="375" loading="lazy"></span>
-        <span class="pr-label"><span class="pr-tile-year">2024</span><span class="pr-tile-name">Kusunoki Masashige</span></span>
-      </a></li>
-      <li><a class="pr-tile" href="Resources/writing/matsuo-basho.pdf" data-slug="matsuo-basho" data-name="Matsuo Bashō" data-kanji="松尾芭蕉" data-year="2025" data-desc="The Edo-period master of haiku, from his travels to his most famous poem.">
-        <span class="pr-thumb"><img src="assets/writing/portraits/matsuo-basho.jpg" alt="" width="300" height="375" loading="lazy"></span>
-        <span class="pr-label"><span class="pr-tile-year">2025</span><span class="pr-tile-name">Matsuo Bashō</span></span>
-      </a></li>
-      <li><a class="pr-tile" href="Resources/writing/gustave-boissonade.pdf" data-slug="gustave-boissonade" data-name="Gustave Boissonade" data-kanji="ボアソナード" data-year="2025" data-desc="The French jurist called to Japan in 1873, at the origins of the modernisation of Japanese law.">
-        <span class="pr-thumb"><img src="assets/writing/portraits/gustave-boissonade.jpg" alt="" width="300" height="375" loading="lazy"></span>
-        <span class="pr-label"><span class="pr-tile-year">2025</span><span class="pr-tile-name">Gustave Boissonade</span></span>
-      </a></li>
-      <li><a class="pr-tile" href="Resources/writing/prince-shotoku.pdf" data-slug="prince-shotoku" data-name="Prince Shōtoku" data-kanji="聖徳太子" data-year="2025" data-desc="The seventh-century prince credited with the twelve-rank court system and the renewal of relations with China.">
-        <span class="pr-thumb"><img src="assets/writing/portraits/prince-shotoku.jpg" alt="" width="300" height="375" loading="lazy"></span>
-        <span class="pr-label"><span class="pr-tile-year">2025</span><span class="pr-tile-name">Prince Shōtoku</span></span>
-      </a></li>
-      <li><a class="pr-tile" href="Resources/writing/minamoto-no-yoritomo.pdf" data-slug="minamoto-no-yoritomo" data-name="Minamoto no Yoritomo" data-kanji="源頼朝" data-year="2025" data-desc="The founder of the Kamakura shogunate, the first shogunate in Japanese history.">
-        <span class="pr-thumb"><img src="assets/writing/portraits/minamoto-no-yoritomo.jpg" alt="" width="300" height="375" loading="lazy"></span>
-        <span class="pr-label"><span class="pr-tile-year">2025</span><span class="pr-tile-name">Minamoto no Yoritomo</span></span>
+      <li><a class="pr-tile" href="Resources/writing/sakamoto-ryoma.pdf" data-slug="sakamoto-ryoma" data-name="Sakamoto Ryōma" data-kanji="坂本龍馬" data-year="2026" data-desc="A hero of Japan’s national narrative, and the debates among historians about his actual role.">
+        <span class="pr-thumb"><img src="assets/writing/portraits/sakamoto-ryoma.jpg" alt="" width="300" height="375" loading="lazy"></span>
+        <span class="pr-label"><span class="pr-tile-year">2026</span><span class="pr-tile-name">Sakamoto Ryōma</span></span>
       </a></li>
       <li><a class="pr-tile" href="Resources/writing/tokugawa-yoshimune.pdf" data-slug="tokugawa-yoshimune" data-name="Tokugawa Yoshimune" data-kanji="徳川吉宗" data-year="2026" data-desc="The eighth Tokugawa shogun, who took over an indebted regime in 1716 and reformed its administration and finances.">
         <span class="pr-thumb"><img src="assets/writing/portraits/tokugawa-yoshimune.jpg" alt="" width="300" height="375" loading="lazy"></span>
         <span class="pr-label"><span class="pr-tile-year">2026</span><span class="pr-tile-name">Tokugawa Yoshimune</span></span>
       </a></li>
-      <li><a class="pr-tile" href="Resources/writing/sakamoto-ryoma.pdf" data-slug="sakamoto-ryoma" data-name="Sakamoto Ryōma" data-kanji="坂本龍馬" data-year="2026" data-desc="A hero of Japan’s national narrative, and the debates among historians about his actual role.">
-        <span class="pr-thumb"><img src="assets/writing/portraits/sakamoto-ryoma.jpg" alt="" width="300" height="375" loading="lazy"></span>
-        <span class="pr-label"><span class="pr-tile-year">2026</span><span class="pr-tile-name">Sakamoto Ryōma</span></span>
+      <li><a class="pr-tile" href="Resources/writing/minamoto-no-yoritomo.pdf" data-slug="minamoto-no-yoritomo" data-name="Minamoto no Yoritomo" data-kanji="源頼朝" data-year="2025" data-desc="The founder of the Kamakura shogunate, the first shogunate in Japanese history.">
+        <span class="pr-thumb"><img src="assets/writing/portraits/minamoto-no-yoritomo.jpg" alt="" width="300" height="375" loading="lazy"></span>
+        <span class="pr-label"><span class="pr-tile-year">2025</span><span class="pr-tile-name">Minamoto no Yoritomo</span></span>
+      </a></li>
+      <li><a class="pr-tile" href="Resources/writing/prince-shotoku.pdf" data-slug="prince-shotoku" data-name="Prince Shōtoku" data-kanji="聖徳太子" data-year="2025" data-desc="The seventh-century prince credited with the twelve-rank court system and the renewal of relations with China.">
+        <span class="pr-thumb"><img src="assets/writing/portraits/prince-shotoku.jpg" alt="" width="300" height="375" loading="lazy"></span>
+        <span class="pr-label"><span class="pr-tile-year">2025</span><span class="pr-tile-name">Prince Shōtoku</span></span>
+      </a></li>
+      <li><a class="pr-tile" href="Resources/writing/gustave-boissonade.pdf" data-slug="gustave-boissonade" data-name="Gustave Boissonade" data-kanji="ボアソナード" data-year="2025" data-desc="The French jurist called to Japan in 1873, at the origins of the modernisation of Japanese law.">
+        <span class="pr-thumb"><img src="assets/writing/portraits/gustave-boissonade.jpg" alt="" width="300" height="375" loading="lazy"></span>
+        <span class="pr-label"><span class="pr-tile-year">2025</span><span class="pr-tile-name">Gustave Boissonade</span></span>
+      </a></li>
+      <li><a class="pr-tile" href="Resources/writing/matsuo-basho.pdf" data-slug="matsuo-basho" data-name="Matsuo Bashō" data-kanji="松尾芭蕉" data-year="2025" data-desc="The Edo-period master of haiku, from his travels to his most famous poem.">
+        <span class="pr-thumb"><img src="assets/writing/portraits/matsuo-basho.jpg" alt="" width="300" height="375" loading="lazy"></span>
+        <span class="pr-label"><span class="pr-tile-year">2025</span><span class="pr-tile-name">Matsuo Bashō</span></span>
+      </a></li>
+      <li><a class="pr-tile" href="Resources/writing/kusunoki-masashige.pdf" data-slug="kusunoki-masashige" data-name="Kusunoki Masashige" data-kanji="楠木正成" data-year="2024" data-desc="The fourteenth-century warrior whose sacrifice in the service of the emperor made him a heroic figure.">
+        <span class="pr-thumb"><img src="assets/writing/portraits/kusunoki-masashige.jpg" alt="" width="300" height="375" loading="lazy"></span>
+        <span class="pr-label"><span class="pr-tile-year">2024</span><span class="pr-tile-name">Kusunoki Masashige</span></span>
+      </a></li>
+      <li><a class="pr-tile" href="Resources/writing/date-masamune.pdf" data-slug="date-masamune" data-name="Masamune Date" data-kanji="伊達政宗" data-year="2024" data-desc="The “one-eyed dragon” who conquered northern Japan, rallied Hideyoshi, and left a lasting mark on the Tohoku region.">
+        <span class="pr-thumb"><img src="assets/writing/portraits/date-masamune.jpg" alt="" width="300" height="375" loading="lazy"></span>
+        <span class="pr-label"><span class="pr-tile-year">2024</span><span class="pr-tile-name">Masamune Date</span></span>
+      </a></li>
+      <li><a class="pr-tile" href="Resources/writing/oda-nobunaga.pdf" data-slug="oda-nobunaga" data-name="Oda Nobunaga" data-kanji="織田信長" data-year="2024" data-desc="The daimyo who began the unification of Japan, from the conquest of Owari to his death in 1582.">
+        <span class="pr-thumb pr-thumb-text" aria-hidden="true"><span lang="ja">織田信長</span></span>
+        <span class="pr-label"><span class="pr-tile-year">2024</span><span class="pr-tile-name">Oda Nobunaga</span></span>
+      </a></li>
+      <li><a class="pr-tile" href="Resources/writing/fukuzawa-yukichi.pdf" data-slug="fukuzawa-yukichi" data-name="Fukuzawa Yukichi" data-kanji="福澤諭吉" data-year="2024" data-desc="A thinker in the image of the Meiji era, who studied Western knowledge and founded the ancestor of Keio University.">
+        <span class="pr-thumb"><img src="assets/writing/portraits/fukuzawa-yukichi.jpg" alt="" width="300" height="375" loading="lazy"></span>
+        <span class="pr-label"><span class="pr-tile-year">2024</span><span class="pr-tile-name">Fukuzawa Yukichi</span></span>
+      </a></li>
+      <li><a class="pr-tile" href="Resources/writing/kishida-toshiko.pdf" data-slug="kishida-toshiko" data-name="Kishida Toshiko" data-kanji="岸田俊子" data-year="2024" data-desc="One of the first figures of the Japanese feminist movement, from tutor to the empress to public speaker.">
+        <span class="pr-thumb"><img src="assets/writing/portraits/kishida-toshiko.jpg" alt="" width="300" height="375" loading="lazy"></span>
+        <span class="pr-label"><span class="pr-tile-year">2024</span><span class="pr-tile-name">Kishida Toshiko</span></span>
       </a></li>
     </ol>
-    <button class="pr-arrow pr-arrow-right" type="button" data-act="scroll-right" aria-label="Show later portraits" hidden>›</button>
+    <button class="pr-arrow pr-arrow-right" type="button" data-act="scroll-right" aria-label="Show older portraits" hidden>›</button>
   </div>
   <div class="pr-viewer">
     <div class="pr-head">
