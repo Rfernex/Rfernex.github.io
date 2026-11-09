@@ -147,10 +147,31 @@ table.reg-table tr.stats:first-of-type td, table.reg-table tr.derived + tr.stats
   background: linear-gradient(135deg, #172b43 0%, #243f58 100%); color: #e1e8ef; box-shadow: var(--shadow);
 }
 .featured-work::before { content: ""; position: absolute; left: -1px; top: -1px; bottom: -1px; width: 4px; background: #e2b778; border-radius: var(--radius) 0 0 var(--radius); }
-.featured-cover { display: block; border-radius: 4px; overflow: hidden; box-shadow: 0 2px 6px rgba(23, 34, 52, .12), 0 16px 34px rgba(23, 34, 52, .2); transition: transform .2s ease, box-shadow .2s ease; }
-.featured-cover:hover { transform: translateY(-3px); box-shadow: 0 4px 10px rgba(23, 34, 52, .14), 0 22px 40px rgba(23, 34, 52, .22); }
+.featured-cover { display: block; position: relative; border-radius: 4px; }
+.featured-cover-surface {
+  display: block; position: relative; overflow: hidden; border-radius: inherit;
+  transform: perspective(850px) rotateX(0deg) rotateY(0deg);
+  box-shadow: 0 2px 6px rgba(23, 34, 52, .12), 0 16px 34px rgba(23, 34, 52, .2);
+  transition: transform .45s cubic-bezier(.2, .7, .2, 1), box-shadow .3s ease;
+}
+.featured-cover-surface::after {
+  content: ""; position: absolute; inset: 0; pointer-events: none; border-radius: inherit;
+  background: radial-gradient(ellipse at var(--light-x, 50%) var(--light-y, 50%), rgba(255, 244, 220, .24), rgba(255, 255, 255, .06) 40%, transparent 72%);
+  box-shadow: inset 0 0 0 1px rgba(255, 255, 255, .22);
+  opacity: 0; transition: opacity .3s ease;
+}
 .featured-cover img { display: block; width: 100%; height: auto; transition: filter .2s ease; }
-.featured-cover:hover img { filter: brightness(1.3); }
+@media (hover: hover) and (pointer: fine) {
+  .featured-cover:hover img { filter: brightness(1.3); }
+}
+@media (hover: hover) and (pointer: fine) and (prefers-reduced-motion: no-preference) {
+  .featured-cover.is-tilting .featured-cover-surface {
+    transform: perspective(850px) translateY(-3px) rotateX(var(--tilt-x, 0deg)) rotateY(var(--tilt-y, 0deg)) scale(1.02);
+    box-shadow: var(--shadow-x, 0px) 22px 40px rgba(8, 18, 30, .4);
+    transition-duration: .12s, .3s;
+  }
+  .featured-cover.is-tilting .featured-cover-surface::after { opacity: 1; }
+}
 .featured-body .eyebrow { margin-bottom: .4rem; color: #e2b778; }
 .featured-body h3 { margin: 0; font-size: 1.45rem; line-height: 1.28; }
 .featured-body h3 a { color: #fff; text-decoration: none; }

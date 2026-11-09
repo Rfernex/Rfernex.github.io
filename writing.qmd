@@ -4,7 +4,7 @@ subtitle: Because economics is not the only thing that matters in life, this par
 toc: true
 toc-depth: 2
 include-after-body:
-  text: '<script src="assets/portrait-reader.js" defer></script>'
+  text: '<script src="assets/portrait-reader.js" defer></script><script src="assets/dossier-cover.js" defer></script>'
 ---
 
 **WARNING** : Most of the articles below are written in **French**, apologies for the lack of inclusiveness on this one 🙏
@@ -12,7 +12,9 @@ include-after-body:
 ```{=html}
 <div class="featured-work">
   <a class="featured-cover" href="Resources/writing/internationalisation-enseignement-superieur-japonais.pdf" tabindex="-1" aria-hidden="true">
-    <img src="assets/writing/dossier-cover.jpg" alt="" width="560" height="725">
+    <span class="featured-cover-surface">
+      <img src="assets/writing/dossier-cover.jpg" alt="" width="560" height="725">
+    </span>
   </a>
   <div class="featured-body">
     <p class="eyebrow">Featured dossier</p>
