@@ -143,20 +143,25 @@ table.reg-table tr.stats:first-of-type td, table.reg-table tr.derived + tr.stats
 /* Featured dossier */
 .featured-work {
   position: relative; display: grid; grid-template-columns: minmax(150px, 220px) 1fr; gap: 1.9rem; align-items: center;
-  margin: 1.6rem 0 2.8rem; padding: 1.7rem 1.8rem; border: 1px solid var(--line); border-radius: var(--radius);
-  background: linear-gradient(135deg, #fff 0%, var(--soft) 100%); box-shadow: var(--shadow);
+  margin: 1.6rem 0 2.8rem; padding: 1.7rem 1.8rem; border: 1px solid #304860; border-radius: var(--radius);
+  background: linear-gradient(135deg, #172b43 0%, #243f58 100%); color: #e1e8ef; box-shadow: var(--shadow);
 }
-.featured-work::before { content: ""; position: absolute; left: -1px; top: -1px; bottom: -1px; width: 4px; background: var(--blue); border-radius: var(--radius) 0 0 var(--radius); }
+.featured-work::before { content: ""; position: absolute; left: -1px; top: -1px; bottom: -1px; width: 4px; background: #e2b778; border-radius: var(--radius) 0 0 var(--radius); }
 .featured-cover { display: block; border-radius: 4px; overflow: hidden; box-shadow: 0 2px 6px rgba(23, 34, 52, .12), 0 16px 34px rgba(23, 34, 52, .2); transition: transform .2s ease, box-shadow .2s ease; }
 .featured-cover:hover { transform: translateY(-3px); box-shadow: 0 4px 10px rgba(23, 34, 52, .14), 0 22px 40px rgba(23, 34, 52, .22); }
 .featured-cover img { display: block; width: 100%; height: auto; }
-.featured-body .eyebrow { margin-bottom: .4rem; }
+.featured-body .eyebrow { margin-bottom: .4rem; color: #e2b778; }
 .featured-body h3 { margin: 0; font-size: 1.45rem; line-height: 1.28; }
-.featured-body h3 a { color: var(--ink); text-decoration: none; }
-.featured-body h3 a:hover { color: var(--blue); }
+.featured-body h3 a { color: #fff; text-decoration: none; }
+.featured-body h3 a:hover { color: #f2d5ac; }
 .featured-body .meta { margin: .8rem 0 .9rem; }
+.featured-body .meta span { background: #304960; border-color: #50667c; color: #e1e8ef; }
+.featured-body .meta .lang { background: #e2b778; border-color: #e2b778; color: #172b43; }
 .featured-body p { font-size: .97rem; margin-bottom: 0; }
 .featured-body .featured-actions { margin-top: 1.2rem; }
+.featured-body a.btn-cta { background: #e2b778; border-color: #e2b778; color: #172b43; }
+.featured-body a.btn-cta:hover { background: #f2d5ac; border-color: #f2d5ac; color: #172b43; }
+.featured-work :focus-visible { outline-color: #f2d5ac; }
 
 /* Portrait reader: a strip of figures, then the selected portrait's pages */
 .pr { margin: 1.4rem 0 2.8rem; scroll-margin-top: 5.5rem; }
