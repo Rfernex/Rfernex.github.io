@@ -1,6 +1,6 @@
 ---
-title: "The media language of police killings"
-subtitle: "Referee report"
+title: 'Referee report on “Officer-Involved: The Media Language of Police Killings”'
+subtitle: "Paper by J. Moreno-Medina, A. Ouss, P. Bayer and B. A. Ba (NBER Working Paper, 2022)"
 toc: false
 ---
 
@@ -8,9 +8,9 @@ toc: false
 
 [Read the referee report (PDF)](../Resources/law-referee.pdf) · [GitHub repository ↗](https://github.com/Rfernex/Referee-Reports/tree/main/Referee_Report___Law___Economics)
 
-## Abstract
+## My report
 
-A critical review of “Officer-Involved: The Media Language of Police Killings.” I examine how linguistic measures of obfuscation relate to accountability and support for policing, and assess the evidence linking police reports to media language. The report proposes refinements to the experimental outcome measures, closer analysis of information attribution, and checks for differences in media exposure and socioeconomic context.
+The paper by Moreno-Medina, Ouss, Bayer and Ba measures obfuscatory language in US news reports on police killings and relates it to support for the police. In my report, I argue that their evidence shows a correlation between police and media language rather than police reports driving media coverage, and I suggest an analysis of evidential markers such as “police say” to test it. I also question the donation outcome used in their experiment, propose the CES panel to account for respondents’ media exposure, and point to other differences across media outlets worth examining.
 
 ## About this work
 

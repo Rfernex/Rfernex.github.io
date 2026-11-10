@@ -1,6 +1,6 @@
 ---
-title: "Labour market power, self-employment, and development"
-subtitle: "Referee report"
+title: 'Referee report on “Labor Market Power, Self-Employment, and Development”'
+subtitle: "Paper by F. Amodio, P. Medina and M. Morlacco"
 toc: false
 ---
 
@@ -8,12 +8,12 @@ toc: false
 
 [Read the referee report (PDF)](../Resources/development-referee.pdf)
 
-## Abstract
+## My report
 
-This report evaluates Amodio, Medina, and Morlacco’s analysis of self-employment as an outside option in concentrated Peruvian labour markets. I examine the identification of wage markdowns, including the possibility that electrification affects wages through rent-sharing, and discuss the interpretation of worker sorting. I propose an extension using the expansion of municipal microfinance institutions to investigate whether improving self-employment opportunities changes wages differently across labour markets with different levels of concentration.
+The paper by Amodio, Medina and Morlacco studies self-employment as an outside option in concentrated Peruvian labour markets. In my report, I question their identification of wage markdowns, since the electrification shock they use may also raise wages through rent-sharing, and I show that their model overstates how much earnings fall with employer concentration. I then propose an extension using the expansion of the Cajas Municipales microfinance network to test whether better self-employment opportunities raise wages more in concentrated labour markets.
 
 ## About this work
 
-The proposed design addresses endogenous branch placement through a shift-share instrument and considers the scope for spatial spillovers.
+My proposed design deals with the endogenous placement of branches through a shift-share instrument and discusses possible spatial spillovers.
 
 [← All papers & coursework](../Coursework.qmd)

@@ -45,11 +45,13 @@ Building on Allcott et al. (2019), this proposal examines restrictions imposed b
 ::: {.work-entry}
 [Referee report]{.eyebrow}
 
-### [Labour market power, self-employment, and development](papers/development-referee.qmd)
+### [“Labor Market Power, Self-Employment, and Development”](papers/development-referee.qmd)
+
+[Paper by F. Amodio, P. Medina and M. Morlacco]{.paper-by}
 
 <div class="meta"><span>Development Economics</span><span>Clément Imbert</span><span>M2 · April 2026</span><span class="grade">Grade: 18/20</span></div>
 
-This report evaluates Amodio, Medina, and Morlacco’s analysis of self-employment as an outside option in concentrated Peruvian labour markets. I examine the identification of wage markdowns, including the possibility that electrification affects wages through rent-sharing, and discuss the interpretation of worker sorting. I propose an extension using the expansion of municipal microfinance institutions to investigate whether improving self-employment opportunities changes wages differently across labour markets with different levels of concentration.
+The paper by Amodio, Medina and Morlacco studies self-employment as an outside option in concentrated Peruvian labour markets. In my report, I question their identification of wage markdowns, since the electrification shock they use may also raise wages through rent-sharing, and I show that their model overstates how much earnings fall with employer concentration. I then propose an extension using the expansion of the Cajas Municipales microfinance network to test whether better self-employment opportunities raise wages more in concentrated labour markets.
 
 [Overview & paper →](papers/development-referee.qmd)
 :::
@@ -57,11 +59,13 @@ This report evaluates Amodio, Medina, and Morlacco’s analysis of self-employme
 ::: {.work-entry}
 [Referee report]{.eyebrow}
 
-### [The media language of police killings](papers/law-referee.qmd)
+### [“Officer-Involved: The Media Language of Police Killings”](papers/law-referee.qmd)
+
+[Paper by J. Moreno-Medina, A. Ouss, P. Bayer and B. A. Ba (NBER Working Paper, 2022)]{.paper-by}
 
 <div class="meta"><span>Topics in Political, Public and Organizational Economics · Law &amp; Economics block</span><span>Roberto Galbiati</span><span>M2</span></div>
 
-A critical review of “Officer-Involved: The Media Language of Police Killings.” I examine how linguistic measures of obfuscation relate to accountability and support for policing, and assess the evidence linking police reports to media language. The report proposes refinements to the experimental outcome measures, closer analysis of information attribution, and checks for differences in media exposure and socioeconomic context.
+The paper by Moreno-Medina, Ouss, Bayer and Ba measures obfuscatory language in US news reports on police killings and relates it to support for the police. In my report, I argue that their evidence shows a correlation between police and media language rather than police reports driving media coverage, and I suggest an analysis of evidential markers such as “police say” to test it. I also question the donation outcome used in their experiment, propose the CES panel to account for respondents’ media exposure, and point to other differences across media outlets worth examining.
 
 [Overview & paper →](papers/law-referee.qmd)
 :::
@@ -69,11 +73,13 @@ A critical review of “Officer-Involved: The Media Language of Police Killings.
 ::: {.work-entry}
 [Referee report]{.eyebrow}
 
-### [Tax–benefit linkage and payroll tax incidence](papers/public-referee.qmd)
+### [“Does Tax-Benefit Linkage Matter for the Incidence of Payroll Taxes?”](papers/public-referee.qmd)
+
+[Paper by A. Bozio et al. (2025)]{.paper-by}
 
 <div class="meta"><span>Topics in Political, Public and Organizational Economics · Public Economics block</span><span>Antoine Ferey</span><span>M2</span></div>
 
-This report reviews “Does Tax-Benefit Linkage Matter for the Incidence of Payroll Taxes?” It examines the argument that workers’ perceived benefits from a tax influence its pass-through to earnings. My comments focus on potential asymmetry between tax cuts and increases, heterogeneity in perceived tax–benefit linkage, and the role of industry-specific shocks in the empirical designs.
+The paper by Bozio et al. argues, using six French reforms, that the perceived link between a payroll tax and the benefits it funds determines how much of the tax is passed on to workers’ earnings. In my report, I argue that one of their no-linkage reforms is a tax cut, which employers may pass on less for reasons unrelated to linkage, and I propose the 2007 exemption of overtime hours as a test. I also suggest allowing perceived linkage to vary across workers, for instance by age, and controlling for industry-specific shocks.
 
 [Overview & paper →](papers/public-referee.qmd)
 :::

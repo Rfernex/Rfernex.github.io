@@ -1,6 +1,6 @@
 ---
-title: "Tax–benefit linkage and payroll tax incidence"
-subtitle: "Referee report"
+title: 'Referee report on “Does Tax-Benefit Linkage Matter for the Incidence of Payroll Taxes?”'
+subtitle: "Paper by A. Bozio et al. (2025)"
 toc: false
 ---
 
@@ -8,9 +8,9 @@ toc: false
 
 [Read the referee report (PDF)](../Resources/public-referee.pdf) · [GitHub repository ↗](https://github.com/Rfernex/Referee-Reports/tree/main/Referee_Report___Public_Economics)
 
-## Abstract
+## My report
 
-This report reviews “Does Tax-Benefit Linkage Matter for the Incidence of Payroll Taxes?” It examines the argument that workers’ perceived benefits from a tax influence its pass-through to earnings. My comments focus on potential asymmetry between tax cuts and increases, heterogeneity in perceived tax–benefit linkage, and the role of industry-specific shocks in the empirical designs.
+The paper by Bozio et al. argues, using six French reforms, that the perceived link between a payroll tax and the benefits it funds determines how much of the tax is passed on to workers’ earnings. In my report, I argue that one of their no-linkage reforms is a tax cut, which employers may pass on less for reasons unrelated to linkage, and I propose the 2007 exemption of overtime hours as a test. I also suggest allowing perceived linkage to vary across workers, for instance by age, and controlling for industry-specific shocks.
 
 ## About this work
 
