@@ -93,10 +93,10 @@ A signalling model of hidden public debt and fiscal-rule enforcement, motivated 
 ::: {}
 ## Let's get in touch ! {.unnumbered}
 
-Feel free to reach out to me at [romain.fernex at sciencespo.fr](mailto:romain.fernex@sciencespo.fr){style="color:#fff"}.
+Feel free to reach out to me at [romain.fernex@sciencespo.fr](mailto:romain.fernex@sciencespo.fr){style="color:#fff"}.
 :::
 
 ::: {.btn-row}
-[Contact](about.qmd){.btn-ghost} [CV (PDF)](Resources/CV_Romain_Fernex.pdf){.btn-ghost}
+[Contact](about.qmd){.btn-ghost}
 :::
 ::::
