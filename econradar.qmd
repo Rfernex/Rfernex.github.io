@@ -1,0 +1,26 @@
+---
+title: EconRadar
+subtitle: A literature tracker I built for my own reading. New papers from the top economics journals and NBER, summarised, tagged and mapped twice a week.
+toc: false
+---
+
+[Open EconRadar ↗](https://rfernex.github.io/Apps/radar/){.btn-cta}
+
+Keeping up with new research takes time, and tables of contents say little about how a paper is identified or how it relates to the rest of a literature. EconRadar does the first pass for me. Every Tuesday and Friday it collects the new articles of 28 leading economics journals, the week's NBER working papers and a few journals in political science, sociology and behavioural science. For each paper it records the research question, the contribution in one sentence and the identification strategy, written by a language model from the abstract and, when a legal open-access copy exists, the conclusion. It then tags the paper with fields, methods, data sources and topics from a fixed taxonomy, so that papers can be filtered and compared. Nothing is ever deleted, so the map grows week after week.
+
+![Latest papers: question, contribution and identification at a glance, with tags that filter the whole app.](assets/econradar/latest.png){fig-alt="EconRadar's list of latest papers, each with its journal, publication date, research question, contribution, identification strategy and tags."}
+
+### What it shows
+
+- **Latest:** every new paper with its question, contribution and identification, filterable by field, method, data, journal, author and publication date, and exportable to BibTeX, RIS or CSV.
+- **Network:** fields, methods, data sources and topics linked whenever they meet in a paper, so that new combinations stand out, such as a method entering a field or a new kind of data. Other views link papers to their nearest neighbours and authors to the fields they publish in and to their co-authors. A replay rebuilds the map week by week.
+- **Trends:** what each field publishes over time, which methods and data are spreading or fading, and a log of "firsts", the first time a method or a data source appears in a field.
+- **Authors:** who publishes on what, with profiles, co-authors, and a flag on new papers by the authors I follow.
+
+![The research network: fields (circles), methods (squares), data sources (diamonds) and topics (rings), sized by how many papers they appear in.](assets/econradar/network.png){fig-alt="A force-directed network of economics fields, methods, data sources and topics, coloured by field family."}
+
+![Trends: papers per quarter by field family, then each method's share of papers over time.](assets/econradar/trends.png){fig-alt="A stacked bar chart of papers per quarter by field family, above small multiples of methods over time."}
+
+### How it is built
+
+EconRadar is a small static web app: it installs on a phone or laptop, works offline, and keeps saved papers and notes on the device. A scheduled GitHub Action does the collecting. OpenAlex lists the journal articles; NBER's own site gives each working paper's release day and abstract; Crossref and Semantic Scholar fill gaps; and open-access PDFs supply conclusions. A language model writes the summaries against a fixed set of fields, methods and data types, and the network is drawn with d3. I keep extending it as I use it.

@@ -25,6 +25,8 @@ website:
         href: Coursework.qmd
       - text: Other projects
         href: projects.qmd
+      - text: EconRadar
+        href: econradar.qmd
       - text: Beyond economics
         href: writing.qmd
       - text: Notes
