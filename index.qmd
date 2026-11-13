@@ -47,6 +47,7 @@ I graduated from Sciences Po in 2026 (MPhil. Economics), following a Master in M
 <dt>Before</dt><dd>Research Assistant to Jean-Marc Robin, Sciences Po</dd>
 <dt>Education</dt><dd>Master in Economics, Sciences Po (cum laude)<br>Master in Management, ESCP</dd>
 <dt>Programming</dt><dd>Python, R, Stata, Julia, MATLAB</dd>
+<dt>Tools</dt><dd>Git, Docker, LaTeX, Quarto, QGIS</dd>
 </dl>
 :::
 ::::
