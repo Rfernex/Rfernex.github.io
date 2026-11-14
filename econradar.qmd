@@ -1,10 +1,30 @@
 ---
-title: EconRadar
-subtitle: My little app to keep in touch with the literature weekly, and now it's yours too!
+pagetitle: EconRadar
+description: My little app to keep in touch with the literature weekly, and now it's yours too!
+title-block-style: none
 toc: false
 ---
 
-[Open EconRadar ↗](https://rfernex.github.io/Apps/radar/){.btn-cta}
+::: {.column-screen .radar-hero}
+```{=html}
+<div class="rh-bg" aria-hidden="true"></div>
+<div class="rh-reveal" aria-hidden="true"></div>
+<div class="rh-sweep" aria-hidden="true"></div>
+<div class="rh-flash" aria-hidden="true"></div>
+<div class="rh-inner">
+  <span class="eyebrow">Read · Map · Follow</span>
+  <h1 class="rh-title">EconRadar</h1>
+  <p class="rh-sub">My little app to keep in touch with the literature weekly, and now it's yours too!</p>
+  <a class="radar-launch" href="https://rfernex.github.io/Apps/radar/">
+    <span class="rl-ping" aria-hidden="true"></span>
+    <span class="rl-label">Open EconRadar</span>
+    <span class="rl-arrow" aria-hidden="true">↗</span>
+  </a>
+  <p class="rh-stats"><span data-radar-total>20,000+</span> papers · 20 journals and NBER · <span data-radar-updated>updated every week</span></p>
+</div>
+<script src="assets/econradar/hero.js" defer></script>
+```
+:::
 
 Let's be honest, keeping track of all that is coming out is not always easy (especially if, like me, you tend to shun Twitter...), let alone keeping a bird's-eye view of how all those new papers might relate to (or differ from) one another. That's exactly why this little app is here to help! Now, here are the three things the app does that could genuinely save you time or help you look differently at the current research landscape in your preferred field:
 
