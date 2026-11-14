@@ -7,9 +7,12 @@ toc: false
 
 ::: {.column-screen .radar-hero}
 ```{=html}
-<div class="rh-bg" aria-hidden="true"></div>
-<div class="rh-reveal" aria-hidden="true"></div>
-<div class="rh-sweep" aria-hidden="true"></div>
+<link rel="stylesheet" href="assets/econradar/hero.css?v=3">
+<div class="rh-art" aria-hidden="true">
+  <div class="rh-bg"></div>
+  <div class="rh-reveal"></div>
+  <div class="rh-sweep"></div>
+</div>
 <div class="rh-flash" aria-hidden="true"></div>
 <div class="rh-inner">
   <span class="eyebrow">Read · Map · Follow</span>
@@ -22,7 +25,7 @@ toc: false
   </a>
   <p class="rh-stats"><span data-radar-total>20,000+</span> papers · 20 journals and NBER · <span data-radar-updated>updated every week</span></p>
 </div>
-<script src="assets/econradar/hero.js" defer></script>
+<script src="assets/econradar/hero.js?v=3" defer></script>
 ```
 :::
 

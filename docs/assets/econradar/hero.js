@@ -5,12 +5,13 @@
   if (!hero) return;
   const still = matchMedia('(prefers-reduced-motion: reduce)');
 
-  // The spotlight follows the pointer and settles back near the button when it leaves.
+  // The spotlight follows the pointer over the network and fades when it leaves.
+  const art = hero.querySelector('.rh-art');
   hero.addEventListener('pointermove', e => {
     if (e.pointerType !== 'mouse') return;
-    const r = hero.getBoundingClientRect();
-    hero.style.setProperty('--mx', `${e.clientX - r.left}px`);
-    hero.style.setProperty('--my', `${e.clientY - r.top}px`);
+    const r = art.getBoundingClientRect();
+    art.style.setProperty('--ax', `${e.clientX - r.left}px`);
+    art.style.setProperty('--ay', `${e.clientY - r.top}px`);
     hero.classList.add('is-lit');
   });
   hero.addEventListener('pointerleave', () => hero.classList.remove('is-lit'));
@@ -30,6 +31,7 @@
     ring.style.top = `${y - r.top}px`;
     hero.style.setProperty('--bx', `${x - r.left}px`);
     hero.style.setProperty('--by', `${y - r.top}px`);
+    ring.addEventListener('animationend', () => ring.remove());
     hero.appendChild(ring);
     hero.classList.add('is-launching');
     setTimeout(() => { location.href = btn.href; }, 620);

@@ -1,0 +1,154 @@
+/* EconRadar page hero: the app's research network, dimmed, on the right; a radar
+   sweep over it, a cursor spotlight, and a launch button that turns the lights on
+   when clicked (hero.js). Linked from econradar.qmd with a version query, so a new
+   version reaches visitors without waiting for the browser cache to expire. */
+@property --rl-angle { syntax: "<angle>"; inherits: false; initial-value: 0deg; }
+
+.radar-hero {
+  --glow: 124, 214, 204;
+  --bg: 15, 19, 21;
+  --mx: 70%; --my: 50%;
+  position: relative; isolation: isolate; overflow: hidden;
+  margin-top: -9px !important; margin-bottom: 3rem;
+  min-height: clamp(440px, 70vh, 620px);
+  display: flex; align-items: center;
+  background: radial-gradient(900px 600px at 78% 50%, #172024 0%, rgb(var(--bg)) 70%);
+  color: #e9eef0;
+}
+body:has(.radar-hero) #quarto-content { padding-top: 0 !important; }
+body:has(.radar-hero) main.content { margin-top: 0 !important; padding-top: 0 !important; }
+.radar-hero > p:empty { display: none; }
+
+/* The network sits on the right, its edges fading into the background */
+.rh-art {
+  position: absolute; z-index: -3; top: -6%; bottom: -6%;
+  right: max(-2%, calc((100% - 1240px) / 2));
+  aspect-ratio: 1536 / 1348; pointer-events: none;
+  -webkit-mask-image: radial-gradient(closest-side, #000 62%, transparent 100%);
+          mask-image: radial-gradient(closest-side, #000 62%, transparent 100%);
+}
+.rh-bg, .rh-reveal, .rh-flash { position: absolute; inset: 0; pointer-events: none; }
+.rh-bg, .rh-reveal { background: url("network-dark.jpg") center / cover no-repeat; }
+.rh-bg { filter: brightness(.5) saturate(.9); transition: filter .6s ease; animation: rh-drift 24s ease-in-out infinite alternate; }
+/* A brighter copy shows through a soft circle around the pointer */
+.rh-reveal {
+  filter: brightness(1.15) saturate(1.1); opacity: 0; transition: opacity .35s ease;
+  -webkit-mask-image: radial-gradient(circle 200px at var(--ax, 50%) var(--ay, 50%), #000 0%, rgba(0,0,0,.5) 45%, transparent 100%);
+          mask-image: radial-gradient(circle 200px at var(--ax, 50%) var(--ay, 50%), #000 0%, rgba(0,0,0,.5) 45%, transparent 100%);
+  animation: rh-drift 24s ease-in-out infinite alternate;
+}
+.radar-hero.is-lit .rh-reveal { opacity: 1; }
+/* Radar beam turning over the network, confined to it by the fade above */
+.rh-sweep {
+  position: absolute; left: 50%; top: 50%; width: 120%; aspect-ratio: 1; translate: -50% -50%;
+  pointer-events: none; mix-blend-mode: screen;
+  background: conic-gradient(from 0deg, rgba(var(--glow), 0) 0deg, rgba(var(--glow), .03) 260deg, rgba(var(--glow), .2) 354deg, rgba(var(--glow), 0) 360deg);
+  border-radius: 50%;
+  animation: rh-spin 8s linear infinite;
+}
+.rh-sweep::before, .rh-sweep::after {
+  content: ""; position: absolute; border-radius: 50%; border: 1px solid rgba(var(--glow), .08);
+}
+.rh-sweep::before { inset: 18%; }
+.rh-sweep::after { inset: 34%; }
+/* Keeps the text side legible where the network reaches it on narrower screens */
+.radar-hero::before {
+  content: ""; position: absolute; inset: 0; z-index: -2; pointer-events: none;
+  background: linear-gradient(90deg, rgba(var(--bg), .95) 0%, rgba(var(--bg), .75) 30%, rgba(var(--bg), 0) 55%);
+}
+.rh-flash {
+  z-index: 2; opacity: 0;
+  background: radial-gradient(circle at var(--bx, 30%) var(--by, 60%), rgba(var(--glow), .4), rgba(255,255,255,.1) 40%, transparent 75%);
+}
+
+.rh-inner { position: relative; z-index: 1; width: 100%; max-width: 1080px; margin: 0 auto; padding: 4rem 1.5rem; }
+.radar-hero .eyebrow { color: rgb(var(--glow)); }
+.rh-title {
+  color: #fff; font-size: clamp(2.6rem, 6vw, 4.2rem); line-height: 1.02; margin: .1rem 0 .8rem;
+  text-shadow: 0 2px 24px rgba(0,0,0,.5);
+}
+.rh-sub { color: #c9d3d6; font-size: 1.2rem; line-height: 1.5; max-width: 30ch; margin: 0 0 2rem; }
+.rh-stats { color: #93a2a7; font-size: .85rem; margin: 1.4rem 0 0; font-variant-numeric: tabular-nums; }
+.rh-stats [data-radar-total] { color: #e9eef0; font-weight: 600; }
+
+/* Launch button: glass pill with a light that circles its border */
+a.radar-launch {
+  position: relative; display: inline-flex; align-items: center; gap: .75rem;
+  padding: .95rem 1.6rem .95rem 1.25rem; border-radius: 999px; overflow: hidden;
+  font-size: 1.05rem; font-weight: 600; letter-spacing: .01em; color: #fff; text-decoration: none;
+  background: rgba(14, 22, 24, .72); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+  box-shadow: 0 0 0 1px rgba(var(--glow), .35), 0 0 28px rgba(var(--glow), .22), 0 10px 30px rgba(0,0,0,.45);
+  transition: transform .2s ease, box-shadow .25s ease, background .25s ease, color .25s ease;
+}
+a.radar-launch::before {
+  content: ""; position: absolute; inset: 0; border-radius: inherit; padding: 1.5px; pointer-events: none;
+  background: conic-gradient(from var(--rl-angle), transparent 0 62%, rgba(var(--glow), .95) 80%, #fff 86%, transparent 92%);
+  -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor; mask-composite: exclude;
+  animation: rl-orbit 3.2s linear infinite;
+}
+/* A streak of light crosses the button on hover */
+a.radar-launch::after {
+  content: ""; position: absolute; top: -20%; bottom: -20%; left: -60%; width: 40%; pointer-events: none;
+  background: linear-gradient(100deg, transparent, rgba(255,255,255,.28), transparent);
+  transform: skewX(-18deg); transition: left .7s ease;
+}
+a.radar-launch:hover, a.radar-launch:focus-visible {
+  color: #fff; transform: translateY(-2px); background: rgba(18, 32, 34, .82);
+  box-shadow: 0 0 0 1px rgba(var(--glow), .7), 0 0 46px rgba(var(--glow), .42), 0 14px 36px rgba(0,0,0,.5);
+}
+a.radar-launch:hover::after { left: 120%; }
+a.radar-launch:active { transform: translateY(0) scale(.98); }
+a.radar-launch:focus-visible { outline: 2px solid rgb(var(--glow)); outline-offset: 4px; }
+.rl-ping { position: relative; width: 10px; height: 10px; border-radius: 50%; background: rgb(var(--glow)); box-shadow: 0 0 10px rgb(var(--glow)); flex: none; }
+.rl-ping::before, .rl-ping::after {
+  content: ""; position: absolute; inset: 0; border-radius: 50%; border: 1.5px solid rgb(var(--glow));
+  animation: rl-ping 2.4s ease-out infinite;
+}
+.rl-ping::after { animation-delay: 1.2s; }
+.rl-arrow { transition: transform .2s ease; }
+a.radar-launch:hover .rl-arrow { transform: translate(3px, -3px); }
+
+/* Click: a ring of light spreads from the click and the network lights up */
+.rh-burst {
+  position: absolute; z-index: 3; width: 14px; height: 14px; margin: -7px 0 0 -7px; border-radius: 50%;
+  pointer-events: none; border: 2px solid rgba(var(--glow), .95);
+  box-shadow: 0 0 30px rgba(var(--glow), .9), inset 0 0 18px rgba(var(--glow), .6);
+  animation: rh-burst .7s cubic-bezier(.2, .7, .3, 1) forwards;
+}
+.radar-hero.is-launching .rh-bg { filter: brightness(1.2) saturate(1.15); }
+.radar-hero.is-launching .rh-reveal { opacity: 0; }
+.radar-hero.is-launching .rh-flash { animation: rh-flash .65s ease-out forwards; }
+.radar-hero.is-launching a.radar-launch {
+  background: rgb(var(--glow)); color: #0d1214;
+  box-shadow: 0 0 0 1px rgb(var(--glow)), 0 0 70px rgba(var(--glow), .8);
+}
+
+@keyframes rh-spin { to { rotate: 360deg; } }
+@keyframes rh-drift { from { transform: scale(1); } to { transform: scale(1.06) rotate(1.5deg); } }
+@keyframes rl-orbit { to { --rl-angle: 360deg; } }
+@keyframes rl-ping { from { transform: scale(1); opacity: .9; } to { transform: scale(3.4); opacity: 0; } }
+@keyframes rh-burst { to { width: 1800px; height: 1800px; margin: -900px 0 0 -900px; opacity: 0; border-width: 1px; } }
+@keyframes rh-flash { 0% { opacity: 0; } 35% { opacity: 1; } 100% { opacity: .5; } }
+
+@media (max-width: 991px) {
+  .rh-art { right: -18%; }
+}
+@media (max-width: 767px) {
+  .radar-hero { min-height: 0; }
+  .rh-art { top: 0; bottom: 0; right: 50%; translate: 50% 0; opacity: .6; }
+  .radar-hero::before { background: rgba(var(--bg), .55); }
+  .rh-inner { padding: 3rem 16px 2.6rem; }
+  .rh-sub { font-size: 1.05rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .rh-sweep, .rh-bg, .rh-reveal, a.radar-launch::before, .rl-ping::before, .rl-ping::after { animation: none; }
+  .rh-sweep { display: none; }
+}
+
+/* The app screenshots further down the page: dark frames lifted off the white page */
+body:has(.radar-hero) main .quarto-figure img {
+  border-radius: 12px; border: 1px solid #2a3034;
+  box-shadow: 0 2px 4px rgba(15, 19, 21, .12), 0 18px 40px rgba(15, 19, 21, .22);
+}
+body:has(.radar-hero) main .quarto-figure figcaption { margin-top: .7rem; }
