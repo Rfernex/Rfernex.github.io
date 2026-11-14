@@ -146,9 +146,21 @@ a.radar-launch:hover .rl-arrow { transform: translate(3px, -3px); }
   .rh-sweep { display: none; }
 }
 
-/* The app screenshots further down the page: dark frames lifted off the white page */
+/* The app screenshots further down the page: dark frames lifted off the white page,
+   with a teal glow on hover; clicking opens them full size (Quarto lightbox) */
+body:has(.radar-hero) main .quarto-figure a.lightbox { display: block; border-radius: 12px; cursor: zoom-in; }
 body:has(.radar-hero) main .quarto-figure img {
   border-radius: 12px; border: 1px solid #2a3034;
   box-shadow: 0 2px 4px rgba(15, 19, 21, .12), 0 18px 40px rgba(15, 19, 21, .22);
+  transition: transform .35s cubic-bezier(.2, .7, .3, 1), box-shadow .35s ease, filter .35s ease;
+}
+body:has(.radar-hero) main .quarto-figure a.lightbox:hover img,
+body:has(.radar-hero) main .quarto-figure a.lightbox:focus-visible img {
+  transform: translateY(-4px) scale(1.015); filter: brightness(1.08);
+  box-shadow: 0 0 0 1px rgba(124, 214, 204, .55), 0 0 36px rgba(124, 214, 204, .28), 0 26px 50px rgba(15, 19, 21, .3);
 }
 body:has(.radar-hero) main .quarto-figure figcaption { margin-top: .7rem; }
+@media (prefers-reduced-motion: reduce) {
+  body:has(.radar-hero) main .quarto-figure img { transition: none; }
+  body:has(.radar-hero) main .quarto-figure a.lightbox:hover img { transform: none; }
+}

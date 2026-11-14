@@ -40,6 +40,9 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-6f3e7002aff7443b0585c13dd443f9ed.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script src="site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -90,7 +93,7 @@ background: #f3f6fa;
 <link rel="stylesheet" href="styles.css">
 <meta property="og:title" content="EconRadar">
 <meta property="og:description" content="My little app to keep in touch with the literature weekly, and now it’s yours too!">
-<meta property="og:image" content="https://rfernex.github.io/assets/econradar/latest.png">
+<meta property="og:image" content="https://rfernex.github.io/assets/econradar/latest-dark.png">
 <meta property="og:site_name" content="Romain Fernex">
 <meta property="og:image:alt" content="EconRadar's list of latest papers, each with its journal, publication date, research question, contribution, identification strategy and tags.">
 <meta property="og:image:height" content="1800">
@@ -177,7 +180,7 @@ background: #f3f6fa;
 
 
 <div class="column-screen radar-hero">
-<link rel="stylesheet" href="assets/econradar/hero.css?v=3">
+<link rel="stylesheet" href="assets/econradar/hero.css?v=4">
 <div class="rh-art" aria-hidden="true">
   <div class="rh-bg"></div>
   <div class="rh-reveal"></div>
@@ -195,7 +198,7 @@ background: #f3f6fa;
   </a>
   <p class="rh-stats"><span data-radar-total="">20,000+</span> papers · 20 journals and NBER · <span data-radar-updated="">updated every week</span></p>
 </div>
-<script src="assets/econradar/hero.js?v=3" defer=""></script>
+<script src="assets/econradar/hero.js?v=4" defer=""></script>
 </div>
 <p>Let’s be honest, keeping track of all that is coming out is not always easy (especially if, like me, you tend to shun Twitter…), let alone keeping a bird’s-eye view of how all those new papers might relate to (or differ from) one another. That’s exactly why this little app is here to help! Now, here are the three things the app does that could genuinely save you time or help you look differently at the current research landscape in your preferred field:</p>
 <ul>
@@ -205,7 +208,7 @@ background: #f3f6fa;
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/econradar/latest.png" class="img-fluid figure-img" alt="EconRadar's list of latest papers, each with its journal, publication date, research question, contribution, identification strategy and tags."></p>
+<p><a href="assets/econradar/latest-dark.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Small overview of the “Latest papers” tab, if you want to know what it looks like before trying it yourself"><img src="assets/econradar/latest-dark.png" class="img-fluid figure-img" alt="EconRadar's list of latest papers, each with its journal, publication date, research question, contribution, identification strategy and tags."></a></p>
 <figcaption>Small overview of the “Latest papers” tab, if you want to know what it looks like before trying it yourself</figcaption>
 </figure>
 </div>
@@ -219,13 +222,13 @@ background: #f3f6fa;
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/econradar/network.png" class="img-fluid figure-img" alt="A force-directed network of economics fields, methods, data sources and topics, coloured by field family."></p>
+<p><a href="assets/econradar/network-dark.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="The research network tab, so you never lose sight of what actually matters"><img src="assets/econradar/network-dark.png" class="img-fluid figure-img" alt="A force-directed network of economics fields, methods, data sources and topics, coloured by field family."></a></p>
 <figcaption>The research network tab, so you never lose sight of what actually matters</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><img src="assets/econradar/trends.png" class="img-fluid figure-img" alt="A stacked bar chart of papers per quarter by field family, above small multiples of methods over time."></p>
+<p><a href="assets/econradar/trends-dark.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Trends tab, because sometimes you just want to know what’s hype so you don’t do the same (or not)"><img src="assets/econradar/trends-dark.png" class="img-fluid figure-img" alt="A stacked bar chart of papers per quarter by field family, above small multiples of methods over time."></a></p>
 <figcaption>Trends tab, because sometimes you just want to know what’s hype so you don’t do the same (or not)</figcaption>
 </figure>
 </div>
@@ -669,6 +672,38 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
 
 
 

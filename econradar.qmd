@@ -3,11 +3,12 @@ pagetitle: EconRadar
 description: My little app to keep in touch with the literature weekly, and now it's yours too!
 title-block-style: none
 toc: false
+lightbox: auto
 ---
 
 ::: {.column-screen .radar-hero}
 ```{=html}
-<link rel="stylesheet" href="assets/econradar/hero.css?v=3">
+<link rel="stylesheet" href="assets/econradar/hero.css?v=4">
 <div class="rh-art" aria-hidden="true">
   <div class="rh-bg"></div>
   <div class="rh-reveal"></div>
@@ -25,7 +26,7 @@ toc: false
   </a>
   <p class="rh-stats"><span data-radar-total>20,000+</span> papers · 20 journals and NBER · <span data-radar-updated>updated every week</span></p>
 </div>
-<script src="assets/econradar/hero.js?v=3" defer></script>
+<script src="assets/econradar/hero.js?v=4" defer></script>
 ```
 :::
 
@@ -35,7 +36,7 @@ Let's be honest, keeping track of all that is coming out is not always easy (esp
 - **How does it fit in the great scheme of things?** Knowing a paper exists is nice, yes, but unless you are already very well informed about a literature or your brain never runs out of memory, it might be hard to identify on the spot how it distinguishes itself from prior work on a related subject or, conversely, what it takes from them. This is what the network tab is for! By providing a synthetic view of the full database available on EconRadar, you can quickly dive into a paper, topic or research method of your choice and get a good feel for where it fits with the rest. This is especially useful to try and pin down one of those annoying research gaps that keep evading you.
 - **Who does what?** As in any line of work, if you want to work on something, it's always better to know who wrote about it first. The author page essentially gives you a detailed list of all recent contributors in your field of interest and lets you create your own list of top authors based on their contributions, research interests and so on.
 
-![Small overview of the "Latest papers" tab, if you want to know what it looks like before trying it yourself](assets/econradar/latest.png){fig-alt="EconRadar's list of latest papers, each with its journal, publication date, research question, contribution, identification strategy and tags."}
+![Small overview of the "Latest papers" tab, if you want to know what it looks like before trying it yourself](assets/econradar/latest-dark.png){fig-alt="EconRadar's list of latest papers, each with its journal, publication date, research question, contribution, identification strategy and tags."}
 
 ### What you will find on the site (in short)
 
@@ -44,9 +45,9 @@ Let's be honest, keeping track of all that is coming out is not always easy (esp
 - **Trends:** what each field publishes over time, which methods and data are spreading or fading, and a log of "firsts", the first time a method or a data source appears in a field.
 - **Authors:** who publishes on what, with profiles, co-authors, and a flag on new papers by the authors I follow.
 
-![The research network tab, so you never lose sight of what actually matters](assets/econradar/network.png){fig-alt="A force-directed network of economics fields, methods, data sources and topics, coloured by field family."}
+![The research network tab, so you never lose sight of what actually matters](assets/econradar/network-dark.png){fig-alt="A force-directed network of economics fields, methods, data sources and topics, coloured by field family."}
 
-![Trends tab, because sometimes you just want to know what's hype so you don't do the same (or not)](assets/econradar/trends.png){fig-alt="A stacked bar chart of papers per quarter by field family, above small multiples of methods over time."}
+![Trends tab, because sometimes you just want to know what's hype so you don't do the same (or not)](assets/econradar/trends-dark.png){fig-alt="A stacked bar chart of papers per quarter by field family, above small multiples of methods over time."}
 
 ### How it is built
 
