@@ -1,0 +1,71 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[english]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={Gustave Émile Boissonade de Fontarabie}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Gustave Émile Boissonade de Fontarabie}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{History of Japan}}\par\medskip
+\noindent{\LARGE\bfseries Gustave Émile Boissonade de Fontarabie\par}
+\smallskip\noindent{\large\itshape At the origins of the modernisation of Japanese law\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2025 · Article in English}\par\bigskip
+
+\articlefigure{media/media/image1.jpeg}{}
+
+Gustave Émile Boissonade de Fontarabie was born on 7 June 1825 in Vincennes. The son of a professor of Greek literature at the Collège de France, he studied law with a particular interest in Roman and comparative law. Shortly after obtaining his doctorate from the Paris faculty in 1852, he worked for several years as a lawyer and then as a professor at the Grenoble law faculty. He subsequently returned to Paris and became a professor of political economy at his alma mater under the jurist and politician Anselm Batbie.
+
+His life changed completely in 1873 when, on the recommendation of the French scholar Jules Mohl and at the request of Naonobu Sameshima, Japan's minister in Paris, he was called to work alongside the young Meiji government. His arrival was intended to fulfil two objectives for the Japanese government: first, to train a new generation of jurists familiar with the latest advances in Western law; second, to help draft new, more modern legal codes, one of the essential conditions imposed by Western powers for any revision of the unequal treaties to which Japan had been subject since 1858. Thus, from his arrival, Boissonade taught at a law school attached to the Ministry of Justice. There he trained several major figures in Japanese political and legal life, such as Takashi Hara, prime minister of Japan from 1918 to 1921.
+
+Boissonade's main legacy to Japanese society nevertheless remains the codes he drafted for the government. First came a penal code and a code of criminal procedure, promulgated in 1880, which still provide the basis for the Japanese penal code today. With the help of several Japanese jurists (particularly for the section concerning family life), Boissonade then set about drafting a civil code heavily inspired by French law but adapted to some extent to local realities. This code was approved by the Senate in 1890, but its implementation was ultimately made conditional on major revisions following a controversy driven both by nationalist elites, who considered it too Westernising, and by supporters of the Anglo-Saxon model, particularly influential at the University of Tokyo's law faculty. The ``Boissonade Code'' thus gave way to a new code that was German-inspired in form, but whose substance retained many similarities with Boissonade's work and French law more generally. Several Japanese and Anglo-Saxon jurists, such as Eiichi Hoshino and Charles P. Sherman, go so far as to argue that French law and the ``Boissonade Code'' remain the chief inspiration for the modern Japanese civil code, ahead of German law, whose influence is nevertheless often highlighted. Following this failure, Boissonade returned to France and gradually withdrew from intellectual life before dying around ten years later at Cap d'Antibes on 27 June 1910, aged 85.
+
+\section{\texorpdfstring{Sources~: }{Sources~: }}\label{sources}
+
+\begin{itemize}
+\item
+  Yasuo Okubo, Gustave Boissonade, \emph{Père français du droit japonais moderne (1825-1910),} Revue historique de droit français et étranger (1922-), janvier-mars 1981, Quatrième série, Vol. 59, No. 1 (janvier-mars 1981), pp. 29-54
+\item
+  Hoshino Eiichi. \emph{L’héritage de G. Boissonade dans le Code civil et dans la doctrine du droit civil au Japon}. In: Revue internationale de droit comparé. Vol. 43 N°2, Avril-juin 1991. pp. 407-422
+\item
+  Charles P. Sherman, \emph{The Debt of Modern Japanese Law to French Law,} California Law Review , Mar., 1918, Vol. 6, No. 3 (Mar., 1918), pp. 198-202
+\item
+  Noda Yosiyuki. \emph{La réception du droit français au Japon}. In: Revue internationale de droit comparé. Vol. 15 N°3, Juillet- septembre 1963. pp. 543-556
+\item
+  Iwao Seiichi, Sakamato Tarō, Hōgetsu Keigo, Yoshikawa Itsuji, Kobayashi Tadashi, Vié Michel, Bonmarchand Georges, Kanazawa Shizue. \emph{78. Boissonade de Fontarabie, Gustave Emile (1825-1910).} In: Dictionnaire historique du Japon, volume 2, 1970. Lettre B. pp. 41-42
+\item
+  Jamin, Christophe Boissonade et son temps.~\emph{Archives de Philosophie du Droit}~44, 2000, pp285-312
+\end{itemize}
+
+\end{document}

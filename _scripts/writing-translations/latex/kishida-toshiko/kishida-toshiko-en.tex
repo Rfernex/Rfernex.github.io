@@ -1,0 +1,68 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[english]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={Kishida Toshiko}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Kishida Toshiko}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{History of Japan}}\par\medskip
+\noindent{\LARGE\bfseries Kishida Toshiko\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2024 · Article in English}\par\bigskip
+
+\articlefigure{media/media/image1.jpeg}{\textbf{Toshiko Kishida, also known by her pen name, Nakajima Shoen}}
+
+Born in Kyoto in the early 1860s, Kishida Toshiko was one of the first figures of the Japanese feminist movement that emerged during the Meiji era. In an age already marked by both technological and political change, she stood out for her unique life story and the innovative political positions she brought into the public sphere. The daughter of prosperous merchants, she received a high-quality education, something particularly rare for girls at the time, and entered the Kyoto women's normal school with distinction in 1877. There she developed a taste for reading through the great Chinese classics, but also embraced the great progressive writings recently arrived from the West, such as the works of Millicent Fawcett.
+
+Only two years later, her unusual talent for Chinese literature earned her a position at the imperial court as tutor to Empress Shoken, after Prince Arisugawa noticed her at a calligraphy workshop. Although her feminist struggles predated this episode, her immersion in this highly privileged environment, characterised by the prevalence of concubinage, strengthened her conviction that women everywhere lived in chains and that Japanese society could only rebuild itself through genuine equality between the sexes. In 1881, she therefore left the court to travel around Japan with her mother and use her oratorical talents to defend women's cause. At the same time, she began a political career by joining the Jiyu Minken Undo (Freedom and People's Rights Movement), a major liberal democratic movement of the early Meiji era. In 1882, she delivered a famous speech in Okayama in which she presented and promoted her vision of a new society built jointly by men and women who were free and equal in rights.
+
+A year later in Otsu, she returned to her roots with a speech criticising the practice of Hakoiri Musume (women in boxes), particularly widespread in Kyoto, which drew a crowd of nearly 2,000 people. This practice involved keeping young girls confined at home until marriage to preserve their virtue, an absurdity for Kishida, who advocated women's emancipation through education wherever she went. However, this speech led to her arrest by the authorities, less for challenging the values of the time than for the anti-government subtext that the police officers present believed they detected in her address. Although the Jiyu Minken Undo collapsed shortly afterwards under police repression and internal dissension, her struggle could not end there: her love of literature and unwavering faith in an emancipatory education led her to take part in several projects, such as founding the Joshi Daienzetsukai (Kyoto Women's Reading Society), and to publish in numerous newspapers across Japan. She thus published several opinion pieces advocating equal access to education and property for both sexes, and readily invoked the great women writers of the past, such as Lady Murasaki Shikibu, to give voice to female ingenuity.
+
+By the time she died of tuberculosis in May 1901, she had inspired a new generation of feminists, including Fukuda Hideko, the ``Japanese Joan of Arc'', who would continue her work, as would so many others after her.
+
+\textbf{Sources~:}
+
+\begin{itemize}
+\item
+  Mamiko C. Suzuki, Gendered Power, Educated women of the Meiji Empress' Court, p118-215, 2019
+\item
+  Rebecca L. Copeland \& Melek Ortabasi, The modern Murasaki, writing by women of Meiji Japan, p55-73, 2006
+\item
+  Vera Mackie, Feminism in Modern Japan, p15-16, 2003
+\item
+  Sharon L. Sievers, Flowers in Salt, the beginnings of feminist consciousness in Modern Japan, 1983
+\end{itemize}
+
+\end{document}

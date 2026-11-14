@@ -1,0 +1,55 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[english]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={Kusunoki Masashige}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Kusunoki Masashige}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{History of Japan}}\par\medskip
+\noindent{\LARGE\bfseries Kusunoki Masashige\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2024 · Article in English}\par\bigskip
+
+\articlefigure{media/media/image1.jpeg}{}
+
+Although Kusunoki Masashige's precise origins are still debated, it is generally accepted that he was born into a wealthy family in the eastern part of what is now Osaka Prefecture towards the end of the 13th century. A fervent Buddhist, he spent his early years at Kanshin-Ji temple in Kawachinagano before entering the service of Japan's future 96th emperor, Go-Daigo\emph{\textsuperscript{1}}. His tactical skill secured several major victories for Go-Daigo against the Kamakura shogunate. These successes enabled the emperor to overthrow the shogunate in 1333, marking the beginning of the Kenmu Restoration, which saw the imperial family return to the leadership of the country. Appointed general of the newly formed imperial army, he soon found himself back at the front following the rebellion of a commander formerly loyal to Go-Daigo, Ashikaga Takauji. Alongside Kitabatake Akiie, he won a victory against him, but within a year imperial power was once again threatened by Takauji, and he was sent to confront him once more.
+
+It was this second confrontation, fatal this time, that helped give Masashige his status as a heroic figure. Indeed, although he had repeatedly urged the emperor to pursue diplomacy, Go-Daigo ordered Masashige to intercept Takauji's forces near Kobe in July 1336. Outnumbered and far from Kyoto, he and his brother Masasue were soon surrounded, and he died by seppuku in a final act of loyalty to the emperor. His unwavering devotion is described, albeit romanticised, in the Taiheiki (Chronicle of the Great Peace), a major 14th-century work on Japanese history, and lies at the heart of the reputation he enjoyed in the Land of the Rising Sun until the Second World War.
+
+His sacrifice was nevertheless insufficient to halt Takauji's advance: following this decisive battle, Takauji easily seized Kyoto and established the Ashikaga shogunate in 1339.
+
+\emph{\textsuperscript{1}It should be noted that this was his sovereign name, which he had in fact bestowed on himself during his lifetime, an exceedingly rare occurrence among Japanese emperors, who are usually renamed posthumously.}
+
+\end{document}

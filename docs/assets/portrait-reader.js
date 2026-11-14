@@ -63,6 +63,7 @@
     $(".pr-kanji").textContent = t.kanji || "";
     $(".pr-desc").textContent = t.desc;
     $(".pr-open").href = tiles[current].getAttribute("href");
+    $(".pr-open").hreflang = document.documentElement.dataset.documentLanguage || "en";
     $("[data-act=prev]").disabled = current === 0;
     $("[data-act=next]").disabled = current === tiles.length - 1;
     tiles.forEach((tile, i) => {
@@ -204,6 +205,11 @@
       updateZoomLabel();
       render(false);
     }
+  });
+
+  document.addEventListener("writing:languagechange", () => {
+    updateHeader();
+    if (shownSlug !== null || tasks.length || pages.querySelector(".pr-sheet")) render(true);
   });
 
   // Strip arrows only show when there is more to scroll to

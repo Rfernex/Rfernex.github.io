@@ -1,0 +1,1416 @@
+[
+  {
+    "id": "1:2",
+    "page": 0,
+    "bbox": [
+      485.3453063964844,
+      292.2000427246094,
+      769.9876708984375,
+      448.8399963378906
+    ],
+    "text": "THE GALILEO\n-CARTESIAN \nREVOLUTION",
+    "size": 43.99999237060547,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "1:3",
+    "page": 0,
+    "bbox": [
+      485.34539794921875,
+      232.08001708984375,
+      821.2427978515625,
+      254.48001098632812
+    ],
+    "text": "Introductory Lecture on Epistemology n°1 : ",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "1:4",
+    "page": 0,
+    "bbox": [
+      485.34539794921875,
+      270.96002197265625,
+      885.9181518554688,
+      293.3600158691406
+    ],
+    "text": "The Cartesian Cogito and the Mathesis Universalis",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "2:0",
+    "page": 1,
+    "bbox": [
+      61.95022964477539,
+      35.18996810913086,
+      832.7313232421875,
+      81.38996887207031
+    ],
+    "text": "SHORT BIOGRAPHY : WHO IS RENE DESCARTES ?",
+    "size": 33.0,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "2:1",
+    "page": 1,
+    "bbox": [
+      61.95022964477539,
+      98.51997375488281,
+      218.51226806640625,
+      137.71998596191406
+    ],
+    "text": "Key dates: ",
+    "size": 28.00000762939453,
+    "font": "Poppins-Bold",
+    "color": 8355711
+  },
+  {
+    "id": "2:2",
+    "page": 1,
+    "bbox": [
+      61.95022964477539,
+      153.02403259277344,
+      409.290771484375,
+      477.1620178222656
+    ],
+    "text": "•\n1596 : date of birth in La Haye, France\n•\n1606 : starts his education at the jesuit \ncollege of La Fleche\n•\n1610 : Galileo discovers the moon of Jupiter \nat La Fleche\n•\n1618 : finishes his studies and moves to the \nNetherlands\n•\n1629 : publishes his Treaty on the Light\n•\n1637 : publishes his Discourse on the \nMethod\n•\n1641 : publishes his Meditations on First \nPhilosophy\n•\n1644 : publishes his Principles of philosophy\n•\n1650 : Dies in Sweden after having joined \nthe court of Queen Christina ",
+    "size": 18.0,
+    "font": "Calibri",
+    "color": 16777215
+  },
+  {
+    "id": "2:3",
+    "page": 1,
+    "bbox": [
+      527.3253784179688,
+      98.51997375488281,
+      650.553466796875,
+      137.71998596191406
+    ],
+    "text": "Portrait :",
+    "size": 28.00000762939453,
+    "font": "Poppins-Bold",
+    "color": 8355711
+  },
+  {
+    "id": "3:0",
+    "page": 2,
+    "bbox": [
+      69.57524108886719,
+      33.96001052856445,
+      855.7359619140625,
+      84.3600082397461
+    ],
+    "text": "REBUILDING KNOWLEDGE: THE TABULA RASA",
+    "size": 36.0,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "3:1",
+    "page": 2,
+    "bbox": [
+      56.32503890991211,
+      102.72002410888672,
+      886.0014038085938,
+      125.1200180053711
+    ],
+    "text": "« Suppose [a person] had a basket full of apples and, being worried that some of the apples were",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "3:2",
+    "page": 2,
+    "bbox": [
+      56.32503890991211,
+      130.79998779296875,
+      885.8973999023438,
+      153.19998168945312
+    ],
+    "text": "rotten, wanted to take out the rotten ones to prevent the rot spreading. How would he proceed? Would",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "3:3",
+    "page": 2,
+    "bbox": [
+      56.32503890991211,
+      159.84002685546875,
+      885.9904174804688,
+      182.24002075195312
+    ],
+    "text": "he not begin by tipping the whole lot out of the basket? And would not the next step be to cast his eye",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "3:4",
+    "page": 2,
+    "bbox": [
+      56.32503890991211,
+      188.8800048828125,
+      885.88818359375,
+      211.27999877929688
+    ],
+    "text": "over each apple in turn, and pick up and put back in the basket only those he saw to be sound, leaving",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "3:5",
+    "page": 2,
+    "bbox": [
+      56.32503890991211,
+      217.67999267578125,
+      885.940185546875,
+      240.07998657226562
+    ],
+    "text": "the others? In just the same way, those who have never philosophized correctly have various opinions in",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "3:6",
+    "page": 2,
+    "bbox": [
+      56.32503890991211,
+      246.72003173828125,
+      885.9409790039062,
+      269.1200256347656
+    ],
+    "text": "their minds which they have begun to store up since childhood, and which they therefore have reason",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "3:7",
+    "page": 2,
+    "bbox": [
+      56.32503890991211,
+      274.79998779296875,
+      886.0016479492188,
+      297.1999816894531
+    ],
+    "text": "to believe may in m any cases be false. They then attempt to separate the false beliefs from the others,",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "3:8",
+    "page": 2,
+    "bbox": [
+      56.32503890991211,
+      303.84002685546875,
+      885.9515991210938,
+      326.2400207519531
+    ],
+    "text": "so as to prevent their contaminating the rest and making the whole lot uncertain. Now the best way",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "3:9",
+    "page": 2,
+    "bbox": [
+      56.32503890991211,
+      332.8800048828125,
+      885.8923950195312,
+      355.2799987792969
+    ],
+    "text": "they can accomplish this is to reject all their beliefs together in one go, as if they were all uncertain and",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "3:10",
+    "page": 2,
+    "bbox": [
+      56.32503890991211,
+      361.67999267578125,
+      885.9915771484375,
+      384.0799865722656
+    ],
+    "text": "false. They can then go over each belief in turn and re-adopt only those which they recognize to be true",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "3:11",
+    "page": 2,
+    "bbox": [
+      56.32503890991211,
+      400.79998779296875,
+      444.2010192871094,
+      423.1999816894531
+    ],
+    "text": "and indubitable. (Replies 7, AT 7:481, CSM 2:324) »",
+    "size": 15.99999713897705,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "3:12",
+    "page": 2,
+    "bbox": [
+      227.1875,
+      471.1199951171875,
+      732.7489624023438,
+      515.9199829101562
+    ],
+    "text": "THE BASKET OF APPLE ANALOGY",
+    "size": 31.999990463256836,
+    "font": "Poppins-Bold",
+    "color": 0
+  },
+  {
+    "id": "4:0",
+    "page": 3,
+    "bbox": [
+      69.57524108886719,
+      33.96001052856445,
+      491.9740905761719,
+      84.3600082397461
+    ],
+    "text": "DOUBTING OUR SENSES ",
+    "size": 36.0,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "4:1",
+    "page": 3,
+    "bbox": [
+      56.32503890991211,
+      121.32000732421875,
+      886.010009765625,
+      149.32000732421875
+    ],
+    "text": "« A soldier returns from battle; during the heat of combat he could have been",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "4:2",
+    "page": 3,
+    "bbox": [
+      56.32503890991211,
+      157.32000732421875,
+      886.0050048828125,
+      185.32000732421875
+    ],
+    "text": "wounded without being aware of it. But now that he begins to cool off, he feels pain",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "4:3",
+    "page": 3,
+    "bbox": [
+      56.32503890991211,
+      193.32000732421875,
+      885.8909912109375,
+      221.32000732421875
+    ],
+    "text": "and believes he has been wounded. A surgeon is called, the soldier's armor is",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "4:4",
+    "page": 3,
+    "bbox": [
+      56.32503890991211,
+      229.32000732421875,
+      885.9650268554688,
+      257.32000732421875
+    ],
+    "text": "removed, and he is examined. In the end, one finds that what he felt was nothing",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "4:5",
+    "page": 3,
+    "bbox": [
+      56.32503890991211,
+      265.32000732421875,
+      886.0,
+      293.32000732421875
+    ],
+    "text": "but a buckler or a strap, which was caught under his armor and was pressing on",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "4:6",
+    "page": 3,
+    "bbox": [
+      56.32503890991211,
+      301.32000732421875,
+      885.9700317382812,
+      329.32000732421875
+    ],
+    "text": "him and making him uncomfortable. If, in causing him to feel this strap, his sense",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "4:7",
+    "page": 3,
+    "bbox": [
+      56.32503890991211,
+      337.32000732421875,
+      885.9600219726562,
+      365.32000732421875
+    ],
+    "text": "of touch had impressed its image on his thought, there would have been no need",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "4:8",
+    "page": 3,
+    "bbox": [
+      56.32503890991211,
+      373.32000732421875,
+      741.1699829101562,
+      401.32000732421875
+    ],
+    "text": "of a surgeon to show him what he was feeling. (Treaty on the Light) »",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "4:9",
+    "page": 3,
+    "bbox": [
+      211.3125,
+      471.1199951171875,
+      748.6500244140625,
+      515.9199829101562
+    ],
+    "text": "THE WOUNDED SOLDIER ANALOGY",
+    "size": 31.999990463256836,
+    "font": "Poppins-Bold",
+    "color": 0
+  },
+  {
+    "id": "5:0",
+    "page": 4,
+    "bbox": [
+      73.19999694824219,
+      507.21600341796875,
+      886.6589965820312,
+      521.8680419921875
+    ],
+    "text": "25/11/2022\n5",
+    "size": 12.0,
+    "font": "Calibri",
+    "color": 9013641
+  },
+  {
+    "id": "5:1",
+    "page": 4,
+    "bbox": [
+      69.57524108886719,
+      33.96001052856445,
+      802.635986328125,
+      84.3600082397461
+    ],
+    "text": "LAPLACE AND THE HYPERBOLICAL DOUBT ",
+    "size": 36.0,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "5:2",
+    "page": 4,
+    "bbox": [
+      61.95022964477539,
+      113.6400146484375,
+      875.4752197265625,
+      141.6400146484375
+    ],
+    "text": "“We may regard the present state of the universe as the effect of its past and the",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "5:3",
+    "page": 4,
+    "bbox": [
+      61.95022964477539,
+      149.6400146484375,
+      875.3851928710938,
+      177.6400146484375
+    ],
+    "text": "cause of its future. An intellect which at a certain moment would know all forces",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "5:4",
+    "page": 4,
+    "bbox": [
+      61.95022964477539,
+      185.6400146484375,
+      875.3911743164062,
+      213.6400146484375
+    ],
+    "text": "that set nature in motion, and all positions of all items of which nature is",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "5:5",
+    "page": 4,
+    "bbox": [
+      61.95022964477539,
+      221.6400146484375,
+      875.5001831054688,
+      249.6400146484375
+    ],
+    "text": "composed, if this intellect were also vast enough to submit these data to",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "5:6",
+    "page": 4,
+    "bbox": [
+      61.95022964477539,
+      257.6400146484375,
+      875.480224609375,
+      285.6400146484375
+    ],
+    "text": "analysis, it would embrace in a single formula the movements of the greatest",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "5:7",
+    "page": 4,
+    "bbox": [
+      61.95022964477539,
+      293.6400146484375,
+      875.4652099609375,
+      321.6400146484375
+    ],
+    "text": "bodies of the universe and those of the tiniest atom; for such an intellect nothing",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "5:8",
+    "page": 4,
+    "bbox": [
+      61.95022964477539,
+      329.6400146484375,
+      875.397216796875,
+      357.6400146484375
+    ],
+    "text": "would be uncertain and the future just like the past would be present before its",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "5:9",
+    "page": 4,
+    "bbox": [
+      61.95022964477539,
+      365.6400146484375,
+      526.4451904296875,
+      393.6400146484375
+    ],
+    "text": "eyes. (A philosophical Essay on probabilities) “",
+    "size": 19.999998092651367,
+    "font": "Poppins-Italic",
+    "color": 16777215
+  },
+  {
+    "id": "5:10",
+    "page": 4,
+    "bbox": [
+      289.5625,
+      471.1199951171875,
+      670.50634765625,
+      515.9199829101562
+    ],
+    "text": "THE DEMON OF LAPLACE",
+    "size": 31.999990463256836,
+    "font": "Poppins-Bold",
+    "color": 0
+  },
+  {
+    "id": "6:0",
+    "page": 5,
+    "bbox": [
+      489.17498779296875,
+      243.20001220703125,
+      894.7390747070312,
+      292.0400390625
+    ],
+    "text": "I THINK THEREFORE I AM",
+    "size": 40.00000762939453,
+    "font": "Calibri",
+    "color": 16777215
+  },
+  {
+    "id": "6:1",
+    "page": 5,
+    "bbox": [
+      765.4099731445312,
+      429.5199890136719,
+      905.6199951171875,
+      453.94000244140625
+    ],
+    "text": "RENÉ DESCARTES",
+    "size": 19.999998092651367,
+    "font": "Calibri",
+    "color": 16777215
+  },
+  {
+    "id": "6:2",
+    "page": 5,
+    "bbox": [
+      666.7650146484375,
+      465.5200500488281,
+      905.8049926757812,
+      489.9400634765625
+    ],
+    "text": "DISCOURSE ON THE METHOD",
+    "size": 19.999998092651367,
+    "font": "Calibri",
+    "color": 8355711
+  },
+  {
+    "id": "6:5",
+    "page": 5,
+    "bbox": [
+      69.57524108886719,
+      33.96001052856445,
+      850.7176513671875,
+      84.3600082397461
+    ],
+    "text": "THE CARTESIAN COGITO : FIRST EXPRESSION",
+    "size": 36.0,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "7:0",
+    "page": 6,
+    "bbox": [
+      490.79998779296875,
+      156.79998779296875,
+      902.280029296875,
+      334.760009765625
+    ],
+    "text": "I AM, I EXIST IS \nNECESSARILY TRUE \nEVERYTIME I SAY THIS \nSENTENCE OR CONCEIVE ",
+    "size": 40.00000762939453,
+    "font": "Calibri",
+    "color": 16777215
+  },
+  {
+    "id": "7:1",
+    "page": 6,
+    "bbox": [
+      566.780029296875,
+      328.87994384765625,
+      817.152099609375,
+      377.719970703125
+    ],
+    "text": "IT IN MY MIND.",
+    "size": 40.00000762939453,
+    "font": "Calibri",
+    "color": 16777215
+  },
+  {
+    "id": "7:2",
+    "page": 6,
+    "bbox": [
+      765.4099731445312,
+      429.5199890136719,
+      905.6199951171875,
+      453.94000244140625
+    ],
+    "text": "RENÉ DESCARTES",
+    "size": 19.999998092651367,
+    "font": "Calibri",
+    "color": 16777215
+  },
+  {
+    "id": "7:3",
+    "page": 6,
+    "bbox": [
+      605.6699829101562,
+      465.5200500488281,
+      905.669921875,
+      489.9400634765625
+    ],
+    "text": "MEDITATIONS ON FIRST PHILOSOPHY",
+    "size": 19.999998092651367,
+    "font": "Calibri",
+    "color": 8355711
+  },
+  {
+    "id": "7:6",
+    "page": 6,
+    "bbox": [
+      68.95024108886719,
+      35.18996810913086,
+      834.685546875,
+      81.38996887207031
+    ],
+    "text": "THE CARTESIAN COGITO : SECOND EXPRESSION",
+    "size": 33.0,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "8:0",
+    "page": 7,
+    "bbox": [
+      880.5750122070312,
+      507.21600341796875,
+      886.6589965820312,
+      521.8680419921875
+    ],
+    "text": "8",
+    "size": 12.0,
+    "font": "Calibri",
+    "color": 9013641
+  },
+  {
+    "id": "8:1",
+    "page": 7,
+    "bbox": [
+      69.57524108886719,
+      33.96001052856445,
+      723.9365844726562,
+      84.3600082397461
+    ],
+    "text": "THE CARTESIAN METHOD : SUMMARY",
+    "size": 36.0,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "8:2",
+    "page": 7,
+    "bbox": [
+      201.70399475097656,
+      117.47998046875,
+      738.248046875,
+      145.47998046875
+    ],
+    "text": "THE TABULA RASA  : Beginning of the methodical doubt",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "8:3",
+    "page": 7,
+    "bbox": [
+      184.8914031982422,
+      192.8399658203125,
+      760.3754272460938,
+      220.8399658203125
+    ],
+    "text": "THE HYPERBOLICAL DOUBT : Using the demon of Laplace to ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "8:4",
+    "page": 7,
+    "bbox": [
+      376.5765075683594,
+      216.8399658203125,
+      563.2164916992188,
+      244.8399658203125
+    ],
+    "text": "push doubt further",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "8:5",
+    "page": 7,
+    "bbox": [
+      292.40789794921875,
+      291.9599609375,
+      655.2998657226562,
+      319.9599609375
+    ],
+    "text": "THE COGITO : The first absolute truth ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "8:6",
+    "page": 7,
+    "bbox": [
+      206.03289794921875,
+      370.9200439453125,
+      736.5128173828125,
+      398.9200439453125
+    ],
+    "text": "GOD AS A LOGIC TOOL : Replacing oneself in the world",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "8:7",
+    "page": 7,
+    "bbox": [
+      210.78289794921875,
+      454.44000244140625,
+      731.56494140625,
+      482.44000244140625
+    ],
+    "text": "THE LUMEN NATURALIS : Creating a world for the mind",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:0",
+    "page": 8,
+    "bbox": [
+      73.19999694824219,
+      507.21600341796875,
+      886.6589965820312,
+      521.8680419921875
+    ],
+    "text": "25/11/2022\n9",
+    "size": 12.0,
+    "font": "Calibri",
+    "color": 9013641
+  },
+  {
+    "id": "9:1",
+    "page": 8,
+    "bbox": [
+      68.95024108886719,
+      35.18996810913086,
+      821.67822265625,
+      81.38996887207031
+    ],
+    "text": "THE CARTESIAN METHOD : A PRACTICAL GUIDE",
+    "size": 33.0,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "9:3",
+    "page": 8,
+    "bbox": [
+      76.30528259277344,
+      173.1600341796875,
+      267.95526123046875,
+      201.1600341796875
+    ],
+    "text": "Obey the laws and ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:5",
+    "page": 8,
+    "bbox": [
+      84.80526733398438,
+      197.1600341796875,
+      259.5212707519531,
+      225.1600341796875
+    ],
+    "text": "customs of one’s ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:7",
+    "page": 8,
+    "bbox": [
+      50.68027114868164,
+      221.1600341796875,
+      293.6183166503906,
+      249.1600341796875
+    ],
+    "text": "country” and “to govern ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:9",
+    "page": 8,
+    "bbox": [
+      63.99028015136719,
+      245.1600341796875,
+      280.3602600097656,
+      273.1600341796875
+    ],
+    "text": "one self according to ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:11",
+    "page": 8,
+    "bbox": [
+      49.86528015136719,
+      269.1600341796875,
+      294.4952392578125,
+      297.1600341796875
+    ],
+    "text": "the most moderate and ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:13",
+    "page": 8,
+    "bbox": [
+      56.43027114868164,
+      293.1600341796875,
+      287.90228271484375,
+      321.1600341796875
+    ],
+    "text": "least extreme opinions ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:14",
+    "page": 8,
+    "bbox": [
+      125.12760162353516,
+      100.19996643066406,
+      556.5015869140625,
+      141.8000030517578
+    ],
+    "text": "RULE n°1: \nRULE n°2: ",
+    "size": 28.00000762939453,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "9:15",
+    "page": 8,
+    "bbox": [
+      355.30859375,
+      169.32000732421875,
+      609.7286376953125,
+      221.32000732421875
+    ],
+    "text": "To be as firm and \nresolute in my actions as ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:16",
+    "page": 8,
+    "bbox": [
+      364.24859619140625,
+      217.32000732421875,
+      600.9126586914062,
+      245.32000732421875
+    ],
+    "text": "I could and to follow no ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:17",
+    "page": 8,
+    "bbox": [
+      359.87359619140625,
+      241.32000732421875,
+      605.1336059570312,
+      317.32000732421875
+    ],
+    "text": "less \nconstantly the most \ndoubtful opinions, than I ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:18",
+    "page": 8,
+    "bbox": [
+      366.62359619140625,
+      313.32000732421875,
+      598.515625,
+      341.32000732421875
+    ],
+    "text": "would have if they had ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:19",
+    "page": 8,
+    "bbox": [
+      369.37359619140625,
+      337.32000732421875,
+      595.6736450195312,
+      365.32000732421875
+    ],
+    "text": "been the most certain ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:20",
+    "page": 8,
+    "bbox": [
+      455.68359375,
+      361.32000732421875,
+      503.99359130859375,
+      389.32000732421875
+    ],
+    "text": "ones",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:21",
+    "page": 8,
+    "bbox": [
+      736.3975830078125,
+      98.03999328613281,
+      871.5931396484375,
+      137.24000549316406
+    ],
+    "text": "RULE n°3: ",
+    "size": 28.00000762939453,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "9:22",
+    "page": 8,
+    "bbox": [
+      686.1718139648438,
+      173.4000244140625,
+      918.2438354492188,
+      273.4000244140625
+    ],
+    "text": "Endeavour always to \nmaster myself rather \nthan fortune, change \nmy desires rather than ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:23",
+    "page": 8,
+    "bbox": [
+      687.61181640625,
+      269.4000244140625,
+      916.851806640625,
+      297.4000244140625
+    ],
+    "text": "to change the order of ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:24",
+    "page": 8,
+    "bbox": [
+      753.1718139648438,
+      293.4000244140625,
+      851.2618408203125,
+      321.4000244140625
+    ],
+    "text": "the world ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "9:25",
+    "page": 8,
+    "bbox": [
+      327.5,
+      471.1199951171875,
+      632.5559692382812,
+      515.9199829101562
+    ],
+    "text": "THE THREE MAXIMS",
+    "size": 31.999990463256836,
+    "font": "Poppins-Bold",
+    "color": 0
+  },
+  {
+    "id": "10:0",
+    "page": 9,
+    "bbox": [
+      510.1632080078125,
+      112.43995666503906,
+      873.4744262695312,
+      151.6399688720703
+    ],
+    "text": "To devote one’s life to the ",
+    "size": 28.00000762939453,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "10:1",
+    "page": 9,
+    "bbox": [
+      473.0382080078125,
+      162.36000061035156,
+      910.5132446289062,
+      201.5600128173828
+    ],
+    "text": "cultivation of one’s reason and ",
+    "size": 28.00000762939453,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "10:2",
+    "page": 9,
+    "bbox": [
+      474.85321044921875,
+      213.47999572753906,
+      908.8197631835938,
+      252.6800079345703
+    ],
+    "text": "make such progress as I could ",
+    "size": 28.00000762939453,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "10:3",
+    "page": 9,
+    "bbox": [
+      488.2882080078125,
+      263.3999938964844,
+      895.4503173828125,
+      302.5999755859375
+    ],
+    "text": "in the knowledge of the truth ",
+    "size": 28.00000762939453,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "10:4",
+    "page": 9,
+    "bbox": [
+      500.85321044921875,
+      313.3199768066406,
+      882.9246215820312,
+      352.51995849609375
+    ],
+    "text": "following the method I had ",
+    "size": 28.00000762939453,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "10:5",
+    "page": 9,
+    "bbox": [
+      539.9782104492188,
+      364.4399719238281,
+      843.6130981445312,
+      403.63995361328125
+    ],
+    "text": "prescribed for myself ",
+    "size": 28.00000762939453,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "10:6",
+    "page": 9,
+    "bbox": [
+      765.4099731445312,
+      429.5199890136719,
+      905.6199951171875,
+      453.94000244140625
+    ],
+    "text": "RENÉ DESCARTES",
+    "size": 19.999998092651367,
+    "font": "Calibri",
+    "color": 16777215
+  },
+  {
+    "id": "10:7",
+    "page": 9,
+    "bbox": [
+      559.719970703125,
+      465.5200500488281,
+      905.7159423828125,
+      489.9400634765625
+    ],
+    "text": "DISCOURSE ON THE METHOD, PART THREE",
+    "size": 19.999998092651367,
+    "font": "Calibri",
+    "color": 8355711
+  },
+  {
+    "id": "10:10",
+    "page": 9,
+    "bbox": [
+      61.95022964477539,
+      33.96001052856445,
+      751.3468017578125,
+      84.3600082397461
+    ],
+    "text": "THE LAST AND THE MOST VITAL MAXIM ",
+    "size": 36.0,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "11:0",
+    "page": 10,
+    "bbox": [
+      477.9425048828125,
+      117.239990234375,
+      923.2424926757812,
+      145.239990234375
+    ],
+    "text": "[The universe] cannot be read until we have ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "11:1",
+    "page": 10,
+    "bbox": [
+      490.87750244140625,
+      153.239990234375,
+      910.3816528320312,
+      181.239990234375
+    ],
+    "text": "learnt the language and become familiar ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "11:2",
+    "page": 10,
+    "bbox": [
+      480.3175048828125,
+      189.239990234375,
+      921.0014038085938,
+      217.239990234375
+    ],
+    "text": "with the characters in which it is written. It is ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "11:3",
+    "page": 10,
+    "bbox": [
+      483.4425048828125,
+      225.239990234375,
+      917.8383178710938,
+      253.239990234375
+    ],
+    "text": "written in mathematical language, and the ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "11:4",
+    "page": 10,
+    "bbox": [
+      512.8175048828125,
+      261.239990234375,
+      888.3975830078125,
+      289.239990234375
+    ],
+    "text": "letters are triangles, circles and other ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "11:5",
+    "page": 10,
+    "bbox": [
+      480.1925048828125,
+      297.239990234375,
+      920.9724731445312,
+      325.239990234375
+    ],
+    "text": "geometrical figures, without which means it ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "11:6",
+    "page": 10,
+    "bbox": [
+      496.50250244140625,
+      333.239990234375,
+      904.7545776367188,
+      361.239990234375
+    ],
+    "text": "is humanly impossible to comprehend a ",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "11:7",
+    "page": 10,
+    "bbox": [
+      638.6275024414062,
+      369.239990234375,
+      757.20751953125,
+      397.239990234375
+    ],
+    "text": "single word.",
+    "size": 19.999998092651367,
+    "font": "Poppins-Regular",
+    "color": 16777215
+  },
+  {
+    "id": "11:8",
+    "page": 10,
+    "bbox": [
+      771.7650146484375,
+      429.5199890136719,
+      905.7260131835938,
+      453.94000244140625
+    ],
+    "text": "GALILEO GALILEI",
+    "size": 19.999998092651367,
+    "font": "Calibri",
+    "color": 16777215
+  },
+  {
+    "id": "11:9",
+    "page": 10,
+    "bbox": [
+      653.1699829101562,
+      465.5200500488281,
+      905.7160034179688,
+      489.9400634765625
+    ],
+    "text": "IL SAGGIATORE, OPERE II, P.171",
+    "size": 19.999998092651367,
+    "font": "Calibri",
+    "color": 8355711
+  },
+  {
+    "id": "11:12",
+    "page": 10,
+    "bbox": [
+      61.95022964477539,
+      33.96001052856445,
+      647.5593872070312,
+      84.3600082397461
+    ],
+    "text": "GALILEO AND THE IL SAGGIATORE",
+    "size": 36.0,
+    "font": "Poppins-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "12:1",
+    "page": 11,
+    "bbox": [
+      173.75,
+      120.63999938964844,
+      786.2398681640625,
+      400.77496337890625
+    ],
+    "text": "들어주셔서\n감사합니다!",
+    "size": 115.0,
+    "font": "MalgunGothicBold",
+    "color": 16777215
+  },
+  {
+    "id": "12:2",
+    "page": 11,
+    "bbox": [
+      874.4500122070312,
+      507.21600341796875,
+      886.6588134765625,
+      521.8680419921875
+    ],
+    "text": "12",
+    "size": 12.0,
+    "font": "Calibri",
+    "color": 9013641
+  },
+  {
+    "id": "13:0",
+    "page": 12,
+    "bbox": [
+      73.19999694824219,
+      507.21600341796875,
+      886.6588134765625,
+      521.8680419921875
+    ],
+    "text": "25/11/2022\n13",
+    "size": 12.0,
+    "font": "Calibri",
+    "color": 9013641
+  }
+]

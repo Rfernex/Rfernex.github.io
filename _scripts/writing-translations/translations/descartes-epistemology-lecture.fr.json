@@ -1,0 +1,73 @@
+{
+  "1:2": "LA RÉVOLUTION GALILÉO-CARTÉSIENNE",
+  "1:3": "Cours d'introduction à l'épistémologie n° 1 :",
+  "1:4": "Le cogito cartésien et la mathesis universalis",
+  "2:0": "BRÈVE BIOGRAPHIE : QUI EST RENÉ DESCARTES ?",
+  "2:1": "Dates clés :",
+  "2:2": "• 1596 : naissance à La Haye, en France<br>• 1606 : début de sa scolarité au collège jésuite de La Flèche<br>• 1610 : Galilée découvre la lune de Jupiter à La Flèche<br>• 1618 : fin de ses études et départ aux Pays-Bas<br>• 1629 : publication du Traité de la lumière<br>• 1637 : publication du Discours de la méthode<br>• 1641 : publication des Méditations métaphysiques<br>• 1644 : publication des Principes de la philosophie<br>• 1650 : mort en Suède après avoir rejoint la cour de la reine Christine",
+  "2:3": "Portrait :",
+  "3:0": "RECONSTRUIRE LE SAVOIR : LA TABULA RASA",
+  "3:1+3:2+3:3+3:4+3:5+3:6+3:7+3:8+3:9+3:10+3:11": "« Supposons qu'une personne ait un panier rempli de pommes et, craignant que certaines soient pourries, veuille retirer les mauvaises pour empêcher la pourriture de se propager. Comment procéderait-elle ? Ne commencerait-elle pas par vider entièrement le panier ? Puis n'examinerait-elle pas chaque pomme pour ne remettre dans le panier que celles qu'elle jugerait saines, en laissant les autres ? De la même manière, ceux qui n'ont jamais correctement philosophé ont dans l'esprit diverses opinions accumulées depuis l'enfance, qu'ils ont donc des raisons de croire souvent fausses. Ils tentent alors de séparer les croyances fausses des autres, pour éviter qu'elles ne contaminent le reste et ne rendent l'ensemble incertain. Le meilleur moyen d'y parvenir est de rejeter d'un seul coup toutes leurs croyances, comme si elles étaient toutes incertaines et fausses. Ils peuvent ensuite les examiner une à une et ne reprendre que celles qu'ils reconnaissent vraies et indubitables. (Septièmes Réponses, AT 7:481, CSM 2:324) »",
+  "3:12": "L'ANALOGIE DU PANIER DE POMMES",
+  "4:0": "DOUTER DE NOS SENS",
+  "4:1+4:2+4:3+4:4+4:5+4:6+4:7+4:8": "« Un soldat revient du combat ; dans le feu de l'action, il a pu être blessé sans s'en apercevoir. Mais, maintenant qu'il commence à se refroidir, il ressent une douleur et croit avoir été blessé. On appelle un chirurgien, on lui retire son armure et on l'examine. Finalement, on découvre qu'il ne sentait qu'une boucle ou une courroie coincée sous son armure, qui le pressait et le gênait. Si, en lui faisant sentir cette courroie, son toucher en avait imprimé l'image dans sa pensée, il n'aurait pas eu besoin d'un chirurgien pour lui montrer ce qu'il ressentait. (Traité de la lumière) »",
+  "4:9": "L'ANALOGIE DU SOLDAT BLESSÉ",
+  "5:1": "LAPLACE ET LE DOUTE HYPERBOLIQUE",
+  "5:2+5:3+5:4+5:5+5:6+5:7+5:8+5:9": "« Nous pouvons considérer l'état présent de l'univers comme l'effet de son passé et la cause de son avenir. Une intelligence qui, à un instant donné, connaîtrait toutes les forces qui animent la nature et la position de tous les éléments qui la composent, si elle était assez vaste pour soumettre ces données à l'analyse, embrasserait dans une même formule les mouvements des plus grands corps de l'univers et ceux du plus petit atome ; pour elle, rien ne serait incertain, et l'avenir, comme le passé, serait présent à ses yeux. (Essai philosophique sur les probabilités) »",
+  "5:10": "LE DÉMON DE LAPLACE",
+  "6:0": "JE PENSE, DONC JE SUIS",
+  "6:2": "DISCOURS DE LA MÉTHODE",
+  "6:5": "LE COGITO CARTÉSIEN : PREMIÈRE EXPRESSION",
+  "7:0+7:1": {
+    "text": "JE SUIS, J'EXISTE EST NÉCESSAIREMENT VRAI CHAQUE FOIS QUE JE PRONONCE CETTE PHRASE OU LA CONÇOIS DANS MON ESPRIT.",
+    "align": "center"
+  },
+  "7:3": "MÉDITATIONS MÉTAPHYSIQUES",
+  "7:6": "LE COGITO CARTÉSIEN : SECONDE EXPRESSION",
+  "8:1": "LA MÉTHODE CARTÉSIENNE : SYNTHÈSE",
+  "8:2": "LA TABULA RASA : début du doute méthodique",
+  "8:3+8:4": "LE DOUTE HYPERBOLIQUE : utiliser le démon de Laplace pour pousser le doute plus loin",
+  "8:5": "LE COGITO : la première vérité absolue",
+  "8:6": "DIEU COMME OUTIL LOGIQUE : se replacer dans le monde",
+  "8:7": "LE LUMEN NATURALIS : créer un monde pour l'esprit",
+  "9:1": "LA MÉTHODE CARTÉSIENNE : GUIDE PRATIQUE",
+  "9:3+9:5+9:7+9:9+9:11+9:13": {
+    "text": "Obéir aux lois et aux coutumes de son pays et se gouverner selon les opinions les plus modérées et les moins extrêmes",
+    "align": "center"
+  },
+  "9:14": {
+    "text": "<table style=\"width:100%\"><tr><td>RÈGLE n° 1 :</td><td style=\"text-align:right\">RÈGLE n° 2 :</td></tr></table>"
+  },
+  "9:15+9:16+9:17+9:18+9:19+9:20": {
+    "text": "Être aussi ferme et résolu que possible dans mes actions et suivre avec autant de constance les opinions les plus douteuses que si elles étaient les plus certaines",
+    "align": "center",
+    "bbox": [
+      355,
+      177,
+      607,
+      389
+    ]
+  },
+  "9:21": "RÈGLE n° 3 :",
+  "9:22+9:23+9:24": {
+    "text": "M'efforcer toujours de me maîtriser plutôt que la fortune, de changer mes désirs plutôt que l'ordre du monde",
+    "align": "center"
+  },
+  "9:25": "LES TROIS MAXIMES",
+  "10:0+10:1+10:2+10:3+10:4+10:5": {
+    "text": "Consacrer sa vie à cultiver sa raison et progresser autant que possible dans la connaissance de la vérité, en suivant la méthode que je m'étais prescrite",
+    "align": "center"
+  },
+  "10:7": "DISCOURS DE LA MÉTHODE, TROISIÈME PARTIE",
+  "10:10": "LA DERNIÈRE MAXIME, LA PLUS ESSENTIELLE",
+  "11:0+11:1+11:2+11:3+11:4+11:5+11:6+11:7": {
+    "text": "[L'univers] ne peut être lu avant d'avoir appris sa langue et de s'être familiarisé avec les caractères dans lesquels il est écrit. Il est écrit en langage mathématique, et ses lettres sont des triangles, des cercles et d'autres figures géométriques sans lesquels il est humainement impossible d'en comprendre un seul mot.",
+    "align": "center"
+  },
+  "11:12": "GALILÉE ET IL SAGGIATORE",
+  "12:1": {
+    "text": "MERCI DE VOTRE ATTENTION !",
+    "align": "center",
+    "font": "Poppins-Bold"
+  }
+}

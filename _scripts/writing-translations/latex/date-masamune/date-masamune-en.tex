@@ -1,0 +1,52 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[english]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={Masamune Date}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Masamune Date}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{History of Japan}}\par\medskip
+\noindent{\LARGE\bfseries Masamune Date\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2024 · Article in English}\par\bigskip
+
+\articlefigure{media/media/image1.jpeg}{}
+
+Masamune Date, sometimes nicknamed the ``one-eyed dragon'', was born in 1567 in what is now Yamagata Prefecture. The son of the Date clan's daimyo, he succeeded his father at the age of 17 and embarked on numerous conquests in the provinces of Mutsu and Dewa, defeating several influential local lords. Although this cost his father his life, within just five years Masamune considerably expanded the clan's territory.\\
+However, in 1590, Masamune joined Toyotomi Hideyoshi, initially reluctantly. With the support of most of the daimyo in the Tohoku region, Hideyoshi took power in 1591 and began the long unification of Japan. Under Hideyoshi's authority, Masamune distinguished himself through his military prowess on the islands, suppressing the Kunehoe rebellion, as well as on the continent during the invasions of Korea from 1592 to 1598. These ended following Hideyoshi's death in 1598, after which Masamune sided with a promising new daimyo, Tokugawa Ieyasu. Alongside him, he won a decisive victory over a coalition of daimyo claiming to be Hideyoshi's heirs at the Battle of Sekigahara in 1600. This victory led to the establishment of the Tokugawa shogunate just three years later. In reward for his services, Ieyasu granted Masamune the Sendai domain, making him one of the wealthiest men in the country. The city of Sendai, a modest fishing village before Masamune's arrival, benefited greatly from his patronage. He had several important monuments built there, including a castle on Mount Aoba (now in ruins). Masamune also stood out for his interest in foreign countries, funding the construction of the San Juan Bautista, the first Western-style ship built in Japan, which enabled an early Japanese mission to reach the Vatican, the Philippines and Mexico.
+
+When he died in 1636, twenty years after Ieyasu, Masamune left a considerable legacy in Japanese history, particularly that of Tohoku, still visible today in such monuments as the Zuihoden Mausoleum, completed just one year after his death.
+
+\end{document}

@@ -1,0 +1,2466 @@
+[
+  {
+    "id": "1:1",
+    "page": 0,
+    "bbox": [
+      72.35166931152344,
+      393.3896179199219,
+      537.7369995117188,
+      524.1181640625
+    ],
+    "text": "L’INTERNATIONALISATION DE \nL’ENSEIGNEMENT SUPERIEUR \nJAPONAIS :  ",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 16777215
+  },
+  {
+    "id": "1:2",
+    "page": 0,
+    "bbox": [
+      72.35166931152344,
+      737.2998046875,
+      326.3525085449219,
+      765.79541015625
+    ],
+    "text": "Romain FERNEX (MiM 23)",
+    "size": 21.0,
+    "font": "Ubuntu-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "1:3",
+    "page": 0,
+    "bbox": [
+      72.3516845703125,
+      545.9205322265625,
+      430.71435546875,
+      646.5201416015625
+    ],
+    "text": "HISTOIRE, DÉFIS ET \nPERSPECTIVES",
+    "size": 36.0,
+    "font": "Ubuntu-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "1:5",
+    "page": 0,
+    "bbox": [
+      585.31640625,
+      754.2392578125,
+      596.992431640625,
+      777.7001953125
+    ],
+    "text": "1",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "2:0",
+    "page": 1,
+    "bbox": [
+      225.37693786621094,
+      71.6396484375,
+      386.7579650878906,
+      118.3681640625
+    ],
+    "text": "Sommaire",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "2:1",
+    "page": 1,
+    "bbox": [
+      102.52928924560547,
+      156.2435302734375,
+      135.3230438232422,
+      185.4488525390625
+    ],
+    "text": "4-5",
+    "size": 18.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "2:2",
+    "page": 1,
+    "bbox": [
+      98.3827896118164,
+      223.74351501464844,
+      135.0765380859375,
+      252.94883728027344
+    ],
+    "text": "6-11",
+    "size": 18.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "2:3",
+    "page": 1,
+    "bbox": [
+      85.67965698242188,
+      310.7435302734375,
+      134.80465698242188,
+      339.9488525390625
+    ],
+    "text": "13-18",
+    "size": 18.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "2:4",
+    "page": 1,
+    "bbox": [
+      79.54231262207031,
+      394.74346923828125,
+      135.07981872558594,
+      423.94879150390625
+    ],
+    "text": "19-23",
+    "size": 18.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "2:5",
+    "page": 1,
+    "bbox": [
+      111.46418762207031,
+      452.4934997558594,
+      138.0704345703125,
+      481.6988220214844
+    ],
+    "text": "24",
+    "size": 18.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "2:6",
+    "page": 1,
+    "bbox": [
+      485.015625,
+      19.9266357421875,
+      582.6652221679688,
+      35.1134033203125
+    ],
+    "text": "  2\nDOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "2:8",
+    "page": 1,
+    "bbox": [
+      173.25,
+      200.1959228515625,
+      614.6370239257812,
+      275.0882568359375
+    ],
+    "text": "chapitre 1 : 1868 – 2000, une internationalisation \nprogressive alternant entre phases d’ouverture et de \nrepli identitaire ",
+    "size": 18.273242950439453,
+    "font": "Ubuntu",
+    "color": 0
+  },
+  {
+    "id": "2:9",
+    "page": 1,
+    "bbox": [
+      173.25,
+      158.19593811035156,
+      305.35369873046875,
+      182.99151611328125
+    ],
+    "text": "Propos général",
+    "size": 18.273242950439453,
+    "font": "Ubuntu-Bold",
+    "color": 0
+  },
+  {
+    "id": "2:10",
+    "page": 1,
+    "bbox": [
+      173.25,
+      287.1959533691406,
+      571.2619018554688,
+      362.0882873535156
+    ],
+    "text": "chapitre 2 : le japon à l’épreuve de la \nmondialisation : réaffirmer la place du japon sur \nle marché universitaire international ",
+    "size": 18.273242950439453,
+    "font": "Ubuntu",
+    "color": 0
+  },
+  {
+    "id": "2:11",
+    "page": 1,
+    "bbox": [
+      173.25,
+      380.9459533691406,
+      494.8850402832031,
+      430.71258544921875
+    ],
+    "text": "chapitre 3 : le défi japonais : penser \nl'international sans négliger le national",
+    "size": 18.273242950439453,
+    "font": "Ubuntu",
+    "color": 0
+  },
+  {
+    "id": "2:12",
+    "page": 1,
+    "bbox": [
+      173.25,
+      454.4459228515625,
+      272.7796325683594,
+      479.24151611328125
+    ],
+    "text": "Conclusion ",
+    "size": 18.273242950439453,
+    "font": "Ubuntu-Bold",
+    "color": 0
+  },
+  {
+    "id": "2:13",
+    "page": 1,
+    "bbox": [
+      585.31640625,
+      754.2392578125,
+      596.992431640625,
+      777.7001953125
+    ],
+    "text": "2",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "3:1",
+    "page": 2,
+    "bbox": [
+      226.6589813232422,
+      56.63964080810547,
+      386.8444519042969,
+      103.36815643310547
+    ],
+    "text": "En résumé",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "3:2",
+    "page": 2,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      581.8072509765625,
+      35.1134033203125
+    ],
+    "text": "  3",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "3:3",
+    "page": 2,
+    "bbox": [
+      38.450469970703125,
+      188.80654907226562,
+      573.593505859375,
+      411.8789978027344
+    ],
+    "text": "  Cet article traite de la formation du système universitaire japonais depuis le\n19ème siècle et de la manière dont il construit, encore aujourd'hui, son rapport à\nl'international. Il se penche plus particulièrement sur les multiples formes que\ncette \"internationalisation\" a pu prendre et sur les débats virulents qu'elle\nentraîne au sein de la société japonaise. Des débats qui changent souvent de\nnature en fonction des réalités de l'époque et des orientations politiques des\ngouvernements successifs.\nEnfin, cet article s'intéresse au bilan des différentes mesures mises en place par\nle gouvernement japonais et analyse les défis actuels et futurs auxquels il fait\nface pour conserver l'attractivité et l'identité du modèle d'enseignement\nsupérieur nippon.",
+    "size": 14.613197326660156,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "3:4",
+    "page": 2,
+    "bbox": [
+      38.450469970703125,
+      454.27960205078125,
+      576.9203491210938,
+      677.35205078125
+    ],
+    "text": " \nThis article discusses the development of the Japanese university system since\nthe 19th century and how it continues to shape its relationship with the\ninternational community today. It focuses particularly on the various forms that\n\"internationalization\" has taken and the heated debates it sparks within\nJapanese society. Debates that often shift in nature depending on the era's\nrealities and the political orientations of successive governments.\nFinally, this article looks into the outcomes of the different measures \nimplemented by the Japanese government and analyzes the current and future \nchallenges it faces in maintaining the attractiveness and identity of the Japanese \nhigher education model.",
+    "size": 14.613197326660156,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "3:5",
+    "page": 2,
+    "bbox": [
+      101.7295150756836,
+      98.64257049560547,
+      509.5794982910156,
+      136.5966796875
+    ],
+    "text": "Quelques mots d'introduction",
+    "size": 30.0,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "3:6",
+    "page": 2,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "3:7",
+    "page": 2,
+    "bbox": [
+      40.48320007324219,
+      158.4840087890625,
+      182.51309204101562,
+      180.08399963378906
+    ],
+    "text": "Version Française",
+    "size": 18.0,
+    "font": "Lato-Bold",
+    "color": 1383460
+  },
+  {
+    "id": "3:8",
+    "page": 2,
+    "bbox": [
+      40.48320007324219,
+      439.7339782714844,
+      163.531982421875,
+      461.333984375
+    ],
+    "text": "English Version",
+    "size": 18.0,
+    "font": "Lato-Bold",
+    "color": 1383460
+  },
+  {
+    "id": "3:9",
+    "page": 2,
+    "bbox": [
+      585.31640625,
+      754.2392578125,
+      596.992431640625,
+      777.7001953125
+    ],
+    "text": "3",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "4:0",
+    "page": 3,
+    "bbox": [
+      187.4363250732422,
+      34.1396484375,
+      424.5658264160156,
+      80.8681640625
+    ],
+    "text": "Propos général",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "4:1",
+    "page": 3,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      581.8170166015625,
+      35.1134033203125
+    ],
+    "text": "  4",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "4:2",
+    "page": 3,
+    "bbox": [
+      39.73319625854492,
+      111.23400115966797,
+      574.4818115234375,
+      305.3340148925781
+    ],
+    "text": "    En septembre 2023, la révision de plusieurs critères du World\nUniversity Ranking, publié chaque année par Times Higher\nEducation, a abouti à une réévaluation à la hausse du rang des\nuniversités japonaises à l’international. À titre d’exemple, l’université\nde Tokyo est ainsi passée de la 39e à la 29e place. Si ce résultat a été\naccueilli positivement dans l’ensemble, nombreux sont les journaux\nqui préfèrent souligner le déclin des universités japonaises, y\ncompris au plus haut niveau, dans les classements internationaux\ndepuis près de 20 ans.",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "4:3",
+    "page": 3,
+    "bbox": [
+      39.73319625854492,
+      413.4840087890625,
+      574.4832153320312,
+      694.583984375
+    ],
+    "text": "De fait, les gains de place de l’université de Tokyo et de Kyoto, les\ndeux premières universités japonaises depuis plusieurs décennies,\nn’ont pas suffi à les faire repasser devant leurs homologues chinois,\ncomme l’université de Pékin et de Tsinghua qui se sont classées\nrespectivement à la 17e et à la 16e place du TWUR. Naturellement,\nle niveau d’attractivité et de performance d’une université ne saurait\nêtre réduit à cette seule dimension. Néanmoins, le recul de la\ncompétitivité des universités japonaises est une préoccupation de\nlongue date du gouvernement japonais et elle ne semble pas prête\nde disparaître, comme en témoignent les nombreux articles critiques\npubliés par la presse locale et internationale ces dernières années.\nAussi, la question de « l’internationalisation » de l’éducation\nsupérieure japonaise, de manière générale, s’impose comme un des",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "4:4",
+    "page": 3,
+    "bbox": [
+      105.5625,
+      314.9100036621094,
+      409.4730529785156,
+      404.19000244140625
+    ],
+    "text": "2\nEn comparaison la Chine en dénombre \nau moins 7 (source : TWUR 2023) ",
+    "size": 13.5,
+    "font": "Roboto-Regular",
+    "color": 1184274
+  },
+  {
+    "id": "4:5",
+    "page": 3,
+    "bbox": [
+      174.83042907714844,
+      316.13104248046875,
+      498.2099304199219,
+      359.9306945800781
+    ],
+    "text": "Universités Japonaises dans le top 100 des \nuniversités mondiales en 2023",
+    "size": 16.392847061157227,
+    "font": "Roboto-Bold",
+    "color": 1184274
+  },
+  {
+    "id": "4:6",
+    "page": 3,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "4:7",
+    "page": 3,
+    "bbox": [
+      585.31640625,
+      754.2392578125,
+      596.992431640625,
+      777.7001953125
+    ],
+    "text": "4",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "5:0",
+    "page": 4,
+    "bbox": [
+      187.4363250732422,
+      34.1396484375,
+      424.5658264160156,
+      80.8681640625
+    ],
+    "text": "Propos général",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "5:1",
+    "page": 4,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      581.5732421875,
+      35.1134033203125
+    ],
+    "text": "  5",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "5:2",
+    "page": 4,
+    "bbox": [
+      39.73319625854492,
+      111.98400115966797,
+      577.9572143554688,
+      695.333984375
+    ],
+    "text": "défis majeurs, si ce n’est le défi par excellence, du MEXT pour les \nannées à venir.\n        Mais qu’entend-on exactement par « internationalisation » dans \nce contexte particulier ? Pour reprendre la définition de Jane Knight, \nprofesseure adjointe à l’université de Toronto, il convient \nd’interroger l’évolution de la capacité du système d’éducation \njaponais à « intégrer une dimension internationale, interculturelle ou \nglobale dans l’objectif, la fonction ou la prestation de l’éducation ». \nL’internationalisation de l’éducation est donc un processus complexe \net multifactoriel qui nécessite une évaluation méticuleuse tant sur le \nplan quantitatif que qualitatif. Il est également important de noter \nqu’un tel processus ne saurait être pensé indépendamment des \nréalités nationales et de « l’exceptionnalisme » japonais, souvent mis \nen avant par ses défenseurs.\n        C’est sur cette base que cet article propose de revenir sur un peu \nplus d’un siècle d’histoire de l’éducation supérieure japonaise et d’en \nanalyser les relations avec son environnement régional et global.\nEn premier lieu, il s’agit de proposer une perspective historique afin\nde mieux comprendre les évolutions par lesquelles est passé le\nsystème d’éducation japonais et de voir dans quelle mesure les\npolitiques actuelles du gouvernement japonais s’en détachent.\nEnsuite, nous analyserons l’impact des différentes politiques\nd’internationalisation du Japon en soulignant leurs réussites et leurs\nlimites. Enfin, nous tenterons de restituer la particularité nippone\ndans ce domaine, en soulignant le défi significatif d’internationaliser\nle Japon sans que cela se fasse au détriment de la préservation d’une\n« identité japonaise ».",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "5:3",
+    "page": 4,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "5:4",
+    "page": 4,
+    "bbox": [
+      585.31640625,
+      754.2392578125,
+      596.992431640625,
+      777.7001953125
+    ],
+    "text": "5",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "6:1",
+    "page": 5,
+    "bbox": [
+      126.00662994384766,
+      56.63964080810547,
+      486.0905456542969,
+      103.36815643310547
+    ],
+    "text": "Chapitre 1 : 1868-2000",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "6:2",
+    "page": 5,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      582.041259765625,
+      35.1134033203125
+    ],
+    "text": "  6",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "6:3",
+    "page": 5,
+    "bbox": [
+      33.22169876098633,
+      98.64257049560547,
+      579.4133911132812,
+      178.5966796875
+    ],
+    "text": "Une internationalisation progressive \nalternant entre phase d'ouverture et de ",
+    "size": 30.0,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "6:4",
+    "page": 5,
+    "bbox": [
+      200.71778869628906,
+      182.642578125,
+      412.00775146484375,
+      220.5966796875
+    ],
+    "text": "repli identitaire",
+    "size": 30.0,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "6:5",
+    "page": 5,
+    "bbox": [
+      120.7447280883789,
+      516.6231689453125,
+      258.8239440917969,
+      561.3866577148438
+    ],
+    "text": "Fukuzawa Yukichi\nFigure majeure de ",
+    "size": 16.36257553100586,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "6:6",
+    "page": 5,
+    "bbox": [
+      126.92581176757812,
+      563.785888671875,
+      252.62779235839844,
+      584.4867553710938
+    ],
+    "text": "l'ère Meiji et des ",
+    "size": 16.36257553100586,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "6:7",
+    "page": 5,
+    "bbox": [
+      122.27871704101562,
+      585.9235229492188,
+      257.27490234375,
+      629.7244873046875
+    ],
+    "text": "débuts d'un \nvéritable système ",
+    "size": 16.36257553100586,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "6:8",
+    "page": 5,
+    "bbox": [
+      121.85762023925781,
+      632.1237182617188,
+      257.7651672363281,
+      675.9246826171875
+    ],
+    "text": "d'enseignement \nsupérieur japonais",
+    "size": 16.36257553100586,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "6:10",
+    "page": 5,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 16777215
+  },
+  {
+    "id": "6:11",
+    "page": 5,
+    "bbox": [
+      585.31640625,
+      754.2392578125,
+      596.992431640625,
+      777.7001953125
+    ],
+    "text": "6",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "7:0",
+    "page": 6,
+    "bbox": [
+      90.83866882324219,
+      46.1396484375,
+      521.3026123046875,
+      92.8681640625
+    ],
+    "text": "Chapitre 1 : de 1868 à 2000",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "7:1",
+    "page": 6,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      582.031494140625,
+      35.1134033203125
+    ],
+    "text": "  7",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "7:2",
+    "page": 6,
+    "bbox": [
+      39.73319625854492,
+      201.98397827148438,
+      577.9572143554688,
+      699.083984375
+    ],
+    "text": "        Les débuts de l’éducation supérieure japonaise peuvent être \nsitués vers 1868, avec l’instauration du gouvernement Meiji qui \nmarque la fin de près de deux siècles d’isolationnisme sous le \nshogunat Tokugawa et sa politique du Sakoku. À l’heure où \nl’ouverture sur le monde apparaît comme le seul choix viable pour le \npays, nombre d’éducateurs japonais se forment en Occident et \nsouhaitent diffuser le modèle d’éducation occidental au Japon. En \nparallèle, les études occidentales se développent avec l’apparition de \nplusieurs écoles missionnaires, portées par des Hollandais puis des \nAnglais, des Allemands, etc. En 1868, Fukuzawa Yukichi, ancien \ntraducteur officiel du shogunat et écrivain influent, fonde la Keio \nGijuku (qui deviendra l’actuelle Keio) à Tokyo où sont dispensés des \nenseignements dans plusieurs langues occidentales, dont l’anglais \nqui prend peu à peu le pas sur le hollandais. En 1877, la première \nuniversité publique voit le jour avec la fondation de ce qui deviendra \nl’université de Tokyo. Aucun de ces deux établissements ne possède \ncependant le statut d’université à proprement parler. C’est Mori \nArinori, ministre de l’Éducation japonais particulièrement influent et \nqui bénéficie du soutien indéfectible du premier ministre de \nl’époque, qui fait de l’université de Tokyo la première université \nimpériale en 1886 par voie d’une ordonnance impériale. Il faudra \nattendre 1897 pour la fondation de la deuxième université \nimpériale, l’université de Kyoto.",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "7:3",
+    "page": 6,
+    "bbox": [
+      39.73319625854492,
+      103.7339859008789,
+      495.2345275878906,
+      189.833984375
+    ],
+    "text": "Les ères Meiji et Taisho : un système universitaire japonais \nné au sein d'une période rythmé par la multiplication des \nemprunts à l'occident et par une volonté de préserver \n\"l'exceptionalisme japonais\"",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 3306408
+  },
+  {
+    "id": "7:4",
+    "page": 6,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "7:5",
+    "page": 6,
+    "bbox": [
+      585.31640625,
+      754.2392578125,
+      596.992431640625,
+      777.7001953125
+    ],
+    "text": "7",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "8:0",
+    "page": 7,
+    "bbox": [
+      90.83866882324219,
+      46.1396484375,
+      521.3026123046875,
+      92.8681640625
+    ],
+    "text": "Chapitre 1 : de 1868 à 2000",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "8:1",
+    "page": 7,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      582.021728515625,
+      35.1134033203125
+    ],
+    "text": "  8",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "8:2",
+    "page": 7,
+    "bbox": [
+      39.73319625854492,
+      111.23400115966797,
+      577.9572143554688,
+      586.583984375
+    ],
+    "text": "Au total, sept universités impériales sont créées entre 1886 et 1939, \nparmi elles deux sont fondées dans les colonies japonaises en Corée \ndu Sud et à Taïwan. Le secteur universitaire privé, qui débute avec \nKeio, se développe lui aussi à son rythme avec l’ordonnance de 1902 \nqui permet la création d’instituts d’éducation supérieure par des \nacteurs autres que le gouvernement. Pour autant, ce n’est qu’en \n1918 qu’il se voit reconnaître le statut officiel d’université. \n        Cependant, alors qu’une éducation supérieure japonaise voit le \njour, l’importance de l’Occident tant dans le personnel des facultés \nque dans la langue et le contenu des cours fait bientôt débat. Les \npoussées nationalistes et la volonté de préserver « l’identité du \nJapon » poussent le gouvernement à remplacer au fur et à mesure \nles enseignants occidentaux par des enseignants japonais formés \naux techniques occidentales, y compris pour l’apprentissage des \nlangues étrangères. Dès 1890, le Rescrit impérial sur l’éducation \nsigné par le nouveau gouvernement conservateur réaffirme la place \ndes valeurs confucéennes à l’école et critique plus ou moins \nouvertement le rôle des écoles missionnaires. La victoire du Japon \nface à la Chine puis face à la Russie en 1894 et 1905 respectivement \nrenforce encore cette tendance et l’ère Taisho se distingue par le \nretour de l’enseignement moral à l’école et l’évincement progressif \ndes Occidentaux. ",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "8:3",
+    "page": 7,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "8:4",
+    "page": 7,
+    "bbox": [
+      39.73319625854492,
+      603.9840087890625,
+      551.6486206054688,
+      669.083984375
+    ],
+    "text": "L'ère Showa : de l'université au service de la patrie à l'unversité au \nservice du marché, ou la difficile transition de l'impérialisme au \nnéolibéralisme",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 3306408
+  },
+  {
+    "id": "8:5",
+    "page": 7,
+    "bbox": [
+      585.31640625,
+      754.2392578125,
+      596.992431640625,
+      777.7001953125
+    ],
+    "text": "8",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "9:0",
+    "page": 8,
+    "bbox": [
+      90.83866882324219,
+      46.1396484375,
+      521.3026123046875,
+      92.8681640625
+    ],
+    "text": "Chapitre 1 : de 1868 à 2000",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "9:1",
+    "page": 8,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      582.041259765625,
+      35.1134033203125
+    ],
+    "text": "  9",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "9:2",
+    "page": 8,
+    "bbox": [
+      39.73319625854492,
+      97.73399353027344,
+      577.9572143554688,
+      270.8340148925781
+    ],
+    "text": "                Ainsi, malgré un développement fulgurant de l’éducation \ncomparé à la période d’Edo, seul un étudiant japonais sur 20 a accès \naux études supérieures au début de l’ère Showa en 1926. Le \nrenforcement du contrôle étatique de l’éducation amorcé en 1890 \ndevient encore plus fort à mesure des campagnes expansionnistes \nlancées par le Japon impérial. Paradoxalement, c’est aussi à cette \népoque que le secteur privé devient majoritaire, ce qu’il est encore \naujourd’hui.",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "9:3",
+    "page": 8,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "9:4",
+    "page": 8,
+    "bbox": [
+      39.73319625854492,
+      270.2340087890625,
+      577.9572143554688,
+      702.083984375
+    ],
+    "text": "        Pour autant, c’est un système profondément hétérogène où la \nqualité de l’éducation est très variable entre les universités \nimpériales, les universités publiques de second rang et les \nuniversités privées. La fermeture définitive des dernières écoles \nmissionnaires, encore opérées par des Occidentaux, fragilise encore \ncet écosystème fragile et la qualité de l’éducation s’effondre pour \nmieux mettre à profit les étudiants sur les champs de bataille.\nLa tendance s’inverse cependant brutalement à la sortie de la guerre \net l’instauration d’un gouvernement provisoire en 1946 sous le \ncontrôle des Américains. Malgré une relative autonomie, le nouveau \ngouvernement opte pour une américanisation prononcée de \nl’éducation japonaise avec, entre autres, la mise en place d’un « single \ntrack system » semblable à celui encore aujourd’hui en place dans la \nplupart des pays du monde. Les défis de l’époque sont toutefois \nnombreux : tout d’abord, la qualité de l’éducation japonaise s’est \nprofondément dégradée ce qui demande la création d’un système \nd’accréditation des universités pour mieux les encadrer. Par ailleurs, \nla demande d’éducation se fait toujours plus présente et les \ndimensions du système universitaire sont bien trop modestes pour \nles accueillir. De fait, on compte déjà 50 000 étudiants dans les univ-",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "9:5",
+    "page": 8,
+    "bbox": [
+      585.31640625,
+      754.2392578125,
+      596.992431640625,
+      777.7001953125
+    ],
+    "text": "9",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "10:0",
+    "page": 9,
+    "bbox": [
+      90.83866882324219,
+      46.1396484375,
+      521.3026123046875,
+      92.8681640625
+    ],
+    "text": "Chapitre 1 : de 1868 à 2000",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "10:1",
+    "page": 9,
+    "bbox": [
+      485.015625,
+      19.9266357421875,
+      586.4384765625,
+      35.1134033203125
+    ],
+    "text": "  10\nDOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "10:2",
+    "page": 9,
+    "bbox": [
+      39.73319625854492,
+      113.48400115966797,
+      577.9572143554688,
+      696.833984375
+    ],
+    "text": "-ersités du pays en 1944, contre seulement 37 000 en Grande-\nBretagne \nà \nla \nmême \népoque. \nTrente-deux \nuniversités \nsupplémentaires sont ainsi créées entre 1945 et 1948 pour \nrépondre à cette montée fulgurante de la demande. On compte, en \n1952, 71 universités nationales (dont 5 universités impériales), 116 \nuniversités privées et 33 universités publiques. Avec le baby-boom, \nconstruire l’université pour tous reste l’enjeu majeur pour les deux \ndécennies suivantes. La massification de l’enseignement supérieur \nentraîne ainsi une vague de dérégulation et une forte augmentation \ndes subventions publiques qui bénéficient largement au secteur \nprivé. Une première planification de l’enseignement supérieur se \ndéveloppe aussi avec la mise en place d’un « Advisory Committee on \nHigher Education » et d’une nouvelle division rattachée au ministère \nde l’Éducation, le Monbucho.\n                Cette planification cède rapidement la place à la nouvelle \ntendance qui va dominer les années 1980 à 2000, le néolibéralisme. \nLe système de sélection à l’entrée à l’université prend rapidement de \nl’ampleur et les subventions du gouvernement au secteur privé sont \nfortement réduites. Pour autant, l’université privée continue \nd’exploser avec un nombre de candidats qui augmente encore, ce qui \nleur laisse la possibilité d’imposer des frais d’entrée plus élevés. À \ncette époque, les universités japonaises dominent les classements \nrégionaux, loin devant la Chine et la Corée du Sud, et la question de \nl’internationalisation passe désormais moins par une réflexion sur la \nstructure du système et la qualité des enseignements que sur la \nfaçon \nd’attirer \ndavantage \nd’étudiants \ninternationaux. \nLe \ngouvernement Nakasone marque donc le moment où le Japon, qui a",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "10:3",
+    "page": 9,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "10",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "11:0",
+    "page": 10,
+    "bbox": [
+      90.83866882324219,
+      46.1396484375,
+      521.3026123046875,
+      92.8681640625
+    ],
+    "text": "Chapitre 1 : de 1868 à 2000",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "11:1",
+    "page": 10,
+    "bbox": [
+      485.015625,
+      19.9266357421875,
+      583.376953125,
+      35.1134033203125
+    ],
+    "text": "  11\nDOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "11:2",
+    "page": 10,
+    "bbox": [
+      39.73319625854492,
+      108.98399353027344,
+      577.9572143554688,
+      670.583984375
+    ],
+    "text": "enfin terminé de rattraper son retard sur les puissances occidentales \ndans ce domaine, doit choisir quelle place il veut occuper sur la scène \ninternationale. Il assouplit les normes pour la création de nouvelles \nuniversités et promeut un fort développement international et fixe \nen 1983 un premier objectif de 100 000 étudiants internationaux \npar an d’ici l’an 2000. De fait, alors que les décennies précédentes \nont été dominées par la peur de ne pas pouvoir fournir un accès à \nl’université à tous les Japonais qui le veulent, l’évolution progressive \nde la situation démographique fait naître des inquiétudes tout à fait \ndifférentes. Les autorités craignent donc une baisse rapide de la \ndemande qui risque d’impacter la qualité de l’éducation supérieure \njaponaise et son niveau de sélection. Cette crainte se matérialise peu \nà peu avec un ratio candidat/admis qui passe de 2 à 1,18 entre 1990 \net 2008. Autrement dit, développer les mobilités internationales \nvers le Japon devient un enjeu majeur à l’entrée du nouveau \nmillénaire et une politique d’internationalisation qui reflète les \nbesoins croissants amenés par la globalisation des activités \néconomiques et académiques apparaît une nécessité. \n        Cette première politique s’avère positive sous certains aspects et \nl’objectif des 100 000 est atteint en 2003, période à laquelle les \nuniversités japonaises sont à leur apogée dans les classements et \nrayonnent fortement à l’échelle de l’Asie. Pour autant, ce système \nn’est pas sans fragilités et la compétitivité japonaise connaît bientôt \ndes défis de taille qu’elle peine encore aujourd’hui à relever. Aussi, \nquels sont ces défis, quelles politiques publiques ont été mises en \nplace pour y répondre et avec quel niveau de succès ? ",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "11:3",
+    "page": 10,
+    "bbox": [
+      575.19140625,
+      754.2392578125,
+      596.988037109375,
+      777.7001953125
+    ],
+    "text": "11",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "12:1",
+    "page": 11,
+    "bbox": [
+      92.93632507324219,
+      56.63964080810547,
+      519.0553588867188,
+      103.36815643310547
+    ],
+    "text": "Chapitre 2 : Mondialisation",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "12:2",
+    "page": 11,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      586.6919555664062,
+      35.1134033203125
+    ],
+    "text": "  12",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "12:3",
+    "page": 11,
+    "bbox": [
+      20.25,
+      98.64257049560547,
+      599.9338989257812,
+      178.5966796875
+    ],
+    "text": "Le Japon à l'épreuve de la mondialisation : \nréaffirmer la place du Japon sur le marché ",
+    "size": 30.0,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "12:4",
+    "page": 11,
+    "bbox": [
+      163.58203125,
+      182.642578125,
+      449.99749755859375,
+      220.5966796875
+    ],
+    "text": "universitaire mondial",
+    "size": 30.0,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "12:5",
+    "page": 11,
+    "bbox": [
+      115.78180694580078,
+      516.6231689453125,
+      263.7901306152344,
+      538.8261108398438
+    ],
+    "text": "Yasuhiro Nakasone",
+    "size": 16.36257553100586,
+    "font": "Ubuntu-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "12:6",
+    "page": 11,
+    "bbox": [
+      119.01522064208984,
+      540.685791015625,
+      260.5383605957031,
+      629.7244873046875
+    ],
+    "text": "Premier ministre \njaponais de 1982 à \n1987 et moteur de \nla libéralisation du ",
+    "size": 16.36257553100586,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "12:7",
+    "page": 11,
+    "bbox": [
+      122.08320617675781,
+      632.1237182617188,
+      257.4998474121094,
+      675.9246826171875
+    ],
+    "text": "Japon dans les \nannées 1980-1990",
+    "size": 16.36257553100586,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "12:9",
+    "page": 11,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 16777215
+  },
+  {
+    "id": "12:10",
+    "page": 11,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "12",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "13:0",
+    "page": 12,
+    "bbox": [
+      92.93632507324219,
+      46.1396484375,
+      519.0553588867188,
+      92.8681640625
+    ],
+    "text": "Chapitre 2 : Mondialisation",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "13:1",
+    "page": 12,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      585.833984375,
+      35.1134033203125
+    ],
+    "text": "  13",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "13:2",
+    "page": 12,
+    "bbox": [
+      39.73319625854492,
+      169.7340087890625,
+      577.9572143554688,
+      687.833984375
+    ],
+    "text": "        Pour commencer, en 2004, une loi est votée pour la dérégulation \net l’autonomisation des universités japonaises : les universités \nnationales sont privatisées, elles gagnent en autonomie d’un point \nde vue budgétaire mais reçoivent également beaucoup moins de \nsubventions gouvernementales. Si cette mesure ne semble \napparemment \npas \nliée \ndirectement \nà \nune \nvolonté \nd’internationalisation, son impact sur les politiques qui vont suivre \nest significatif. Cinq ans plus tard, un nouvel objectif de 300 000 \nétudiants internationaux par an d’ici 2020 est fixé par le \ngouvernement Fukuda, puis, en 2009, le projet Global 30 est lancé. \nTreize universités sont sélectionnées dans le cadre de ce dernier \navec \npour \nobjectif \nd’augmenter \nfortement \nle \nrecrutement \nd’étudiants internationaux, d’augmenter leur offre de cours en \nanglais, leur proportion de staff international, et d’ouvrir de \nnouveaux programmes uniquement en anglais pour attirer un public \nnon-nippophone. Si l’annonce est plutôt bien reçue par les \nuniversités sélectionnées, l’enthousiasme laisse vite place à la \npanique alors que le budget du programme est réduit de 30 % sur les \nannées suivant le lancement du programme. De manière plus \ngénérale, les subventions du MEXT sont depuis les années 1990, \nconditionnées \nà \ndes \nobjectifs \nde \nperformance \net \nplus \nparticulièrement au remplissement de quotas d’étudiants. Pour \nbeaucoup d’universités privées de seconde zone, exclues par défaut \ndes politiques élitistes comme le programme 30, recruter des étudi-",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "13:3",
+    "page": 12,
+    "bbox": [
+      39.73319625854492,
+      111.23400115966797,
+      536.1095581054688,
+      154.58399963378906
+    ],
+    "text": "Classements et mobilités internationales : garantir l'attractivité \ndu Japon face aux pressions nationales et internationales",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 3306408
+  },
+  {
+    "id": "13:4",
+    "page": 12,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "13:5",
+    "page": 12,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "13",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "14:0",
+    "page": 13,
+    "bbox": [
+      92.93632507324219,
+      46.1396484375,
+      519.0553588867188,
+      92.8681640625
+    ],
+    "text": "Chapitre 2 : Mondialisation",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "14:1",
+    "page": 13,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      585.84375,
+      35.1134033203125
+    ],
+    "text": "  14",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "14:2",
+    "page": 13,
+    "bbox": [
+      39.73319625854492,
+      105.23399353027344,
+      577.9572143554688,
+      515.333984375
+    ],
+    "text": "-ants étrangers devient un enjeu de survie. Ainsi, à la fin de l’ère \nHeisei, le top 30 des universités privées reçoit près de 50 % des \nfinancements et les autres tiennent largement grâce aux frais de \nscolarité payés par les étudiants, encore en large majorité japonais.\nLa politique japonaise en matière de mobilité internationale évolue \ncependant au fur et à mesure des années 2010 à 2020. En 2011, le \nprojet Re-inventing Japan prévoit l’extension des partenariats entre \nuniversités et met pour la première fois l’accent sur l’importance \nd’envoyer les jeunes Japonais à l’étranger et non plus seulement \nd’attirer des étudiants étrangers. L’apprentissage du japonais pour \nles étudiants étrangers au Japon est aussi plus fortement encouragé \nafin de faciliter leur intégration sur le marché du travail japonais. En \n2012 puis en 2014, deux programmes sur le modèle du programme \nGlobal 30 mais qui englobent davantage d’universités sont lancés : le \nprojet Go Global et le TGUP (Top Global University Project). \nImpliquant respectivement 42 et 37 universités à fort potentiel, ils \npermettent notamment l’ouverture de nouveaux programmes \nd’échange \net \ncontribuent \nà \nattirer \ndavantage \nd’étudiants \ninternationaux dans les établissements réputés du pays.",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "14:3",
+    "page": 13,
+    "bbox": [
+      39.73319625854492,
+      666.9840087890625,
+      551.6569213867188,
+      688.583984375
+    ],
+    "text": "Ainsi, en 2019, l’objectif des 300 000 étudiants internationaux est",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "14:4",
+    "page": 13,
+    "bbox": [
+      51.14725875854492,
+      548.1599731445312,
+      526.54052734375,
+      637.4400024414062
+    ],
+    "text": "2019\nLe gouvernement Kishida a fixé, en 2023, un \nnouvel objectif de 400 000 étudiants d'ici 2033",
+    "size": 13.5,
+    "font": "Roboto-Regular",
+    "color": 1184274
+  },
+  {
+    "id": "14:5",
+    "page": 13,
+    "bbox": [
+      248.0265350341797,
+      546.381103515625,
+      518.0225830078125,
+      590.1806640625
+    ],
+    "text": "Date à la quelle l'objectif de 300 000 \nétudiants internationaux est atteint",
+    "size": 16.392847061157227,
+    "font": "Roboto-Bold",
+    "color": 1184274
+  },
+  {
+    "id": "14:6",
+    "page": 13,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "14:7",
+    "page": 13,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "14",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "15:0",
+    "page": 14,
+    "bbox": [
+      92.93632507324219,
+      46.1396484375,
+      519.0553588867188,
+      92.8681640625
+    ],
+    "text": "Chapitre 2 : Mondialisation",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "15:1",
+    "page": 14,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      585.5999755859375,
+      35.1134033203125
+    ],
+    "text": "  15",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "15:2",
+    "page": 14,
+    "bbox": [
+      39.73319625854492,
+      110.48400115966797,
+      577.9572143554688,
+      434.3340148925781
+    ],
+    "text": "atteint juste avant le début de la crise du Covid-19. Néanmoins, \ncette réussite est à nuancer : le seuil des 300 000 étudiants \ncorrespond en réalité à 5 % du marché mondial des étudiants \ninternationaux qui est lui aussi en constante augmentation. En \nd’autres mots, la part de marché du Japon est restée stable depuis le \ndébut des années 2000 et le rang des universités japonaises s’est \neffondré, y compris à l’échelle régionale. Par ailleurs, le système de \ndéveloppement à deux vitesses adopté par le Japon a laissé ses \nmarques et il est intéressant de constater que la majorité des \nétudiants internationaux se concentre dans les écoles de langue et \ndans des formations à faible valeur ajoutée au sein d’universités de \nmasse qui ont bradé leurs standards de sélection pour assurer leur \nsurvie. Le quantitatif semble ainsi avoir pris le pas sur le qualitatif et \nle défi de l’internationalisation a lentement changé de nature ces \ndernières années.",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "15:3",
+    "page": 14,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "15:4",
+    "page": 14,
+    "bbox": [
+      39.73319625854492,
+      446.4839782714844,
+      540.7853393554688,
+      511.583984375
+    ],
+    "text": "Attirer oui, mais qui, dans quelles conditions et pour combien de \ntemps ? : La difficile transition d'une internationalisation \nquantitative à une internationalisation qualitative",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 3306408
+  },
+  {
+    "id": "15:5",
+    "page": 14,
+    "bbox": [
+      39.73319625854492,
+      524.4840087890625,
+      577.9572143554688,
+      697.583984375
+    ],
+    "text": "                Comme explicité précédemment, à l’exception de quelques \nuniversités majeures, la majorité des étudiants internationaux se \ntrouve dans des écoles de langues ou dans les graduate schools des \nuniversités au milieu et en bas de l’échelle. Si on se limite aux \nétudiants internationaux qui étudient dans une université japonaise, \net qui sont déjà minoritaires, seul un tiers étudie dans les universités \nà haut potentiel identifiées par le TGUP, contre deux tiers dans des \nuniversités dites de masse. Plusieurs scandales dans certains de ces ",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "15:6",
+    "page": 14,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "15",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "16:0",
+    "page": 15,
+    "bbox": [
+      92.93632507324219,
+      46.1396484375,
+      519.0553588867188,
+      92.8681640625
+    ],
+    "text": "Chapitre 2 : Mondialisation",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "16:1",
+    "page": 15,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      586.0679931640625,
+      35.1134033203125
+    ],
+    "text": "  16",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "16:2",
+    "page": 15,
+    "bbox": [
+      39.73319625854492,
+      110.48400115966797,
+      577.9572143554688,
+      693.833984375
+    ],
+    "text": "instituts ont d’ailleurs éveillé des inquiétudes sur la qualité des \nformations proposées et ont mis en lumière certaines pratiques plus \nou moins légales dans le but d’attirer toujours plus d’étudiants. \nCertaines universités et écoles de langue apparaissent, en effet, \ncomme étant des coquilles vides qui produisent des centaines de \ntravailleurs illégaux chaque année et échappent aux contrôles du \ngouvernement. Des mesures strictes ont depuis été votées pour \nrenforcer le contrôle qualité et limiter les infractions mais le \nphénomène n’a pas totalement disparu.\n        Afin d’établir un portrait fidèle de l’étudiant étranger moyen au \nJapon, il s’agit également de regarder la nationalité d’origine de ces \nétudiants. Si cette population a quelque peu évolué elle reste très \nmajoritairement asiatique, avec 93,6 % étudiants internationaux \noriginaires d’Asie en 2019, dont 40 % venant de Chine et 23,5 % \nvenant du Vietnam. Au sein de ces 93,6 %, la part d’étudiants chinois \net coréens tend à décroître ou à se stabiliser, contrairement à la \nproportion d’étudiants d’Asie du Sud qui est en augmentation \nconstante. Enfin, il convient de rappeler que l’étudiant international \nau Japon est très largement minoritaire avec seulement 5,2 % \nd’étudiants \ninternationaux \nau \nJapon \nen \nmai \n2020. \nUne \ncaractéristique qu’il partage bien souvent avec le corps professoral, \ncomposé de seulement 4,3 % de non-Japonais en 2016. Les \nétudiants se sentent donc généralement marginalisés et cette \nsituation ne s’améliore pas lors de la recherche d’un emploi au Japon.\nEn réaction, le gouvernement japonais a lancé plusieurs politiques \npour tenter d’intégrer davantage les internationaux sur le marché du \ntravail japonais avec plus ou moins de succès. La « stratégie de revi-",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "16:3",
+    "page": 15,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "16:4",
+    "page": 15,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "16",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "17:0",
+    "page": 16,
+    "bbox": [
+      92.93632507324219,
+      46.1396484375,
+      519.0553588867188,
+      92.8681640625
+    ],
+    "text": "Chapitre 2 : Mondialisation",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "17:1",
+    "page": 16,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      586.0582275390625,
+      35.1134033203125
+    ],
+    "text": "  17",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "17:2",
+    "page": 16,
+    "bbox": [
+      39.73319625854492,
+      110.48400115966797,
+      577.9572143554688,
+      693.833984375
+    ],
+    "text": "-talisation » du gouvernement Abe depuis 2016 vise par exemple à \npasser de 30 % à 50 % d’étudiants internationaux qui poursuivent \nleur carrière au Japon. Un système d’immigration à points pour les \nprofessionnels étrangers hautement qualifiés a également été lancé \nen 2012 afin de remédier en partie au double problème de la qualité \ndes étudiants recrutés et des nombreuses barrières à l’emploi pour \nles professionnels étrangers. De leur côté, les entreprises japonaises \ncommencent également à prendre la mesure du problème. Le \nKeidanren (fédération des entreprises japonaises) a lancé plusieurs \ninitiatives pour promouvoir l’internationalisation des effectifs \nrecrutés chaque année par les entreprises japonaises. Il a par \nexemple lancé en 2016 une initiative pour « développer les talents \nglobaux » qui consiste en la distribution d’un million de yen en \nsubventions pour les étudiants japonais qui souhaitent partir étudier \nà l’étranger. Néanmoins, la barrière culturelle reste de taille tant \npour les Japonais que pour les étrangers qui souhaitent travailler au \nJapon. En effet, le processus de recrutement des entreprises \njaponaises met encore trop peu l’emphase sur l’importance d’avoir \nun background multiculturel, et le calendrier de recrutement est \nbien souvent peu compatible avec la mobilité internationale. Ce \ndernier démarre souvent un an avant la prise de poste et prend \nsystématiquement place en parallèle de la dernière année d’étude. Si \ncela permet d’avoir un taux très élevé d’étudiants qui ont un emploi \navant la fin de leurs études, il est aussi mal adapté aux besoins \ndesétudiants internationaux dont le projet de venir travailler au \nJapon est encore en cours de construction et qui sont sous une forte \npression pour s’adapter aux normes du pays très rapidement. ",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "17:3",
+    "page": 16,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "17:4",
+    "page": 16,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "17",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "18:0",
+    "page": 17,
+    "bbox": [
+      92.93632507324219,
+      46.1396484375,
+      519.0553588867188,
+      92.8681640625
+    ],
+    "text": "Chapitre 2 : Mondialisation",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "18:1",
+    "page": 17,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      586.0484619140625,
+      35.1134033203125
+    ],
+    "text": "  18",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "18:2",
+    "page": 17,
+    "bbox": [
+      39.73319625854492,
+      110.48400115966797,
+      577.9572143554688,
+      456.0840148925781
+    ],
+    "text": "C’est sans compter sur le fait que bon nombre d’étudiants \ninternationaux ont recours à des baitos (jobs étudiants) pour \nfinancer leurs études et se retrouvent vite noyés entre leur mémoire \nde fin d’étude, des processus de recrutement très chronophages, \nl’apprentissage de la langue et leurs besoins financiers. Le monde de \nla recherche souffre également d’un mal similaire et est par ailleurs \ndésavantagé par une politique nationale qui est globalement \ndéfavorable à la poursuite d’une thèse, notamment pour les sciences \nhumaines. \n        En résumé, au-delà d’un besoin en investissements important, \ninternationaliser l’enseignement supérieur japonais nécessite aussi \nde réels changements sur le plan culturel pour mieux intégrer les \nétudiants internationaux. Pour autant, cela signifie-t-il effacer \ncomplètement ce qui fait la particularité du Japon et est-ce \nnécessairement antithétique avec le fait de diffuser la culture \njaponaise à l’international ? ",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "18:3",
+    "page": 17,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "18:4",
+    "page": 17,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "18",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "19:1",
+    "page": 18,
+    "bbox": [
+      84.63944244384766,
+      56.63964080810547,
+      527.3683471679688,
+      103.36815643310547
+    ],
+    "text": "Chapitre 3 : Le Défi Japonais",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "19:2",
+    "page": 18,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      586.0679931640625,
+      35.1134033203125
+    ],
+    "text": "  19",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "19:3",
+    "page": 18,
+    "bbox": [
+      64.13858795166016,
+      98.64257049560547,
+      548.8642578125,
+      136.5966796875
+    ],
+    "text": "Penser l'international sans négliger ",
+    "size": 30.0,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "19:4",
+    "page": 18,
+    "bbox": [
+      234.86904907226562,
+      140.642578125,
+      378.0590515136719,
+      178.5966796875
+    ],
+    "text": "le national",
+    "size": 30.0,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "19:5",
+    "page": 18,
+    "bbox": [
+      97.78154754638672,
+      505.3731689453125,
+      283.80548095703125,
+      550.1366577148438
+    ],
+    "text": "L'île de Dejima\nLieu emblématique de la ",
+    "size": 16.36257553100586,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "19:6",
+    "page": 18,
+    "bbox": [
+      99.08995056152344,
+      552.535888671875,
+      280.466796875,
+      641.5745849609375
+    ],
+    "text": "politique du Sakoku et \nsymbole d'un Japon qui \nveut garder son contact \navec l'international sans ",
+    "size": 16.36257553100586,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "19:7",
+    "page": 18,
+    "bbox": [
+      116.56542205810547,
+      643.9738159179688,
+      262.9913330078125,
+      664.6746826171875
+    ],
+    "text": "perdre son identité ",
+    "size": 16.36257553100586,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "19:8",
+    "page": 18,
+    "bbox": [
+      154.87008666992188,
+      667.0739135742188,
+      224.72193908691406,
+      687.7747802734375
+    ],
+    "text": "nationale",
+    "size": 16.36257553100586,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "19:10",
+    "page": 18,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 16777215
+  },
+  {
+    "id": "19:11",
+    "page": 18,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "19",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "20:0",
+    "page": 19,
+    "bbox": [
+      84.63944244384766,
+      46.1396484375,
+      527.3683471679688,
+      92.8681640625
+    ],
+    "text": "Chapitre 3 : Le Défi Japonais",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "20:1",
+    "page": 19,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      589.7534790039062,
+      35.1134033203125
+    ],
+    "text": "  20",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "20:2",
+    "page": 19,
+    "bbox": [
+      39.73319625854492,
+      178.7340087890625,
+      577.9572143554688,
+      696.833984375
+    ],
+    "text": "        À l’heure où le modèle anglo-saxon s’est largement diffusé à \ntravers \nle \nmonde, \ny \ncompris \nen \nAsie \nde \nl’Est, \npenser \nl’internationalisation de l’enseignement supérieur sans penser son \nanglicisation semble quasi impossible. En effet, la barrière \nlinguistique est souvent avancée comme le premier obstacle aux \nmobilités internationales en direction mais aussi en partance du \nJapon. Aussi, le Japon a investi largement pour essayer de \ncompenser le faible niveau en langue étrangère des Japonais et pour \ns’ouvrir à des populations qui ont plus de mal à apprendre le \njaponais. Au début des années 2000, le Japon était le premier pays \nsur le marché mondial de l’éducation à la langue anglaise en valeur \nabsolue, avec un secteur qui pèse près de 20 milliards de dollars au \nJapon. Le gouvernement a également poussé, à travers ses \ndifférentes initiatives, à étendre l’offre de programmes offerts en \nanglais par les universités japonaises : en 2018, on dénombre près de \n55 undergraduate programmes et 23 graduate programmes \nentièrement en anglais proposés par des universités japonaises. \nCependant, au-delà de ces statistiques impressionnantes par \nrapport à il y a quelques années, cette approche n’est pas sans \ndéfauts : certains étudiants japonais et internationaux ont critiqué la \n« dejima-isation » induite par ces nouveaux programmes \nentièrement en anglais. En référence à l’île de Dejima, seule île où les \nétrangers étaient autorisés à faire commerce pendant la période du \nSakoku et qui restait à l’écart de la société japonaise, ce terme désig-",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "20:3",
+    "page": 19,
+    "bbox": [
+      39.73319625854492,
+      104.48399353027344,
+      542.1095581054688,
+      169.58399963378906
+    ],
+    "text": "Préserver une éducation japonaise, mais surtout en japonais : \nquelle réponse face à l'impérialisme linguistique de l'anglais et la \ndomination du modèle anglo-saxon",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 3306408
+  },
+  {
+    "id": "20:4",
+    "page": 19,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "20:5",
+    "page": 19,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "20",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "21:0",
+    "page": 20,
+    "bbox": [
+      84.63944244384766,
+      46.1396484375,
+      527.3683471679688,
+      92.8681640625
+    ],
+    "text": "Chapitre 3 : Le Défi Japonais",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "21:1",
+    "page": 20,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      586.6919555664062,
+      35.1134033203125
+    ],
+    "text": "  21",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "21:2",
+    "page": 20,
+    "bbox": [
+      39.73319625854492,
+      114.98400115966797,
+      577.9572143554688,
+      676.583984375
+    ],
+    "text": "-ne le fait que nombre de ces programmes sont souvent séparés du \ncursus classique et ne s’accompagnent pas d’une réelle volonté de \nfaire se rencontrer les étudiants japonais et internationaux. De fait, \nils \nsont \nsouvent \nréservés \nexclusivement \naux \nétudiants \ninternationaux et ces derniers n’ont pas toujours accès à des \nopportunités de se former en langue japonaise au sein de leur \nuniversité d’accueil et de prendre part à la vie universitaire locale. \nL’échange des cultures semble donc céder la place à une politique de \nquotas qui ne permet pas une réelle intégration. À ce titre, l’effort du \ngouvernement japonais de ces dernières années pour développer les \ncours de japonais à destination des étudiants étrangers et d’investir \npour faciliter l’insertion de ces mêmes étudiants sur le marché de \nl’emploi japonais. \n        Cependant, ce problème n’est pas à considérer seulement du \npoint de vue des étudiants internationaux. Si le cursus universitaire \net scolaire japonais en général incorpore une part grandissante \nd’apprentissage des langues, et plus particulièrement de l’anglais, à \ntous les niveaux, la sphère professionnelle et académique est encore \ntrès largement nippophone. Cela est dû en partie grâce au \ndynamisme de la langue japonaise qui fait exception par rapport à \nd’autres pays développés asiatiques où l’anglais s’impose de plus en \nplus et est devenu la marque d’une forme d’élitisme. Dans le milieu \nuniversitaire japonais, notamment pour les sciences humaines, les \npublications se font en japonais et non en anglais, ce qui explique le \nclassement très modeste du Japon en termes de publication dans les \njournaux affiliés au Sciences Citation Index où l’anglais domine. Cela ",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "21:3",
+    "page": 20,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "21:4",
+    "page": 20,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "21",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "22:0",
+    "page": 21,
+    "bbox": [
+      84.63944244384766,
+      46.1396484375,
+      527.3683471679688,
+      92.8681640625
+    ],
+    "text": "Chapitre 3 : Le Défi Japonais",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "22:1",
+    "page": 21,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      590.0069580078125,
+      35.1134033203125
+    ],
+    "text": "  22",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "22:2",
+    "page": 21,
+    "bbox": [
+      39.73319625854492,
+      114.98400115966797,
+      577.9572143554688,
+      374.3340148925781
+    ],
+    "text": "affecte \nbien \nentendu \nsa \nposition \ndans \nles \nclassements \ninternationaux qui valorisent fortement cet indicateur et qui n’ont \nque peu d’égard pour la richesse des littératures scientifiques \nnationales \nnon \nanglophones. \nL’absence \nd’un \nréel \nsystème \nd’incitations financières à publier dans les journaux internationaux \npour les chercheurs japonais joue aussi dans le maintien de cette \nsituation.\n                Dès lors, il est légitime de penser la préservation d’un riche \nécosystème universitaire et professionnel nippophone pour \nconstruire une internationalisation qui ne se fait pas au détriment du \nmodèle japonais mais qui vient plutôt lui permettre de s’ouvrir à de \nnouvelles perspectives.",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "22:3",
+    "page": 21,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "22:4",
+    "page": 21,
+    "bbox": [
+      39.73319625854492,
+      384.2340087890625,
+      537.2228393554688,
+      427.5840148925781
+    ],
+    "text": "Le multiculturalisme : un enjeu international mais aussi national \npour le japon",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 3306408
+  },
+  {
+    "id": "22:5",
+    "page": 21,
+    "bbox": [
+      39.73319625854492,
+      438.9550476074219,
+      574.478271484375,
+      696.814453125
+    ],
+    "text": "      La question linguistique ne se limite toutefois pas aux relations\navec les territoires hors de l’archipel nippon. Comme le souligne\nRyoko Tsuneyoshi, chercheur à l’université de Tokyo, le Japon a\nlongtemps refusé de penser le multiculturalisme sur le sol national\net a trop souvent limité sa politique linguistique à démocratiser\nl’enseignement de l’anglais. Dans les faits, le Japon n’est pas\naussi homogène ethniquement que ce que veut la croyance\npopulaire avec la présence non négligeable d’une diaspora\ncoréenne, chinoise ou encore vietnamienne dans le pays, sans\ncompter les peuples autochtones japonais comme les Aïnous.\nPlusieurs de ces diasporas ont créé des écoles primaires et\nsecondaires communautaires afin de permettre à leurs enfants de",
+    "size": 18.0,
+    "font": "ArialMT",
+    "color": 0
+  },
+  {
+    "id": "22:6",
+    "page": 21,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "22",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "23:0",
+    "page": 22,
+    "bbox": [
+      84.63944244384766,
+      46.1396484375,
+      527.3683471679688,
+      92.8681640625
+    ],
+    "text": "Chapitre 3 : Le Défi Japonais",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "23:1",
+    "page": 22,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      589.1489868164062,
+      35.1134033203125
+    ],
+    "text": "  23",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "23:2",
+    "page": 22,
+    "bbox": [
+      39.73319625854492,
+      114.98400115966797,
+      577.9572143554688,
+      482.3340148925781
+    ],
+    "text": "continuer à apprendre leur langue maternelle en plus du japonais. \nPour autant, d’après une étude réalisée en 2002, seule un peu plus \nde la moitié des universités japonaises acceptent les étudiants qui \nproviennent de ces écoles communautaires. Or, en dehors de ces \nécoles communautaires, les opportunités d’apprendre une autre \nlangue que l’anglais ou le japonais sont très limitées ce qui n’aide pas \nà maintenir la richesse culturelle qui existe encore au Japon.\n        Cette crispation a aussi pu prendre d’autres formes comme le \nrejet jusqu’à assez récemment des Kikokushijo, les Japonais qui ont \nvécu ou étudié à l’étranger et qui souhaitent retourner au Japon. Il a \nen effet fallu attendre jusqu’en 1979 pour que des politiques incitent \nles universités japonaises à accepter ce genre de profil soient mises \nen place. Il est cependant important de noter qu’aujourd’hui ce \nproblème est bien moins prégnant, entre autres grâce aux efforts du \ngouvernement, et les Japonais avec une réelle expérience de \nl’étranger sont bien plus prisés par les entreprises japonaises qu’ils \nne l’étaient il y a 20 ans.",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 1383460
+  },
+  {
+    "id": "23:3",
+    "page": 22,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "23:4",
+    "page": 22,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "23",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "24:1",
+    "page": 23,
+    "bbox": [
+      242.9011688232422,
+      79.13964080810547,
+      369.1412353515625,
+      125.86815643310547
+    ],
+    "text": "EN BREF",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "24:2",
+    "page": 23,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      589.1587524414062,
+      35.1134033203125
+    ],
+    "text": "  24",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "24:3",
+    "page": 23,
+    "bbox": [
+      59.980201721191406,
+      164.12319946289062,
+      550.4981689453125,
+      711.31396484375
+    ],
+    "text": "    En conclusion, l’internationalisation du système d’éducation\nsupérieur du Japon est un processus en mutation constante et la\nfaçon dont elle se manifeste diffère fortement d’une époque à\nl’autre tant dans son ampleur que dans ses modalités et objectifs.\nElle est bien souvent le reflet de la politique du gouvernement au\npouvoir mais aussi des pressions nationales et internationales\nauxquelles est confronté le Japon et ne saurait être réduite à une\nsuite de mesures ou à un simple problème budgétaire. Plusieurs\njournaux japonais et rapports du MEXT parlent aujourd’hui de\nGurobaruka, qui désigne généralement la nécessaire adaptation\ndu modèle japonais aux contraintes que fait peser la globalisation.\nS’il est indéniable que la globalisation est un catalyseur de\nl’internationalisation, elle ne saurait en être le seul moteur et être\nseulement dans la réaction risque de ne pas permettre au Japon\nde pleinement bénéficier des richesses qu’il peut en tirer. Certains\nopposent d’ailleurs au concept de Gurobaruka celui de Kokusaika\nqui a pu être populaire par le passé. Même si le terme est\npolysémique, il est intéressant en ce qu’il décrit parfois une\nmondialisation qui sert les intérêts du Japon et qui n’est pas\nseulement une réponse à son environnement. Si la transcription\nd’un tel concept en des politiques concrètes est loin d’être aisée, il\nest essentiel de l’avoir en tête à l’heure actuelle pour penser non\nseulement une internationalisation du Japon mais aussi une\ninternationalisation à la japonaise.",
+    "size": 16.36257553100586,
+    "font": "Ubuntu",
+    "color": 15921906
+  },
+  {
+    "id": "24:4",
+    "page": 23,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 16777215
+  },
+  {
+    "id": "24:5",
+    "page": 23,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "24",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "25:0",
+    "page": 24,
+    "bbox": [
+      200.88475036621094,
+      37.8896484375,
+      411.2910461425781,
+      84.6181640625
+    ],
+    "text": "Bibliographie",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "25:1",
+    "page": 24,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      588.9149780273438,
+      35.1134033203125
+    ],
+    "text": "  25",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "25:2",
+    "page": 24,
+    "bbox": [
+      32.169918060302734,
+      100.67549896240234,
+      577.0755004882812,
+      683.87548828125
+    ],
+    "text": "1. Devesh Kapur, Japan : the changing role of higher education for Nation-building, The Oxford \nHandbook of Higher Education in the Asia-Pacific Region, 2023 \n2. Christopher Hammond, An analysis of dilemmas impeding internationalization of Japanese \nhigher education, Kwansei Gakuin University Social Sciences Review, Vol. 17, 2012 \n3. Tran Hoang Nam & al., Challenges in attracting international students to Japan, Journal of \ninternational scientific publications, Vol. 20, 2022 \n4. Christopher D. Hammond, Internatiolization, nationalism, and global competitiveness: a \ncomparison of approaches to higher education in China and Japan, Asia Pacific Education \nReview, 2016 \n5. Yukiko Shimmi et al. Internationalization of Japanese universities in the COVID 19 era, \nInternational higher education, 2021 \n6. Hiroshi Ota, Internationalization of Higher education : global trends and Japan’s challenges, \nEducational studies in Japan : international Yearbook, n°12, 2018 \n7. Chris Burgess & al., The global 30 project and Japanese higher education reform : an example \nof a ‘closing in’ or an ‘opening up’, Globalisation, societies and education, Vol. 8, 2010 \n8. Roger Goodman, The concept of kokusaika and Japanese educational reform, Globalisation \nsocieties and education, Vol. 5, 2007 \n9. Ryoko Tsuneyoshi, the internationalization of Japanese education : international without the \nmulticultural, Educational studies in Japan : international yearbook, n°12, 2018 \n10. Heath Rose & Jim McKinley, Japan’s English-medium instruction initiatives and the \nglobalization of higher education, Higher Education, 2017\n11. Ryoko Tsuneyoshi, Globalization and Japanese “exceptionalism” in education, insiders’ views \ninto a changing system, Routledge research in international and comparative education, \n2018\n12. Paul Snowden, Handbook of Higher Education in Japan, Amsterdam University Press, 2021\n13. David Green, Foreign Faculty in Japan, PS : Political Science & Politics, Cambridge \nuniversity press, 2019\n14. Manabu Kame, August 6, 2021, Nikkei Asia, One N°1, Japan topped by Vietnam and \nSouth Korea for study\n15. in US : https://asia.nikkei.com/Business/Education/Once-No.-1-Japan-topped-by-\nVietnam-and-South- Korea-for-study-in- \nUS#:~:text=By%20this%20OECD%20definition%2C%20Japanese,when%20the%20tota\nl%20surpassed%208 0%2C000.\n16. 24th may 2023, ICEF Monitor, Japanese students increasingly returning to study abroad : \nhttps://monitor.icef.com/2023/05/japanese-students-increasingly-returning-to-study- \nabroad/#:~:text=Its%20mandate%20is%20to%20promote,2019%2C%20the%20numbe",
+    "size": 13.5,
+    "font": "Lato-Regular",
+    "color": 7434868
+  },
+  {
+    "id": "25:3",
+    "page": 24,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "25:4",
+    "page": 24,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "25",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "26:0",
+    "page": 25,
+    "bbox": [
+      200.88475036621094,
+      37.8896484375,
+      411.2910461425781,
+      84.6181640625
+    ],
+    "text": "Bibliographie",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "26:1",
+    "page": 25,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      589.3829956054688,
+      35.1134033203125
+    ],
+    "text": "  26",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "26:2",
+    "page": 25,
+    "bbox": [
+      32.169918060302734,
+      100.67549896240234,
+      579.1582641601562,
+      683.87548828125
+    ],
+    "text": "1. June 9, 2022, Mainichi, 5 Japanese universities in top 100 in latest world rankings : \nhttps://mainichi.jp/english/articles/20220609/p2a/00m/0na/010000 \n2. Kiyomi Arai, June 24, 2023, The Japan News, Japanese universities struggling in global \nranking : https://japannews.yomiuri.co.jp/society/general-news/20230722-124281/ \n3. Hiroyuki Omoto, March 4, 2024, Japanese universities set to raise foreign student tuition \n: https://asianews.network/japanese-universities-struggling-in-global- \nranking/https://asia.nikkei.com/Business/Education/Japanese-universities-set-to-raise-\nforeign-student- tuition \n4. Annika Osaki Exum, March 29, 2023, The Japan Times, Japan makes renewed push to \ninternationalize higher education : \nhttps://www.japantimes.co.jp/news/2023/03/29/national/international-students- \nincrease-plan-2/ \n5. Veronica Onorevole, American Council on Education, FACT SHEET : U.S-Japan student \nexchange/study abroad partnerships, https://www.acenet.edu/Documents/USJP-HEES-\nFindings-Exchange-FactSheet.pdf \n6. Yukana Inoue, The Japan Times, Japanese universities move up in global rankings, \nSeptember 28, 2023 : \nhttps://www.japantimes.co.jp/news/2023/09/28/japan/society/world-university-\nrankings-japan/ \n7. Minoru Matsutani, The Japan times, Government aims for 300 000 international \nstudents, october 22, 2018 : \nhttps://www.japantimes.co.jp/news/2018/10/22/national/government-aims-300000- \ninternational- \nstudents/#:~:text=As%20a%20result%2C%20Japanese%20universities,in%20the%20w\norld%20by%202023 .\n8. Julian Ryal, DeutscheWelle, Japanese universities losing battle with foreign rivals, \nDecember 12, 2023 : https://www.dw.com/en/japanese-universities-losing-battle-with-\nforeign-rivals/a-66505357\n9. Number of international students in Japan from 2013 to 2022 : \nhttps://www.statista.com/statistics/1125812/japan-total-number-foreign- \nstudents/#:~:text=The%20total%20number%20of%20international,declined%20for%20\nthree%20consecut ive%20years.\n10. Distribution of international students in higher education institutions in Japan in 2022, by \nnationality : https://www.statista.com/statistics/865480/japan-distribution-\ninternational-students-higher-education- \ninstitutions-by-nationality/ ",
+    "size": 13.5,
+    "font": "Lato-Regular",
+    "color": 7434868
+  },
+  {
+    "id": "26:3",
+    "page": 25,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "26:4",
+    "page": 25,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "26",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  },
+  {
+    "id": "27:0",
+    "page": 26,
+    "bbox": [
+      200.88475036621094,
+      37.8896484375,
+      411.2910461425781,
+      84.6181640625
+    ],
+    "text": "Bibliographie",
+    "size": 30.0,
+    "font": "LeagueSpartan-Bold",
+    "color": 3306408
+  },
+  {
+    "id": "27:1",
+    "page": 26,
+    "bbox": [
+      570.0,
+      19.9266357421875,
+      589.3732299804688,
+      35.1134033203125
+    ],
+    "text": "  27",
+    "size": 9.75,
+    "font": "LeagueSpartan-Bold",
+    "color": 15921906
+  },
+  {
+    "id": "27:2",
+    "page": 26,
+    "bbox": [
+      39.998043060302734,
+      100.67549896240234,
+      570.419921875,
+      197.87550354003906
+    ],
+    "text": "1. Site du MEXT, section portantsur le programme TGUP : \nhttps://www.mext.go.jp/en/policy/education/highered/title02/detail02/sdetail02/13954\n20.htm \n2. Document du Keidanren (Japanese Business Federation) publié en 2016 sur ses « \ninitiatives to nurture global talents » : \nhttps://www.keidanren.or.jp/en/policy/2017/037.pdf ",
+    "size": 13.5,
+    "font": "Lato-Regular",
+    "color": 7434868
+  },
+  {
+    "id": "27:4",
+    "page": 26,
+    "bbox": [
+      352.5,
+      544.79248046875,
+      423.99420166015625,
+      571.79248046875
+    ],
+    "text": "Auteur",
+    "size": 22.5,
+    "font": "Lato-Bold",
+    "color": 0
+  },
+  {
+    "id": "27:5",
+    "page": 26,
+    "bbox": [
+      299.4510498046875,
+      578.4840087890625,
+      420.73590087890625,
+      600.083984375
+    ],
+    "text": "Romain Fernex ",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 6120571
+  },
+  {
+    "id": "27:6",
+    "page": 26,
+    "bbox": [
+      326.9666748046875,
+      600.2340087890625,
+      420.7292785644531,
+      621.833984375
+    ],
+    "text": "(MiM 2023)",
+    "size": 18.0,
+    "font": "Lato-Regular",
+    "color": 6120571
+  },
+  {
+    "id": "27:7",
+    "page": 26,
+    "bbox": [
+      485.015625,
+      21.371337890625,
+      549.71630859375,
+      33.7064208984375
+    ],
+    "text": "DOSSIER N°1",
+    "size": 9.75,
+    "font": "Ubuntu",
+    "color": 1383460
+  },
+  {
+    "id": "27:8",
+    "page": 26,
+    "bbox": [
+      573.6328125,
+      754.2392578125,
+      596.98486328125,
+      777.7001953125
+    ],
+    "text": "27",
+    "size": 21.0,
+    "font": "ArialMT",
+    "color": 16777215
+  }
+]

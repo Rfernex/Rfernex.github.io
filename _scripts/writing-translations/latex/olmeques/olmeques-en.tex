@@ -1,0 +1,156 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[english]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={The Olmecs: pioneers or simply participants in an initial “regionalisation” in South America?}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Les Olmèques}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{Archaeology and historiography}}\par\medskip
+\noindent{\LARGE\bfseries The Olmecs: pioneers or simply participants in an initial “regionalisation” in South America?\par}
+\smallskip\noindent{\large\itshape Part I: a brief historiography of the “Olmec problem”\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2022 · Article in English}\par\bigskip
+
+``The man who is striving to solve a problem defined by existing knowledge and technique is not, however, just looking around. He knows what he wants to achieve, and he designs his instruments and directs his thoughts accordingly. Unanticipated novelty, the new discovery, can emerge only to the extent that his anticipations about nature and his instruments prove wrong. . . . There is no other effective way in which discoveries might be generated.''
+
+In \emph{The Structure of Scientific Revolutions}, the American philosopher of science Thomas Samuel Kuhn argues that genuine scientific progress often requires a paradigm shift. Indeed, changing paradigms means changing interpretative models and therefore changing how we see the world. After sufficient time to ``crystallise'', a theory we seek to hold true influences how we view our discoveries, because it pushes us to fit them into a preconceived framework. As the French philosopher of science Gaston Bachelard maintains, ``the microscope is an extension of the mind rather than the eye''. He makes this observation to emphasise that no sound observational method can be conceived without the support of theory, which gives direction to all research. Yet although theory is indispensable, Thomas S. Kuhn argues that when a theory is allowed to prevail for too long, it eventually ``crystallises'' and is used to think about things to which it does not actually apply.
+
+But why begin with this introductory paragraph on epistemology when discussing history? As is often the case in history, and particularly in ancient history, where archaeology plays a crucial role, historians' positions evolve as discoveries are made, and it is sometimes necessary to understand the history of the discoveries themselves to reflect on their subject. This helps us better understand the main opposing positions in historical debates that are often multifaceted and constantly redefined through the paradigm shifts made by historians as their work advances.
+
+Among these many debates is the famous ``Olmec problem {[}1{]}''. Long defined as one of Mesoamerica's earliest major peoples, particularly in southern Veracruz along the Gulf of Mexico, the Olmecs are the subject of heated debates over their exact definition and the importance of their influence on the development of all the great ``indigenous'' civilisations that followed in the region before the Spaniards arrived. This debate, far from settled today, has taken many forms since research began in the early 20th century, and understanding these developments is essential to considering the ``Olmec problem'' in its current framework.
+
+Presenting a brief historiography of the Olmec question to better address current debates about the Olmecs' influence and nature is the purpose of this first article.
+
+We will first describe the controversy surrounding the very emergence of the Olmecs as a research field and see how, from 1942, they established themselves as an essential subject in the study of ancient Mesoamerican history.
+
+We will then examine how perceptions of the Olmecs' role in the rich history of pre-Columbian America were progressively challenged until the 1983 seminar, which marked a major paradigm shift.
+
+Finally, we will briefly consider some major work undertaken between the early 1980s and early 2000s to better understand how this transformation influenced the landscape of current research on the Olmec question.
+
+First, where does the term Olmec come from? It derives from Nahuatl, the language of the Aztec people {[}2{]}, and more specifically from the root ``ollin'', meaning ``rubber''. Olmec can therefore be translated as ``rubber people'', a term arising from the presence and longstanding use of this resource on the American continent. The Spanish Franciscan missionary Bernadino de Sahagun was the first to mention the term in the \emph{Florentine Codex}, a work published in the 16th century on the practices and legends of the indigenous peoples of New Spain. Father Sahagun explains that the Aztecs supposedly used Olmeca to designate an ancient people of Tabasco, a region bordering the Gulf of Mexico coast. More than two centuries later, in 1892, Francisco del Paso y Troncoso was one of the first archaeologists to speak of an Olmec type to describe some of his finds in Guerrero and Morelos, Mexico. However, it was not until 1928 and the work of the American archaeologist George Vaillant in southern Veracruz and Tabasco that the connection was made between the ``rubber people'' described in Aztec chronicles and archaeological discoveries in the region. The concept of ``Olmec style'', widely used thereafter, became more common around 1935.
+
+Nevertheless, these first discoveries brought an initial major controversy over the dating of the finds and the place of Olmec civilisation in the chronology of the great Mesoamerican civilisations. This pitted ``Mayanists'', such as the British archaeologist J. Eric S. Thompson, who maintained that the Maya were Mesoamerica's true first civilisation, against archaeologists wishing to identify the Olmecs as the region's true ``mother culture''. In the late 1930s, Matthew Stirling and Alfonso Caso discovered at Tres Zapotes, near the Papaloapan River, a version of the Long Count calendar, previously associated with the Maya, predating the Maya period. This and several other discoveries prompted Mexican researchers Alfonso Caso and Miguel Covarrubias, supported by Georges Vaillant, to develop the thesis of the Olmecs as a ``mother culture''.
+
+The first real turning point in Olmec studies came in April 1942, with a seminar of the Sociedad Mexicana de Anthropologia on ``problems relating to anthropology in Mexico and Central America''. From the outset, the entire scientific community accepted the term Olmec to designate a culture in its own right. More importantly, Caso, Covarrubias and Vaillant presented their thesis, and Matthew Stirling presented his finds from La Venta, the first major site of Olmec culture, which would play a crucial role in its study. The significance of these discoveries allowed supporters of the Olmec ``mother culture'' theory to prevail over the Mayanists. This advance would strongly influence all Olmec research for decades to come.
+
+Although the Mayanists' position had lost much credibility since the 1942 conference, the final nail in the coffin of their theories came in 1955 after Philip Drucker and Robert F. Heizer's investigations at La Venta and Tlatilco. They demonstrated that many of their discoveries predated the Maya period by several centuries. This advance propelled Philip Drucker ahead of Matthew Stirling as the greatest ``olmequista''{[}3{]}. Indeed, ten years earlier, Stirling's discoveries at San Lorenzo, particularly a stone ``colossal head'', a recurring feature of Olmec style, and his leading role with La Venta in 1942, had earned him a considerable reputation. Among the major discoveries of the 1950s and 1960s, one can also mention M. Coe and F. Heizer's work, again at La Venta, which provided an initial estimate for the dates of Olmec civilisation, placing it between 1000 and 600 BC --- dates that would later be partly questioned.
+
+On 28 and 29 October 1967, a second conference devoted to Olmec studies took place. Heizer and Coe presented their work, and Ignacio Bernal presented his theory of an Olmec empire for the first time. According to Bernal, the Olmecs were a major colonial power with branches throughout Mesoamerica, ensuring control over most commodities necessary for their subsistence, such as cacao, obsidian and wheat. Although controversial even then, this theory played an important role and made him the leading supporter of the ``mother culture'' theory. Against this vision of a bellicose, expansionist Olmec empire, Kent Flannery described, on the basis of his work in the Oaxaca Valley and along the Gulf of Mexico, a model of Olmec influence based on trade and political marriages rather than conquest. Thus, the controversy began to shift from Mayanists versus olmequistas to a division between olmequistas favouring an all-powerful Olmec civilisation and those seeking to qualify the quasi-imperial power some now attributed to the Olmecs.
+
+Despite these advances, the 1970s saw a slowdown in research in Mexico for political and economic reasons. In 1972, the Mexican government passed a law severely restricting foreigners' ability to conduct research on Mexican territory. Research funding also declined substantially in favour of tourism. Yet this did not discourage the scientific community, which multiplied projects in neighbouring countries, such as John Graham's work at Takalik Abal in Guatemala. The only Olmec-style colossal head outside Mexico was identified there. This outward push also encouraged historians and archaeologists to consider in greater detail the volume and nature of interactions between the Olmecs and the rest of Central America. Economically, for example, William Rathje examined the role of the obsidian trade network, which emerged at the beginning of the Formative period {[}4{]}, in the appearance of complex societies among the Olmecs and Maya.
+
+Nevertheless, several major studies in Mexico can still be noted. In Chiapas, the New World Archaeological Foundation uncovered numerous Olmec-style objects and engravings suggesting an important connection between the coastal Olmec ``heartland'' and inland Chiapas. In religion, David C. Grove uncovered an altar at La Venta that he believed to be a throne dedicated to an Olmec lord. He also advanced several interpretations of the mythological ``were-jaguar'' (a creature combining human and jaguar features) {[}5{]}, often depicted on altars at sacred sites identified as Olmec. He drew a parallel between the cosmogony of the Paez people {[}6{]}, which traces their origins to a union between a man and a jaguar, and the Olmec were-jaguar myth. Moreover, in a major 1968 work supporting the ``mother culture'' model, Michael Coe argued that the divine were-jaguar figure was only part of a broad pantheon of Olmec gods that supposedly formed the basis of a common theological foundation found in most of the great civilisations that followed in Mesoamerica.
+
+However, many of these discoveries were accompanied by challenges to the previously dominant ``mother culture'' model. The lack of sufficient evidence and growing questions about what defined ``Olmecness'' fuelled scepticism among some researchers, who felt that the term Olmec had sometimes been misused for any new find old enough to be associated with it. The view of the Olmecs as merely one people among others therefore also gained ground.
+
+The rivalry between these opposing tendencies culminated in 1983 at a new seminar, marking a sharp paradigm shift for all olmequistas and still influencing their work today.
+
+Organised by the Advanced School of American Research and entitled Regional Perspectives on the Olmecs, the 1983 seminar was unique in raising many problems that had existed since the beginnings of Olmec studies but had only been formally noted by a minority of researchers.
+
+Before describing its content, we must ask why such a realisation was possible only then, rather than during earlier seminars. The main reason enabling this critical distance, briefly mentioned above, was the expansion of research beyond Mexico. One organiser, Robert J. Sharer, highlighted ``the irony that we know more about the origins {[}\ldots{]} of many societies outside the Mexican coast than about Olmec civilisation itself''. Indeed, although this new work far from the Gulf of Mexico uncovered several examples of ``Olmec style'' outside the Olmec ``heartland'', it also prompted researchers to question how appropriate that designation was for realities that were often very diverse.
+
+Nevertheless, the 1983 seminar should be seen not as a sudden transformation but as the culmination of decades of reflection by archaeologists, most of whom were aware of these problems but sometimes declined to express them fully because of their attachment to a particular vision of what Olmec civilisation should be.
+
+What, then, were these problems? The first, and certainly the most complex, concerned the very definition of what was designated Olmec. As David C. Grove recalls, the theory of Olmec influence rests mainly on artistic elements supposedly defining an ``Olmec style'', observable in many places and used to demonstrate links between these territories and the Olmecs as a culture or civilisation. Richard Diehl identified a substantial ambiguity between classifying a work as Olmec in style and identifying something as belonging to Olmec culture as found in its Gulf Coast ``heartland''. This confusion weighed all the more heavily on archaeologists' assessments because some researchers had often used the notion of Olmec style too liberally. It prompted a major reassessment of the imperialist model of Olmec influence, much of whose evidence proved particularly precarious without firmer discoveries supporting it. The conclusion was that cultures outside the Gulf of Mexico should be studied not in terms of whether they were linked to the Olmecs but as entities in their own right. Some went further, such as Donald Lathrap, who had already developed in 1964 the idea of a pan-American set of beliefs predating Olmec civilisation.
+
+The second problem concerned more directly the nature and extent of the Olmecs' influence as a civilisation. Presenting research in the Oaxaca Valley, long considered close to the Olmecs, and at Chalcatzingo, Joyce Marcus readily argued that it was too simple to view the development of complex societies in this area as the result of any Olmec influence. Although commercial connections between these territories and the Olmec nation were hardly in doubt, this diffusion was probably restricted to certain specific beliefs and symbols. Finally, Marcus described Mesoamerica's religious ecosystem as relatively heterogeneous despite many similarities, ruling out at the time the possibility of a single religion dominating the whole area.
+
+Outside Mexico, Robert J. Sharer, who had worked among other places at Tibas in Costa Rica, noted the presence of Olmec artefacts but also argued for local development built on exchanges with several neighbouring civilisations, of which the Olmecs were one participant among others. In the same effort to qualify their role in interregional relations, he distinguished several kinds of interaction. First were indirect exchanges through a third party, in which the recipient civilisation possessed Olmec artefacts but had little or no understanding of the symbolism Olmec culture attributed to them. This explains the many finds evidently inspired by Olmec art but reinterpreted through local elements. Second, in more specific cases, often restricted to areas bordering the Olmec ``heartland'', there were direct exchanges. These apparently did not take the extreme form of physical occupation of neighbouring territory, but reflected the integration of Olmec culture both materially and conceptually.
+
+The best examples of these direct exchanges are often the monumental head sculptures characteristic of Olmec civilisation.
+
+The third and final problem raised at the seminar, also related to the definition of Olmec civilisation, concerned both chronology and the political formation, or rather formations, that the Olmec people may have adopted. We will, however, analyse this problem in greater detail in the next article.
+
+In light of these many criticisms, the view of Olmec civilisation as a ``sister culture'' rather than a ``mother culture'' gained weight and became established across much of the scientific community. Nevertheless, it did not entirely triumph, and the seminar's real success lay rather in formulating numerous new research objectives that radically transformed Olmec studies. The aim was no longer to prove Olmec influence in any given region at all costs, but to identify each region's specific characteristics and understand Mesoamerica's social, economic and religious (and even geographical) landscape during the Olmec period as a whole.
+
+As Arthur A. Demarest observes, 1983 manifested a ``crisis of confidence'' in Olmec studies. Olmequistas realised that their field had become ``a superstructure erected from inferences and interpretations often resting on fragile foundations''.
+
+We will conclude this article with this substantial reform of Olmec studies. Now that we have surveyed the field, both its different objects of study and its challenges, we must examine the current state of research to address our subject fully. The next and final article will seek to do so, drawing on the many discoveries made in the 1990s and beyond to offer the least misleading possible picture of the role played by these Olmecs, who continue to fascinate historians today.
+
+\textbf{Notes:}
+
+\textbf{{[}1{]}} The term ``Olmec problem'' is not specific to this article and has already been used in English by Olmec scholars such as Christopher Pool in \emph{Olmec Archaeology and Early Mesoamerica} (see p.15). In Pool's description, it reflects the opposition between two paradigms concerning the evolution of civilisations. One holds that civilisation arises from a group of micro-societies that, in a particular context, are pushed towards more advanced sociopolitical integration and spread this new standard of development to less advanced societies. The other sees the birth of civilisations as a complex process arising from interactions among multiple societies. In other words, in one, a small number of more advanced societies drive others' development; in the other, interactions between societies at similar levels enable civilisation to emerge.
+
+For this article, I have chosen to include the debate over the meaning of the term Olmec within the notion of the ``Olmec problem''.
+
+\textbf{{[}2{]}} Although the precise date of Nahuatl's emergence remains debated among linguists, it is often associated with the Aztec period, when it was the principal language. However, although the number of Nahuatl speakers declined sharply after the Spanish conquest, nearly 1.7 million Mexicans still spoke it fluently in 2020.
+
+\begin{itemize}
+\item Source: \url{https://cuentame.inegi.org.mx/hipertexto/todas_lenguas.htm}
+\end{itemize}
+
+\textbf{{[}3{]}} Olmequista is commonly used by Olmec researchers to describe themselves. It comes from Spanish, as a significant proportion of active scholars in this field are Mexican.
+
+\textbf{{[}4{]}} In a subject such as this, accurately dating the emergence and ``fall'' of a civilisation is crucial, as the debate between Mayanists and olmequistas demonstrated. Although we will return to chronology in greater detail in the next article, the following basic points are useful here:
+
+\begin{itemize}
+\item Pre-Columbian American history is often divided into four major periods: the Palaeo-Indian or Archaic period, the Formative period, the Classic period and finally the Postclassic period, ending with the beginning of Spanish colonisation of America, marked by Hernan Cortès's arrival in Veracruz.
+\item The period most often associated with the Olmecs is the Formative period, itself divided into three distinct parts. Its beginning is marked by the appearance of three major sites associated with Olmec culture: La Venta, San Lorenzo and Tres Zapotes. Although dating these sites remains complex today, San Lorenzo is generally accepted as the most important city at the beginning of Olmec civilisation. However, La Venta is most often associated with its peak, a status it acquired during the Formative period alongside San Lorenzo's gradual decline.
+\item Tres Zapotes is more complicated, and we will discuss it in greater detail in the next article.
+\begin{itemize}
+\item \textbf{Source:} Richard A. Diehl, \emph{The Cambridge History of the Native People of the Americas}, Vol. 2, Mesoamerica, Part I, chapter 4: the pre-Columbian cultures of the gulf coast, 2000
+\end{itemize}
+\end{itemize}
+
+\articlefigure{media/media/image1.png}{}
+
+\textbf{{[}5{]}} In religion, the meaning of the ``were-jaguar'' figure has been widely debated among olmequistas, particularly regarding which ``god'' to associate with it. The spiritual entity --- the term god should be avoided as it is too Western-centric --- most often associated with it is the rain spirit. However, some archaeologists, such as David C. Grove, have also linked it to other elements, such as the night sky or the world of the dead.
+
+\textbf{{[}6{]}} The Páez are an indigenous American people found only in Colombia, currently numbering around 186,000.
+
+\textbf{Bibliography:}
+
+\begin{itemize}
+\item
+  Thomas S. Kuhn, \emph{The structure of scientific revolutions}, chapter IX, The nature and necessity of scientific revolutions, 1962
+\item
+  Gaston Bachelard, \emph{La formation de l'esprit scientifique,} chapitre XII, Objectivité scientifique et psychanalyse, 1934
+\item
+  Michael D.Coe \& Rex Koontz, \emph{Mexico~: from the Olmecs to the Aztecs}, seventh edition, 2013
+\item
+  Robert J.Sharer \& David C. Grove, \emph{Regional perspectives on the Olmecs}, Advanced seminar of the school of American Research, Cambridge university press, 1989
+\item
+  Christopher A.Pool, \emph{Olmec Archaeology and early Mesoamerica}, Cambridge university press, 2012
+\item
+  David C.Grove, \emph{Olmec altars and myths,} Archaology, Vol. 26, N°2, 1973
+\item
+  Michael D.Coe, \emph{America's First civilization,} 1968
+\end{itemize}
+
+Abstract:
+
+This article, the first in a two-part series, examines the history of Olmec studies from the 18th century to the early 1980s and analyses its principal schools of thought.
+
+\end{document}

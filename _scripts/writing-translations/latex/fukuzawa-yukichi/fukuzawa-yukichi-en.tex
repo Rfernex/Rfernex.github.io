@@ -1,0 +1,82 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[english]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={Fukuzawa Yukichi (1834-1901)}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Fukuzawa Yukichi (1834-1901)}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{History of Japan}}\par\medskip
+\noindent{\LARGE\bfseries Fukuzawa Yukichi (1834-1901)\par}
+\smallskip\noindent{\large\itshape A thinker in the image of the Meiji era\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2024 · Article in English}\par\bigskip
+
+\articlefigure{media/media/image1.jpeg}{}
+
+Fukuzawa Yukichi was born in Osaka in 1834 into a clan of low-ranking samurai whose seat was the town of Nakatsu, in the north of the province of Kyushu. He lost his father at a very young age and lived alone with his mother, whose strong independence would inspire his thinking about women's place in Japanese society. In 1854, he was selected to study Dutch and Western sciences in Nagasaki and then Osaka. This first exposure to Western culture nurtured a deep interest in the technological, social and political advances coming from the West. He also began learning English early on, following a visit to Yokohama in 1859.
+
+This aptitude for foreign languages led to his being sent to the United States in 1860, on the orders of the Bakufu (shogunal government), to study Western techniques. He continued exploring the Western world on a tour of Europe, again on government orders, during which he visited several European countries as well as some British colonies on his return journey. In 1866, he published the first volume of his trilogy ``Seiyō Jijō'' (Conditions in the West), which enjoyed considerable success, selling more than 150,000 copies. In it, he described many Western technologies, some of which probably inspired the restoration armies that brought about the fall of the shogunate two years later. Indeed, during his visits to the United States in 1860 and 1867, he brought back numerous English books, which he translated and helped circulate among the Japanese intelligentsia. Shortly before the restoration, he also founded Keio Gijuku (the predecessor of today's Keio University).
+
+The rest of his life was marked by numerous publications that left their mark on his era, such as his ``Gakumon no Susume'' (An Encouragement of Learning), published in 1872 and selling over three million copies. In it, he defended the emancipatory power of education and the need to educate the entire Japanese population. This treatise strongly inspired Japan's first major education reform of 1872, which introduced an initial nationwide system of universal education. He also played an important role in democratising knowledge by founding one of the period's first influential newspapers, the Jiji Shimpo, and by making a point of writing his works in simple language, both in vocabulary and through the frequent use of kana, a practice uncommon at the time because it was considered improper. He also stood out for his commitment to equality between men and women, which led him to sharply criticise the ``Onna Daigaku'' (an eminently sexist 18th-century Neo-Confucian text popular at the time), as well as the system of concubinage.
+
+Finally, beyond his admiration for the West, he also fiercely feared European imperialism, which he chose to counter with a Japanese imperialism expressed in his unwavering support for imperial Japan during the Sino-Japanese War of 1894. This inclination towards realpolitik contrasts sharply with the humanism he professed in most of his writings. He died of a heart attack in February 1901, leaving a legacy marked both by his significant contribution to Japan's technical and social progress and by a genuine cultural and political conservatism.
+
+\textbf{Sources~:}
+
+\begin{enumerate}
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Celarent, Barbara, review of ``An Outline of Civilization'' by Fukuzawa Yukichi, \emph{American Journal of Sociology}, vol. 119, no. 4, 2014, pp. 1213--20.
+\item
+  Alan Macfarlane, Yukichi Fukuzawa and the Making of the Modern World, 2002
+\item
+  BenJamin C. Duke, Ten Great Educators of Modern Japan, University of Tokyo Press, 1989
+\item
+  Encyclopaedia Britannica, The Meiji Restauration and the assimilation of western civilization : \url{https://www.britannica.com/topic/education/Japan}
+\item
+  Keio University website:
+
+\begin{enumerate}
+  \def\labelenumii{\alph{enumii}.}
+  \item
+    \url{https://www.keio.ac.jp/en/news/2022/Dec/26/48-134277/}
+  \item
+    \url{https://www.keio.ac.jp/en/keio-times/features/2023/1/}
+  \item
+    \url{https://www.keio.ac.jp/en/about/philosophy/fukuzawa.html}
+  \end{enumerate}
+\end{enumerate}
+
+\end{document}

@@ -1,0 +1,57 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[english]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={Matsuo Bashō}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Matsuo Bashō}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{History of Japan}}\par\medskip
+\noindent{\LARGE\bfseries Matsuo Bashō\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2025 · Article in English}\par\bigskip
+
+\articlefigure{media/media/image1.jpeg}{Portrait of Matsuo Basho by the poet and painter Buson Yosa}
+
+The quintessential poet of the Edo period (1600-1868), Matsuo Bashō was born in 1644 in Ueno, in Ise Province (present-day Mie Prefecture), into a family descended from samurai. He published his first poems in 1662, followed in 1665 by a 100-verse renku that helped establish his reputation. He specialised in hokku (which would later become today's haiku, familiar to enthusiasts of Japan). He then published several anthologies collecting his work between 1667 and 1671, including one entitled ``The Seashell Game'', which he wrote together with around thirty poets of the Teitoku school. These works helped him gain popularity in the capital's literary circles, even though his contemporaries still regarded writing hokku as a pastime rather than an art. In 1674, he joined the circle of the poet Kitamura Kigin, through whom he refined his technique. A few years later, alongside his appearances in fashionable circles close to the court, he himself became a master and taught around twenty disciples full-time. In 1680, he withdrew from city life to settle in Fukugawa with his disciples' help and practise meditation there. In 1683, a year after his mother's death, he set off on a journey across the country. This journey, particularly dangerous for the period, brought him great solace. During it, he wrote a travel journal entitled Nozarashi Kiko, recounting his wanderings across Japan; it enjoyed considerable success and still contributes to his fame today. It also gave him an opportunity to distance himself from the style then fashionable in Edo, leading him to question his earlier creations. On returning to Edo, he resumed his position as a teacher, working from his retreat on the city's outskirts. There, in 1686, he composed one of his most famous haiku:
+
+古池や蛙飛びこむ水の音
+
+\emph{an old pond / a frog plunges in / the sound of water}
+
+He set out on another journey in mid-May 1689, heading north this time, and did not return to Edo until two years later. Once again, he took the opportunity to write a travel journal, published posthumously as Oku no Hosomichi in 1702. He left Edo for the last time in 1694 and died of a stomach ailment after reaching Osaka, in the company of his disciples, leaving behind a vast literary legacy that today extends beyond Japan's borders and even beyond the Earth\textsuperscript{1}.
+
+\textsuperscript{1}A crater on Mercury was indeed named Basho in his honour in an International Astronomical Union announcement dated 30 November 1980.
+
+\end{document}
