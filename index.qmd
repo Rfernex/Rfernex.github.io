@@ -15,7 +15,6 @@ toc: false
 <dl class="spec">
   <dt>Position</dt><dd>Predoctoral RA, Bocconi (IGIER)</dd>
   <dt>Fields</dt><dd>Labour · Public · Applied micro</dd>
-  <dt>Thesis</dt><dd><a href="thesis.html">Self-employment and dual jobholding</a></dd>
   <dt>EconRadar</dt><dd><a href="econradar.html"><span data-radar-count>20,000+</span> papers tracked</a></dd>
 </dl>
 ```
@@ -33,7 +32,7 @@ Hello! I am a predoctoral research assistant at **Bocconi University (IGIER)**, 
 My work and academic projects focus mainly on labour and public economics, with a strong interest in topics that relate to socio-economic inequalities and alternative forms of employment (notably multiple jobholding and self-employment, which are at the core of my thesis). Be it as an RA or for my own projects, I like combining applied econometrics with structural modelling to quantify and understand economic mechanisms in depth and am always open to trying new methods in computational social sciences wherever they genuinely outperform the old (especially when it comes to NLP!). 
 
 ::: {.btn-row}
-[Download my CV](Resources/CV_Romain_Fernex.pdf){.btn-cta} [Master thesis](thesis.qmd){.btn-ghost} [Research experience](Research.qmd){.btn-ghost}
+[Download my CV](Resources/CV_Romain_Fernex.pdf){.btn-cta} [Research experience](Research.qmd){.btn-ghost}
 :::
 :::
 ::::
