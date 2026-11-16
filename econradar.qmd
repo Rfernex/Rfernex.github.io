@@ -9,6 +9,7 @@ lightbox: auto
 ::: {.column-screen .radar-hero}
 ```{=html}
 <link rel="stylesheet" href="assets/econradar/hero.css?v=4">
+<canvas class="hero-field" data-dot="170,182,186" data-hot="124,214,204" aria-hidden="true"></canvas>
 <div class="rh-art" aria-hidden="true">
   <div class="rh-bg"></div>
   <div class="rh-reveal"></div>

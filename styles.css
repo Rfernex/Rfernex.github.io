@@ -646,3 +646,9 @@ table.reg-table tbody tr:nth-child(odd):not(.stats):not(.derived), .appendix-pag
 @media (prefers-reduced-motion: reduce) {
   .live-dot { animation: none; }
 }
+
+/* Linked titles keep the heading weight (a base rule set links in headings to 400) */
+h1 a, h2 a, h3 a, h4 a { font-weight: inherit; }
+
+/* EconRadar banner: the same reactive dot field as the home page, in light dots on dark */
+.radar-hero > .hero-field { z-index: -4; }
