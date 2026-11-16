@@ -12,7 +12,7 @@ website:
   draft-mode: gone
   navbar:
     background: "#ffffff"
-    foreground: "#3b4554"
+    foreground: "#1b1c1f"
     title: Romain Fernex
     search: true
     collapse-below: xl
@@ -41,14 +41,14 @@ website:
       - text: Contact
         href: about.qmd
   page-footer:
-    left: "© Romain Fernex · Economics"
+    left: "© Romain Fernex · Economics · Set in IBM Plex"
     right: "[CV](/Resources/CV_Romain_Fernex.pdf) · [GitHub](https://github.com/Rfernex) · [LinkedIn](https://www.linkedin.com/in/romain-fernex/) · [Contact](/about.qmd) · [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)"
 format:
   html:
     theme: [cosmo, theme.scss]
     css: styles.css
-    title-block-banner: "#f3f6fa"
-    title-block-banner-color: "#172234"
+    title-block-banner: "#ffffff"
+    title-block-banner-color: "#0d0e10"
     toc: true
     toc-title: On this page
     smooth-scroll: true
@@ -57,5 +57,7 @@ format:
     html-math-method: mathjax
     lang: en
     date-format: "MMMM YYYY"
+    include-after-body:
+      text: '<script src="/assets/site.js" defer></script>'
 execute:
   freeze: auto
