@@ -32,6 +32,14 @@
       .catch(() => {});
   }
 
+  // Page title banners get a live dot field too (the static CSS pattern is the fallback)
+  document.querySelectorAll('.quarto-title-banner').forEach(banner => {
+    const c = document.createElement('canvas');
+    c.className = 'hero-field'; c.setAttribute('aria-hidden', 'true');
+    banner.prepend(c);
+    banner.classList.add('has-field');
+  });
+
   // Dot field behind a hero band (home page, EconRadar page). Colours come from
   // data-dot / data-hot on the canvas ("r,g,b"); defaults suit a white band.
   document.querySelectorAll('.hero-field').forEach(canvas => {

@@ -552,7 +552,7 @@ table.reg-table tbody tr:nth-child(odd):not(.stats):not(.derived), .appendix-pag
 .hero-text h1 { font-size: clamp(2.8rem, 6.2vw, 4.6rem); font-weight: 600; letter-spacing: -.04em; line-height: 1; margin: .5rem 0 1.1rem; }
 .hero-text .intro p { font-size: 1.2rem; line-height: 1.55; }
 .hero-photo { width: 120px; height: 148px; overflow: hidden; border: 1px solid var(--line); margin-bottom: 1.1rem; background: var(--soft); }
-.hero-photo img { display: block; width: 100%; height: calc(100% + 8px); object-fit: cover; object-position: center top; border: 0; box-shadow: none; filter: grayscale(1) contrast(1.04); }
+.hero-photo img { display: block; width: 100%; height: calc(100% + 8px); object-fit: cover; object-position: center top; border: 0; box-shadow: none; }
 .spec { margin: 0; border-top: 1px solid var(--rule); font-size: .88rem; }
 .spec dt { font-family: var(--mono); font-size: .68rem; font-weight: 500; letter-spacing: .06em; text-transform: uppercase; color: var(--faint); padding-top: .55rem; }
 .spec dd { margin: .1rem 0 0; padding-bottom: .55rem; border-bottom: 1px solid var(--line); color: var(--ink); }
@@ -652,3 +652,8 @@ h1 a, h2 a, h3 a, h4 a { font-weight: inherit; }
 
 /* EconRadar banner: the same reactive dot field as the home page, in light dots on dark */
 .radar-hero > .hero-field { z-index: -4; }
+
+/* Title banners with a live dot field (assets/site.js adds the canvas) */
+.quarto-title-banner.has-field { position: relative; overflow: hidden; background-image: none !important; }
+.quarto-title-banner.has-field > .hero-field { z-index: 0; }
+.quarto-title-banner.has-field > .quarto-title-banner-inner, .quarto-title-banner.has-field > :not(.hero-field) { position: relative; z-index: 1; }

@@ -2,7 +2,7 @@
 title: Self-employment and dual jobholding
 subtitle: How the 2018 microentrepreneurship reform reshaped occupational choices in France.
 include-after-body:
-  text: '<script src="assets/thesis-explorers.js" defer></script>'
+  text: '<script src="assets/thesis-explorers.js" defer></script><script src="/assets/site.js" defer></script>'
 ---
 
 <div class="meta"><span>Master in Economics · Sciences Po · M2</span><span>May 2026</span><span>Supervisor: Pierre Cahuc</span><span class="grade">17/20</span></div>

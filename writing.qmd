@@ -5,7 +5,7 @@ toc: true
 toc-depth: 2
 css: [styles.css, assets/writing-language.css]
 include-after-body:
-  text: '<script src="assets/writing-language.js" defer></script><script src="assets/portrait-reader.js" defer></script><script src="assets/dossier-cover.js" defer></script>'
+  text: '<script src="assets/writing-language.js" defer></script><script src="assets/portrait-reader.js" defer></script><script src="assets/dossier-cover.js" defer></script><script src="/assets/site.js" defer></script>'
 ---
 
 ```{=html}
