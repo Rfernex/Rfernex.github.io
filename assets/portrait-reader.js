@@ -61,7 +61,7 @@
     $(".pr-year").textContent = t.year;
     $(".pr-name").textContent = t.name;
     $(".pr-kanji").textContent = t.kanji || "";
-    $(".pr-desc").textContent = t.desc;
+    $(".pr-desc").textContent = document.documentElement.dataset.documentLanguage === "fr" ? t.descFr : t.desc;
     $(".pr-open").href = tiles[current].getAttribute("href");
     $(".pr-open").hreflang = document.documentElement.dataset.documentLanguage || "en";
     $("[data-act=prev]").disabled = current === 0;
@@ -74,7 +74,9 @@
 
   function updateZoomLabel() {
     const z = ZOOMS[zoomIndex];
-    $(".pr-zoom").textContent = z === 1 ? "Fit" : Math.round(z * 100) + "%";
+    $(".pr-zoom").textContent = z === 1
+      ? (document.documentElement.dataset.documentLanguage === "fr" ? "Ajuster" : "Fit")
+      : Math.round(z * 100) + "%";
     $("[data-act=zoom-out]").disabled = zoomIndex === 0;
     $("[data-act=zoom-in]").disabled = zoomIndex === ZOOMS.length - 1;
   }
@@ -209,6 +211,7 @@
 
   document.addEventListener("writing:languagechange", () => {
     updateHeader();
+    updateZoomLabel();
     if (shownSlug !== null || tasks.length || pages.querySelector(".pr-sheet")) render(true);
   });
 

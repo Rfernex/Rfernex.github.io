@@ -1,6 +1,6 @@
 # Beyond economics: bilingual documents
 
-The manifest is `assets/writing/documents.json`. Each original PDF remains unchanged; the second language uses an `-en` or `-fr` filename. `writing-language.js` embeds the same manifest so switching does not depend on a network fetch. Update both when adding a document.
+The manifest is `assets/writing/documents.json`. Each translated PDF uses an `-en` or `-fr` filename. `writing-language.js` embeds the same manifest so switching does not depend on a network fetch. Update both when adding a document.
 
 ## Translation sources and layout
 
@@ -9,11 +9,12 @@ The manifest is `assets/writing/documents.json`. Each original PDF remains uncha
 - `overlay_pdf.py SLUG en`: rebuild one of the three recent portraits with PyMuPDF and the Latin Modern fonts at the path specified in the script.
 - `overlay_designed.py SLUG LANGUAGE`: rebuild the illustrated dossier or slides. Provide the full source fonts in `fonts/` (not committed): Lato, Poppins, League Spartan, Libre Baskerville, Roboto, Ubuntu, Calibri, Rockwell and Arial, with the font filenames found in the block manifests. Commercial fonts are supplied by the local Office installation; Google Fonts use their original families.
 - After rebuilding the EU–Korea slides, run `translate_wordart.py` to translate the outlined vector headings. `wordart.json` preserves source shape geometry. Original raster text shadows are replaced by shadows of the translated text, while figures and pictograms remain intact.
+- `fix_english_lecture.py PDF FONTS_DIR`: corrects the established English titles in the original Descartes lecture PDF. The 1629 timeline entry now says Descartes began `The World`; the work was not published in 1629. The quote cites `Treatise on Light`, and the `Discourse on Method` and `Principles of Philosophy` use their standard English titles. The script requires full Calibri and Poppins fonts in `FONTS_DIR`.
 
 Translations retain content, section order, illustrations, notes, references, page size, and document design. Text naturally reflows in the LaTeX templates: the French trade report has 5 pages (English 4), the French Quad series 12 (English 11), the English Meiji article 7 (French 8), and the English Bashō portrait 1 (French 2). All fixed-layout PDFs retain their source page counts. These are translations of historical articles, not factual revisions or updates.
 
 ## Site build and checks
 
-Run `quarto render writing.qmd`. Output is `docs/`. The page-only English/Français choice updates every PDF link, the dossier cover and the inline portrait reader. It is stored under `writing.documentLanguage`; `?doclang=en` or `?doclang=fr` overrides the stored choice. Without JavaScript, English links and explicit French alternatives remain available.
+Run `quarto render writing.qmd`. Output is `docs/`. The page-only English/Français choice updates the page title, document titles and summaries, PDF links, dossier cover and inline portrait reader. It is stored under `writing.documentLanguage`; `?doclang=en` or `?doclang=fr` overrides the stored choice. Without JavaScript, English text and links and explicit French PDF alternatives remain available.
 
-Validated: all 40 document links, unchanged originals, PDF rendering, language switching and persistence, URL override, inline-reader refresh, JavaScript-disabled links, mobile layout and isolation from the homepage.
+Validated: all 40 document links, PDF rendering, language switching and persistence, URL override, inline-reader refresh, JavaScript-disabled links, mobile layout and isolation from the homepage. The corrected English lecture retains its 13-slide format.
