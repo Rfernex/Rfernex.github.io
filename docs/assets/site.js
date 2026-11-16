@@ -43,7 +43,8 @@
   // Dot field behind a band (home hero, EconRadar hero, page titles).
   //  data-dot / data-hot: "r,g,b" colours (defaults suit a white band)
   //  data-fade="soft": dots stay visible behind text on the left
-  //  data-sweep: selector of a rotating radar sweep; dots light up as it passes
+  //  data-sweep: selector of a rotating radar sweep; no dots over the network it covers,
+//              and dots in a ring around it light up as the beam passes
   // The canvas is re-measured whenever the band changes size, so the dots always
   // line up with the cursor.
   document.querySelectorAll('.hero-field').forEach(canvas => {
@@ -76,7 +77,7 @@
       if (sweep) {
         const b = canvas.getBoundingClientRect(), r = sweep.getBoundingClientRect();
         sx = r.left + r.width / 2 - b.left; sy = r.top + r.height / 2 - b.top;
-        sr = sweep.offsetWidth / 2 * 0.62;
+        sr = (sweep.parentElement ? sweep.parentElement.offsetHeight : sweep.offsetWidth) / 2 * 0.86;
         sa = parseFloat(getComputedStyle(sweep).rotate) || 0;
       }
       for (let y = GAP / 2; y < h; y += GAP) {
@@ -87,11 +88,11 @@
           let base = 0.45;
           if (sweep) {
             const dx = x - sx, dy = y - sy, d = Math.hypot(dx, dy);
-            if (d < sr) {
-              base = 0.22;                                        // calmer dots inside the radar
+            if (d < sr) continue;                                // no dots on top of the network
+            if (d < sr * 1.6) {                                  // the beam lights a ring around it
               const phi = (Math.atan2(dx, -dy) * 180 / Math.PI + 360) % 360;
               const behind = ((sa - phi) % 360 + 360) % 360;       // degrees since the beam passed
-              if (behind < 100) k = Math.max(k, Math.pow(1 - behind / 100, 2) * (1 - 0.55 * d / sr));
+              if (behind < 100) k = Math.max(k, Math.pow(1 - behind / 100, 2) * (1 - (d - sr) / (sr * 0.6)));
             }
           }
           const r = 0.9 + k * 1.8;

@@ -26,9 +26,10 @@ body:has(.radar-hero) main.content { margin-top: 0 !important; padding-top: 0 !i
   aspect-ratio: 1536 / 1348; pointer-events: none;
   -webkit-mask-image: radial-gradient(closest-side, #000 62%, transparent 100%);
           mask-image: radial-gradient(closest-side, #000 62%, transparent 100%);
+  animation: rh-beam-turn 8s linear infinite;   /* one angle drives the beam and the lit wedge */
 }
-.rh-bg, .rh-reveal, .rh-flash { position: absolute; inset: 0; pointer-events: none; }
-.rh-bg, .rh-reveal { background: url("network-dark.jpg") center / cover no-repeat; }
+.rh-bg, .rh-reveal, .rh-beam, .rh-flash { position: absolute; inset: 0; pointer-events: none; }
+.rh-bg, .rh-reveal, .rh-beam { background: url("network-dark.jpg") center / cover no-repeat; }
 .rh-bg { filter: brightness(.5) saturate(.9); transition: filter .6s ease; animation: rh-drift 24s ease-in-out infinite alternate; }
 /* A brighter copy shows through a soft circle around the pointer */
 .rh-reveal {
@@ -44,7 +45,15 @@ body:has(.radar-hero) main.content { margin-top: 0 !important; padding-top: 0 !i
   pointer-events: none; mix-blend-mode: screen;
   background: conic-gradient(from 0deg, rgba(var(--glow), 0) 0deg, rgba(var(--glow), .03) 260deg, rgba(var(--glow), .2) 354deg, rgba(var(--glow), 0) 360deg);
   border-radius: 50%;
-  animation: rh-spin 8s linear infinite;
+  rotate: var(--beam);
+}
+/* The beam lights the network: a brighter copy of the picture shows through a wedge
+   that trails the beam and fades behind it */
+.rh-beam {
+  filter: brightness(1.75) saturate(1.35);
+  -webkit-mask-image: conic-gradient(from calc(var(--beam) - 120deg) at 50% 50%, transparent 0deg, rgba(0,0,0,.25) 70deg, #000 117deg, transparent 120deg);
+          mask-image: conic-gradient(from calc(var(--beam) - 120deg) at 50% 50%, transparent 0deg, rgba(0,0,0,.25) 70deg, #000 117deg, transparent 120deg);
+  animation: rh-drift 24s ease-in-out infinite alternate;
 }
 .rh-sweep::before, .rh-sweep::after {
   content: ""; position: absolute; border-radius: 50%; border: 1px solid rgba(var(--glow), .08);
@@ -124,7 +133,8 @@ a.radar-launch:hover .rl-arrow { transform: translate(3px, -3px); }
   box-shadow: 0 0 0 1px rgb(var(--glow)), 0 0 70px rgba(var(--glow), .8);
 }
 
-@keyframes rh-spin { to { rotate: 360deg; } }
+@property --beam { syntax: "<angle>"; inherits: true; initial-value: 0deg; }
+@keyframes rh-beam-turn { to { --beam: 360deg; } }
 @keyframes rh-drift { from { transform: scale(1); } to { transform: scale(1.06) rotate(1.5deg); } }
 @keyframes rl-orbit { to { --rl-angle: 360deg; } }
 @keyframes rl-ping { from { transform: scale(1); opacity: .9; } to { transform: scale(3.4); opacity: 0; } }
@@ -142,8 +152,8 @@ a.radar-launch:hover .rl-arrow { transform: translate(3px, -3px); }
   .rh-sub { font-size: 1.05rem; }
 }
 @media (prefers-reduced-motion: reduce) {
-  .rh-sweep, .rh-bg, .rh-reveal, a.radar-launch::before, .rl-ping::before, .rl-ping::after { animation: none; }
-  .rh-sweep { display: none; }
+  .rh-art, .rh-sweep, .rh-bg, .rh-reveal, .rh-beam, a.radar-launch::before, .rl-ping::before, .rl-ping::after { animation: none; }
+  .rh-sweep, .rh-beam { display: none; }
 }
 
 /* The app screenshots further down the page: dark frames lifted off the white page,
