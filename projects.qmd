@@ -22,7 +22,7 @@ My earlier master's thesis studies ethnic and socioeconomic differences in acces
 
 ### Bank of Japan communication
 
-A text-analysis project in R and Python exploring linguistic and thematic signals in Bank of Japan speeches and statements in relation to interest-rate decisions. I have put this project on ICE for the moment but do intend to return to it at some point when I can spare the time...
+A text-analysis project in R and Python exploring linguistic and thematic signals in Bank of Japan speeches and statements in relation to interest-rate decisions. I have put this project on ice for the moment but do intend to return to it at some point when I can spare the time...
 
 [Explore the code ↗](https://github.com/Rfernex/Personal-Projects/tree/main/Project%20BoJ%20%28Ongoing%29)
 
