@@ -34,7 +34,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-483d8768c0fe35bfa174637e309888a4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -209,12 +208,12 @@ background: #ffffff;
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="assets/econradar/latest-dark.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1" title="Small overview of the “Latest papers” tab, if you want to know what it looks like before trying it yourself"><img src="assets/econradar/latest-dark.png" class="img-fluid figure-img" alt="EconRadar's list of latest papers, each with its journal, publication date, research question, contribution, identification strategy and tags."></a></p>
+<p><a href="assets/econradar/latest-dark.png" class="lightbox" data-gallery="econradar" title="Small overview of the “Latest papers” tab, if you want to know what it looks like before trying it yourself"><img src="assets/econradar/latest-dark.png" class="img-fluid figure-img" alt="EconRadar's list of latest papers, each with its journal, publication date, research question, contribution, identification strategy and tags."></a></p>
 <figcaption>Small overview of the “Latest papers” tab, if you want to know what it looks like before trying it yourself</figcaption>
 </figure>
 </div>
 <section id="what-you-will-find-on-the-site-in-short" class="level3">
-<h3 class="anchored" data-anchor-id="what-you-will-find-on-the-site-in-short">What you will find on the site (in short)</h3>
+<h3 data-anchor-id="what-you-will-find-on-the-site-in-short">What you will find on the site (in short)</h3>
 <ul>
 <li><strong>Latest:</strong> every new paper with its question, contribution and identification, filterable by field, method, data, journal, author and publication date, and exportable to BibTeX, RIS or CSV.</li>
 <li><strong>Network:</strong> fields, methods, data sources and topics linked whenever they meet in a paper, so that new combinations stand out, such as a method entering a field or a new kind of data. Other views link papers to their nearest neighbours and authors to the fields they publish in and to their co-authors. A replay rebuilds the map week by week.</li>
@@ -223,19 +222,19 @@ background: #ffffff;
 </ul>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="assets/econradar/network-dark.png" class="lightbox" data-gallery="quarto-lightbox-gallery-2" title="The research network tab, so you never lose sight of what actually matters"><img src="assets/econradar/network-dark.png" class="img-fluid figure-img" alt="A force-directed network of economics fields, methods, data sources and topics, coloured by field family."></a></p>
+<p><a href="assets/econradar/network-dark.png" class="lightbox" data-gallery="econradar" title="The research network tab, so you never lose sight of what actually matters"><img src="assets/econradar/network-dark.png" class="img-fluid figure-img" alt="A force-directed network of economics fields, methods, data sources and topics, coloured by field family."></a></p>
 <figcaption>The research network tab, so you never lose sight of what actually matters</figcaption>
 </figure>
 </div>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
-<p><a href="assets/econradar/trends-dark.png" class="lightbox" data-gallery="quarto-lightbox-gallery-3" title="Trends tab, because sometimes you just want to know what’s hype so you don’t do the same (or not)"><img src="assets/econradar/trends-dark.png" class="img-fluid figure-img" alt="A stacked bar chart of papers per quarter by field family, above small multiples of methods over time."></a></p>
+<p><a href="assets/econradar/trends-dark.png" class="lightbox" data-gallery="econradar" title="Trends tab, because sometimes you just want to know what’s hype so you don’t do the same (or not)"><img src="assets/econradar/trends-dark.png" class="img-fluid figure-img" alt="A stacked bar chart of papers per quarter by field family, above small multiples of methods over time."></a></p>
 <figcaption>Trends tab, because sometimes you just want to know what’s hype so you don’t do the same (or not)</figcaption>
 </figure>
 </div>
 </section>
 <section id="how-it-is-built" class="level3">
-<h3 class="anchored" data-anchor-id="how-it-is-built">How it is built</h3>
+<h3 data-anchor-id="how-it-is-built">How it is built</h3>
 <p>EconRadar is hosted directly on GitHub, and its database is maintained via weekly LLM extracts which retrieve new papers and summarize them based on a predefined list of instructions. While I am currently relying on a very simple infrastructure with barebones Claude API calls that are run from my Claude Pro account, I plan on setting up a proper instruction-based open-weight LLM (probably Qwen or Gemma) on a Linux VM to handle most processing steps currently performed by Claude. This should ensure the app is self-reliant and does not depend on pricey API-based commercial LLMs to stay relevant.</p>
 
 
@@ -262,13 +261,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

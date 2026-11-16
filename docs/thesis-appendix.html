@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-483d8768c0fe35bfa174637e309888a4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -241,7 +240,7 @@ window.Quarto = {
 <p><a href="./thesis.html" class="btn-ghost">← Back to the thesis overview</a> <a href="Resources/sciences-po-thesis.pdf" class="btn-ghost">Full thesis (PDF)</a></p>
 </div>
 <section id="app-classification_rules" class="level2">
-<h2 class="anchored" data-anchor-id="app-classification_rules">A. Classification Rules for <code>indep_type</code> and <code>micro_type</code></h2>
+<h2 data-anchor-id="app-classification_rules">A. Classification Rules for <code>indep_type</code> and <code>micro_type</code></h2>
 <p>I define two main different categorical variables : indep_type and micro_type. The former is used to classify individuals based on whether they are salaried on non salaried and is meant as a broader categorization, which incorporates microentrepreneurs as well as other independents and distinguishes them from the wage-employed.</p>
 <p>To this end, I rely on the following variables from the Enquête Emploi en Continu.</p>
 <table>
@@ -332,9 +331,9 @@ Status in the third / fourth profession.
 </table>
 <p>In both classifications, I exclude workers who are family workers without pay or who are salaried CEOs as they do not correspond to the definitions of both wage and self-employment I adopt throughout this paper. Similarly, as mentioned earlier, I exclude people with more than two different occupations to avoid wrongfully classifying individuals for whom it can be argued that they fit in more categories than one (for instance people with two wage jobs as well as a side business). Both exclusions are fairly minor in size but I do not exclude them from the working population, only from the two primary classifications. This explains why the sum of the shares of people in all categories of indep_type or micro_type in the working active population does not necessarily sum to one.</p>
 <section id="micro_type-classification" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="micro_type-classification">Micro_type classification</h3>
+<h3 class="unnumbered" data-anchor-id="micro_type-classification">Micro_type classification</h3>
 <section id="categories" class="level5">
-<h5 class="anchored" data-anchor-id="categories">Categories :</h5>
+<h5 data-anchor-id="categories">Categories :</h5>
 <p><code>Wage only</code>, <code>Micro only</code>, <code>Wage + Wage</code>, <code>Wage + Micro</code>, <code>Micro + Wage</code>, <code>Micro + Micro</code>.</p>
 <p><strong>Rule table :</strong></p>
 <table>
@@ -469,9 +468,9 @@ otherwise
 </section>
 </section>
 <section id="indep_type-classification" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="indep_type-classification">Indep_type classification</h3>
+<h3 class="unnumbered" data-anchor-id="indep_type-classification">Indep_type classification</h3>
 <section id="categories-1" class="level5">
-<h5 class="anchored" data-anchor-id="categories-1">Categories :</h5>
+<h5 data-anchor-id="categories-1">Categories :</h5>
 <p><code>Wage only</code>, <code>Independent only</code>, <code>Wage + Wage</code>, <code>Wage + Independent</code>, <code>Independent + Wage</code>, <code>Independent + Independent</code>.</p>
 <p><strong>Rule table :</strong></p>
 <table>
@@ -617,11 +616,11 @@ otherwise
 </section>
 </section>
 <section id="app-robustness" class="level2">
-<h2 class="anchored" data-anchor-id="app-robustness">B. Robustness Checks for the Aggregate and Individual-Level ITS Designs</h2>
+<h2 data-anchor-id="app-robustness">B. Robustness Checks for the Aggregate and Individual-Level ITS Designs</h2>
 <section id="aggregate-its-robustness" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="aggregate-its-robustness">Aggregate ITS robustness</h3>
+<h3 class="unnumbered" data-anchor-id="aggregate-its-robustness">Aggregate ITS robustness</h3>
 <section id="reduced-estimation-window" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="reduced-estimation-window">Reduced estimation window</h4>
+<h4 class="unnumbered" data-anchor-id="reduced-estimation-window">Reduced estimation window</h4>
 <p>The baseline aggregate ITS is estimated on the full 2015-Q1 to 2019-Q4 window, yielding 12 pre-reform and 8 post-reform quarters. To verify that the results are not driven by the earliest pre-reform quarters, which are furthest from the reform and therefore most susceptible to confounding by earlier policy changes (notably the progressive implementation of the Loi Pinel between 2014 and 2016), I re-estimate the specification on the shorter 2016-Q1 to 2019-Q4 window (8 pre, 8 post). If the estimated coefficients change substantially, this would suggest that the pre-reform trend is sensitive to the inclusion of the 2015 observations and may not be well captured by a linear specification over the full window.</p>
 <div id="tab:reduced_me">
 <table>
@@ -928,7 +927,7 @@ HAC lag <span class="math inline"><i>L</i></span>
 <p>The reduced-window estimates are very close to the baseline. For Micro only, the post-reform slope change is 0.076<sup>***</sup> on the shorter window compared to 0.083<sup>***</sup> on the full window, and the pre-reform trend rises from 0.028 to 0.034&nbsp;pp/quarter, consistent with the Loi Pinel having slightly depressed growth in the earliest quarters of the full sample. For Wage + Micro, <span class="math inline">\(\hat\beta_3\)</span> is 0.025<sup>***</sup> versus 0.030<sup>***</sup> on the full window, a difference well within the confidence interval. The level shifts and seasonal controls are likewise stable. These results confirm that the main findings are not an artifact of the choice of pre-reform window length.</p>
 </section>
 <section id="placebo-reform-date" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="placebo-reform-date">Placebo reform date</h4>
+<h4 class="unnumbered" data-anchor-id="placebo-reform-date">Placebo reform date</h4>
 <p>I re-estimate the ITS specification using 2016-Q1 as a placebo reform date, restricting the sample to pre-treatment data only (2014-Q2 to 2017-Q4, 7 pre and 8 post quarters) to avoid contamination by the true reform. If the ITS design is valid, the placebo should produce no significant slope change for Micro only or Wage + Micro workers, while the true reform date should yield the significant effects documented in the main text. I report both the placebo and the true-reform estimates side by side, where the true-reform column uses a symmetric 8-pre/8-post window (2016-Q1 to 2019-Q4).</p>
 <div id="tab:placebo_me">
 <table>
@@ -1139,7 +1138,7 @@ Post-reform slope (<span class="math inline"><i>β̂</i><sub>3</sub></span>)
 <p>For Micro only, the placebo slope change is essentially zero (0.002, <span class="math inline">\(p &gt; 0.8\)</span>), while the true reform yields a highly significant 0.076<sup>***</sup>. The level shift under the placebo is marginally significant at the 10% level (−0.073<sup>†</sup>), which is plausibly attributable to residual effects of the Loi Pinel’s implementation in late 2015 and early 2016. For Wage + Micro, the placebo slope change is significant (0.019<sup>***</sup>), indicating that hybrid micro-entrepreneurship was already on an accelerating trend prior to the 2018 reform. However, the true-reform slope change (0.025<sup>***</sup>) is 30% larger in magnitude and estimated on a sample that includes the reform period, so the additional acceleration attributable to the 2018 threshold doubling remains economically meaningful. The placebo level shift for Wage + Micro is essentially zero, confirming no discrete jump at the placebo date.</p>
 </section>
 <section id="hac-bandwidth-sensitivity" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="hac-bandwidth-sensitivity">HAC bandwidth sensitivity</h4>
+<h4 class="unnumbered" data-anchor-id="hac-bandwidth-sensitivity">HAC bandwidth sensitivity</h4>
 <p>The primary specification uses Newey–West HAC standard errors with a Bartlett kernel and a fixed truncation lag of <span class="math inline">\(L = 5\)</span>, chosen because the Enquête Emploi en Continu operates as a 6-quarter rotating panel with up to 5 overlapping cohorts contributing to each quarterly aggregate. If the lag is set too short, residual serial correlation is not fully absorbed and standard errors are downward-biased. Conversely, if it is too long, the finite-sample correction inflates standard errors unnecessarily. To assess the sensitivity of my results to the choice of bandwidth, I re-estimate both the baseline (2015-Q1 to 2019-Q4) and reduced (2016-Q1 to 2019-Q4) specifications under three different configurations: <span class="math inline">\(L \in \{3, 5, 7\}\)</span>.</p>
 <div id="tab:hac_me">
 <table>
@@ -1376,7 +1375,7 @@ HAC <span class="math inline"><i>L</i> = 7</span>
 <p>For both categories, the post-reform slope change <span class="math inline">\(\hat\beta_3\)</span> is significant at the 0.1% level under every bandwidth and every window length. The level shift <span class="math inline">\(\hat\beta_2\)</span> is significant at the 5% level throughout, with standard errors varying only modestly across bandwidths. Varying <span class="math inline">\(L\)</span> from 3 to 7 produces only minor fluctuations in standard errors, confirming that the choice of <span class="math inline">\(L = 5\)</span> does not artificially drive significance.</p>
 </section>
 <section id="reset-test-for-nonlinearity" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="reset-test-for-nonlinearity">RESET test for nonlinearity</h4>
+<h4 class="unnumbered" data-anchor-id="reset-test-for-nonlinearity">RESET test for nonlinearity</h4>
 <p>A key assumption of the ITS design is that the pre-reform and post-reform trends are adequately captured by linear functions of time. If the true data-generating process involves a nonlinear trend, the linear ITS specification could attribute curvature to a spurious level shift or slope change at the reform date. I report below the results of a Ramsey RESET (Regression Equation Specification Error Test) test which provides a formal diagnostic for this type of misspecification. The test augments the original regression with powers of the fitted values (here, the second and third powers <span class="math inline">\(\hat{Y}^2\)</span> and <span class="math inline">\(\hat{Y}^3\)</span>) and tests whether these additional regressors are jointly significant. Under the null hypothesis that the linear specification is correct, the augmented regressors should have no explanatory power and the <span class="math inline">\(F\)</span>-statistic should be small.</p>
 <div id="tab:reset">
 <table>
@@ -1447,7 +1446,7 @@ Observations
 <p>The RESET test fails to reject the null of correct linear specification for both Micro only (<span class="math inline">\(F = 1.078\)</span>, <span class="math inline">\(p = 0.374\)</span>) and Wage + Micro (<span class="math inline">\(F = 1.026\)</span>, <span class="math inline">\(p = 0.390\)</span>) which indicates that non-linearities are unlikely to be playing a significant role here.</p>
 </section>
 <section id="residual-diagnostics" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="residual-diagnostics">Residual diagnostics</h4>
+<h4 class="unnumbered" data-anchor-id="residual-diagnostics">Residual diagnostics</h4>
 <p>As a complementary visual diagnostic, I plot the OLS residuals against fitted values for both target categories and overlay a LOESS smoother to detect any systematic pattern that would indicate nonlinearity missed by the parametric RESET test.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1465,9 +1464,9 @@ Observations
 </section>
 </section>
 <section id="individual-level-its-robustness" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="individual-level-its-robustness">Individual-level ITS robustness</h3>
+<h3 class="unnumbered" data-anchor-id="individual-level-its-robustness">Individual-level ITS robustness</h3>
 <section id="rolling-placebo-analysis" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="rolling-placebo-analysis">Rolling placebo analysis</h4>
+<h4 class="unnumbered" data-anchor-id="rolling-placebo-analysis">Rolling placebo analysis</h4>
 <p>To assess whether the individual-level ITS captures a genuine structural break at 2018-Q1 rather than a spurious pattern, I conduct a rolling placebo analysis. For each candidate reform date from 2015-Q3 to 2017-Q2, I re-estimate the individual-level logit specification (M3, with full controls) on the pre-reform window only (2014-Q2 to 2017-Q4), treating the candidate date as if it were the true reform. This produces a sequence of placebo <span class="math inline">\(\hat\beta_3\)</span> estimates, each measuring the slope change at a date where no reform occurred. I then compare these to the headline <span class="math inline">\(\hat\beta_3\)</span> obtained from the true reform specification (2015-Q1 to 2019-Q4, break at 2018-Q1).</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
@@ -1481,7 +1480,7 @@ Observations
 </section>
 </section>
 <section id="app-indiv_interactions" class="level2">
-<h2 class="anchored" data-anchor-id="app-indiv_interactions">C. Individual-Level Interaction Terms and Covariate Coefficients</h2>
+<h2 data-anchor-id="app-indiv_interactions">C. Individual-Level Interaction Terms and Covariate Coefficients</h2>
 <p>This appendix section reports the full set of covariate coefficients and post-reform slope interaction terms for the individual-level ITS models. All coefficients in the logit models are on the log-odds scale.</p>
 <div id="tab:logit_me_full">
 <table>
@@ -4321,7 +4320,7 @@ Observations
 <p><em>Notes:</em> Weighted OLS with cluster-robust sandwich SEs on <code>individual_id</code>. Reference category for education: Tertiary (bac+3 or above). <span class="math inline">\(^{***}p &lt; 0.001\)</span>, <span class="math inline">\(^{**}p &lt; 0.01\)</span>, <span class="math inline">\(^{*}p &lt; 0.05\)</span>.</p>
 </section>
 <section id="app-sector_csp" class="level2">
-<h2 class="anchored" data-anchor-id="app-sector_csp">D. Socio Professional Categories of Hybrid Microentrepreneurs</h2>
+<h2 data-anchor-id="app-sector_csp">D. Socio Professional Categories of Hybrid Microentrepreneurs</h2>
 <div id="tab:wm_csp_pre">
 <table>
 <caption>
@@ -5650,7 +5649,7 @@ Category
 </div>
 </section>
 <section id="app-earnings_barcharts" class="level2">
-<h2 class="anchored" data-anchor-id="app-earnings_barcharts">E. Earnings Distributions (Bar Charts)</h2>
+<h2 data-anchor-id="app-earnings_barcharts">E. Earnings Distributions (Bar Charts)</h2>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src="assets/thesis-appendix/graph_earnings_primary_density_prepost_bars.png" class="img-fluid figure-img" style="width:70.0%"></p>
@@ -5665,10 +5664,10 @@ Category
 </div>
 </section>
 <section id="app-constrained_derivations" class="level2">
-<h2 class="anchored" data-anchor-id="app-constrained_derivations">F. Full Model Derivations of the Constrained Model</h2>
+<h2 data-anchor-id="app-constrained_derivations">F. Full Model Derivations of the Constrained Model</h2>
 <p>In the constrained model, primary wage hours are exogenously fixed at <span class="math inline">\(\bar{h}_i\)</span>. I present the FOCs, existence and uniqueness results, and the derivations underlying the propositions stated in the main text.</p>
 <section id="dual-wage-employment-ww-foc-and-concavity" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="dual-wage-employment-ww-foc-and-concavity">Dual wage employment (<span class="math inline">\(WW\)</span>): FOC and concavity</h3>
+<h3 class="unnumbered" data-anchor-id="dual-wage-employment-ww-foc-and-concavity">Dual wage employment (<span class="math inline">\(WW\)</span>): FOC and concavity</h3>
 <p>The dual jobholder solves <span class="math display">\[V_i^{WW}
 = \max_{h^{w,2}} \;
 \frac{(w_1\bar{h} + w_2 h^{w,2})^{1-\sigma}}{1-\sigma}
@@ -5681,22 +5680,22 @@ Category
 \quad\text{for all } h &gt; 0,\]</span> so the objective is strictly concave and the interior optimum is unique.</p>
 </section>
 <section id="pure-self-employment-se-foc-and-concavity" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="pure-self-employment-se-foc-and-concavity">Pure self-employment (<span class="math inline">\(SE\)</span>): FOC and concavity</h3>
+<h3 class="unnumbered" data-anchor-id="pure-self-employment-se-foc-and-concavity">Pure self-employment (<span class="math inline">\(SE\)</span>): FOC and concavity</h3>
 <section id="microentrepreneur-interval-mathbbetildeyhse-leq-m" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="microentrepreneur-interval-mathbbetildeyhse-leq-m">Microentrepreneur interval (<span class="math inline">\(\mathbb{E}[\tilde{y}]\,h^{se} \leq M\)</span>)</h4>
-<p>The objective function on this interval is <span class="math display">\[\Phi(h) = \frac{\mathcal{R}^{m}\, h^{1-\sigma}}{1-\sigma} - \chi\gamma\,\frac{(h+S_L)^{1+\eta_{se}}}{1+\eta_{se}},\]</span> where <span class="math inline">\(\mathcal{R}^{m}= \bigl[(1+\tau)\rho^{m}\bigr]^{1-\sigma}\,\mu_y^{1-\sigma}\,\exp\!\bigl(-\tfrac{1}{2}\sigma(1-\sigma)\sigma_y^2\bigr)\)</span> is the micro effective return of&nbsp;<a href="#eq:effreturns" data-reference-type="eqref" data-reference="eq:effreturns">[eq:effreturns]</a>. The lognormal moment formula <span class="math inline">\(\mathbb{E}[\tilde{y}^{1-\sigma}] = \mu_y^{1-\sigma}\exp(-\tfrac{1}{2}\sigma(1-\sigma)\sigma_y^2)\)</span> makes this closed form the exact value of the expected-utility objective <span class="math inline">\(\mathbb{E}_{\tilde{y}}[u((1+\tau)\rho^{m}\,\tilde{y}\,h)]\)</span>. The interior FOC is <span class="math display">\[\mathcal{R}^{m}\,(h^*)^{-\sigma} = \chi\gamma\,(h^*+S_L)^{\eta_{se}}.
+<h4 class="unnumbered" data-anchor-id="microentrepreneur-interval-mathbbetildeyhse-leq-m">Microentrepreneur interval (<span class="math inline">\(\mathbb{E}[\tilde{y}]\,h^{se} \leq M\)</span>)</h4>
+<p>The objective function on this interval is <span class="math display">\[\Phi(h) = \frac{\mathcal{R}^{m}\, h^{1-\sigma}}{1-\sigma} - \chi\gamma\,\frac{(h+S_L)^{1+\eta_{se}}}{1+\eta_{se}},\]</span> where <span class="math inline">\(\mathcal{R}^{m}= \bigl[(1+\tau)\rho^{m}\bigr]^{1-\sigma}\,\mu_y^{1-\sigma}\,\exp\!\bigl(-\tfrac{1}{2}\sigma(1-\sigma)\sigma_y^2\bigr)\)</span> is the micro effective return defined in the main text. The lognormal moment formula <span class="math inline">\(\mathbb{E}[\tilde{y}^{1-\sigma}] = \mu_y^{1-\sigma}\exp(-\tfrac{1}{2}\sigma(1-\sigma)\sigma_y^2)\)</span> makes this closed form the exact value of the expected-utility objective <span class="math inline">\(\mathbb{E}_{\tilde{y}}[u((1+\tau)\rho^{m}\,\tilde{y}\,h)]\)</span>. The interior FOC is <span class="math display">\[\mathcal{R}^{m}\,(h^*)^{-\sigma} = \chi\gamma\,(h^*+S_L)^{\eta_{se}}.
 \tag{FOC-Micro}\]</span> The derivative <span class="math inline">\(G(h) \equiv \mathcal{R}^{m}\,h^{-\sigma} - \chi\gamma(h+S_L)^{\eta_{se}}\)</span> satisfies <span class="math inline">\(G'(h) &lt; 0\)</span>, so the FOC has at most one root and the interior solution is unique.</p>
 </section>
 <section id="standard-entrepreneur-interval-mathbbetildeyhse-m" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="standard-entrepreneur-interval-mathbbetildeyhse-m">Standard entrepreneur interval (<span class="math inline">\(\mathbb{E}[\tilde{y}]\,h^{se} &gt; M\)</span>)</h4>
+<h4 class="unnumbered" data-anchor-id="standard-entrepreneur-interval-mathbbetildeyhse-m">Standard entrepreneur interval (<span class="math inline">\(\mathbb{E}[\tilde{y}]\,h^{se} &gt; M\)</span>)</h4>
 <p>The objective becomes <span class="math display">\[\Phi(h) = \frac{\mathcal{R}^{r}\, h^{1-\sigma}}{1-\sigma} - \chi\gamma\,\frac{(h+S_H)^{1+\eta_{se}}}{1+\eta_{se}},\]</span> where <span class="math inline">\(\mathcal{R}^{r}= (\rho^{r})^{1-\sigma}\,\mu_y^{1-\sigma}\exp\!\bigl(-\tfrac{1}{2}\sigma(1-\sigma)\sigma_y^2\bigr)\)</span> is the réel effective return, without the micro premium and with the réel net income share. The FOC is <span class="math display">\[\mathcal{R}^{r}\,(h^*)^{-\sigma} = \chi\gamma\,(h^*+S_H)^{\eta_{se}}.
 \tag{FOC-Standard}\]</span> Uniqueness follows from the same monotonicity argument.</p>
 </section>
 </section>
 <section id="hybrid-entrepreneurship-wse-foc-and-concavity" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="hybrid-entrepreneurship-wse-foc-and-concavity">Hybrid entrepreneurship (<span class="math inline">\(WSE\)</span>): FOC and concavity</h3>
+<h3 class="unnumbered" data-anchor-id="hybrid-entrepreneurship-wse-foc-and-concavity">Hybrid entrepreneurship (<span class="math inline">\(WSE\)</span>): FOC and concavity</h3>
 <section id="microentrepreneur-interval-mathbbetildeyhse-leq-m-1" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="microentrepreneur-interval-mathbbetildeyhse-leq-m-1">Microentrepreneur interval (<span class="math inline">\(\mathbb{E}[\tilde{y}]\,h^{se} \leq M\)</span>)</h4>
+<h4 class="unnumbered" data-anchor-id="microentrepreneur-interval-mathbbetildeyhse-leq-m-1">Microentrepreneur interval (<span class="math inline">\(\mathbb{E}[\tilde{y}]\,h^{se} \leq M\)</span>)</h4>
 <p>The objective function, net of the additive constants <span class="math inline">\(-\chi\,\bar{h}^{1+\eta_{w_1}}/(1+\eta_{w_1})\)</span> and <span class="math inline">\(-\gamma_{MH}\)</span> which play no role in the hours problem, is <span class="math display">\[\Psi(h) = \mathbb{E}_{\tilde{y}}\!\left[\frac{\bigl(w_1\bar{h}+(1+\tau)\rho^{m}\,\tilde{y}\,h\bigr)^{1-\sigma}}{1-\sigma}\right]
 - \chi\gamma\phi\,\frac{(h+S_L)^{1+\eta_{se}}}{1+\eta_{se}}.\]</span> The interior FOC is <span class="math display">\[\mathbb{E}\!\left[\tilde{y}(1+\tau)\rho^{m}\bigl(w_1\bar{h}+(1+\tau)\rho^{m}\,\tilde{y}\,h^*\bigr)^{-\sigma}\right]
 = \chi\gamma\phi\,(h^*+S_L)^{\eta_{se}}.
@@ -5704,23 +5703,23 @@ Category
 - \chi\gamma\phi\,\eta_{se}\,(h+S_L)^{\eta_{se}-1} &lt; 0,\]</span> so strict concavity and uniqueness hold.</p>
 </section>
 <section id="standard-entrepreneur-interval-mathbbetildeyhse-m-1" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="standard-entrepreneur-interval-mathbbetildeyhse-m-1">Standard entrepreneur interval (<span class="math inline">\(\mathbb{E}[\tilde{y}]\,h^{se} &gt; M\)</span>)</h4>
+<h4 class="unnumbered" data-anchor-id="standard-entrepreneur-interval-mathbbetildeyhse-m-1">Standard entrepreneur interval (<span class="math inline">\(\mathbb{E}[\tilde{y}]\,h^{se} &gt; M\)</span>)</h4>
 <p>The FOC becomes <span class="math display">\[\mathbb{E}\!\left[\tilde{y}\,\rho^{r}\bigl(w_1\bar{h}+\rho^{r}\,\tilde{y}\,h^*\bigr)^{-\sigma}\right]
 = \chi\gamma\phi\,(h^*+S_H)^{\eta_{se}}.
 \tag{FOC-WSE-Standard}\]</span> Concavity follows from the same argument with <span class="math inline">\((1+\tau)\rho^{m}\)</span> replaced by <span class="math inline">\(\rho^{r}\)</span> and <span class="math inline">\(S_H\)</span> replacing <span class="math inline">\(S_L\)</span>.</p>
 </section>
 </section>
 <section id="derivations-for-proposition-1-reform-favors-entrepreneurship" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="derivations-for-proposition-1-reform-favors-entrepreneurship">Derivations for Proposition 1: reform favors entrepreneurship</h3>
+<h3 class="unnumbered" data-anchor-id="derivations-for-proposition-1-reform-favors-entrepreneurship">Derivations for Proposition 1: reform favors entrepreneurship</h3>
 <p>The critical hours threshold below which the micro regime is accessible is <span class="math inline">\(\bar{m} = M/\mu_y\)</span>, so <span class="math inline">\(\partial\bar{m}/\partial M = 1/\mu_y &gt; 0\)</span>. I say an agent bunches at the ceiling when her interior micro optimum exceeds <span class="math inline">\(\bar{m}\)</span>, so that her effective optimum is <span class="math inline">\(h^c = \bar{m}\)</span>.</p>
 <section id="se-state." class="level5">
-<h5 class="anchored" data-anchor-id="se-state.">SE state.</h5>
+<h5 data-anchor-id="se-state.">SE state.</h5>
 <p>Substituting <span class="math inline">\(h^c = \bar{m}\)</span> into the objective and differentiating by the chain rule: <span class="math display">\[\frac{\partial V^{SE}}{\partial M}
 = \Phi'(\bar{m}) \cdot \frac{1}{\mu_y}.\]</span> At a bunching optimum, <span class="math inline">\(\Phi'(\bar{m}) &gt; 0\)</span> (the objective is still increasing at the cap), so <span class="math display">\[\frac{\partial V^{SE}}{\partial M}
 = \frac{\mathcal{R}^{m}\,\bar{m}^{-\sigma} - \chi\gamma(\bar{m}+S_L)^{\eta_{se}}}{\mu_y} &gt; 0.\]</span></p>
 </section>
 <section id="wse-state." class="level5">
-<h5 class="anchored" data-anchor-id="wse-state.">WSE state.</h5>
+<h5 data-anchor-id="wse-state.">WSE state.</h5>
 <p>The same logic gives <span class="math display">\[\frac{\partial V^{WSE}}{\partial M}
 = \frac{\Psi'(\bar{m})}{\mu_y}
 = \frac{
@@ -5731,7 +5730,7 @@ Category
 </section>
 </section>
 <section id="derivations-for-proposition-2-se-benefits-more-than-wse" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="derivations-for-proposition-2-se-benefits-more-than-wse">Derivations for Proposition 2: SE benefits more than WSE</h3>
+<h3 class="unnumbered" data-anchor-id="derivations-for-proposition-2-se-benefits-more-than-wse">Derivations for Proposition 2: SE benefits more than WSE</h3>
 <p>Both derivatives are evaluated at a common cap <span class="math inline">\(\bar{m}\)</span> and a common micro share <span class="math inline">\(\rho^{m}\)</span>. Since <span class="math inline">\(w_1\bar{h} &gt; 0\)</span>, for every realization of <span class="math inline">\(\tilde{y}\)</span>: <span class="math display">\[\bigl(w_1\bar{h}+(1+\tau)\rho^{m}\,\tilde{y}\,\bar{m}\bigr)^{-\sigma}
 &lt; \bigl((1+\tau)\rho^{m}\,\tilde{y}\,\bar{m}\bigr)^{-\sigma}.\]</span> Multiplying both sides by <span class="math inline">\(\tilde{y}(1+\tau)\rho^{m}&gt; 0\)</span> and taking expectations: <span class="math display">\[\mathbb{E}\!\left[\tilde{y}(1+\tau)\rho^{m}\bigl(w_1\bar{h}+(1+\tau)\rho^{m}\,\tilde{y}\,\bar{m}\bigr)^{-\sigma}\right]
 &lt; \bigl[(1+\tau)\rho^{m}\bigr]^{1-\sigma}\bar{m}^{-\sigma}\,\mathbb{E}\!\left[\tilde{y}^{1-\sigma}\right]
@@ -5739,10 +5738,10 @@ Category
 = \frac{1}{\mu_y}\Bigl[\, \mathcal{W} - \chi\gamma(1-\phi)(\bar{m}+S_L)^{\eta_{se}} \,\Bigr],\]</span> since the disutility terms enter as <span class="math inline">\(-\chi\gamma\)</span> and <span class="math inline">\(-\chi\gamma\phi\)</span> respectively. For <span class="math inline">\(\phi \le 1\)</span> the second bracketed term is non-negative and works against the wedge, so <span class="math inline">\(\partial\Delta^{WSE,SE}/\partial M &lt; 0\)</span> holds if and only if <span class="math inline">\(\chi\gamma(1-\phi)(\bar{m}+S_L)^{\eta_{se}} &lt; \mathcal{W}\)</span>, with the strict ranking guaranteed at <span class="math inline">\(\phi = 1\)</span>. The additive <span class="math inline">\(\gamma_{MH}\)</span> cancels from the comparison.</p>
 </section>
 <section id="derivations-for-proposition-3-substitution-dominates-for-sigma-leq-1" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="derivations-for-proposition-3-substitution-dominates-for-sigma-leq-1">Derivations for Proposition 3: substitution dominates for <span class="math inline">\(\sigma \leq 1\)</span></h3>
+<h3 class="unnumbered" data-anchor-id="derivations-for-proposition-3-substitution-dominates-for-sigma-leq-1">Derivations for Proposition 3: substitution dominates for <span class="math inline">\(\sigma \leq 1\)</span></h3>
 <p>This proposition concerns the intensive margin response of entrepreneurial hours to <span class="math inline">\(\tau\)</span> and to the micro net income share, in both the solo and the hybrid state.</p>
 <section id="solo-se." class="level5">
-<h5 class="anchored" data-anchor-id="solo-se.">Solo <span class="math inline">\(SE\)</span>.</h5>
+<h5 data-anchor-id="solo-se.">Solo <span class="math inline">\(SE\)</span>.</h5>
 <p>The micro return satisfies <span class="math inline">\(\mathcal{R}^{m}\propto \bigl[(1+\tau)\rho^{m}\bigr]^{1-\sigma}\)</span>, so <span class="math inline">\(\partial\mathcal{R}^{m}/\partial\tau = (1-\sigma)\mathcal{R}^{m}/(1+\tau)\)</span>. Applying the implicit function theorem to <span class="math inline">\(G(h,\tau) \equiv \mathcal{R}^{m}\,h^{-\sigma} - \chi\gamma(h+S_L)^{\eta_{se}} = 0\)</span>: <span class="math display">\[G_\tau = \frac{(1-\sigma)}{1+\tau}\,\mathcal{R}^{m}\,h^{-\sigma} &gt; 0 \quad (\sigma &lt; 1),
 \qquad
 G_h &lt; 0,
@@ -5750,19 +5749,19 @@ G_h &lt; 0,
 \frac{\partial h^*_{se}}{\partial\tau} = -\frac{G_\tau}{G_h} &gt; 0.\]</span> The response to <span class="math inline">\(\rho^{m}\)</span> is identical with the factor <span class="math inline">\((1-\sigma)/\rho^{m}\)</span> in place of <span class="math inline">\((1-\sigma)/(1+\tau)\)</span>. This is the <span class="math inline">\(s_e = 1\)</span> limit of the hybrid argument below, since solo consumption is entirely entrepreneurial.</p>
 </section>
 <section id="hybrid-wse." class="level5">
-<h5 class="anchored" data-anchor-id="hybrid-wse.">Hybrid <span class="math inline">\(WSE\)</span>.</h5>
+<h5 data-anchor-id="hybrid-wse.">Hybrid <span class="math inline">\(WSE\)</span>.</h5>
 <p>I apply the implicit function theorem to the FOC residual <span class="math display">\[G(h^*,\theta) \equiv \mathbb{E}\!\left[\tilde{y}(1+\tau)\rho^{m}\bigl(w_1\bar{h}+(1+\tau)\rho^{m}\,\tilde{y}\,h^*\bigr)^{-\sigma}\right] - \chi\gamma\phi\,(h^*+S_L)^{\eta_{se}} = 0.\]</span> The denominator of the IFT is <span class="math inline">\(G_h &lt; 0\)</span> (from the concavity of <span class="math inline">\(\Psi\)</span>). Differentiating <span class="math inline">\(G\)</span> with respect to <span class="math inline">\(\tau\)</span> and factoring the integrand: <span class="math display">\[G_\tau = \rho^{m}\,\mathbb{E}\!\left[\tilde{y}\,c^{-\sigma}\bigl(1 - \sigma\,s_e(\tilde{y})\bigr)\right],\]</span> where <span class="math inline">\(c = w_1\bar{h}+(1+\tau)\rho^{m}\,\tilde{y}\,h^*\)</span> and <span class="math inline">\(s_e(\tilde{y}) = (1+\tau)\rho^{m}\,\tilde{y}\,h^{se}/c \in (0,1)\)</span>. For <span class="math inline">\(\sigma &lt; 1\)</span>: <span class="math inline">\(\sigma\,s_e &lt; 1\)</span> pointwise (since both <span class="math inline">\(\sigma &lt; 1\)</span> and <span class="math inline">\(s_e &lt; 1\)</span>), so the integrand is strictly positive for every realization and <span class="math inline">\(G_\tau &gt; 0\)</span>. By the IFT, <span class="math inline">\(\partial h^*_{wse}/\partial\tau = -G_\tau/G_h &gt; 0\)</span>. The response to <span class="math inline">\(\rho^{m}\)</span> has the same structure with the factor <span class="math inline">\((1+\tau)\)</span> in place of <span class="math inline">\(\rho^{m}\)</span> in front of the expectation.</p>
 </section>
 <section id="response-to-mu_y." class="level5">
-<h5 class="anchored" data-anchor-id="response-to-mu_y.">Response to <span class="math inline">\(\mu_y\)</span>.</h5>
+<h5 data-anchor-id="response-to-mu_y.">Response to <span class="math inline">\(\mu_y\)</span>.</h5>
 <p>Using <span class="math inline">\(\partial\tilde{y}/\partial\mu_y = \tilde{y}/\mu_y\)</span> from the mean-preserving reparametrization: <span class="math display">\[G_{\mu_y} = \frac{1}{\mu_y}\,\mathbb{E}\!\left[\tilde{y}(1+\tau)\rho^{m}\,c^{-\sigma}\bigl(1-\sigma\,s_e(\tilde{y})\bigr)\right].\]</span> This has the same structure as <span class="math inline">\(G_\tau\)</span> up to a factor of <span class="math inline">\((1+\tau)/\mu_y\)</span>. For <span class="math inline">\(\sigma &lt; 1\)</span>, the same pointwise argument gives <span class="math inline">\(G_{\mu_y} &gt; 0\)</span>, and therefore <span class="math inline">\(\partial h^*_{wse}/\partial\mu_y &gt; 0\)</span>.</p>
 <p>For <span class="math inline">\(\sigma &gt; 1\)</span> and sufficiently large draws of <span class="math inline">\(\tilde{y}\)</span>, <span class="math inline">\(\sigma\,s_e\)</span> can exceed 1, making the sign of the integrand ambiguous and the overall response indeterminate. Note that at <span class="math inline">\(\sigma = 1\)</span> exactly the condition <span class="math inline">\(\sigma\,s_e &lt; 1\)</span> still holds pointwise since <span class="math inline">\(s_e &lt; 1\)</span> always, so the threshold for ambiguity is strictly above one.</p>
 </section>
 </section>
 <section id="derivations-for-proposition-4-risk-effects" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="derivations-for-proposition-4-risk-effects">Derivations for Proposition 4: risk effects</h3>
+<h3 class="unnumbered" data-anchor-id="derivations-for-proposition-4-risk-effects">Derivations for Proposition 4: risk effects</h3>
 <section id="pure-se-extensive-margin." class="level5">
-<h5 class="anchored" data-anchor-id="pure-se-extensive-margin.">Pure SE: extensive margin.</h5>
+<h5 data-anchor-id="pure-se-extensive-margin.">Pure SE: extensive margin.</h5>
 <p>By the envelope theorem, and writing <span class="math inline">\(\mathcal{R}^g\)</span> for the effective return of the selected regime <span class="math inline">\(g\)</span> with fixed cost <span class="math inline">\(S_g\)</span>: <span class="math display">\[\frac{\partial V^{SE}}{\partial\sigma_y^2}
 = \frac{(h^*)^{1-\sigma}}{1-\sigma}\cdot\frac{\partial\mathcal{R}^g}{\partial\sigma_y^2}
 = \frac{(h^*)^{1-\sigma}}{1-\sigma}\cdot\bigl(-\tfrac{1}{2}\sigma(1-\sigma)\bigr)\mathcal{R}^g
@@ -5770,30 +5769,30 @@ G_h &lt; 0,
 = -\tfrac{1}{2}\sigma\,\chi\gamma(h^*+S_g)^{\eta_{se}}\cdot h^* \leq 0 \quad\text{for all } \sigma &gt; 0.\]</span> The sign is unambiguous because the reparametrization isolates the pure risk channel: a mean-preserving spread in <span class="math inline">\(\tilde{y}\)</span> reduces both <span class="math inline">\(\mathcal{R}^{m}\)</span> and <span class="math inline">\(\mathcal{R}^{r}\)</span> through the same multiplicative penalty, making entrepreneurship less attractive under either regime and leaving the regime comparison unchanged.</p>
 </section>
 <section id="hybrid-wse-extensive-margin." class="level5">
-<h5 class="anchored" data-anchor-id="hybrid-wse-extensive-margin.">Hybrid WSE: extensive margin.</h5>
+<h5 data-anchor-id="hybrid-wse-extensive-margin.">Hybrid WSE: extensive margin.</h5>
 <p>Under the mean-preserving reparametrization, using the envelope theorem with the chain-rule correction <span class="math inline">\(\partial\tilde{y}/\partial\sigma_y^2 = \tilde{y}(\varepsilon/2\sqrt{\sigma_y^2} - 1/2)\)</span>: <span class="math display">\[\frac{\partial\Delta^{WSE,W}}{\partial\sigma_y^2}
 = \frac{h^*_{wse}}{2}\left[\frac{D}{\sqrt{\sigma_y^2}} - \chi\gamma\phi\,(h^*_{wse}+S_L)^{\eta_{se}}\right],\]</span> where <span class="math inline">\(D \equiv \mathbb{E}\!\left[\varepsilon\,\tilde{y}(1+\tau)\rho^{m}\bigl(w_1\bar{h}+(1+\tau)\rho^{m}\,\tilde{y}\,h^*_{wse}\bigr)^{-\sigma}\right] &gt; 0\)</span>. The second term uses the FOC substitution <span class="math inline">\(\mathbb{E}[\tilde{y}(1+\tau)\rho^{m}\,c^{-\sigma}] = \chi\gamma\phi\,(h^*_{wse}+S_L)^{\eta_{se}}\)</span>. Total consumption <span class="math inline">\(c = w_1\bar{h}+(1+\tau)\rho^{m}\,\tilde{y}\,h^*_{wse}\)</span> is affine in <span class="math inline">\(\tilde{y}\)</span> and <span class="math inline">\(u\)</span> is strictly concave, so a mean-preserving spread in <span class="math inline">\(\tilde{y}\)</span> lowers expected utility by second-order stochastic dominance. Since <span class="math inline">\(V^W\)</span> does not depend on <span class="math inline">\(\sigma_y^2\)</span>, the frontier derivative satisfies <span class="math inline">\(\partial V^{WSE}/\partial\sigma_y^2 \leq 0\)</span>. The wage buffer <span class="math inline">\(w_1\bar{h}\)</span> dampens the magnitude relative to the SE case by raising the consumption level at which the dispersion term is evaluated, but the overall sign remains non-positive: the two bracketed terms do not produce a genuine ambiguity at the participation frontier. The expressions above are written for the micro branch and hold for the réel branch with <span class="math inline">\((1+\tau)\rho^{m}\)</span> replaced by <span class="math inline">\(\rho^{r}\)</span> and <span class="math inline">\(S_L\)</span> by <span class="math inline">\(S_H\)</span>.</p>
 </section>
 </section>
 <section id="derivations-for-proposition-5-intensive-margin-response" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="derivations-for-proposition-5-intensive-margin-response">Derivations for Proposition 5: intensive margin response</h3>
+<h3 class="unnumbered" data-anchor-id="derivations-for-proposition-5-intensive-margin-response">Derivations for Proposition 5: intensive margin response</h3>
 <p>For a bunching agent (<span class="math inline">\(h^{m\ast} &gt; \bar{m}\)</span>), effective hours are <span class="math inline">\(h^c = \bar{m} = M/\mu_y\)</span>. Differentiating: <span class="math display">\[\frac{\partial h^c}{\partial M} = \frac{1}{\mu_y} &gt; 0.\]</span> For a micro agent with a slack cap (<span class="math inline">\(h^{m\ast} &lt; \bar{m}\)</span>), <span class="math inline">\(M\)</span> does not appear in the FOC, hence <span class="math inline">\(\partial h^*/\partial M = 0\)</span>, and the same holds for a réel agent whose FOC never involves <span class="math inline">\(M\)</span>.</p>
 </section>
 <section id="derivations-for-proposition-8-non-pecuniary-preferences" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="derivations-for-proposition-8-non-pecuniary-preferences">Derivations for Proposition 8: non-pecuniary preferences</h3>
+<h3 class="unnumbered" data-anchor-id="derivations-for-proposition-8-non-pecuniary-preferences">Derivations for Proposition 8: non-pecuniary preferences</h3>
 <p>The WSE versus WW gap involves both states. By the envelope theorem, with <span class="math inline">\(S_g\)</span> the fixed cost of the regime selected in the <span class="math inline">\(WSE\)</span> state:</p>
 <section id="in-gamma." class="level5">
-<h5 class="anchored" data-anchor-id="in-gamma.">In <span class="math inline">\(\gamma\)</span>.</h5>
+<h5 data-anchor-id="in-gamma.">In <span class="math inline">\(\gamma\)</span>.</h5>
 <p>Only <span class="math inline">\(V^{WSE}\)</span> depends on <span class="math inline">\(\gamma\)</span> (through the <span class="math inline">\(\chi\gamma\phi\)</span> coefficient of the entrepreneurial disutility): <span class="math display">\[\frac{\partial\Delta^{WSE,WW}}{\partial\gamma}
 = -\chi\,\phi\,\frac{(h^*_{wse}+S_g)^{1+\eta_{se}}}{1+\eta_{se}} &lt; 0.\]</span></p>
 </section>
 <section id="in-phi." class="level5">
-<h5 class="anchored" data-anchor-id="in-phi.">In <span class="math inline">\(\phi\)</span>.</h5>
+<h5 data-anchor-id="in-phi.">In <span class="math inline">\(\phi\)</span>.</h5>
 <p>Only <span class="math inline">\(V^{WSE}\)</span> depends on <span class="math inline">\(\phi\)</span>: <span class="math display">\[\frac{\partial\Delta^{WSE,WW}}{\partial\phi}
 = -\chi\,\gamma\,\frac{(h^*_{wse}+S_g)^{1+\eta_{se}}}{1+\eta_{se}} &lt; 0.\]</span></p>
 </section>
 <section id="in-gamma_mh." class="level5">
-<h5 class="anchored" data-anchor-id="in-gamma_mh.">In <span class="math inline">\(\gamma_{MH}\)</span>.</h5>
+<h5 data-anchor-id="in-gamma_mh.">In <span class="math inline">\(\gamma_{MH}\)</span>.</h5>
 <p>The cost enters both dual states as the same additive constant, so <span class="math display">\[\frac{\partial V^{WW}}{\partial\gamma_{MH}} = -1,
 \qquad
 \frac{\partial V^{WSE}}{\partial\gamma_{MH}} = -1,
@@ -5803,10 +5802,10 @@ G_h &lt; 0,
 </section>
 </section>
 <section id="app-unconstrained_derivations" class="level2">
-<h2 class="anchored" data-anchor-id="app-unconstrained_derivations">G. Full Model Derivations of the Unconstrained Model</h2>
+<h2 data-anchor-id="app-unconstrained_derivations">G. Full Model Derivations of the Unconstrained Model</h2>
 <p>In the unconstrained model, primary wage hours <span class="math inline">\(h^{w,1} \in [\underline{h},\, T]\)</span> are optimized jointly with secondary hours. The SE program is identical to the constrained model (no primary wage job to adjust), so I refer to Appendix&nbsp;<a href="#app-constrained_derivations">Appendix F</a> for the SE FOCs, concavity, and comparative statics. I present here the derivations for W, WW, and WSE that differ from the constrained case, and for the propositions that rely on the unconstrained specification.</p>
 <section id="wage-employment-w-foc-and-closed-form" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="wage-employment-w-foc-and-closed-form">Wage employment (<span class="math inline">\(W\)</span>): FOC and closed form</h3>
+<h3 class="unnumbered" data-anchor-id="wage-employment-w-foc-and-closed-form">Wage employment (<span class="math inline">\(W\)</span>): FOC and closed form</h3>
 <p>The worker solves <span class="math display">\[V_i^W = \max_{h^{w,1} \in [\underline{h},\, T]} \left\{
 \frac{(w_1\,h^{w,1})^{1-\sigma}}{1-\sigma}
 - \chi\,\frac{(h^{w,1})^{1+\eta_{w_1}}}{1+\eta_{w_1}}
@@ -5814,9 +5813,9 @@ G_h &lt; 0,
 \tag{FOC-W}\]</span> which solves to <span class="math display">\[h^{*,W} = \left(\frac{w_1^{1-\sigma}}{\chi}\right)^{1/(\eta_{w_1}+\sigma)}.\]</span> The second derivative is <span class="math inline">\(\Phi''(h) = -\sigma w_1^2(w_1 h)^{-\sigma-1} - \chi\,\eta_{w_1}\,h^{\eta_{w_1}-1} &lt; 0\)</span>, so the objective is strictly concave and the optimum is unique. This closed form is also what the calibration of <span class="math inline">\(\chi\)</span> inverts at the median wage-only worker (Section&nbsp;9.3).</p>
 </section>
 <section id="dual-wage-employment-ww-foc-and-hessian" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="dual-wage-employment-ww-foc-and-hessian">Dual wage employment (<span class="math inline">\(WW\)</span>): FOC and Hessian</h3>
+<h3 class="unnumbered" data-anchor-id="dual-wage-employment-ww-foc-and-hessian">Dual wage employment (<span class="math inline">\(WW\)</span>): FOC and Hessian</h3>
 <section id="program-and-focs" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="program-and-focs">Program and FOCs</h4>
+<h4 class="unnumbered" data-anchor-id="program-and-focs">Program and FOCs</h4>
 <p>The dual jobholder jointly optimizes primary and secondary wage hours: <span class="math display">\[V_i^{WW} = \max_{h^{w,1},\, h^{w,2}} \left\{
 \frac{(w_1 h^{w,1} + w_2 h^{w,2})^{1-\sigma}}{1-\sigma}
 - \chi\,\frac{(h^{w,1})^{1+\eta_{w_1}}}{1+\eta_{w_1}}
@@ -5828,7 +5827,7 @@ w_2\,c^{-\sigma} &amp;= \chi\,(h^{w,2})^{\eta_{w_2}},
 \tag{FOC-WW}\]</span> and a time-boundary corner with <span class="math inline">\(h^{w,1}+h^{w,2} = T\)</span> is solved when the interior solution is infeasible.</p>
 </section>
 <section id="negative-definiteness-of-the-hessian" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="negative-definiteness-of-the-hessian">Negative definiteness of the Hessian</h4>
+<h4 class="unnumbered" data-anchor-id="negative-definiteness-of-the-hessian">Negative definiteness of the Hessian</h4>
 <p>The Hessian with respect to <span class="math inline">\((h^{w,1}, h^{w,2})\)</span> is <span class="math display">\[H = \begin{pmatrix}
 -(a+b) &amp; -f \\
 -f &amp; -(d+e)
@@ -5839,9 +5838,9 @@ e = \chi\,\eta_{w_2}(h^{w,2})^{\eta_{w_2}-1},\]</span> and <span class="math inl
 </section>
 </section>
 <section id="hybrid-entrepreneurship-wse-foc-and-hessian" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="hybrid-entrepreneurship-wse-foc-and-hessian">Hybrid entrepreneurship (<span class="math inline">\(WSE\)</span>): FOC and Hessian</h3>
+<h3 class="unnumbered" data-anchor-id="hybrid-entrepreneurship-wse-foc-and-hessian">Hybrid entrepreneurship (<span class="math inline">\(WSE\)</span>): FOC and Hessian</h3>
 <section id="program-and-focs-1" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="program-and-focs-1">Program and FOCs</h4>
+<h4 class="unnumbered" data-anchor-id="program-and-focs-1">Program and FOCs</h4>
 <p>The worker jointly optimizes primary wage hours and entrepreneurial hours: <span class="math display">\[\begin{aligned}
 \tilde{V}_i^{WSE} = \max_{h^{w,1},\, h^{se}} \biggl\{
 \mathbb{E}_{\tilde{y}}\!\left[\frac{\bigl(w_1 h^{w,1}+(1+\tau)\rho^{m}\,\tilde{y}\,h^{se}\bigr)^{1-\sigma}}{1-\sigma}\right]
@@ -5855,7 +5854,7 @@ w_1\,\mathbb{E}\!\left[c^{-\sigma}\right] &amp;= \chi\,(h^{w,1})^{\eta_{w_1}}, \
 \tag{FOC-WSE}\]</span> The standard entrepreneur FOCs are obtained by replacing <span class="math inline">\((1+\tau)\rho^{m}\)</span> with <span class="math inline">\(\rho^{r}\)</span> and <span class="math inline">\(S_L\)</span> with <span class="math inline">\(S_H\)</span>.</p>
 </section>
 <section id="negative-definiteness-of-the-hessian-1" class="level4 unnumbered">
-<h4 class="unnumbered anchored" data-anchor-id="negative-definiteness-of-the-hessian-1">Negative definiteness of the Hessian</h4>
+<h4 class="unnumbered" data-anchor-id="negative-definiteness-of-the-hessian-1">Negative definiteness of the Hessian</h4>
 <p>The Hessian with respect to <span class="math inline">\((h^{w,1}, h^{se})\)</span> is <span class="math display">\[H = \begin{pmatrix}
 -(a+b) &amp; -f \\
 -f &amp; -(d+e)
@@ -5872,33 +5871,33 @@ f^2 = \sigma^2 w_1^2(1+\tau)^2(\rho^{m})^2\,\bigl(\mathbb{E}[\tilde{y}\,c^{-\sig
 </section>
 </section>
 <section id="derivations-for-proposition-6-cross-wage-substitution-in-ww" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="derivations-for-proposition-6-cross-wage-substitution-in-ww">Derivations for Proposition 6: cross-wage substitution in <span class="math inline">\(WW\)</span></h3>
+<h3 class="unnumbered" data-anchor-id="derivations-for-proposition-6-cross-wage-substitution-in-ww">Derivations for Proposition 6: cross-wage substitution in <span class="math inline">\(WW\)</span></h3>
 <p>The two FOCs define <span class="math inline">\((h^{w,1}, h^{w,2})\)</span> implicitly as functions of parameters. Totally differentiating with respect to a parameter <span class="math inline">\(p\)</span> and writing in matrix form: <span class="math display">\[H \begin{pmatrix} dh^{w,1}/dp \\ dh^{w,2}/dp \end{pmatrix}
 = \begin{pmatrix} -F^1_p \\ -F^2_p \end{pmatrix},\]</span> where <span class="math inline">\(F^i_p \equiv \partial F^i/\partial p\)</span> is the direct effect of <span class="math inline">\(p\)</span> on the <span class="math inline">\(i\)</span>-th FOC (holding hours fixed). By Cramer’s rule: <span class="math display">\[\begin{aligned}
 \frac{dh^{w,1}}{dp} &amp;= \frac{-H_{22}\,F^1_p + H_{12}\,F^2_p}{|H|}, \qquad\text{(IFT-1)} \\
 \frac{dh^{w,2}}{dp} &amp;= \frac{H_{21}\,F^1_p - H_{11}\,F^2_p}{|H|}. \qquad\text{(IFT-2)}
 \end{aligned}\]</span></p>
 <section id="own-wage-response-partial-hw2partial-w_2." class="level5">
-<h5 class="anchored" data-anchor-id="own-wage-response-partial-hw2partial-w_2.">Own-wage response <span class="math inline">\(\partial h^{w,2}/\partial w_2\)</span>.</h5>
+<h5 data-anchor-id="own-wage-response-partial-hw2partial-w_2.">Own-wage response <span class="math inline">\(\partial h^{w,2}/\partial w_2\)</span>.</h5>
 <p>The direct effects are <span class="math inline">\(F^1_{w_2} = -\sigma w_1 h^{w,2}\,c^{-\sigma-1}\)</span> and <span class="math inline">\(F^2_{w_2} = c^{-\sigma}(1-\sigma s_2)\)</span>, where <span class="math inline">\(s_2 = w_2 h^{w,2}/c\)</span> is the second-job income share. Substituting into (IFT-2) and simplifying (the <span class="math inline">\(ad\)</span> terms cancel using <span class="math inline">\(f^2 = ad\)</span>): <span class="math display">\[\frac{\partial h^{w,2}}{\partial w_2}
 = \frac{c^{-\sigma}[a + b(1-\sigma s_2)]}{|H|}.\]</span> For <span class="math inline">\(\sigma &lt; 1\)</span>: since <span class="math inline">\(s_2 &lt; 1\)</span>, the factor <span class="math inline">\((1-\sigma s_2) &gt; 0\)</span> pointwise, so the numerator is strictly positive and <span class="math inline">\(\partial h^{w,2}/\partial w_2 &gt; 0\)</span>. The own-wage response of the first job, <span class="math inline">\(\partial h^{w,1}/\partial w_1\)</span>, follows by the same argument, mutatis mutandis, with <span class="math inline">\(s_1 = w_1 h^{w,1}/c\)</span> and curvature <span class="math inline">\(\eta_{w_1}\)</span> in place of <span class="math inline">\(\eta_{w_2}\)</span>: <span class="math display">\[\frac{\partial h^{w,1}}{\partial w_1}
 = \frac{c^{-\sigma}[d + e(1-\sigma s_1)]}{|H|} &gt; 0 \quad (\sigma &lt; 1).\]</span></p>
 </section>
 <section id="cross-wage-response-partial-hw1partial-w_2." class="level5">
-<h5 class="anchored" data-anchor-id="cross-wage-response-partial-hw1partial-w_2.">Cross-wage response <span class="math inline">\(\partial h^{w,1}/\partial w_2\)</span>.</h5>
+<h5 data-anchor-id="cross-wage-response-partial-hw1partial-w_2.">Cross-wage response <span class="math inline">\(\partial h^{w,1}/\partial w_2\)</span>.</h5>
 <p>Substituting into (IFT-1), expanding, and using the FOC <span class="math inline">\(w_2\,c^{-\sigma} = \chi(h^{w,2})^{\eta_{w_2}}\)</span> to simplify: <span class="math display">\[\frac{\partial h^{w,1}}{\partial w_2}
 = \frac{-\sigma w_1\,c^{-\sigma-1}\,\chi(1+\eta_{w_2})(h^{w,2})^{\eta_{w_2}}}{|H|} &lt; 0 \quad (\text{all } \sigma &gt; 0).\]</span> The key step is to substitute <span class="math inline">\(w_2\,c^{-\sigma} = \chi(h^{w,2})^{\eta_{w_2}}\)</span> from the second FOC into the <span class="math inline">\(f\cdot c^{-\sigma}(1-\sigma s_2)\)</span> term of the numerator. After expanding, the <span class="math inline">\((1-\sigma s_2)\)</span> piece and the <span class="math inline">\(e\cdot\)</span> term combine into an expression proportional to <span class="math inline">\(\chi(1+\eta_{w_2})(h^{w,2})^{\eta_{w_2}}\)</span>, leaving only products of positive quantities with an overall minus sign. By symmetry: <span class="math display">\[\frac{\partial h^{w,2}}{\partial w_1}
 = \frac{-\sigma w_2\,c^{-\sigma-1}\,\chi(1+\eta_{w_1})(h^{w,1})^{\eta_{w_1}}}{|H|} &lt; 0 \quad (\text{all } \sigma &gt; 0).\]</span> Cross-wage effects are unambiguously negative: the two wage jobs act as substitutes at the intensive margin. This is a pure income effect, as a higher wage on one job raises total consumption without making the other job more productive.</p>
 </section>
 </section>
 <section id="derivations-for-proposition-7-reallocation-channel-in-wse" class="level3 unnumbered">
-<h3 class="unnumbered anchored" data-anchor-id="derivations-for-proposition-7-reallocation-channel-in-wse">Derivations for Proposition 7: reallocation channel in <span class="math inline">\(WSE\)</span></h3>
+<h3 class="unnumbered" data-anchor-id="derivations-for-proposition-7-reallocation-channel-in-wse">Derivations for Proposition 7: reallocation channel in <span class="math inline">\(WSE\)</span></h3>
 <p>The two WSE FOCs define <span class="math inline">\((h^{w,1}, h^{se})\)</span> as functions of parameters. I apply the same IFT approach as above: <span class="math display">\[\begin{aligned}
 \frac{\partial h^{*,1}_{wse}}{\partial p} &amp;= \frac{-H_{22}\,G^1_p + H_{12}\,G^2_p}{|H|}, \qquad\text{(IFT-1')} \\
 \frac{\partial h^*_{wse}}{\partial p} &amp;= \frac{H_{21}\,G^1_p - H_{11}\,G^2_p}{|H|}. \qquad\text{(IFT-2')}
 \end{aligned}\]</span></p>
 <section id="response-to-tau." class="level5">
-<h5 class="anchored" data-anchor-id="response-to-tau.">Response to <span class="math inline">\(\tau\)</span>.</h5>
+<h5 data-anchor-id="response-to-tau.">Response to <span class="math inline">\(\tau\)</span>.</h5>
 <p>The direct effects on the two FOCs are: <span class="math display">\[\begin{aligned}
 G^1_\tau &amp;= -\sigma w_1\rho^{m}\,\mathbb{E}\!\left[\tilde{y}\,h^{se}\,c^{-\sigma-1}\right] &lt; 0, \\
 G^2_\tau &amp;= \rho^{m}\,\mathbb{E}\!\left[\tilde{y}\,c^{-\sigma}\bigl(1-\sigma\,s_e(\tilde{y})\bigr)\right],
@@ -5906,14 +5905,14 @@ G^2_\tau &amp;= \rho^{m}\,\mathbb{E}\!\left[\tilde{y}\,c^{-\sigma}\bigl(1-\sigma
 <p>Substituting into (IFT-1<span class="math inline">\('\)</span>): the first term is <span class="math inline">\(-H_{22}\,G^1_\tau = -(-(d+e))(-) &lt; 0\)</span>. The second term is <span class="math inline">\(H_{12}\,G^2_\tau = (-)(+) &lt; 0\)</span>. Both terms are negative, so <span class="math display">\[\frac{\partial h^{*,1}_{wse}}{\partial\tau} &lt; 0 \quad (\sigma &lt; 1).\]</span> Substituting into (IFT-2<span class="math inline">\('\)</span>): the first term is <span class="math inline">\(H_{21}\,G^1_\tau = (-)(-) &gt; 0\)</span>. The second term is <span class="math inline">\(-H_{11}\,G^2_\tau = -(-(a+b))(+) &gt; 0\)</span>. Both terms are positive, so <span class="math display">\[\frac{\partial h^*_{wse}}{\partial\tau} &gt; 0 \quad (\sigma &lt; 1).\]</span> A more favorable micro regime induces the hybrid entrepreneur to shift hours from wage work to entrepreneurship.</p>
 </section>
 <section id="response-to-mu_y.-1" class="level5">
-<h5 class="anchored" data-anchor-id="response-to-mu_y.-1">Response to <span class="math inline">\(\mu_y\)</span>.</h5>
+<h5 data-anchor-id="response-to-mu_y.-1">Response to <span class="math inline">\(\mu_y\)</span>.</h5>
 <p>Using <span class="math inline">\(\partial\tilde{y}/\partial\mu_y = \tilde{y}/\mu_y\)</span>: <span class="math display">\[G^1_{\mu_y} = \frac{-\sigma w_1(1+\tau)\rho^{m}}{\mu_y}\,\mathbb{E}\!\left[\tilde{y}\,h^{se}\,c^{-\sigma-1}\right] &lt; 0,
 \qquad
 G^2_{\mu_y} = \frac{(1+\tau)\rho^{m}}{\mu_y}\,\mathbb{E}\!\left[\tilde{y}\,c^{-\sigma}\bigl(1-\sigma\,s_e(\tilde{y})\bigr)\right].\]</span> For <span class="math inline">\(\sigma &lt; 1\)</span>, <span class="math inline">\(G^2_{\mu_y} &gt; 0\)</span> by the same pointwise argument. The sign analysis is identical to the <span class="math inline">\(\tau\)</span> case: <span class="math display">\[\frac{\partial h^{*,1}_{wse}}{\partial\mu_y} &lt; 0, \qquad
 \frac{\partial h^*_{wse}}{\partial\mu_y} &gt; 0 \quad (\sigma &lt; 1).\]</span></p>
 </section>
 <section id="response-to-phi." class="level5">
-<h5 class="anchored" data-anchor-id="response-to-phi.">Response to <span class="math inline">\(\phi\)</span>.</h5>
+<h5 data-anchor-id="response-to-phi.">Response to <span class="math inline">\(\phi\)</span>.</h5>
 <p>Only the second FOC is affected: <span class="math inline">\(G^1_\phi = 0\)</span> and <span class="math inline">\(G^2_\phi = -\chi\gamma(h^{se}+S_L)^{\eta_{se}} &lt; 0\)</span>. Substituting into (IFT-1<span class="math inline">\('\)</span>) and (IFT-2<span class="math inline">\('\)</span>): <span class="math display">\[\frac{\partial h^{*,1}_{wse}}{\partial\phi}
 = \frac{H_{12}\,G^2_\phi}{|H|}
 = \frac{(-)(-)}{(+)} &gt; 0,
@@ -5926,7 +5925,7 @@ G^2_{\mu_y} = \frac{(1+\tau)\rho^{m}}{\mu_y}\,\mathbb{E}\!\left[\tilde{y}\,c^{-\
 </section>
 </section>
 <section id="app-calibrated_grids" class="level2">
-<h2 class="anchored" data-anchor-id="app-calibrated_grids">H. Calibrated Parameter Value Grids</h2>
+<h2 data-anchor-id="app-calibrated_grids">H. Calibrated Parameter Value Grids</h2>
 <div id="tab:kappa_micro">
 <table>
 <caption>
@@ -6201,13 +6200,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     

@@ -657,3 +657,26 @@ h1 a, h2 a, h3 a, h4 a { font-weight: inherit; }
 .quarto-title-banner.has-field { position: relative; overflow: hidden; background-image: none !important; }
 .quarto-title-banner.has-field > .hero-field { z-index: 0; }
 .quarto-title-banner.has-field > .quarto-title-banner-inner, .quarto-title-banner.has-field > :not(.hero-field) { position: relative; z-index: 1; }
+
+/* Tighter gap between the page title banner and the content */
+.quarto-title-banner { margin-bottom: .4rem !important; padding-bottom: 1.7rem !important; }
+body:has(.quarto-title-banner) #quarto-content { margin-top: 0 !important; padding-top: 0 !important; }
+body:has(.quarto-title-banner) main.content { margin-top: 0 !important; padding-top: 0 !important; }
+body:has(.quarto-title-banner) main.content > section.level2:first-of-type > h2 { border-top: 0 !important; padding-top: 0 !important; margin-top: 1.6rem !important; }
+
+/* Topic tags are labels, not buttons: plain mono text separated by a dot */
+.chip { border: 0 !important; padding: 0 !important; margin: 0 .2rem .3rem 0 !important; background: none !important; color: var(--muted) !important; }
+.chip:not(:last-child)::after { content: "·"; margin-left: .45rem; color: var(--faint); }
+
+/* Selected work: stronger contrast for the label and the number above each title */
+.work-card .eyebrow { color: #2b2e34; }
+.work-card::before { color: var(--muted); }
+
+/* Topic tags are labels, not buttons: plain mono text separated by a dot */
+.chip { border: 0 !important; padding: 0 !important; margin: 0 .2rem .3rem 0 !important; background: none !important; color: var(--muted) !important; }
+.chip:not(:last-child)::after { content: "·"; margin-left: .45rem; color: var(--faint); }
+
+/* Selected work: stronger contrast for the label and the number above each title */
+.work-card .eyebrow { color: #2b2e34; }
+.work-card::before { color: var(--muted); }
+.work-card.mid::before, .work-card.warm::before { background: none; }

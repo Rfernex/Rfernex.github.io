@@ -33,7 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-483d8768c0fe35bfa174637e309888a4.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
@@ -202,14 +201,14 @@ background: #ffffff;
 </div>
 <div class="column-page home-grid">
 <section id="about" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="about">About</h2>
+<h2 class="unnumbered" data-anchor-id="about">About</h2>
 <p>I graduated from Sciences Po in 2026 (MPhil in Economics), following a Master in Management (major in Finance) at ESCP Business School and a dual degree in consulting and data science at Korea University. Before joining IGIER, I worked as a research assistant to Jean-Marc Robin on testing an ML model (ridge) for firm and worker fixed effects estimation. This involved comparing how well this new estimator performed for this task relative to the standard (biased) and debiased OLS models usually found in the AKM literature.</p>
 <div class="chips">
 <p><span class="chip">Labour economics</span> <span class="chip">Political Economy</span> <span class="chip">Inequality</span> <span class="chip">Structural modelling</span> <span class="chip">Applied econometrics</span> <span class="chip">Computational Social Sciences</span> <span class="chip">NLP</span></p>
 </div>
 </section>
 <section id="at-a-glance" class="level3 unnumbered glance">
-<h3 class="unnumbered anchored" data-anchor-id="at-a-glance">At a glance</h3>
+<h3 class="unnumbered" data-anchor-id="at-a-glance">At a glance</h3>
 <dl>
 <dt>
 Now
@@ -245,14 +244,14 @@ Git, Docker, LaTeX, Quarto, QGIS
 </section>
 </div>
 <section id="selected-work" class="level2 unnumbered column-page section-head">
-<h2 class="unnumbered anchored" data-anchor-id="selected-work">Selected work</h2>
+<h2 class="unnumbered" data-anchor-id="selected-work">Selected work</h2>
 <p><a href="./Coursework.html">All papers &amp; coursework →</a></p>
 </section>
 <div class="column-page card-grid">
 <div class="work-card">
 <p><span class="eyebrow">Master’s thesis · Sciences Po</span></p>
 <section id="self-employment-and-dual-jobholding" class="level3">
-<h3 class="anchored" data-anchor-id="self-employment-and-dual-jobholding"><a href="./thesis.html">Self-employment and dual jobholding</a></h3>
+<h3 data-anchor-id="self-employment-and-dual-jobholding"><a href="./thesis.html">Self-employment and dual jobholding</a></h3>
 <p>How the 2018 microentrepreneurship reform reshaped occupational choices in France, combining interrupted time series evidence with an exploratory structural model of occupational choice.</p>
 <p><span class="card-more">Read the overview →</span></p>
 </section>
@@ -260,7 +259,7 @@ Git, Docker, LaTeX, Quarto, QGIS
 <div class="work-card mid">
 <p><span class="eyebrow">Replication study · Labour economics</span></p>
 <section id="workweek-restrictions-during-the-great-depression" class="level3">
-<h3 class="anchored" data-anchor-id="workweek-restrictions-during-the-great-depression"><a href="./papers/labor-replication.html">Workweek restrictions during the Great Depression</a></h3>
+<h3 data-anchor-id="workweek-restrictions-during-the-great-depression"><a href="./papers/labor-replication.html">Workweek restrictions during the Great Depression</a></h3>
 <p>A replication and robustness analysis of Fishback et al.’s study of the 1933 President’s Reemployment Agreement.</p>
 <p><span class="card-more">Read the overview →</span></p>
 </section>
@@ -268,7 +267,7 @@ Git, Docker, LaTeX, Quarto, QGIS
 <div class="work-card warm">
 <p><span class="eyebrow">Group paper · Game theory</span></p>
 <section id="superbonus-a-game-theoretic-analysis" class="level3">
-<h3 class="anchored" data-anchor-id="superbonus-a-game-theoretic-analysis"><a href="./Microeconomics_project.html">Superbonus: a game-theoretic analysis</a></h3>
+<h3 data-anchor-id="superbonus-a-game-theoretic-analysis"><a href="./Microeconomics_project.html">Superbonus: a game-theoretic analysis</a></h3>
 <p>A signalling model of hidden public debt and fiscal-rule enforcement, motivated by Italy’s Superbonus policy.</p>
 <p><span class="card-more">Read the overview →</span></p>
 </section>
@@ -276,7 +275,7 @@ Git, Docker, LaTeX, Quarto, QGIS
 </div>
 <div class="column-page cta-band">
 <section id="lets-get-in-touch" class="level2 unnumbered">
-<h2 class="unnumbered anchored" data-anchor-id="lets-get-in-touch">Let’s get in touch!</h2>
+<h2 class="unnumbered" data-anchor-id="lets-get-in-touch">Let’s get in touch!</h2>
 <p>Feel free to reach out to me at <a href="mailto:romain.fernex@sciencespo.fr" style="color:#fff">romain.fernex@sciencespo.fr</a>.</p>
 </section>
 <div class="btn-row">
@@ -307,13 +306,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     }
   }
   toggleBodyColorPrimary();  
-  const icon = "";
-  const anchorJS = new window.AnchorJS();
-  anchorJS.options = {
-    placement: 'right',
-    icon: icon
-  };
-  anchorJS.add('.anchored');
   const isCodeAnnotation = (el) => {
     for (const clz of el.classList) {
       if (clz.startsWith('code-annotation-')) {                     
