@@ -651,7 +651,7 @@ table.reg-table tbody tr:nth-child(odd):not(.stats):not(.derived), .appendix-pag
 h1 a, h2 a, h3 a, h4 a { font-weight: inherit; }
 
 /* EconRadar banner: the same reactive dot field as the home page, in light dots on dark */
-.radar-hero > .hero-field { z-index: -4; }
+.radar-hero > .hero-field { z-index: -2; }
 
 /* Title banners with a live dot field (assets/site.js adds the canvas) */
 .quarto-title-banner.has-field { position: relative; overflow: hidden; background-image: none !important; }

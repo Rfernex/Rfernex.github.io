@@ -54,3 +54,69 @@
     })
     .catch(() => {});
 })();
+
+// ---- Page body (v5) ----
+(() => {
+  const still = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  // Showcase: build tabs from each .rx-tab heading and text; the screenshot shows on the right.
+  // Tabs advance on their own every few seconds until the visitor clicks one or hovers the block.
+  const show = document.querySelector('.rx-showcase');
+  if (show) {
+    const panes = [...show.querySelectorAll(':scope > .rx-tab')];
+    if (panes.length) {
+      const DWELL = 7000;
+      const tabs = document.createElement('div');
+      tabs.className = 'rx-tabs'; tabs.setAttribute('role', 'tablist');
+      const stage = document.createElement('div');
+      stage.className = 'rx-stage';
+      const buttons = panes.map((pane, i) => {
+        const h = pane.querySelector('h4'), desc = [...pane.querySelectorAll(':scope > p')].map(p => p.textContent).join(' ');
+        const b = document.createElement('button');
+        b.type = 'button'; b.setAttribute('role', 'tab'); b.id = `rx-tab-${i}`;
+        b.innerHTML = `<b></b><span class="rx-desc"></span><span class="rx-bar"></span>`;
+        b.querySelector('b').textContent = h ? h.textContent.trim() : `Tab ${i + 1}`;
+        b.querySelector('.rx-desc').textContent = desc;
+        pane.setAttribute('role', 'tabpanel'); pane.setAttribute('aria-labelledby', b.id);
+        stage.appendChild(pane);
+        tabs.appendChild(b);
+        return b;
+      });
+      show.append(tabs, stage);
+      show.classList.add('is-ready');
+      show.style.setProperty('--rx-dwell', `${DWELL}ms`);
+
+      let current = 0, timer = 0, auto = !still, paused = false;
+      const select = (i, byUser) => {
+        current = (i + panes.length) % panes.length;
+        buttons.forEach((b, k) => { b.setAttribute('aria-selected', String(k === current)); b.tabIndex = k === current ? 0 : -1; b.classList.toggle('no-auto', !auto); });
+        panes.forEach((p, k) => p.classList.toggle('is-active', k === current));
+        if (byUser) auto = false;
+        // restart the progress bar
+        const bar = buttons[current].querySelector('.rx-bar'); bar.style.transition = 'none'; bar.style.width = '0';
+        requestAnimationFrame(() => requestAnimationFrame(() => { bar.style.transition = ''; bar.style.width = ''; }));
+        clearTimeout(timer);
+        if (auto && !paused) timer = setTimeout(() => select(current + 1), DWELL);
+      };
+      buttons.forEach((b, i) => {
+        b.addEventListener('click', () => select(i, true));
+        b.addEventListener('keydown', e => {
+          if (e.key === 'ArrowDown' || e.key === 'ArrowRight') { e.preventDefault(); select(current + 1, true); buttons[current].focus(); }
+          if (e.key === 'ArrowUp' || e.key === 'ArrowLeft') { e.preventDefault(); select(current - 1, true); buttons[current].focus(); }
+        });
+      });
+      show.addEventListener('pointerenter', () => { paused = true; show.classList.add('is-paused'); clearTimeout(timer); });
+      show.addEventListener('pointerleave', () => { paused = false; show.classList.remove('is-paused'); if (auto) select(current); });
+      select(0);
+    }
+  }
+
+  // Reveal blocks as they scroll into view
+  const items = document.querySelectorAll('.rx-reveal, .rx-features > .rx-feature');
+  if (!still && 'IntersectionObserver' in window) {
+    const io = new IntersectionObserver(entries => entries.forEach(e => {
+      if (e.isIntersecting) { e.target.classList.add('is-in'); io.unobserve(e.target); }
+    }), { threshold: 0.15 });
+    items.forEach(el => { el.classList.add('will-reveal'); io.observe(el); });
+  }
+})();
