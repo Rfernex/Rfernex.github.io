@@ -16,7 +16,7 @@ toc: false
 # Romain Fernex {.unnumbered}
 
 ::: {.intro}
-Hello ! I am a predoctoral research assistant at **Bocconi University (IGIER)**, working with **Giulia Giupponi** and **Thomas Le Barbanchon** on projects related to Labour Economics and Polical Economy. 
+Hello! I am a predoctoral research assistant at **Bocconi University (IGIER)**, working with **Giulia Giupponi** and **Thomas Le Barbanchon** on projects related to Labour Economics and Polical Economy. 
 :::
 
 My work and academic projects focus mainly on labour and public economics, with a strong interest for topics that relate to socio-economic inequalities and alternative forms of employment (notably pluriactivity and self-employment which are at the core of my thesis). Be it as a RA or for my own projects, I like combining applied econometrics with structural modelling to quantify and understand economic mechanism in depths and am always open to trying new methods in computational social sciences wherever they genuinely outperform the old (especially when it comes to NLP !). 
@@ -92,7 +92,7 @@ A signalling model of hidden public debt and fiscal-rule enforcement, motivated 
 
 :::: {.column-page .cta-band}
 ::: {}
-## Let's get in touch ! {.unnumbered}
+## Let's get in touch! {.unnumbered}
 
 Feel free to reach out to me at [romain.fernex@sciencespo.fr](mailto:romain.fernex@sciencespo.fr){style="color:#fff"}.
 :::

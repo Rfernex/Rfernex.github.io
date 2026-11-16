@@ -1,6 +1,6 @@
 ---
 title: My Hobbies 
-subtitle: Because economics is not the only thing that matters in life, this part of the site is strictly dedicated to pieces I wrote on other subjects that draw my interest. Enjoy the read !  
+subtitle: Because economics is not the only thing that matters in life, this part of the site is strictly dedicated to pieces I wrote on other subjects that draw my interest. Enjoy the read!  
 toc: true
 toc-depth: 2
 css: [styles.css, assets/writing-language.css]
