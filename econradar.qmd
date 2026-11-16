@@ -99,6 +99,8 @@ Who publishes on what, with profiles, co-authors, and a flag on new papers by th
 
 ### How it is built
 
+EconRadar is hosted directly on GitHub, and its database is maintained via weekly LLM extracts which retrieve new papers and summarize them based on a predefined list of instructions. While I am currently relying on a very simple infrastructure with barebones Claude API calls that are run from my Claude Pro account, I plan on setting up a proper instruction-based open-weight LLM (probably Qwen or Gemma) on a Linux VM to handle most processing steps currently performed by Claude. This should ensure the app is self-reliant and does not depend on pricey API-based commercial LLMs to stay relevant.
+
 ```{=html}
 <div class="rx-pipeline rx-reveal" aria-label="How EconRadar is updated">
   <div class="rx-step"><span class="rx-num">01</span><b>Collect</b><span>New papers from NBER and 20 journals, every week</span></div>
@@ -107,5 +109,3 @@ Who publishes on what, with profiles, co-authors, and a flag on new papers by th
   <i class="rx-pulse" aria-hidden="true"></i>
 </div>
 ```
-
-EconRadar is hosted directly on GitHub, and its database is maintained via weekly LLM extracts which retrieve new papers and summarize them based on a predefined list of instructions. While I am currently relying on a very simple infrastructure with barebones Claude API calls that are run from my Claude Pro account, I plan on setting up a proper instruction-based open-weight LLM (probably Qwen or Gemma) on a Linux VM to handle most processing steps currently performed by Claude. This should ensure the app is self-reliant and does not depend on pricey API-based commercial LLMs to stay relevant.

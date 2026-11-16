@@ -273,13 +273,13 @@ background: #ffffff;
 </section>
 <section id="how-it-is-built" class="level3">
 <h3 data-anchor-id="how-it-is-built">How it is built</h3>
+<p>EconRadar is hosted directly on GitHub, and its database is maintained via weekly LLM extracts which retrieve new papers and summarize them based on a predefined list of instructions. While I am currently relying on a very simple infrastructure with barebones Claude API calls that are run from my Claude Pro account, I plan on setting up a proper instruction-based open-weight LLM (probably Qwen or Gemma) on a Linux VM to handle most processing steps currently performed by Claude. This should ensure the app is self-reliant and does not depend on pricey API-based commercial LLMs to stay relevant.</p>
 <div class="rx-pipeline rx-reveal" aria-label="How EconRadar is updated">
   <div class="rx-step"><span class="rx-num">01</span><b>Collect</b><span>New papers from NBER and 20 journals, every week</span></div>
   <div class="rx-step"><span class="rx-num">02</span><b>Summarise</b><span>An LLM extracts each paper's question, contribution, identification and tags</span></div>
   <div class="rx-step"><span class="rx-num">03</span><b>Publish</b><span>The database and the app are updated on GitHub</span></div>
   <i class="rx-pulse" aria-hidden="true"></i>
 </div>
-<p>EconRadar is hosted directly on GitHub, and its database is maintained via weekly LLM extracts which retrieve new papers and summarize them based on a predefined list of instructions. While I am currently relying on a very simple infrastructure with barebones Claude API calls that are run from my Claude Pro account, I plan on setting up a proper instruction-based open-weight LLM (probably Qwen or Gemma) on a Linux VM to handle most processing steps currently performed by Claude. This should ensure the app is self-reliant and does not depend on pricey API-based commercial LLMs to stay relevant.</p>
 
 
 </section>
