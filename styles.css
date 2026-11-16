@@ -680,3 +680,12 @@ body:has(.quarto-title-banner) main.content > section.level2:first-of-type > h2 
 .work-card .eyebrow { color: #2b2e34; }
 .work-card::before { color: var(--muted); }
 .work-card.mid::before, .work-card.warm::before { background: none; }
+
+/* Phones: justified body text, with hyphenation so lines don't open wide gaps */
+@media (max-width: 767px) {
+  main.content p:not(.btn-row p):not(.meta):not(.rh-stats), main.content li, .rx-tabs .rx-desc, .hero-text p {
+    text-align: justify; -webkit-hyphens: auto; hyphens: auto; hyphenate-limit-chars: 7 3 3;
+  }
+  main.content .btn-row p, main.content figcaption, .work-entry > p:first-child, .role > p:first-child,
+  .hero-text .intro p, .rh-sub, .rx-lead p { text-align: left !important; -webkit-hyphens: manual !important; hyphens: manual !important; }
+}
