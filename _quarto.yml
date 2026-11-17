@@ -4,6 +4,7 @@ project:
   resources:
     - assets/
     - Resources/
+    - googlefbd72ddc70b98dcf.html
 website:
   title: Romain Fernex
   site-url: https://rfernex.github.io
