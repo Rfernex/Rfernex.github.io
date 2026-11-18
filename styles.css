@@ -661,6 +661,31 @@ table.reg-table tbody tr:nth-child(odd):not(.stats):not(.derived), .appendix-pag
 .work-card .card-more { font-family: var(--mono); font-size: .78rem; font-weight: 500; color: var(--ink); transition: transform .15s ease; }
 .work-card:hover .card-more { color: var(--blue); transform: translateX(4px); }
 
+.work-card::after {
+  content: "";
+  position: absolute;
+  inset: auto 0 0;
+  height: 3px;
+  background: var(--blue);
+  pointer-events: none;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform .18s ease-out;
+}
+
+.work-card:has(a:focus-visible)::after { transform: scaleX(1); }
+
+@media (hover: hover) and (pointer: fine) {
+  .work-card:hover::after {
+    transform: scaleX(1);
+    transition-duration: .42s;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .work-card::after { transition: none; }
+}
+
 .cta-band { background: var(--ink); color: #fff; }
 .cta-band h2 { color: #fff; }
 .cta-band p, .cta-band a { color: #c9ccd2 !important; }

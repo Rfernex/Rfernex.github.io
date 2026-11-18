@@ -48,7 +48,7 @@ website:
 format:
   html:
     theme: [cosmo, theme.scss]
-    css: /styles.css?v=2
+    css: /styles.css?v=3
     title-block-banner: "#ffffff"
     title-block-banner-color: "#0d0e10"
     toc: true
