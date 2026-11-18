@@ -29,5 +29,3 @@ toc: false
 [github.com/Rfernex](https://github.com/Rfernex)
 :::
 ::::
-
-[Research experience](Research.qmd) · [Master thesis](thesis.qmd) · [Papers & coursework](Coursework.qmd)
