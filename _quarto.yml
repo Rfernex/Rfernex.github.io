@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - assets/
+    - styles.css
     - Resources/
     - googlefbd72ddc70b98dcf.html
 website:
@@ -47,7 +48,7 @@ website:
 format:
   html:
     theme: [cosmo, theme.scss]
-    css: styles.css
+    css: /styles.css?v=2
     title-block-banner: "#ffffff"
     title-block-banner-color: "#0d0e10"
     toc: true

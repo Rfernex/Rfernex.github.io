@@ -525,6 +525,7 @@ main.content > section.level2 > h2 { border-top: 1px solid var(--line) !importan
 @media (min-width: 992px) {
   .navbar.navbar-expand-md > .navbar-container,
   .navbar.navbar-expand-md .navbar-brand-container { align-items: baseline; }
+  .navbar.navbar-expand-md .navbar-title { position: relative; inset-block-start: 1px; }
   .navbar.navbar-expand-md #quarto-search { align-self: center; }
 }
 

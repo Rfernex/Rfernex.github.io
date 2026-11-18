@@ -71,9 +71,8 @@ body:has(.radar-hero) main.content { margin-top: 0 !important; padding-top: 0 !i
 }
 
 .rh-inner { position: relative; z-index: 1; width: 100%; max-width: 1080px; margin: 0 auto; padding: 4rem 1.5rem; }
-.radar-hero .eyebrow { color: rgb(var(--glow)); }
 .rh-title {
-  color: #fff; font-size: clamp(2.6rem, 6vw, 4.2rem); line-height: 1.02; margin: .1rem 0 .8rem;
+  color: #fff; font-size: clamp(2.6rem, 6vw, 4.2rem); line-height: 1.02; margin: 0 0 .8rem;
   text-shadow: 0 2px 24px rgba(0,0,0,.5);
 }
 .rh-sub { color: #c9d3d6; font-size: 1.2rem; line-height: 1.5; max-width: 30ch; margin: 0 0 2rem; }
@@ -148,7 +147,7 @@ a.radar-launch:hover .rl-arrow { transform: translate(3px, -3px); }
   .radar-hero { min-height: 0; }
   .rh-art { top: 0; bottom: 0; right: 50%; translate: 50% 0; opacity: .6; }
   .radar-hero::before { background: rgba(var(--bg), .55); }
-  .rh-inner { padding: 3rem 16px 2.6rem; }
+  .rh-inner { padding: 2.75rem 1rem; }
   .rh-sub { font-size: 1.05rem; }
 }
 @media (prefers-reduced-motion: reduce) {
