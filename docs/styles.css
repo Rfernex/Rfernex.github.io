@@ -606,6 +606,8 @@ main.content > section.level2 > h2 { border-top: 1px solid var(--line) !importan
 a.btn-cta, a.btn-ghost { font-size: .92rem; font-weight: 500; padding: .6rem 1.1rem; transform: none !important; text-decoration: none; }
 a.btn-cta { background: var(--ink); border: 1px solid var(--ink); color: #fff; }
 a.btn-cta:hover { background: var(--blue); border-color: var(--blue); color: #fff; }
+a.btn-cta.btn-casd { background: var(--blue); border-color: var(--blue); text-align: start; }
+a.btn-cta.btn-casd:hover { background: var(--ink); border-color: var(--ink); }
 a.btn-ghost { background: #fff; border: 1px solid var(--line); color: var(--ink); }
 a.btn-ghost:hover { border-color: var(--ink); color: var(--ink); }
 
