@@ -16,7 +16,7 @@ website:
     foreground: "#1b1c1f"
     title: Romain Fernex
     search: true
-    collapse-below: xl
+    collapse-below: md
     left:
       - text: CV
         href: Research.qmd

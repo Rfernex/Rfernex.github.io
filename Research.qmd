@@ -18,6 +18,8 @@ toc: false
 - Design of the coding scheme and the classification pipeline for the NLP part of the project.
 - Preparation of the replication package of a paper on the impact of hiring frictions on firm performance, in response to referee requests.
 
+[Wages and local labor market](https://www.casd.eu/en/project/wages-and-local-labor-market/) (CASD project)
+
 ::: {.chips}
 [NLP]{.chip} [Hiring frictions]{.chip} [Labour economics]{.chip} [Political economy]{.chip}
 :::
@@ -33,6 +35,8 @@ toc: false
 - Processing and analysis of large-scale matched employer-employee administrative data (DADS) for a project on wage dynamics and human capital accumulation.
 - Implementation of a ridge estimator for high-dimensional two-way fixed effects (AKM) models to address limited mobility bias, compared with OLS and with bias-corrected estimators (debiased OLS, KSS).
 - Port of the estimation code from MATLAB to Julia and R, which significantly improved computational efficiency when computing bias corrections and variance-covariance matrices on very large datasets.
+
+[Professional Mobility and Wage Dynamics](https://www.casd.eu/en/project/professional-mobility-and-wage-dynamics/) (CASD project)
 
 ::: {.chips}
 [Labour economics]{.chip} [AKM]{.chip} [Graph theory]{.chip} [High-dimensional fixed effects]{.chip}
