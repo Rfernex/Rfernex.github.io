@@ -86,7 +86,7 @@ background: #ffffff;
 
 
 <link rel="stylesheet" href="styles.css?v=5">
-<link rel="stylesheet" href="assets/writing-language.css?v=3">
+<link rel="stylesheet" href="assets/writing-language.css?v=4">
 <meta property="og:title" content="My Hobbies – Romain Fernex">
 <meta property="og:description" content="Because economics is not the only thing that matters in life, this part of the site is strictly dedicated to pieces I wrote on other subjects that draw my interest. Enjoy the read!">
 <meta property="og:image" content="https://rfernex.github.io/assets/writing/dossier-cover-en.jpg">
@@ -202,14 +202,10 @@ background: #ffffff;
 
 
 
-<div class="document-language" id="document-language" hidden="">
-  <label for="document-language-select">Document language</label>
-  <select id="document-language-select" aria-describedby="document-language-help">
-    <option value="en" lang="en">English</option>
-    <option value="fr" lang="fr">Français</option>
-  </select>
-  <p id="document-language-help">Choose the language for the PDFs and portrait reader on this page.</p>
-  <p class="document-language-status visually-hidden" role="status" aria-live="polite"></p>
+<div class="document-language" id="document-language" role="group" aria-label="Document language / Langue des documents" hidden>
+  <button type="button" data-language="en" lang="en" aria-pressed="true">English</button>
+  <button type="button" data-language="fr" lang="fr" aria-pressed="false">Français</button>
+  <span class="document-language-status visually-hidden" role="status" aria-live="polite"></span>
 </div>
 <div class="featured-work">
   <a class="featured-cover" href="Resources/writing/internationalisation-enseignement-superieur-japonais-en.pdf" tabindex="-1" aria-hidden="true">
@@ -860,7 +856,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </div>
   </div>
 </footer>
-<script src="assets/writing-language.js?v=3" defer=""></script><script src="assets/portrait-reader.js" defer=""></script><script src="assets/dossier-cover.js" defer=""></script><script src="./assets/site.js" defer=""></script>
+<script src="assets/writing-language.js?v=4" defer=""></script><script src="assets/portrait-reader.js" defer=""></script><script src="assets/dossier-cover.js" defer=""></script><script src="./assets/site.js" defer=""></script>
 
 
 

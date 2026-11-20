@@ -1,8 +1,9 @@
 /* Document language is scoped to writing.qmd; site navigation remains unchanged. */
 (() => {
-  const select = document.getElementById('document-language-select');
-  if (!select) return;
-  document.getElementById("document-language").hidden = false;
+  const control = document.getElementById('document-language');
+  if (!control) return;
+  const buttons = control.querySelectorAll('button[data-language]');
+  control.hidden = false;
   const documents = {
   "internationalisation-enseignement-superieur-japonais": {
     "fr": "Resources/writing/internationalisation-enseignement-superieur-japonais.pdf",
@@ -88,8 +89,6 @@
   }
   add('#title-block-header h1.title', `Mes loisirs`);
   add('#title-block-header .subtitle', `L’économie n’est pas la seule chose qui compte dans la vie. Cette partie du site est consacrée aux textes que j’ai écrits sur d’autres sujets qui m’intéressent. Bonne lecture !`);
-  add('#document-language label', `Langue des documents`);
-  add('#document-language-help', `Choisissez la langue des PDF et du lecteur de portraits sur cette page.`);
   add('#toc-title', `Sur cette page`);
   [
     ['reports-and-analyses', 'Rapports et analyses'],
@@ -208,7 +207,9 @@
   });
   function apply(language, save = false) {
     if (!valid(language)) return;
-    select.value = language;
+    buttons.forEach(button => {
+      button.setAttribute('aria-pressed', String(button.dataset.language === language));
+    });
     document.documentElement.dataset.documentLanguage = language;
     links.forEach(({ link, versions }) => {
       link.setAttribute('href', versions[language]);
@@ -245,5 +246,7 @@
   try { preferred = localStorage.getItem(key); } catch (_) { /* Use the page default. */ }
   const requested = new URL(location.href).searchParams.get('doclang');
   apply(valid(requested) ? requested : valid(preferred) ? preferred : 'en');
-  select.addEventListener('change', () => apply(select.value, true));
+  buttons.forEach(button => {
+    button.addEventListener('click', () => apply(button.dataset.language, true));
+  });
 })();
