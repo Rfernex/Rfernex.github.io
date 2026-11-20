@@ -113,10 +113,10 @@
       action: 'Lire le rapport (PDF) →'
     },
     {
-      label: 'Série de trois articles',
+      label: 'Article',
       title: 'Un OTAN asiatique est-il possible ? Le Dialogue quadrilatéral pour la sécurité et les enjeux de la coopération stratégique en Indopacifique',
-      description: 'Une série de trois articles sur le Quad, qui réunit le Japon, l’Australie, l’Inde et les États-Unis. Elle examine si ce dialogue pourrait devenir une alliance de type OTAN dans l’Indopacifique et ce qui limite la coopération stratégique entre ses membres.',
-      action: 'Lire la série (PDF) →'
+      description: 'Un article sur le Quad, qui réunit le Japon, l’Australie, l’Inde et les États-Unis. Il examine si ce dialogue pourrait devenir une alliance de type OTAN dans l’Indopacifique et ce qui limite la coopération stratégique entre ses membres.',
+      action: 'Lire l’article (PDF) →'
     },
     {
       label: 'Article',
