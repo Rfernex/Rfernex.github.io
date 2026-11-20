@@ -1,0 +1,73 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[french]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={Gustave Émile Boissonade de Fontarabie}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Gustave Émile Boissonade de Fontarabie}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{Histoire du Japon}}\par\medskip
+\noindent{\LARGE\bfseries Gustave Émile Boissonade de Fontarabie\par}
+\smallskip\noindent{\large\itshape Aux origines de la modernisation du droit japonais\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2025 · Article en français}\par\bigskip
+
+\articlefigure{media/media/image1.jpeg}{}
+
+Gustave Émile Boissonade de Fontarabie naît le 7 juin 1825 à Vincennes. Fils d'un professeur de littérature grecque au Collège de France, il poursuit des études de droit avec un intérêt certain pour le droit romain et le droit comparé. Peu après l'obtention de son doctorat à la faculté de Paris en 1852, il travaille quelques années comme avocat puis comme professeur à la faculté de droit de Grenoble. Il revient ensuite à Paris et devient professeur d'économie politique sous la responsabilité du juriste et homme politique Anselm Batbie au sein de son alma mater.
+
+Sa vie change du tout au tout en 1873 lorsque, sur recommandation de l'académicien français Jules Mohl et à la demande de Naonobu Sameshima, ministre du Japon à Paris, il est appelé aux côtés du jeune gouvernement Meiji. Sa venue doit satisfaire un double objectif pour le gouvernement japonais~: d'une part, former une nouvelle génération de juristes au fait des dernières avancées du droit occidental ; d'autre part, il doit aider à la confection de nouveaux codes juridiques plus modernes, ce qui fait partie des conditions sine qua non imposées par les Occidentaux pour l'éventuelle révision des traités inégaux auxquels le Japon est soumis à partir de 1858. Boissonade exerce ainsi, dès son arrivée, au sein d'une école de droit attachée au ministère de la Justice. Il y forme plusieurs grandes figures de la vie politique et juridique japonaise, telles que Takashi Hara, Premier ministre du Japon de 1918 à 1921.
+
+Le principal legs de Boissonade à la société japonaise demeure cependant les codes qu'il a rédigés pour le compte du gouvernement. À commencer par un code pénal et un code de procédure criminelle, promulgués en 1880 et qui servent encore aujourd'hui de base au code pénal japonais. Boissonade s'attelle ensuite, avec l'aide de plusieurs juristes japonais (notamment pour la partie qui relève de la vie familiale), à la rédaction d'un code civil qui s'inspire fortement du droit français mais qui s'adapte dans une certaine mesure aux réalités locales. Ce code est validé par le Sénat en 1890, mais son application est finalement conditionnée à des révisions majeures, suite à une controverse portée tantôt par des élites nationalistes qui l'estiment trop occidentalisant, tantôt par des partisans du modèle anglo-saxon, particulièrement influents à la faculté de droit de l'université de Tokyo. Le «~code Boissonade~» cède ainsi sa place à un nouveau code d'inspiration germanique dans la forme, mais dont le fond conserve de nombreuses similarités avec l'œuvre de Boissonade et le droit français en général. Plusieurs juristes japonais et anglo-saxons, comme Eiichi Hoshino et Charles P. Sherman, vont jusqu'à soutenir la thèse que le droit français et le «~code Boissonade~» demeurent la principale inspiration du code civil japonais moderne, devant le droit allemand pourtant souvent mis en valeur. Suite à cet échec, Boissonade rentre en France et se retire progressivement de la vie intellectuelle avant de mourir une dizaine d'années plus tard au cap d'Antibes, le 27 juin 1910, à 85 ans.
+
+\section{Sources}
+\small
+
+\begin{itemize}[leftmargin=1.3em,itemsep=.18em,topsep=.25em]
+\item
+  Yasuo Okubo, Gustave Boissonade, \emph{Père français du droit japonais moderne (1825-1910),} Revue historique de droit français et étranger (1922-), janvier-mars 1981, Quatrième série, Vol. 59, No. 1 (janvier-mars 1981), pp. 29-54
+\item
+  Hoshino Eiichi. \emph{L’héritage de G. Boissonade dans le Code civil et dans la doctrine du droit civil au Japon}. In: Revue internationale de droit comparé. Vol. 43 N°2, Avril-juin 1991. pp. 407-422
+\item
+  Charles P. Sherman, \emph{The Debt of Modern Japanese Law to French Law,} California Law Review , Mar., 1918, Vol. 6, No. 3 (Mar., 1918), pp. 198-202
+\item
+  Noda Yosiyuki. \emph{La réception du droit français au Japon}. In: Revue internationale de droit comparé. Vol. 15 N°3, Juillet- septembre 1963. pp. 543-556
+\item
+  Iwao Seiichi, Sakamato Tarō, Hōgetsu Keigo, Yoshikawa Itsuji, Kobayashi Tadashi, Vié Michel, Bonmarchand Georges, Kanazawa Shizue. \emph{78. Boissonade de Fontarabie, Gustave Emile (1825-1910).} In: Dictionnaire historique du Japon, volume 2, 1970. Lettre B. pp. 41-42
+\item
+  Jamin, Christophe Boissonade et son temps.~\emph{Archives de Philosophie du Droit}~44, 2000, pp285-312
+\end{itemize}
+
+\end{document}

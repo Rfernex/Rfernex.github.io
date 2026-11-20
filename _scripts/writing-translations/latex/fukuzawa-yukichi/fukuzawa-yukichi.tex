@@ -1,0 +1,84 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[french]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={Fukuzawa Yukichi (1834-1901)}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Fukuzawa Yukichi (1834-1901)}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{Histoire du Japon}}\par\medskip
+\noindent{\LARGE\bfseries Fukuzawa Yukichi (1834-1901)\par}
+\smallskip\noindent{\large\itshape Un penseur à l’image de l’ère Meiji\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2024 · Article en français}\par\bigskip
+
+\articlefigure{media/media/image1.jpeg}{}
+
+Fukuzawa Yukichi naît en 1834 à Osaka, au sein d'un clan de samouraïs de bas rang dont le chef-lieu est la ville de Nakatsu, au nord de la province de Kyushu. Il perd son père très jeune et vit seul avec sa mère, dont la forte indépendance l'inspirera dans sa façon de penser la place de la femme dans la société japonaise. Il est sélectionné en 1854 pour aller étudier le hollandais et les sciences occidentales à Nagasaki puis à Osaka. Cette première exposition à la culture occidentale nourrit en lui un grand intérêt pour les avancées technologiques, sociales et politiques venues d'Occident. Il se forme également très tôt à l'anglais après une visite à Yokohama en 1859.
+
+Cette aptitude pour les langues étrangères lui vaut d'être envoyé aux États-Unis en 1860, sur ordre du Bakufu (gouvernement shogunal), pour étudier les techniques occidentales. Il poursuivra son exploration du monde occidental lors d'un tour d'Europe, toujours sur ordre du gouvernement, durant lequel il visitera plusieurs pays européens ainsi que certaines colonies anglaises sur le chemin du retour. En 1866, il publie le premier volume de son triptyque «~Seiyō Jijō~» (Les conditions en Occident) qui connaît un réel succès avec plus de 150 000 exemplaires vendus. Il y décrit nombre de technologies occidentales dont certaines ont probablement inspiré les armées de la restauration qui ont permis la chute du shogunat deux ans plus tard. En effet, lors de ses voyages aux États-Unis en 1860 puis en 1867, il rapporte un grand nombre d'ouvrages anglais qu'il traduit et dont il facilite la diffusion au sein de l'intelligentsia japonaise. Peu avant la restauration, il fonde d'ailleurs la Keio Gijuku (ancêtre de l'actuelle Université Keio).
+
+La suite de sa vie est marquée par de nombreuses publications qui ont marqué son époque, comme celle de son «~Gakumon no Susume~» (Incitation à l'éducation), publié en 1872 et vendu à plus de 3 millions d'exemplaires. Il y défend le pouvoir émancipateur de l'éducation et la nécessité d'instruire l'ensemble de la population japonaise. Ce traité inspirera fortement la première grande réforme de l'éducation japonaise de 1872 qui instaure un premier système d'éducation universelle à l'échelle nationale. Il joue également un rôle important dans la démocratisation de la connaissance en fondant un des premiers journaux influents de l'époque, le Jiji Shimpo, et en mettant un point d'honneur à écrire ses ouvrages dans un langage simple, tant par son vocabulaire que par l'usage fréquent des kanas, pratique peu courante à l'époque car vue comme impropre. Il se démarque également par son engagement en faveur de l'égalité hommes-femmes, qui l'amène à critiquer âprement le «~Onna Daigaku~» (texte néo-confucéen du XVIIIe siècle populaire à l'époque et éminemment sexiste) ainsi que le système de concubinage.
+
+Enfin, au-delà de son admiration pour l'Occident, il craint aussi férocement l'impérialisme européen auquel il choisit d'opposer un impérialisme japonais, qui se manifeste dans son soutien indéfectible au Japon impérial lors de la guerre sino-japonaise de 1894. Un penchant pour la realpolitik qui contraste nettement avec l'humanisme qu'il revendique dans la plupart de ses textes. Il meurt en février 1901 d'une crise cardiaque, laissant derrière lui un héritage marqué tant par sa contribution significative au progrès technique et social du Japon que par un réel conservatisme culturel et politique.
+
+\section{Sources}
+\small
+
+\begin{enumerate}[leftmargin=1.3em,itemsep=.18em,topsep=.25em]
+\def\labelenumi{\arabic{enumi}.}
+\item
+  Celarent, Barbara, review of ``An Outline of Civilization'' by Fukuzawa Yukichi, \emph{American Journal of Sociology}, vol. 119, no. 4, 2014, pp. 1213--20.
+\item
+  Alan Macfarlane, Yukichi Fukuzawa and the Making of the Modern World, 2002
+\item
+  BenJamin C. Duke, Ten Great Educators of Modern Japan, University of Tokyo Press, 1989
+\item
+  Encyclopaedia Britannica, The Meiji Restauration and the assimilation of western civilization : \url{https://www.britannica.com/topic/education/Japan}
+\item
+  Site de l'université de Keio:
+
+\begin{enumerate}[leftmargin=1.3em,itemsep=.18em,topsep=.25em]
+  \def\labelenumii{\alph{enumii}.}
+  \item
+    \url{https://www.keio.ac.jp/en/news/2022/Dec/26/48-134277/}
+  \item
+    \url{https://www.keio.ac.jp/en/keio-times/features/2023/1/}
+  \item
+    \url{https://www.keio.ac.jp/en/about/philosophy/fukuzawa.html}
+  \end{enumerate}
+\end{enumerate}
+
+\end{document}

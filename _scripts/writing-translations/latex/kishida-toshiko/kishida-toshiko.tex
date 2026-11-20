@@ -1,0 +1,70 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[french]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={Kishida Toshiko}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Kishida Toshiko}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{Histoire du Japon}}\par\medskip
+\noindent{\LARGE\bfseries Kishida Toshiko\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2024 · Article en français}\par\bigskip
+
+\articlefigure{media/media/image1.jpeg}{\textbf{Toshiko Kishida, aussi connue sous son nom de plume, Nakajima Shoen}}
+
+Née au début des années 1860 à Kyoto, Kishida Toshiko est une des premières figures du mouvement féministe japonais apparu à l'ère Meiji. Dans une époque déjà marquée par le changement tant technologique que politique, elle se démarque par son parcours de vie unique et les positions politiques novatrices qu'elle amène dans l'espace publique. Fille de marchands aisés, elle bénéficie d'une éducation de haute qualité, chose particulièrement rare pour les filles à l'époque, et intègre avec brio en 1877 l'école normale féminine de Kyoto. Elle y prend goût à la lecture en découvrant les grands classiques chinois, mais s'ouvre aussi aux grands récits progressistes récemment arrivés d'Occident, comme les textes de Millicent Fawcett.
+
+Seulement 2 ans plus tard, son talent inhabituel pour les lettres chinoises lui vaut d'entrer au service de la cour impériale comme préceptrice de l'impératrice Shoken, après avoir été repérée par le prince Arisugawa lors d'un atelier de Calligraphie. Si ses combats féministes commencent avant cet épisode, son immersion dans ce milieu très privilégié, caractérisé par une forte présence du concubinage, la renforce dans ses convictions que la femme partout vit dans les fers et que la société japonaise ne pourra se reconstruire qu'à travers une réelle égalité des sexes. Dès 1881, elle quitte donc la cour pour se lancer dans un tour du Japon avec sa mère et exercer ses talents oratoires à défendre la cause des femmes. Elle débute à la même période une carrière politique en se joignant au Jiyu Minken Undo (mouvement pour la liberté et les droits du peuple), mouvement libéral démocratique majeur du début de l'ère Meiji. En 1882 elle tient ainsi un discours célèbre à Okayama où elle présente et promeut sa vision d'une société nouvelle construite de concert par des hommes et femmes libres et égaux en droit.
+
+Un an plus tard à Otsu, elle revient à ses origines en tenant un discours critique sur la pratique des Hakoiri Musume (femmes en boîte), très présente à Kyoto, qui attire une foule de près de 2000 personnes. Cette pratique implique de garder les jeunes filles enfermées chez elles jusqu'au mariage pour préserver leur vertu, une aberration pour Kishida qui défend partout l'émancipation des femmes par l'éducation. Toutefois, ce discours vaut à la jeune femme d'être arrêtée par les autorités, moins pour sa remise en cause des valeurs de l'époque que pour le sous-texte anti-gouvernemental que les officiers de polices présents croient voir dans son discours. Si le Jiyu Minken Undo s'effondre peu de temps après du fait de la répression policière et de dissension interne, son combat ne saurait s'arrêter là~: son amour pour les belles lettres et sa foi sans faille en une éducation émancipatrice la pousse à s'associer à plusieurs projets comme la fondation de la Joshi Daienzetsukai (société de lecture pour les femmes de Kyoto) et à publier dans de nombreux journaux à travers le Japon. Elle publie ainsi plusieurs tribunes en faveur d'un accès équitable à l'éducation et à la propriété entre les genres et n'hésite pas à invoquer les grandes autrices du passé comme dame Murasaki Shikibu pour se faire la voix de l'ingéniosité féminine.
+
+A sa mort en mai 1901 des suites de la turberculose, elle aura inspiré une nouvelle génération de féministes, à l'image de Fukuda Hideko, la «~Jeanne d'Arc japonaise~» qui poursuivra ses travaux comme tant d'autres après elle.
+
+\section{Sources}
+\small
+
+\begin{itemize}[leftmargin=1.3em,itemsep=.18em,topsep=.25em]
+\item
+  Mamiko C. Suzuki, Gendered Power, Educated women of the Meiji Empress' Court, p118-215, 2019
+\item
+  Rebecca L. Copeland \& Melek Ortabasi, The modern Murasaki, writing by women of Meiji Japan, p55-73, 2006
+\item
+  Vera Mackie, Feminism in Modern Japan, p15-16, 2003
+\item
+  Sharon L. Sievers, Flowers in Salt, the beginnings of feminist consciousness in Modern Japan, 1983
+\end{itemize}
+
+\end{document}
