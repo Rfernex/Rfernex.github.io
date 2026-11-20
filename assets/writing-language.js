@@ -3,6 +3,7 @@
   const control = document.getElementById('document-language');
   if (!control) return;
   const buttons = control.querySelectorAll('button[data-language]');
+  document.getElementById('title-block-header')?.setAttribute('lang', 'en');
   control.hidden = false;
   const documents = {
   "internationalisation-enseignement-superieur-japonais": {
@@ -87,8 +88,6 @@
     const element = document.querySelector(selector);
     if (element) copy.set(element, { en: element.innerHTML, fr: french });
   }
-  add('#title-block-header h1.title', `Mes loisirs`);
-  add('#title-block-header .subtitle', `L’économie n’est pas la seule chose qui compte dans la vie. Cette partie du site est consacrée aux textes que j’ai écrits sur d’autres sujets qui m’intéressent. Bonne lecture !`);
   add('#toc-title', `Sur cette page`);
   [
     ['reports-and-analyses', 'Rapports et analyses'],
@@ -228,7 +227,6 @@
       element.setAttribute('aria-label', language === 'fr' ? element.dataset.ariaFr : ariaEnglish.get(element));
     });
     document.documentElement.lang = language;
-    document.title = (language === 'fr' ? 'Mes loisirs' : 'My Hobbies') + ' – Romain Fernex';
     const cover = document.querySelector('.featured-cover img');
     if (cover) cover.src = language === 'en' ? 'assets/writing/dossier-cover-en.jpg' : 'assets/writing/dossier-cover.jpg';
     document.dispatchEvent(new CustomEvent('writing:languagechange', { detail: { language } }));

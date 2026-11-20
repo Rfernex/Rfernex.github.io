@@ -1,9 +1,10 @@
 /* This stylesheet is included only on Beyond economics. */
 .document-language {
-  display: inline-flex;
+  display: flex;
+  width: fit-content;
   align-items: center;
   gap: .15rem;
-  margin: .8rem 0 1.4rem;
+  margin: .8rem 0 1.4rem auto;
   padding: .2rem;
   border: 1px solid var(--line);
   background: var(--soft);

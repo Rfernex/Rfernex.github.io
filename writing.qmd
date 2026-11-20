@@ -3,9 +3,9 @@ title: My Hobbies
 subtitle: Because economics is not the only thing that matters in life, this part of the site is strictly dedicated to pieces I wrote on other subjects that draw my interest. Enjoy the read!  
 toc: true
 toc-depth: 2
-css: [styles.css, assets/writing-language.css?v=4]
+css: [styles.css, assets/writing-language.css?v=5]
 include-after-body:
-  text: '<script src="assets/writing-language.js?v=4" defer></script><script src="assets/portrait-reader.js" defer></script><script src="assets/dossier-cover.js" defer></script><script src="/assets/site.js" defer></script>'
+  text: '<script src="assets/writing-language.js?v=5" defer></script><script src="assets/portrait-reader.js" defer></script><script src="assets/dossier-cover.js" defer></script><script src="/assets/site.js" defer></script>'
 ---
 
 ```{=html}
