@@ -75,7 +75,7 @@ An article on the Quad, which brings together Japan, Australia, India and the Un
 ## History articles
 
 ::: {.work-entry}
-<div class="writing-thumb"><img src="assets/writing/goguryeo.jpg?v=2" alt="" loading="lazy"></div>
+<div class="writing-thumb"><img src="assets/writing/goguryeo.jpg?v=3" alt="" loading="lazy"></div>
 
 [Article]{.eyebrow}
 
