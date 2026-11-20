@@ -1,0 +1,217 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[french]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={Les origines de la Corée et le royaume de Goguryeo}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Les origines de la Corée et le royaume de Goguryeo}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{Histoire de la Corée}}\par\medskip
+\noindent{\LARGE\bfseries Les origines de la Corée et le royaume de Goguryeo\par}
+\smallskip\noindent{\large\itshape Entre récits nationalistes et réalités historiques\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2022 · Article en français}\par\bigskip
+
+``The strongest cause for feelings of nationality ... is identity of political antecedents; the possession of national history, and consequent community of recollections; collective pride and humiliation, pleasure and regret, connected with the same incidents in the past'', John Stuart Mill
+
+En analysant ainsi les racines du sentiment de nationalité Stuart Mill nous rappelle un rôle majeur, et pourtant parfois oublié, de l'histoire~: son rôle politique. En effet toute nation, peu importe qu'elle fut formé récemment ou non, qui cherche à s'ancrer dans le temps long puise souvent dans l'histoire, et particulièrement dans l'instrumentalisation de celle-ci, une façon d'affirmer son droit, sa légitimité à exister ou à évoluer dans un certain espace géographique ou culturel. Dès lors la construction d'une histoire officielle, parfois très éloigné si ce n'est antagoniste aux réalités historiques établies, mise en avant par un gouvernement est bien souvent le support de revendications au sein même de la nation comme dans les relations de celle-ci avec l'extérieur.
+
+En 2004, à la suite d'une demande de la Chine puis de la Corée du Nord, les sites archéologiques des tombes et de la capitale de l'ancien royaume de Goguryeo{[}1{]}, situés de part et d'autre de la frontière entre la Corée du nord et la Chine, ont été classé au patrimoine mondial de l'UNESCO.
+
+\articlefigure{../goguryeo-1/media/media/image1.jpeg}{Tombe de Gwanggaeto the Great, aussi appelée tombe du général, datant du 4ème siècle avant JC}
+
+Cette décision fût l'occasion de nombreuses polémiques que ce soit concernant la demande qui y a mené, le processus qui permit d'aboutir à cette nomination ou encore suivant les réactions des partis impliqués après que cette décision fût prise. Ainsi la suppression de toute référence à la Corée du Sud dans l'histoire de Goguryeo tel que présentée sur le site du ministère chinois des affaires étrangères provoqua une levée de bouclier populaire comme diplomatique de la part des coréens du Sud s'estimant victime d'un vol de leur Histoire. Au-delà des canaux diplomatiques traditionnels, nombres de forums en ligne virent s'affronter chinois et coréens, soutenant des discours parfois modérés mais souvent empreint d'un fort nationalisme et révisionnisme historique. D'un côté les internautes chinois soutiennent que le royaume de Goguryeo et les populations qui l'ont précédé étaient rattaché à la Chine et font donc parti de l'unité culturelle chinoise, de l'autre les internautes coréens défendent le rôle du royaume de Goguryeo comme pilier de l'identité coréenne et comme un des première manifestations concrètes de la mainmise de la Corée sur la péninsule.
+
+Mais qu'est-ce donc que ce royaume de Goguryeo et pourquoi déchaine t'il ainsi les passions~? Nous tenterons d'apporter des éléments de réponses à cette question tout au long de cet article en s'intéressant d'une part aux origines du royaume de Goguryeo, qui occupent une place toute particulière dans ce débat notamment du côté chinois, et d'autre part au royaume de Goguryeo en lui-même et à son importance, non seulement dans l'historiographie de la région, mais aussi dans les prétentions à une identité coréenne plurimillénaire.
+
+\section{La péninsule avant Goguryeo}
+
+400 000 avant J.C. c'est à cette date que remonte les premières traces de population dans la péninsule coréenne au paléolithique. C'est alors, des peuplades nomades, provenant majoritairement de Mandchourie de du Nord Est de l'Asie, vivant principalement de la chasse et de la pèche. A partir du 6\textsuperscript{ème} millénaire avant J.C débute l'ère Jeulmun marqué par l'apparition de poterie avec des motifs en peigne trouvée majoritairement le long de la rivière Han qui traverse l'actuel Séoul.
+
+\articlefigure{../goguryeo-1/media/media/image2.jpeg}{Poterie de l'ère Jeulmun}
+
+Dès 4000 avant J.C la riziculture se développe aidé par un climat quasi tropical en été accompagné de fortes moussons à la même période qui permet la sédentarisation d'une partie de ces peuplades et leur accroissement démographique. Ce développement se poursuit jusqu'en 2000 avant J.C. par le passage à l'ère Mumun, elle marqué par un nouveau style de poterie avec des récipients à double bord. Cette ère s'accompagne par des découvertes majeures dans le sens de la sédentarisation et de l'apparition de civilisation complexe et organisée avec l'utilisation du bronze en 700 avant JC puis du fer en 300 avant J.C. L'influence grandissante de la Chine dans la région est aussi caractéristique de cette époque et celle-ci jouera un rôle croissant au cours des siècles suivants. C'est dans ce contexte qu'émerge le royaume de Gojoseon au Nord de la péninsule qui joue lui aussi un rôle important dans l'identité et la mythologie coréenne.
+
+De fait pour les coréens, le royaume de Gojoseon tire ses origines du mythe de Dangun Waggeon qui place sa date de création en 2333 avant J.C. bien avant même le début de l'ère Mumun. Selon ce mythe Dangun est le Hwanung, fils de Hwanin, dieu du ciel dans le Cheondoisme et Jeungsanisme qui sont deux courants religieux majeurs en Corée en dehors du bouddhisme qui reste la religion dominante et rapproche celui-ci d'Indra, et de Ungnyo, un ours transformé en femme par Hwanung. Il a fondé la ville d'Asadal, capital de Gojoseon, à l'endroit de l'actuelle Pyongyang. Si la majorité des historiens s'accordent à dire que Gojoseon s'apparentait d'avantage à un regroupement de tribus plus ou moins liées les unes aux autres, il n'en demeure pas moins que celui-ci a une importance toute particulière dans la culture coréenne. C'est cette première entité qui sera conquise par la Chine des Han, dirigée par l'empereur Wu, au 2\textsuperscript{ème} siècle avant J.C et passera alors sous le contrôle direct de celle-ci pour la première et dernière fois de son histoire. Les Hans créent alors 4 commanderies qui feront office de division administratives afin de gouverner sur le territoire de Gojoseon.
+
+\articlefigure{../goguryeo-1/media/media/image3.jpeg}{Les quatres commanderies pendant la période de domination chinosie}
+
+Les Commanderies de Lelang et Xuantu sont les plus importantes, Lelang produisant du textiles et des céramiques, savoir que les coréens sauront conserver et faire fructifier au cours de leur histoire. C'est donc une importante période de sinisation de la région et elle à l'origine de nombreuses connections et échanges entre la Chine et les populations de la péninsule coréenne. C'est aussi un important support de revendication chinoise à inclure la Corée dans l'ère de civilisation chinoise. Cependant s'il est indéniable que la Chine a joué un rôle majeur dans cette région à cette époque, c'est négligé les nombreuses populations, clans et tribus qui subsistent dans la région et avec lesquelles la Chine entretient des relations tantôt conflictuelles tantôt amicales. La Chine mène en effet une politique d'apaisement aussi appelé Heqin qui consiste à couvrir de cadeaux certains de ces clans pour s'attirer leur faveur.
+
+Au sud on trouve 3 tribus Hans avec les Mahan, la plus nombreuses et basée sur l'agriculture, les Chinhan, dépendant notamment de la sériculture, et les Pyonhan. Celle-ci donneront lieu à plusieurs royaumes bien distincts de la Chine quelques siècle plus tard. A ces trois tribus se joint celle des Was, première population associé au Japon mais qui conserve une présence non négligeable au Sud est de la Péninsule coréenne.
+
+Enfin au Nord, sur le territoire de Gojoseon, on dénombre un total de 9 tribus. Parmi elles Buyeo, proche allié de la Chine, et Goguryeo. Cette dernière apparait en 37 avant Jésus Christ selon le \emph{Samguk Sagi} {[}2{]} (histoire des trois royaumes) et est fondé par Dongmyeong au Sud de la Mandchourie.
+
+\articlefigure{../goguryeo-1/media/media/image4.jpeg}{Le roi Dongmyeong de Goguryeo (58 av. J.C -- 19 av. J.C)}
+
+Regroupement tribal belliqueux par excellence du fait de l'absence de ressource suffisantes sur son territoire pour soutenir sa population grandissante, il conquiert rapidement d'autres territoires et s'organise lui-même en 4 grandes divisions administratives. Il entretien même des relations diplomatiques avec la Chine de 75 à 12 avant J.C et son souverain s'autoproclame roi (wang en coréen) pour souligner sa volonté de se distinguer de la Chine. En effet si la Chine cherche à s'attirer les faveurs de certains clans elle place aussi nombre de populations natives de la région dans un état d'exploitation prononcé qui provoquent des révoltes fréquentes de la part de ces peuples. Aussi la montée fulgurante de Goguryeo l'inquiète d'autant plus que celui-ci gagne en influence auprès d'autres tribus locales opposées à la Chine.
+
+C'est l'éclatement de l'empire Han en 220 après J.C. qui donnera l'opportunité à nombre de puissances comme Goguryeo de s'émanciper de l'influence chinoise et de développer un premier sens d'identité coréenne, ou plutôt d'identités étant donné le caractère encore relativement hétérogène, malgré de nombreuses similarités, de ces différentes tribus. Cette ascension sera de courte durée avec la montée de la dynastie Chinoise des Wei au nord de la Chine qui, craignant Goguryeo et souhaitant pacifier la région, l'attaque et prend le contrôle de sa capitale en 244. Cependant cette disparition de Goguryeo ne sera que provisoire et n'est que le prélude d'une renaissance à peine un siècle plus tard qui sacrera le royaume de Goguryeo comme un des plus puissants de la péninsule pour plusieurs siècles.
+
+\section{La formation et les débuts de Goguryeo}
+
+La coexistence de plusieurs populations avant la naissance de Goguryeo montre l’ampleur et les limites de l’influence chinoise dans la péninsule. Cependant, se restreindre à analyser la diversité ethnique de cet espace ne permet pas de répondre entièrement aux enjeux géopolitiques soulevés par la controverse autour du \emph{Northeast Project}. Pour la Chine, il s’agit de contester l’existence d’un royaume doté d’une culture distincte qui aurait jeté les bases de la Corée actuelle. Pour la Corée du Sud comme pour la Corée du Nord, il s’agit d’ancrer leur identité dans l’histoire ancienne en faisant de Goguryeo une étape fondatrice.
+
+Dès lors, il importe de nous intéresser à ce royaume en lui-même dans ce qui fait sa singularité aussi bien sur le plan géopolitique que culturel ou encore économique.
+
+Reprenons ainsi en 37 B.C., date historique et mythologique de la fondation de Goguryeo. Son fondateur est souvent connu sous le nom de Chumong, aussi appelé Dongmyeong, et serai originaire du royaume de Buyeo fondé au 2\textsuperscript{ème} siècle B.C. au nord de la Mandchourie. Le royaume de Goguryeo à son apparition se rapproche davantage d'une confédération tribale qui se structure autour de 5 Bus{[}3{]} qui deviendront rapidement des divisions administratives du royaume. Ces 5 Bus sont eux même issus de plus petits regroupement tribaux qualifiés de Nas, qui conservent encore une relative autonomie au début de cette période. A mesure que les Bus accroissent leur pouvoir, un Bu en particulier, le Kyeru Bu supplante les autres et fournira les rois des dynasties qui gouverneront sur Goguryeo. Ce regroupement est le produit et la cause d'une politique d'assimilation et de conquête des autres chefferies et tribus de la région qui constituera son territoire d'influence. Parmi les tribus nomades qui tombent sous le joug de Goguryeo, plusieurs dont les tribus Khitan et Malgal conservent une grande part d'autonomie vis-à-vis des 5 Bus, même si elles n'en demeurent pas moins soumises au pouvoir royal. Cependant, pendant plusieurs décennies, l'unité géographique et politique dans laquelle la population de Goguryeo évolue et avec laquelle elle interagit le plus est l'eumnak. Les eumnaks sont des communautés de taille plus ou moins réduite, sous ordre de chefs de villages, à travers lesquels s'organisent le travail et la vie de l'ensemble de la roture.
+
+\articlefigure{../goguryeo-2/media/media/image1.png}{Carte avec les différentes entités politiques importantes de la péninsule coréenne en 37 B.C.}
+
+(les 4 commanderies de la Chine des Hans sont en violet)
+
+Au-delà de ces considérations administratives, une première forme de hiérarchie sociale peut d'ores et déjà être observée~: En haut de l'échelle sociale on trouve les Daega. Ce terme peut référer au seigneur à la tête du Kyeru Bu, c'est-à-dire le roi, aux chefs des autres Bus ou aux chefs locaux. Plus en aval, les Sogas forment une petite bourgeoisie possédante qui reçoit généralement un salaire du gouvernement, ne prend pas part aux activités agricoles et peut espérer une certaine forme d'élévation sociale. Il est à noter que ceux-ci peuvent aussi être dégradés à la classe inférieure s'ils s'endettent trop fortement ou s'ils contreviennent aux ordres de la cour. La majorité du peuple appartient, elle, à la catégorie des Haho (locataires en chinois), désignée ainsi car ses membres ne possèdent pas de terre. Cette classe comporte les paysans, artisans, commerçants etc.. qui sont au service des nobles, mais considérés comme employés par le pouvoir central{[}4{]}, ou qui sont directement sous le contrôle des grandes maisons. Il est à noter que la classe des Haho est loin d'être homogène et comporte en son sein des Homin, de riches individus qui tirent généralement leur fortune du commerce ou de l'artisanat. Plus bas dans l'échelle sociale on trouve les Yongjak, des paysans qui louent leur service à un riche propriétaire en l'échange d'une part des récoltes ou d'une parcelle de terre à cultiver. Enfin, tout en bas de l'échelle sociale, se trouvent les Nobi, des serviteurs qui sont directement employés par les grands propriétaires terriens. Ceux-ci sont souvent des prisonniers de guerre ou des paysans incapables de payer leur dette.
+
+Sur le plan économique un premier système d'impôt est rapidement mis en place par le pouvoir royal. Néanmoins son efficacité reste encore assez limitée étant donné que celui-ci doit souvent passer par les chefs de clans{[}5{]} et prend la forme d'un simple tribut versé au pouvoir central.
+
+Ainsi la société de Goguryeo apparait presque dès son apparition comme un système complexe, différent de celui en vigueur en Chine à l'époque et de celui que cette dernière mettra en place après sa première conquête de Goguryeo en 245. Cependant, se pose encore la question de l'effectivité du pouvoir central auquel prétendent les Daegas et plus particulièrement la maison royale. Ce problème se pose d'autant plus que les conquêtes successives du royaume ont permis l'avancée de l'agriculture et la multiplication des terres cultivables, nourrissant donc les envies de propriétés individuelles des paysans Haho, dont le travail est vital à la richesse et au fonctionnement du royaume. Face à la demande croissante d'autonomie des paysans, c'est une véritable dynamique de centralisation initiée par le pouvoir royal qui permettra l'apparition d'un Goguryeo comme Etat Nation. Cette dynamique de centralisation provient aussi de la nécessité de développer une politique extérieure ambitieuse, notamment en réponse à la Chine des Hans dont la commanderie de Liaodong harcèle Goguryeo depuis sa fondation et l'a déjà repoussé jusqu'à la vallée de Yalu. Loin d'être une transformation éclaire, celle-ci est le fruit d'un processus lent, pluriséculaire qui commence dès la création du royaume et connait plusieurs retour en arrière au cours de son histoire.
+
+Mais comment s'est opéré cette dynamique de centralisation et quels sont certains des éléments qui attestent de son existence si tôt dans la vie de Goguryeo~?
+
+Un premier élément important est l'établissement du système politique des principautés. Celui-ci est centré autour du roi qui concentre l'essentiel du pouvoir et qui règne sur l'ensemble du royaume. Juste en dessous se trouves les chefs des 5 Bus qui forment les principautés, elles-mêmes divisées en sous principautés ou Che-Bu. Ce premier ensemble constitué des principautés couvre l'essentiel du territoire. Si ces 4 de ses grandes principautés sont subordonnées au pouvoir royal, elles conservent un rôle consultatif important et peuvent parfois avoir une réelle influence sur les décisions du roi. Elles cohabitent avec un second ensemble composé~: d'une part, d'autres tribus qui rendent certes des comptes aux principautés (et surtout au roi) mais n'y sont pas directement rattachées (subordinate groups, voir schéma ci-dessous), d'autre part, de chefferies tombées sous l'influence de Goguryeo mais préservant une forme d'autonomie importante quant à la gestion de leur territoire et qui forment des marquisats {[}6{]}.
+
+\articlefigure{../goguryeo-2/media/media/image2.png}{Schéma de l'organisation administrative de Goguryeo avant 245 A.D.}
+
+Tiré de~: Noh Taedon, \emph{Korea's Ancient Koguryo Kingdom : A Socio-political History}, global oriental, 2014, p.97
+
+Cette transformation du système politique de Goguryeo est accompagnée de la disparition progressive des eumnaks sous la pression de Haho qui veulent accéder à la propriété et d'un gouvernement qui voit dans les chefs de communauté un obstacle à son pouvoir en ce qu'ils lui empêchent d'exercer son pouvoir directement sur les paysans. Dès lors, se développe plusieurs outils qui vont permettre d'adresser ce problème de déconnexion entre le pouvoir royale et la population, source de son pouvoir économique et militaire.
+
+La première mesure utilisée par la royauté pour unifier la population consiste en la mise en place d'un culte du roi et ses descendants basés sur le mythe qui entoure la naissance de Chumong, le fondateur de Goguryeo, et qui veut qu'il soit le fils de la déesse de l'agriculture Habaek Nyo. C'est aussi, comme dans nombre de monarchies, un moyen puissant pour asseoir la légitimité des monarques et qui servira amplement ce rôle jusqu'à la chute de Goguryeo.
+
+La deuxième consiste en une première réforme du système de taxation qui passe progressivement d'un système relativement primaire de demande de tributs à un véritable système de prélèvement d'impôt systématisé, ce qui en fait un bien meilleur levier en termes de politiques fiscales. Cette transformation s'étale cependant sur plusieurs siècles et intervient davantage lors de la provincialisation du système politique de Goguryeo.
+
+Enfin, du point de vue des relations internationales Goguryeo se démarque comme étant une puissance guerrière remarquable, notamment grâce à sa cavalerie et à sa maitrise du travail du fer qu'elle a en partie hérité du royaume de Buyeo qui en avait fait sa spécialité. Le commerce extérieur se développe aussi avec les commanderies de la dynastie Wei, mais ces relations restent empreintes de méfiance, se limitent souvent aux tributs versés par la Chine à certaines tribus qui composent Goguryeo, souvent afin de susciter des divisions internes, et ne saurai guère faire oublier le climat de tension entre ces deux royaumes. Tensions qui culminent
+
+en 245 quand les Wei assiègent et défont la capitale de Goguryeo en représailles de sa politique d'alliance avec des dynasties chinoises rivales des Wei.
+
+\articlefigure{../goguryeo-2/media/media/image3.png}{Carte de l'Asie de Est en 262 AD. avec les dynasties chinoises les plus influentes}
+
+Ainsi ce 3\textsuperscript{ème} siècle se termine sur un âge sombre pour Goguryeo, mais qui aura vu apparaitre les bases d'un Etat Nation, notamment sur le plan politique et, certes de manière moins prononcée, économique. On constate aussi un début d'unité culturelle avec le culte voué à la famille royale, même s'il reste à un état primitif.
+
+\section{Le redressement de Goguryeo et les Trois Royaumes}
+
+Goguryeo se relève après la conquête des Wei dans un contexte géopolitique différent. L’affaiblissement de la Chine dans la seconde moitié du IIIe siècle laisse place à de nouvelles puissances régionales qui façonnent à leur tour la péninsule. Les historiens parlent de l’époque des Trois Royaumes, du nom de deux textes bien plus tardifs, le \emph{Samguk Sagi} (Chronique des Trois Royaumes) et le \emph{Samguk Yusa} (Mémoires des Trois Royaumes).
+
+\articlefigure{../goguryeo-3/media/media/image1.png}{Carte de la péninsule coréenne en 375 AD.}
+
+Tout d'abord, comment le royaume de Goguryeo, décapité après la chute de sa capitale aux mains de la Chine des Wei\textbf{{[}7{]}} au milieu du 3\textsuperscript{ème} siècle, a-t-il pu renaitre de ses cendres~? La raison principale de ce regain d'influence est à trouver dans le contexte géopolitique de l'époque, et plus particulièrement dans le vide de pouvoir laissé par les guerres intestines qui opposent les dynasties qui cherchent à prendre le pouvoir en Chine. De fait, la dynastie chinoise des Jins, qui a pris la succession de la dynastie des Wei en 266, doit faire face dès 291 à une série de guerres civiles à laquelle les historiens réfèrent sous le nom de «~Guerre des 8 Princes~». Comme son nom le laisse suggérer, celle-ci a vu s'opposer plusieurs princes de la dynastie des Jins pour s'emparer du pouvoir à la place de l'empereur Hui, atteint par une grave maladie du développement et donc vu comme inapte à régner. A peine 5 ans après la fin de la guerre des 8 princes, la Chine des Jins s'effondre au profit de multiples royaumes barbares qui se partagent son territoire. C'est le début d'un âge sombre pour la Chine qui correspond à la période des seize royaumes et qui durera jusqu'en 439. Ainsi, dès la moitié du 3\textsuperscript{ème} siècle, les troupes du royaume de Goguryeo qui ont subsisté après la chute de sa capitale tirent parti du chaos régnant en Chine pour reprendre l'Est Okjo puis l'Est Ye et rétablir sa présence sur une grande partie de son territoire d'antan. Cette dynamique de reconquête se poursuit en 303 et s'accompagne d'une nouvelle dynamique d'expansionnisme avec la prise des commanderies de Lelang et Daifang qui ont longtemps été au centre du maintien de l'autorité chinoise dans la région.
+
+\articlefigure{../goguryeo-3/media/media/image2.jpeg}{Carte de la Chine des seize royaumes en 350 AD.}
+
+Mais la renaissance de Goguryeo ne se fait pas seul. C'est aussi à cette époque\textbf{{[}8{]}} que l'on voit apparaitre 3 autres royaumes, dont 2 qui contribueront à donner son nom à la période des 3 royaumes. A commencer par le royaume de Baekje né dans la région de Mahan au Sud de la péninsule et vraisemblablement issu de populations Hans dont il est proche culturellement. Au Sud Est, dans le bassin de Kyeongju, et formé par la lignée royale des Kims, est fondé le royaume de Silla qui émergera victorieux à la fin de cette période des trois royaumes, mais nous y reviendrons à posteriori. Enfin, de dimensions modestes mais lui aussi relativement important dans l'équilibre régional, le royaume de Kaya à l'extrême sud de la péninsule dans la vallée du fleuve Naktong. Celui-ci comporte dans sa population une part non négligeable d'habitant de l'ethnie des Was\textbf{{[}9{]}} qui est l'ethnie fondatrice du Japon et notamment du royaume du Yamato.
+
+Ainsi le début du 4\textsuperscript{ème} siècle se démarque des périodes précédentes avec l'apparition de 2 nouvelles puissances régionales majeures que sont Baekje et Silla et le grand retour du Royaume de Goguryeo qui échappe enfin à la concurrence de la Chine. C'est durant cette période que ce dernier émerge comme la puissance de la région par excellence et cette nouvelle prospérité s'accompagne d'importantes transformations économiques, culturelles et politiques qu'il nous faut à présent analyser pour en comprendre l'ampleur et donc la pertinence dans l'analyse des origines de ce sentiment de coréanité, au cœur du débat qui fait l'objet de notre analyse.
+
+Voyons d'abord qu'elle est la nouvelle organisation politique de Goguryeo après plusieurs décennies passées sous l'ombre de la Chine. En effet, cette période de «~domination~» chinoise voit la fin, ou du moins l'affaiblissement, du système des principautés au profit d'un système provincial avec des fonctionnaires de province qui se font les relais du pouvoir central chinois puis, après la reconquête, du pouvoir royal. Les eumnaks, qui étaient déjà en voie de disparitions, disparaissent, eux, complètement et le contrôle direct de la population tombe enfin entre les mains de la famille royale. Les 5 Bus sont ainsi réorganisés en provinces\textbf{{[}10{]}}, chacune dirigée par un Yoksal (gouverneur) qui exerce son autorité sur plusieurs villes dirigées par des Cheoryogu (magistrats) assistés par des Karadal (échevins). Tout en bas de l'échelle administrative, principalement dans les zones rurales, on trouve des Rucheo qui font office de préfet. Enfin, tous ces fonctionnaires rendent des comptes au roi, seul détenteur du pouvoir autoritaire et coercitif.
+
+Cette centralisation importante du pouvoir permet d'aller au bout de la réforme du système de taxation visant à quitter le modèle primitif de demande de tributs pour adopter un système de prélèvement d'impôt systématisé et surtout progressif (dans une certaine mesure). Le pouvoir royal devient ainsi l'unique dépositaire du droit de taxation à la place des seigneurs et autres grands propriétaires. S'il attribue occasionnellement à certains fonctionnaires de haut rangs ou à certains vassaux méritants un sigeup, lopin de terre sur lequel seigneur peut lui aussi percevoir des taxes, il bénéficie de la large majorité des revenus fiscaux. Cette taxation cible en premier lieu les revenus de l'agriculture et se limite aux hommes adultes et indépendants. Face à des mécanismes de diversification et de stratification sociale particulièrement importants à l'époque, une réelle prise en compte de la condition économique des contribuables se développe. L'apparition de programmes d'aides sociales, qui permettent à certains ménages en difficulté de recevoir des rations de céréales en l'échange d'une dette contractée auprès du gouvernement, est ainsi concomitante à cette prise de conscience et vise à une meilleure prise en charge du capital humain du royaume.
+
+Toujours sur le plan intérieur, le déplacement de la capitale à Pyongyang en 343, suite aux multiples attaques de la Chine du Yan antérieur, permet l'expansion d'une culture universelle et propre à Goguryeo en dépit de nombreux empreints à la Chine. Cette avancée commence par l'acceptation du bouddhisme comme pilier de cette culture pan-goguryéenne mais aussi par la systématisation du mythe de Chumong qui fait entrer définitivement tous les monarques de Goguryeo dans l'histoire officielle et surtout légendaire du royaume. Cette culture connait cependant elle aussi plusieurs variantes~: On peut ainsi différencier celle qui se développe au Nord du pays, sous influence de Pyongyang, et celle qui apparait au Sud, encore sous influence de l'ancienne capitale de Goguryeo dans le Jian. Dans de nombreuses régions, le taoïsme se mêle ainsi au bouddhisme et aux croyances endémiques à cette région de la péninsule. A ce titre, l'étude des peintures murales présentes dans nombre de tombes des souverains et aristocrates de Goguryeo, et par lesquelles nous avons débuté notre présente réflexion, permettent de se rendre compte des mouvements artistiques qui ont pu traverser Goguryeo. Cette évolution se retrouve tant dans les matériaux utilisés pour réaliser ces fresques somptueuses que dans l'iconographie qui domine chaque période et région de Goguryeo. Ainsi durant cette première période qui s'étend du début du 4\textsuperscript{ème} siècle au milieu du 6\textsuperscript{ème} siècle on retrouve de nombreuses peintures qui ont pour thème la vie de tous les jours ou encore les 4 divinités pionnières de la mythologie coréenne. Plusieurs éléments de l'iconographie bouddhiste tels que la fleur de lotus sont aussi des motifs récurrents dans les chambres funéraires de l'époque.
+
+\articlefigure{../goguryeo-3/media/media/image3.jpeg}{Fresque murale représentant une scène de chasse,}
+
+\emph{retrouvée dans une des tombes datant de l'époque de Goguryeo}
+
+Ainsi le titre de simple division administrative de la Chine semble largement usurpé, ou du moins particulièrement abusif, quand il s'agit de désigner le Goguryeo de cette époque.
+
+Néanmoins, à présent que nous avons vu en quoi Goguryeo se démarque de la Chine et des autres puissances régionales sous bien des aspects, il nous reste un important levier de pouvoir à analyser, son pouvoir militaire. Effectivement, Goguryeo apparait rapidement comme la puissance militaire régionale, quasi incontestée et surtout native de la péninsule, de la Corée pendant près de 100 ans et ce après plusieurs siècles d'influence chinoise. Voyons donc maintenant comment Goguryeo parvient à se placer à la tête de l'ordre géopolitique régional.
+
+Dès 373, sous le roi Sosurim\textbf{{[}11{]}} et après un départ parfois rocambolesque avec les multiples invasions Yan, Goguryeo parvient à pacifier ses relations avec la Chine des Qin et peut enfin tourner ses rêves d'expansions vers le Sud. Si le royaume a déjà attaqué Silla avec succès en 345 pour en tirer un accord en 348 dans lequel ce dernier reconnait la supériorité de militaire de Goguryeo, il cherche désormais à conquérir Baekje qui lui a résisté jusqu'à présent. Ce retour en force est marqué par la prise réussie de la forteresse de Sugok en 375, détenue par Baekje qui tente de se lancer dans une campagne de représailles qui échoue complètement. Pourtant le vrai tournant dans la politique expansionniste de Goguryeo intervient à partir de 391 avec la montée sur le trône du roi Kwang-Gae-Toh, le plus célèbre des souverains de Goguryeo après Chumong. Celui-ci lance une vague d'assauts couronnés de succès sur Baekje et prend ainsi, selon le Samguk Sagi, près de 58 forteresses et 700 villages en moins d'une décennie. A la même époque, Goguryeo peut compter sur le soutien indéfectible de Silla qui apparait, à bien des égards, comme une puissance vassale de celui-ci. Une politique de diplomatie des otages \textbf{{[}12{]}} est d'ailleurs mise en place entre les deux puissances.
+
+\articlefigure{../goguryeo-3/media/media/image4.jpeg}{Portrait du roi Kwang-Gae-Toh}
+
+Ce lien de vassalité atteint son apogée en 400, quand, lors d'une attaque de maraudeurs japonais menée par Baekje et son fidèle allié, le royaume de Kaya, visant Silla, Goguryeo se porte au secours de ce dernier et repousse les forces ennemies hors de son territoire. À la suite de cet évènement, des troupes de Goguryeo restent stationnées sur le territoire de Silla et la diplomatie des otages déjà en place se développe de manière significative. Cependant cette relation est rapidement empreinte de tensions, notamment au vu des garnisons présentes au sein de Silla, et abouti à l'accession au pouvoir d'un roi défavorable à Goguryeo. Pis encore, Silla se rapproche de Baekje et dans la deuxième moitié du 5\textsuperscript{ème} siècle les deux puissances signent un accord pour faire face à l'inarrêtable montée de Goguryeo.
+
+En 450 un incident survenu à la forteresse d'Hasulla qui a mené à la mort d'un soldat de Goguryeo des mains d'un commandant de Silla fait resurgir ces tensions qui aboutissent 4 ans plus tard à une attaque préventive de Goguryeo contre Silla. A partir de là les évènements s'enchainent et en 464 le massacre des forces de Goguryeo basées dans la capitale de Silla marque la fin définitive de toute alliance entre les deux puissances. 11 ans plus tard Goguryeo prend la capitale de Baekje, Hanseon, qui voit sa puissance péricliter avec l'explosion d'une guerre civile et l'assassinat de son souverain, et annexe par la même une partie du territoire de Silla. Goguryeo, qui domine à présent l'immense majorité de la péninsule, est alors à l'apogée de sa puissance et négocie d'égal à égal avec la Chine des Wei du Nord.
+
+Mais dès la fin du 5\textsuperscript{ème} siècle cette dynamique tend à s'inverser. Silla qui jusqu'à présent était relativement peu intervenu dans les conflits de la zone, y compris dans le cadre de son alliance avec Baekje, adopte une politique bien plus interventionniste et en vient à annexer la majore partie du royaume de Kaya en 532 pour étendre sa zone d'influence. Un peu plus tard, lors de l'attaque de la forteresse Baekje de Toksan par Goguryeo, Silla déploie son armée et met en échec ce dernier. Mais c'est l'année 551 qui marque la fin définitive de l'âge d'or de Goguryeo avec la prise du bassin versant de la rivière Han (fleuve qui traverse l'actuelle Seoul), par l'alliance Silla-Baekje.
+
+\section{Conclusion}
+
+L’histoire de Goguryeo éclaire la controverse sur son héritage. Le royaume s’est développé au contact des dynasties chinoises tout en se dotant de ses propres institutions et en s’imposant comme une puissance régionale. Ses origines, son redressement après la conquête des Wei et ses rivalités avec Baekje et Silla montrent pourquoi son histoire ne se laisse pas réduire à une revendication nationale moderne.
+
+Romain Fernex, étudiant en double diplôme à l'ESCP et à l'université de Corée
+
+\section{Notes}
+
+\textbf{{[}1{]}} Par souci de cohérence j'utilise d'un bout à l'autre de cet article le système de romanisation révisé du Coréen qui est le système officiel de romanisation du coréen depuis les années 2000 et qui est également utilisé par Kyung Moon Hwang. Cependant, une bonne partie, pour ne pas dire la majorité, des articles que j'ai utilisé pour écrire cet article utilisent une orthographe différente, par exemple Michael J.Seth utilise le McCune-Reishauer system, qui faisait autorité dans le monde académique anglophone à l'époque de la rédaction de son ouvrage. Aussi on pourra trouver Goguryeo écrit Koguryo ̆ et, de manière général, les noms des lieux, royaumes, personnages clés etc.. sont orthographiés différemment que dans cet article.
+
+\textbf{{[}2{]}} Le \emph{Samguk Sagi}, ou histoire des trois royaumes en Coréen, est un des ouvrages majeurs, avec le \emph{Samguk Yusa} (mémoire des trois royaumes) publié en 1279, traitant de l'histoire de la région à cette époque et qui remonte à plusieurs siècles avant notre ère. Écrit en 1145 par l'historien et général coréen Kim Busik, s'il est en effet l'une des principales sources écrites sur la péninsule coréenne dont les historiens de cette période dispose\ldots{} il n'en demeure pas moins que certains passages sont particulièrement romancés et fortement influencés par la période à laquelle ce texte a été écrit, laquelle est très différente de la période dont il parle. Par ailleurs le texte fondateur de l'histoire japonaise, le \emph{Nihon Shoki}, et plusieurs textes chinois majeurs dont le \emph{Shiji} de l'historien chinois Sima Qian, qui est lui un contemporain de cette époque, publié en 100 avant J.C., sont aussi des sources précieuses pour documenter cette époque.
+
+\textbf{{[}3{]}} Il est à noter que si le terme de Bu pour désigner une division administrative du royaume de Goguryeo ne fait pas l'objet de controverse, il n'en va pas de même pour l'interprétation du ou des sens qu'il a pu avoir dans d'autres contextes. Lorsqu'il désigne l'entité qui précède ces divisions administratives il est en effet particulièrement difficile à définir~: Certains historiens ont d'abord avancé l'idée qu'un Bu dans sa forme première est un regroupement tribal mais le terme tribu peut parfois poser un problème. De fait si l'on reprend la définition de tribu donnée par LH. Morgan dans \emph{Ancient Society} en 1877, celle-ci peut être définie comme un état intermédiaire entre une société sans classe, désorganisée, et un état nation. Or on constate très tôt dans les Bus l'existence d'une forme de hiérarchie relativement poussée qui pourrait mettre en doute cette première définition d'un Bu comme un ensemble tribal.
+
+\textbf{{[}4{]}} Quand je dis que certains Haho sont employés par le pouvoir central il ne s'agit de toutes évidences pas d'un lien d'exploitation direct et se fait d'ailleurs souvent par l'intermédiaire de grandes familles locales. Cependant la différence majeure avec la deuxième catégorie de Haho que j'introduis juste après est qu'ils ne servent pas des intérêts privés mais bien ceux de l'Etat.
+
+\textbf{{[}5{]}} Cette affirmation est d'autant plus vraie dans le cadre des relations du pouvoir royal avec les tribus nomades qui lui sont inféodées mais qui conserve une part importante d'autonomie à l'image de celle des Khitans ou des malgals. Dans ces cas bien spécifiques, le tribut prélevé est bien moins important que pour les eumnaks et passe toujours par les chefs de ces clans qui servent ainsi d'intermédiaire. Cependant, cette autonomie est compensée par le fait qu'ils sont mobilisables à volonté par l'Etat à des fins militaires ou économiques si jamais la situation l'exige.
+
+\textbf{{[}6{]}} Le terme est utilisé par Noh Taedon dans \emph{Korea's Ancient Koguryo Kingdom~: A Socio-political History} mais celui-ci précise que, s'il n'a pas de réalité dans la littérature coréenne de l'époque, il est celui qui convient le mieux ici étant donné la forte ressemblance de fonctionnement entre les «~marquisats~» mentionnés ici et leurs équivalents européens apparus bien plus tard.
+
+\textbf{{[}7{]}} Il s'agit ici de la Chine de la dynastie des Cao Wei qui dure de 220 à 266 AD. Celle-ci n'est pas à confondre avec la Chine de la dynastie des Wei du nord (386-535) ou de la dynastie des Wei de l'Ouest (535-557) apparues bien plus tard et qui sont aussi évoquées plus loin dans cet article.
+
+\textbf{{[}8{]}} Si le Samguk Sagi place les dates de fondation du royaume de Silla et du royaume Baekje respectivement en 57 BC et en 18 BC, aucun élément historique ne corrobore cette information à l'heure actuelle et la majorité des historiens considèrent l'apparition de ces royaumes comme étant bien antérieure à la date donnée pour Goguryeo dans ce même ouvrage et qui est-elle relativement probable. Aussi l'apparition de Silla et Baekje est vraisemblablement contemporaine à la renaissance de Goguryeo et non pas à sa fondation.
+
+\textbf{{[}9{]}} Le Nihon Shoki parle par ailleurs d'une présence importante de ces peuplades Was sur la péninsule à travers le mythique royaume de Minima qui aurai appartenu au royaume de Yamato et qui aurai été perdu au profit de Silla. Cependant selon les historiens celui-ci serai largement fantasmé et l'existence d'un royaume Wa à part entière sur la péninsule est particulièrement difficile à prouver dans l'état actuel des connaissances sur cette période.
+
+\textbf{{[}10{]}} Il est à noter que plusieurs théories concurrentes existent quant à ce que désigne exactement ces nouvelles provinces administratives. Par exemple, selon certains, Goguryeo serai divisé entre le Naepyeong qui désigne la région sous influence directe de la capital et le Waepyeong, qui englobe le reste du territoire, qui serai lui-même divisé en 5 provinces ayant chacune à leur tête un Yoksal. D'autres estiment en revanche qu'il y aurai eu un total de 10 provinces ce qui ferai un total de 10 yoksals etc\ldots{}
+
+\textbf{{[}11{]}} C'est aussi sous ce roi que le bouddhisme devient officiellement accepté à Goguryeo et qu'est publié le premier code juridique qui fonde les bases de Goguryeo tel qu'il est à son apogée.
+
+\textbf{{[}12{]}} La diplomatie des otages consiste pour un pays en l'envoi de jeunes gens de haut rang, souvent des membres d'une lignée royale, dans un pays allié pour qu'ils servent de garantie afin d'éviter que l'alliance ne soit brisée. C'est cette même politique qui finira par jouer contre Goguryeo en alimentant la division entre le camp Silla pro-Goguryeo et le camp Silla anti-Goguryeo.
+
+\section{Bibliographie}
+
+\begin{itemize}
+\item
+  Michael J.Seth, \emph{A history of Korea -- From Antiquity to the present}, 2010, Rowman \& Littlefield Publishers
+\item
+  Kyung Moon Hwang, \emph{A History of Korea}, 3rd edition, 2021, Palgrave
+\item
+  Kim Taesik, \emph{Koguryeo and Gaya - contacts and consequences}, Hungik universitt, journal of Northeast Asian History, Vol. 4 n°1 (p41-82), 2007
+\item
+  Jung Woon Yong, \emph{Trends in Koguryo's relationship with Paekche and Silla during the 4th -- 7th centuries}, International Journal of Korean history, Vol. 8, 2006
+\item
+  Mark Byington, \emph{The War of Words Between South Korea and China Over An Ancient Kingdom : Why Both sides are misguided}, history news network, Columbian college of arts \& science, The George Washington university, 2004
+\item
+  Thomas Chase, \emph{Nationalism and the Net} \emph{: online discussion of Goguryeo history in China and South Korea}, Monash university, China Information, 2011
+\item
+  John Stuart Mill, \emph{Considerations on Representative Government}, 1861, chapitre XVI, «~Of Nationality, as Connected with Representative Government~»
+\item
+  Noh Taedon, \emph{Korea's Ancient Koguryo Kingdom : A Socio-political History}, global oriental, 2014
+\item
+  Kim Chang-seok, \emph{Goguryeo Society and Its Economy}, The Review of Korean Studies, Vol.7 n°4, 2004
+\item
+  Jeon Ho-tae\emph{, Goguryeo Culture and Mural Paintings}, The Review of Korean Studies, Vol.7 n°4, 2004
+\end{itemize}
+
+\end{document}

@@ -11,17 +11,9 @@
     "fr": "Resources/writing/quad-article-series-fr.pdf",
     "en": "Resources/writing/quad-article-series.pdf"
   },
-  "goguryeo-1": {
-    "fr": "Resources/writing/goguryeo-1.pdf",
-    "en": "Resources/writing/goguryeo-1-en.pdf"
-  },
-  "goguryeo-2": {
-    "fr": "Resources/writing/goguryeo-2.pdf",
-    "en": "Resources/writing/goguryeo-2-en.pdf"
-  },
-  "goguryeo-3": {
-    "fr": "Resources/writing/goguryeo-3.pdf",
-    "en": "Resources/writing/goguryeo-3-en.pdf"
+  "goguryeo": {
+    "fr": "Resources/writing/goguryeo.pdf",
+    "en": "Resources/writing/goguryeo-en.pdf"
   },
   "olmeques": {
     "fr": "Resources/writing/olmeques.pdf",

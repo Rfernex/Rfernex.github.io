@@ -16,17 +16,9 @@
     "fr": "Resources/writing/quad-article-series-fr.pdf",
     "en": "Resources/writing/quad-article-series.pdf"
   },
-  "goguryeo-1": {
-    "fr": "Resources/writing/goguryeo-1.pdf",
-    "en": "Resources/writing/goguryeo-1-en.pdf"
-  },
-  "goguryeo-2": {
-    "fr": "Resources/writing/goguryeo-2.pdf",
-    "en": "Resources/writing/goguryeo-2-en.pdf"
-  },
-  "goguryeo-3": {
-    "fr": "Resources/writing/goguryeo-3.pdf",
-    "en": "Resources/writing/goguryeo-3-en.pdf"
+  "goguryeo": {
+    "fr": "Resources/writing/goguryeo.pdf",
+    "en": "Resources/writing/goguryeo-en.pdf"
   },
   "olmeques": {
     "fr": "Resources/writing/olmeques.pdf",
@@ -127,15 +119,15 @@
       action: 'Lire la série (PDF) →'
     },
     {
-      label: 'Série de trois articles',
+      label: 'Article',
       title: 'Les origines de la Corée et le royaume de Goguryeo : entre récits nationalistes et réalités historiques',
-      description: 'Une série de trois articles sur les origines de la Corée et le royaume de Goguryeo, dont la Chine et la Corée revendiquent toutes deux l’héritage. Elle confronte les récits nationalistes aux sources historiques sur la naissance du royaume, son essor et la période des Trois Royaumes.',
-      actions: ['Partie I (PDF)', 'Partie II (PDF)', 'Partie III (PDF)']
+      description: 'Un article sur les origines de la Corée et le royaume de Goguryeo, dont la Chine et la Corée revendiquent toutes deux l’héritage. Il confronte les récits nationalistes aux sources historiques sur la naissance du royaume, son essor et la période des Trois Royaumes.',
+      action: 'Lire l’article (PDF) →'
     },
     {
       label: 'Historiographie',
       title: 'Les Olmèques, pionniers ou simples acteurs d’une première « régionalisation » en Amérique du Sud ?',
-      meta: 'Partie I, brève historiographie du « problème olmèque »',
+      meta: 'Brève historiographie du « problème olmèque »',
       description: 'Un panorama des études sur les Olmèques, du XVIIIe siècle au début des années 1980, et de leurs principaux courants : les Olmèques furent-ils les pionniers d’une première régionalisation ou simplement l’un de ses acteurs ? L’article s’ouvre sur l’idée de changement de paradigme de Thomas Kuhn pour expliquer l’évolution de ce débat au fil des découvertes archéologiques.',
       action: 'Lire l’article (PDF) →'
     },

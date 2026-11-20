@@ -5,7 +5,7 @@ toc: true
 toc-depth: 2
 css: [styles.css, assets/writing-language.css]
 include-after-body:
-  text: '<script src="assets/writing-language.js" defer></script><script src="assets/portrait-reader.js" defer></script><script src="assets/dossier-cover.js" defer></script><script src="/assets/site.js" defer></script>'
+  text: '<script src="assets/writing-language.js?v=2" defer></script><script src="assets/portrait-reader.js" defer></script><script src="assets/dossier-cover.js" defer></script><script src="/assets/site.js" defer></script>'
 ---
 
 ```{=html}
@@ -71,17 +71,17 @@ A three-part series on the Quad, which brings together Japan, Australia, India a
 ## History articles
 
 ::: {.work-entry}
-[Article series, three parts]{.eyebrow}
+[Article]{.eyebrow}
 
-### The origins of Korea and the kingdom of Goguryeo: between nationalist narratives and historical realities
+### [The origins of Korea and the kingdom of Goguryeo: between nationalist narratives and historical realities](Resources/writing/goguryeo-en.pdf)
 
 <div class="meta"><span>2022</span><span class="lang" data-document-language>In English</span></div>
 
-A three-part series on the origins of Korea and the kingdom of Goguryeo, whose legacy China and Korea both claim, contrasting nationalist narratives with what historical sources tell us about the kingdom’s emergence, its rise, and the period of the Three Kingdoms.
+An article on the origins of Korea and the kingdom of Goguryeo, whose legacy China and Korea both claim. It contrasts nationalist narratives with what historical sources tell us about the kingdom’s emergence, its rise, and the period of the Three Kingdoms.
 
-[Part I (PDF)](Resources/writing/goguryeo-1-en.pdf) · [Part II (PDF)](Resources/writing/goguryeo-2-en.pdf) · [Part III (PDF)](Resources/writing/goguryeo-3-en.pdf)
+[Read the article (PDF) →](Resources/writing/goguryeo-en.pdf)
 
-<noscript><p>Other language: <a href="Resources/writing/goguryeo-1.pdf" lang="fr" hreflang="fr">Français — 1</a> · <a href="Resources/writing/goguryeo-2.pdf" lang="fr" hreflang="fr">Français — 2</a> · <a href="Resources/writing/goguryeo-3.pdf" lang="fr" hreflang="fr">Français — 3</a></p></noscript>
+<noscript><p>Other language: <a href="Resources/writing/goguryeo.pdf" lang="fr" hreflang="fr">Français</a></p></noscript>
 :::
 
 ::: {.work-entry}
@@ -89,7 +89,7 @@ A three-part series on the origins of Korea and the kingdom of Goguryeo, whose l
 
 ### [The Olmecs: pioneers or participants in an early “regionalisation” in South America?](Resources/writing/olmeques-en.pdf)
 
-<div class="meta"><span>Part I, brief historiography of the “Olmec problem”</span><span>2022</span><span class="lang" data-document-language>In English</span></div>
+<div class="meta"><span>A brief historiography of the “Olmec problem”</span><span>2022</span><span class="lang" data-document-language>In English</span></div>
 
 An overview of Olmec studies from the eighteenth century to the early 1980s and of their main schools of thought, on whether the Olmecs pioneered a first regionalisation or were simply one of its actors. It opens on Thomas Kuhn’s idea of paradigm shifts to explain why this debate kept changing as archaeological discoveries accumulated.
 

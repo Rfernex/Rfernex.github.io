@@ -1,0 +1,162 @@
+\documentclass[11pt,a4paper]{article}
+% Compile with XeLaTeX (fontspec and xeCJK).
+\usepackage{fontspec}
+\setmainfont{LibertinusSerif}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic,BoldItalicFont=*-BoldItalic]
+\setsansfont{LibertinusSans}[Extension=.otf,UprightFont=*-Regular,BoldFont=*-Bold,ItalicFont=*-Italic]
+\usepackage{xeCJK}
+\setCJKmainfont{Hiragino Mincho ProN}
+\xeCJKDeclareCharClass{Default}{"00B7, "2014, "2018 -> "201F, "2026}
+\usepackage[french]{babel}
+\usepackage[a4paper,margin=2.5cm,top=2.3cm]{geometry}
+\usepackage{graphicx}
+\usepackage{xcolor}
+\usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage[hidelinks]{hyperref}
+\definecolor{accent}{RGB}{31,73,125}
+\definecolor{muted}{RGB}{93,104,119}
+\hypersetup{colorlinks=true,urlcolor=accent,linkcolor=accent,pdfauthor={Romain Fernex},pdftitle={Les Olmèques, pionniers ou simples acteurs d’une première « régionalisation » en Amérique du Sud ?}}
+\providecommand{\tightlist}{\setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+\providecommand{\ul}[1]{\underline{#1}}
+\setcounter{secnumdepth}{0}
+\titleformat{\section}{\large\bfseries\color{accent}}{}{0em}{}
+\setlength{\parindent}{1.2em}
+\setlength{\parskip}{0.35em}
+\pagestyle{fancy}
+\fancyhf{}
+\fancyhead[L]{\small\color{muted}Romain Fernex}
+\fancyhead[R]{\small\color{muted}\itshape Les Olmèques}
+\fancyfoot[C]{\small\color{muted}\thepage}
+\renewcommand{\headrulewidth}{0pt}
+\newcommand{\articlefigure}[2]{%
+  \begin{center}
+  \includegraphics[width=0.55\linewidth,height=6.5cm,keepaspectratio]{#1}%
+  \ifx\relax#2\relax\else\par\smallskip{\small\itshape\color{muted}#2\par}\fi
+  \end{center}}
+
+\begin{document}
+\thispagestyle{empty}
+\noindent{\small\sffamily\color{accent}\MakeUppercase{Archéologie et historiographie}}\par\medskip
+\noindent{\LARGE\bfseries Les Olmèques, pionniers ou simples acteurs d’une première « régionalisation » en Amérique du Sud ?\par}
+\smallskip\noindent{\large\itshape Brève historiographie du « problème olmèque »\par}
+\medskip
+\noindent{\color{accent}\rule{\linewidth}{0.8pt}}\par\smallskip
+\noindent{\small\color{muted}Romain Fernex · 2022 · Article en français}\par\bigskip
+
+``The man who is striving to solve a problem defined by existing knowledge and technique is not, however, just looking around. He knows what he wants to achieve, and he designs his instruments and directs his thoughts accordingly. Unanticipated novelty, the new discovery, can emerge only to the extent that his anticipations about nature and his instruments prove wrong. . . . There is no other effective way in which discoveries might be generated.''
+
+Dans \emph{La structure des révolutions scientifiques}, le philosophe des sciences Américains, Thomas Samuel Kuhn avance que pour que la science avance réellement il est souvent nécessaire d'opérer un changement de paradigme. De fait, changer de paradigme implique de changer de modèle d'interprétation et donc de changer notre façon de voir le monde. La théorie, après un temps de «~cristallisation~» suffisant, que l'on cherche à tenir pour vraie influence comment nous envisageons nos découvertes car elle nous pousse à les faire rentrer dans un cadre préconçu. Comme le soutient le philosophe des sciences français Gaston Bachelard «~le microscope est un prolongement de l'esprit plutôt que de l'œil~». Ce dernier fait cette remarque pour souligner le fait qu'aucune méthode observation solide ne s'aurai être pensé sans l'appui de la théorie qui donne une direction à tout travail de recherche. Cependant si la théorie est indispensable, Thomas S. Kuhn avance qu'à laisser une théorie s'imposer trop longtemps elle finit par se «~cristalliser » et être mobilisée pour penser des choses sur lesquelles elle ne porte pourtant pas.
+
+Mais alors pourquoi ce paragraphe introductif d'épistémologie pour traiter d'histoire~? Comme souvent en histoire, et plus particulièrement en histoire ancienne où l'archéologie a un rôle capital à jouer, la position des historiens sur un sujet évolue au cours des découvertes et il est parfois nécessaire de comprendre l'histoire des découvertes elles-mêmes afin de réfléchir à leur objet. C'est ce qui nous permet de mieux comprendre quelles grandes positions s'opposent dans des débats historiques souvent multiformes et en perpétuel redéfinition du fait des changements de paradigme opérée par la communauté des historiens au fil de leurs avancées.
+
+Parmi ces nombreux débats, l'on trouve le fameux «~problème Olmèque {[}1{]} ». Longtemps défini comme un des premiers peuples majeurs de Mésoamérique, et plus particulièrement du Sud Veracruz, le long du golfe du Mexique, les Olmèques font l'objet de débats houleux quant à leur exact définition et quant à l'importance de l'influence qu'ils ont pu avoir sur le développement de toutes les grandes civilisations «~indigènes~» qui ont pu suivre dans la région avant l'arrivée des Espagnols. Ce débat, qui est loin d'être tranché aujourd'hui, a pris de nombreuses formes depuis le début des recherches au début du 20\textsuperscript{ème} siècle et il est important de saisir ces évolutions pour penser le «~problème Olmèque~» dans son cadre actuel.
+
+Présenter une brève historiographie de la question Olmèque pour mieux traiter des débats actuels autour de l'influence et de la nature des Olmèques, voilà l'objectif de cet article.
+
+Nous décrirons dans un premier temps la controverse liée à l'apparition même des Olmèques comme champs de recherche et verrons comment ils ont réussi à s'imposer dès 1942 comme un thème incontournable de l'étude de l'histoire ancienne de l'aire mésoaméricaine.
+
+Puis nous nous intéresserons à la manière dont la perception du rôle des Olmèques dans la riche histoire de l'Amérique précolombienne a été progressivement mis à l'épreuve jusqu'au séminaire de 1983 qui marque un changement majeur de paradigme.
+
+Enfin nous verrons brièvement certains des travaux majeurs survenus entre le début des années 1980 et le début des années 2000 afin de mieux comprendre en quoi cette transformation a pu influencer le paysage de la recherche actuelle sur la question Olmèque.
+
+Tout d'abord, d'où nous vient le terme d'Olmèque~? Le terme d'Olmèque provient du nahuatl, la langue du peuple aztèque {[}2{]}, et plus particulièrement de la racine « ollin~» signifiant «~caoutchouc~». Aussi, Olmèque peut être traduit par «~peuple du caoutchouc~», terme dû à la présence et l'usage de longue date de cette ressource sur le continent américain. Le missionnaire franciscain espagnol Bernadino de Sahagun est le premier à mentionner ce terme dans le \emph{Codex de Florence}, ouvrage publié au XVIème siècle, traitant des pratiques et légendes des populations amérindiennes de la Nouvelle Espagne. Le père Sahagun précise que le terme d'Olmeca aurai été utilisé par les aztèques pour désigner un peuple ancien de Tabasco, une région limitrophe du littoral du Golfe du Mexique. Plus de deux siècles plus tard, en 1892, Francisco del Paso y Troncoso est un des premiers archéologues à parler de type Olmèque~pour désigner certaines de ses trouvailles dans les régions de Guerrero et Morelos au Mexique. Cependant, il faut attendre 1928 et les travaux de l'archéologue américain George Vaillant dans le Sud Veracruz et à Tabasco pour que le lien soit fait entre le «~peuple du caoutchouc~» décrit par les chroniques aztèques et les découvertes archéologiques dans la région. Le concept de «~style olmèque~», très utilisé par la suite, se démocratise lui vers 1935.
+
+Néanmoins ces premières découvertes s'accompagnent d'une première controverse majeure concernant la datation de ces trouvailles et le positionnement de la civilisation olmèque dans la chronologie des grandes civilisations mésoaméricaines. Celle-ci voit s'opposer les «~mayanistes~», comme l'archéologue britannique J.Eric S. Thompson, qui soutiennent que les mayas sont la vraie première civilisation de la Mésoamérique, et les archéologues qui veulent faire des Olmèques la vraie «~culture mère~» de la région. A la fin des années 1930, Matthew Stirling et Alfonso Caso découvrent, près de la rivière de Papaloapan , sur le site de Tres Zapotes, une version du calendrier de compte long, jusqu'à présent associé aux Mayas, antérieure à la période Maya. Cette découverte ainsi que plusieurs autres poussent les chercheurs mexicains Alfonso Caso et Miguel Covarrubias, soutenu par Georges Vaillant, à développer la thèse des olmèques comme «~culture mère~».
+
+Le premier vrai tournant des études Olmèques intervient en avril 1942 avec un séminaire de la Sociedad Mexicana de Anthropologia portant sur «~les problèmes liés à l'anthropologie au Mexique et en Amérique Centrale~». Dès le début du séminaire, le terme Olmèque pour désigner une culture à part entière est accepté par l'ensemble de la communauté scientifique. Plus important encore, Caso, Covarrubias et Vaillant présentent leur thèse et Matthew Stirling présente ses trouvailles provenant du site de La Venta, premier site majeur de la culture Olmèque et qui jouera un rôle capital dans l'étude de cette civilisation. L'importance de ces découvertes, permet aux soutiens de la théorie des olmèques comme «~culture mère~» d'avoir le dernier mot sur les mayanistes. C'est cette avancée qui aura une influence majeure sur l'ensemble des recherches portant sur les olmèques pour plusieurs décennies à venir.
+
+Si la position des mayanistes a fortement perdue en crédibilité depuis la conférence de 1942, le dernier clou dans le cercueil des thèses mayanistes est planté en 1955 suite aux investigations de Philip Drucker et Robert F.Heizer sur les sites de La Venta et Tlatilco. Ceux-ci parviennent en effet à montrer que nombre de leurs découvertes sont bien antérieures à l'époque Maya (de l'ordre de plusieurs siècles). Cette avancée vaut d'ailleurs à Philip Drucker d'être propulsé devant Matthew Stirling comme plus grand «~olmequista~»{[}3{]}. De fait, 10 ans plus tôt, les découvertes de M. Stirling à San Lorenzo, notamment celle d'une «~tête colossale~» sculptée dans la pierre, élément récurent du style olmèque, et son rôle de premier plan en 1942 avec La Venta, avaient valu à celui-ci une réputation considérable. Parmi les découvertes majeures des années 1950-1960, l'on peut aussi mentionner les travaux de M. Coe et de F. Heizer, là encore sur le site de La Venta, qui permettent de proposer une première estimation pour les dates de la civilisation Olmèque qu'ils placent entre 1000 et 600 avant Jésus Christ -- dates qui seront partiellement remises en question par la suite.
+
+Les 28 et 29 octobre 1967, une seconde conférence dédiée aux études olmèques a lieu. Heizer et Coe y présentent leur travaux et Ignacio Bernal présente pour la première fois sa théorie d'un empire olmèque. Selon I.Bernal, les Olmèques étaient une puissance coloniale majeurs, possédant des ramifications partout en Mésoamérique afin de s'assurer d'avoir la mainmise sur la grande majorité des marchandises nécessaires à sa subsistance comme le Cacao, l'obsidienne ou encore le blé. Cette théorie, bien que controversée déjà à l'époque, jouera un rôle important et fera de lui le chef de file des partisans de la théorie de la «~culture mère~». Face à cette vision d'un empire olmèque belliciste et expansionniste, Kent Flannery décrit, sur la base de ses travaux dans la vallée d'Oaxaca et le long du Golfe du Mexique, un modèle d'influence Olmèque basé sur le commerce et les mariages politiques plutôt que la conquête. Ainsi la controverse autour de la question olmèque commence à bouger de l'opposition Mayaniste contre Olmèquistas à une opposition entre Olmèquistas en faveur d'une civilisation olmèque toute puissante et Olmèquistas qui cherchent à nuancer le pouvoir quasi impérial que certains prêtent désormais aux Olmèques.
+
+En dépit de ces nombreuses avancées, les années 1970 sont marquées par un ralentissement des activités de recherches au Mexique pour des raisons politiques et économiques. En effet, le gouvernement mexicain passe une loi en 1972 qui vient restreindre fortement la possibilité pour les étrangers d'effectuer des recherches sur le territoire mexicain. La taille des fonds alloués aux activités de recherche diminue aussi de manière conséquente au profit du tourisme. Cependant cela ne suffit pas pour décourager la communauté scientifique qui décide de multiplier les projets dans les pays limitrophes du Mexique comme au Guatemala avec les travaux de John Graham sur le site de Takalik Abal. C'est sur ce site qu'est identifié l'unique tête colossale de style olmèque hors du Mexique. Cette poussée vers l'extérieur encourage aussi les historiens et archéologues à penser plus en détails le volume et la nature des interactions entre les Olmèques et le reste de l'Amérique centrale. Sur le plan économique, William Rathje se penche par exemple sur le rôle du réseau de commerce d'obsidienne, qui émerge dès le début de la période formative {[}4{]}, dans l'apparition de sociétés complexes chez les Olmecs et chez les mayas.
+
+Néanmoins, du côté du Mexique, on peut tout de même noter plusieurs travaux majeurs~: Dans le Chiapas, la New World Archaeological Foundation met à jour une multitude d'objets et de gravures de style Olmèque qui laissent supposer une importante connexion entre le «~heartland~» olmèque le long de la côte et la région enclavée du Chiapas. Sur le plan religieux, David C. Grove met à jour, sur le site de La Venta, un autel qu'il suppose être un trône dédié à un seigneur Olmèque. Il en profite d'ailleurs pour avancer plusieurs interprétations concernant la figure mythologique du «~were-jaguar~» (créature présentant les traits de l'homme et du jaguar) {[}5{]}, souvent représentée sur les autels trouvables dans les différents sites sacrés identifiés comme Olmèque. Celui-ci trace ainsi un parallèle entre la cosmogonie du peuple Paez {[}6{]} qui associe leur origine au croisement entre un homme et un jaguar, et le mythe olmèque du were-Jaguar. Par ailleurs, en 1968, Michael Coe, dans un ouvrage majeur en faveur du modèle de la «~mère culture~», affirme que la figure divine «~were-jaguar~» n'est qu'une partie d'un large panthéon de dieux olmèque qui aurai servi de base à un socle théologique commun qui se retrouve dans la grande majorité des grandes civilisations qui ont suivi en Mésoamérique.
+
+Cependant, nombre de ces découvertes s'accompagnent de remises en cause du modèle, jusque-là dominant, de la «~mère culture~». De fait, l'absence de preuve suffisantes et la montée de nouveaux questionnements sur la définition de ce qui fait «~l'Olméquité~» nourrit le scepticisme d'une partie de la communauté des chercheurs qui estiment que le terme olmèque a parfois été utilisé abusivement pour designer toutes nouvelles trouvailles suffisamment anciennes pour y être affiliée. Aussi, la vision d'un peuple olmèque qui ne serai qu'un parmi d'autre prend-elle aussi de l'importance.
+
+La rivalité entre ces deux tendances contraires culminera en 1983, lors d'un nouveau séminaire qui marque un changement brutal de paradigme pour l'ensemble des olmèquistas et qui influence encore aujourd'hui leurs travaux.
+
+Organisé par la Advanced school of American research et intitulé regional perspectives on the olmecs, le séminaire de 1983 est unique en ce qu'il soulève de nombreux problèmes qui existent depuis le début des études olmèques mais n'avaient été relevé de manière formelle que par une minorité de chercheurs.
+
+Avant d'en décrire le contenu il s'agit de se demander pourquoi une telle réalisation a été possible seulement à cette date et non pas au cours des séminaires précédents. La raison principale qui permet ce recul critique, et qui a déjà été brièvement évoqué plus haut, c'est l'expansion des recherches hors du territoire mexicain. Un des organisateurs du séminaire Robert J.Sharer souligne d'ailleurs «~l'ironie qui veut que l'on en sache plus sur les origines {[}\ldots{]} de nombreuses sociétés hors du littoral mexicain que sur la civilisation olmèque elles même~». De fait, si ces nouveaux travaux loin du golfe du Mexique ont permis de mettre à jour plusieurs éléments présentant le «~style olmèque~» hors du «~heartland~» olmèque\ldots ils poussent aussi les chercheurs à questionner dans quelle mesure l'attribut de «~style olmèque~» est pertinent pour désigner des réalités qui sont pourtant souvent très diverses.
+
+Malgré cela, il n'y a pas lieu de voir le séminaire de 1983 comme une transformation soudaine mais bien comme l'aboutissement de décennies de réflexion de la part d'archéologues qui sont pour la plupart conscients de ces problèmes, mais se refusent parfois à les exprimer complètement du fait de leur attachement à une certaine vision de ce que doit être la civilisation olmèque.
+
+Mais alors, quels sont ces problèmes~? Le premier, et certainement le plus complexe, tient à la définition même de ce qui est désigné comme olmèque. Comme le rappelle David C.Grove la théorie de l'influence olmèque se base surtout sur des éléments artistiques qui viendraient définir un «~style olmèque~» observable à de nombreux endroits et qui est utilisé pour montrer le lien entre ces territoires et les olmèques en tant que culture ou civilisation. Richard Diehl relève lui l'existence d'une ambiguïté de taille entre la désignation d'une œuvre comme étant de style olmèque et ce qu'on caractérise comme appartenant à la culture olmèque telle qu'elle est identifiée dans son «~heartland~» le long du Golfe du Mexique. Cette confusion pèse d'autant plus sur le diagnostic des archéologues que la notion de style olmèque a souvent été utilisé de manière trop libérale par certains chercheurs. Cela entraine une remise en question majeure de la vision d'un modèle d'influence olmèque impérialiste dont nombre de preuves se trouvent alors être particulièrement précaires en l'absence de découvertes plus solides qui iraient dans ce sens. Il en vient la conclusion que les cultures hors du Golfe du Mexique doivent être étudié non pas comme étant ou non en lien avec les olmèques mais bien pour ce qu'elles sont en tant qu'entités propres. Certains vont même plus loin à l'image de Donald Lathrap qui développait déjà en 1964 l'idée d'un ensemble de croyances panaméricain qui préexisterai à la civilisation olmèque.
+
+Le deuxième problème porte lui davantage sur la nature et l'étendue de l'influence des olmèques en tant que civilisation. Joyce Marcus qui présente le résultat de ses recherches dans la vallée d'Oaxaca, région longtemps considérée comme proche des olmèques, et à Chalcatzingo n'hésite pas à dire qu'il est trop simple de considérer le développement de sociétés complexes dans cette zone comme le résultat d'une quelconque influence olmèque. Si l'idée d'une connexion commerciale entre ces territoires et la nation olmèque fait peu de doute, il est probable que cette diffusion se soit limitée à certaines croyances et symboles spécifiques. Enfin il décrit l'écosystème religieux de la Mésoamérique comme étant relativement hétérogène, malgré de nombreuses similarités, et exclu, à l'époque, la possibilité d'une religion unique qui aurait dominé cet ensemble.
+
+Hors du Mexique, Robert J.Sharer, qui a travaillé, entre autre, sur le site de Tibas au Costa Rica, souligne la présence d'artéfacts olmèques mais avance aussi la thèse d'un développement local, construit sur des échanges avec plusieurs civilisations voisines dont les olmèque sont un acteur parmi d'autres. Dans ce même effort de nuancer le rôle des olmèques dans les relations interrégionales, il distingue plusieurs types d'interactions~: d'une part les échanges indirects qui se font par l'intermédiaire d'un tiers et ou la civilisation récipiendaire d'artéfacts olmèques possède ces derniers mais n'a que peu ou pas d'idée de la symbolique que la culture olmèque leur prête. Cela explique les nombreuses découvertes d'artéfacts visiblement inspiré par l'art olmèque mais réinterprété en intégrant des éléments locaux. D'autre part, dans des cas plus spécifiques et souvent limité aux régions limitrophes du «~heartland~» olmèque, il existe des échanges directs. Ceux-ci ne prennent rassemblement pas la forme extrême d'une occupation physique du territoire voisin mais témoignent d'une intégration de la culture olmèque tant sur le plan matériel que conceptuel.
+
+Le meilleur exemple de ces échanges directs sont souvent les sculptures monumentales de têtes qui sont caractéristiques de la civilisation olmèque.
+
+Le troisième et dernier problème soulevé lors de ce séminaire, lui aussi lié à la définition de ce qu'est la civilisation olmèque, relève à la fois de la chronologie et de la, ou plutôt des, formation politique que le peuple olmèque a pu prendre.
+
+A la lumière des nombreuses critiques décrites précédemment, la vision d'une civilisation olmèque comme «~culture sœur~» et non plus comme «~culture mère~» prend davantage de poids et s'impose dans la majeure partie de la communauté scientifique. Malgré cela, elle ne triomphe pas pour autant, et le réel succès de ce séminaire est plutôt à trouver dans la formulation d'une multitude de nouveaux objectifs de recherche qui transforment radicalement le domaine des études olmèques. On ne cherche plus à prouver à tout prix l'influence olmèque dans telle ou telle région, mais bien à déterminer les spécificités de chaque région et à comprendre le paysage social, économique et religieux (voir même géographique) de la Mésoamérique à l'époque olmèque dans sa globalité.
+
+Comme l'observe Arthur A.Demarest, l'année 1983 est la manifestation d'une «~crise de confiance~» en les études olmèques. Les olméquistas réalisent que les études olmèques sont devenues «~une superstructure érigée à partir d'inférences et d'interprétations qui reposent souvent sur des bases fragiles~».
+
+Le séminaire de 1983 marque un tournant dans les études olmèques. La question de la «~culture mère~» ou de la «~culture sœur~» reste ouverte, mais les termes du débat ont changé. Le séminaire invite à étudier les spécificités de chaque région et les relations qu’elles entretenaient entre elles.
+
+\textbf{Notes~:}
+
+\textbf{{[}1{]}}Le terme de «~problème~olmèque~» n'est pas propre à cet article et à déjà été utilisé dans sa formulation anglaise par des chercheurs en études olmèques tel que Christopher Pool dans Olmec Archeaology and early Mesoamerica (cf p15). Il est, dans la description qu'en fait C.Pool, le reflet de l'opposition entre deux paradigmes concernant l'évolution des civilisations~: L'un qui veut que la civilisation naissent d'un ensemble de micro sociétés,~qui, du fait d'un contexte particulier, sont poussées vers un niveau d'intégration socio-politique plus avancé et qui sont la source d'une diffusion de ce nouveau standard de développement vers d'autres sociétés moins avancées. L'autre voit la naissance des civilisations comme un processus complexe qui nait de l'interaction de multiples sociétés entre elles. En d'autres termes, dans l'un, un petit nombre de sociétés plus avancés sont à la source du développement des autres, alors que dans l'autre, c'est l'interaction de sociétés de niveau similaire qui permet l'apparition de la civilisation.
+
+Il est à noter que, pour les besoins de cet article, j'ai choisi d'incorporer dans la notion de «~problème olmèque~», le débat autour de la signification du terme Olmèque.
+
+\textbf{{[}2{]}}Si la date d'apparition exacte de la langue Nahuatl est encore l'objet de débats parmi la communauté des linguistes, elle est souvent associé à l'époque des aztèques dont elle était la langue principale. Cependant, bien que le nombre de locuteurs du nahuatl ai fortement diminué après la conquête espagnole, on compte encore en 2020 près de 1,7 millions de mexicains qui parlent cette langue couramment.
+
+\begin{itemize}
+\item
+  Source~: \url{https://cuentame.inegi.org.mx/hipertexto/todas_lenguas.htm}
+\end{itemize}
+
+\textbf{{[}3{]}}Le mot olmequista est couramment utilisé par la communauté des chercheurs en études olmèques pour se désigner eux même. Il provient de l'espagnol étant donné qu'une part importante des chercheurs actifs dans ce domaine d'étude sont d'origine mexicaine.
+
+\textbf{{[}4{]}}Dans un sujet comme celui-ci, savoir dater avec précision l'émergence et la «~chute~» d'une civilisation est un enjeu majeur comme l'a montré le débat entre mayanistes et olmequistas. Voici quelques repères pour situer ce débat~:
+
+\begin{itemize}
+\item
+  L'histoire de l'Amérique précolombienne est souvent divisée en 4 grandes périodes~: la période paléo-indienne ou archaïque, la période formative, la période classique et enfin la période postclassique qui se termine avec le début de la colonisation espagnole de l'Amérique~marquée par l'arrivée de Hernan Cortès à Veracruz.
+\item
+  La période la plus souvent associée avec les olmèques est la période formative, elle-même divisée en 3 parties distinctes. Le début de la partie formative est marqué par l'apparition de 3 sites majeurs associées à la culture olmèques~: les sites de La Venta, San Lorenzo et Tres Zapotes. Si la datation de ces sites est complexe encore aujourd'hui, il est communément admis que San Lorenzo était la ville la plus importante au début de la civilisation olmèque. Cependant c'est la ville de La Venta qui est la plus souvent associée à l'acmé de la civilisation olmèque. Un statut qu'elle acquiert dans le courant de la période formative en parallèle du déclin progressif de San Lorenzo.
+\item
+  La chronologie de Tres Zapotes est plus difficile à établir.
+
+\begin{itemize}
+  \item
+    \textbf{Source~:} Richard A. Diehl, \emph{The Cambridge History of the Native People of the Americas}, Vol. 2, Mesoamerica, Part I, chapter 4 : the pre-Columbian cultures of the gulf coast, 2000
+  \end{itemize}
+\end{itemize}
+
+\articlefigure{media/media/image1.png}{}
+
+\textbf{{[}5{]}}Sur le plan religieux, Il est à noter que la signification de la figure du «~were-jaguar~» a été l'objet de nombreux débats parmi les olmequistas, notamment concernant le «~dieu~» à lui associer. L'entité spirituelle -- le terme de dieu est à éviter étant donné qu'il est trop occidentalo-centré -- qui lui est le plus souvent associée est l'esprit de la pluie. Cependant certains archéologues comme David C.Grove lui ont également associé d'autres éléments comme le ciel nocturne ou le monde des morts.
+
+\textbf{{[}6{]}}Le peuple Páez est un peuple amérindien présent uniquement en Colombie et qui compte environ 186 000 représentants à l'heure actuelle.
+
+\textbf{Sources~:}
+
+\begin{itemize}
+\item
+  Thomas S. Kuhn, \emph{The structure of scientific revolutions}, chapter IX, The nature and necessity of scientific revolutions, 1962
+\item
+  Gaston Bachelard, \emph{La formation de l'esprit scientifique,} chapitre XII, Objectivité scientifique et psychanalyse, 1934
+\item
+  Michael D.Coe \& Rex Koontz, \emph{Mexico~: from the Olmecs to the Aztecs}, seventh edition, 2013
+\item
+  Robert J.Sharer \& David C. Grove, \emph{Regional perspectives on the Olmecs}, Advanced seminar of the school of American Research, Cambridge university press, 1989
+\item
+  Christopher A.Pool, \emph{Olmec Archaeology and early Mesoamerica}, Cambridge university press, 2012
+\item
+  David C.Grove, \emph{Olmec altars and myths,} Archaology, Vol. 26, N°2, 1973
+\item
+  Michael D.Coe, \emph{America's First civilization,} 1968
+\end{itemize}
+
+Abstract :
+
+Cet article porte sur l'histoire des études olmèques du XVIIIème siècle au début des années 1980 et en analyse les principaux courants.
+
+\end{document}
