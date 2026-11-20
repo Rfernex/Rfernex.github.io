@@ -8,8 +8,8 @@ lightbox: auto
 
 ::: {.column-screen .radar-hero}
 ```{=html}
-<link rel="stylesheet" href="assets/econradar/hero.css?v=7">
-<canvas class="hero-field" data-dot="170,182,186" data-hot="124,214,204" data-sweep=".rh-sweep" aria-hidden="true"></canvas>
+<link rel="stylesheet" href="assets/econradar/hero.css?v=8">
+<canvas class="hero-field" data-dot="176,180,188" data-hot="123,140,255" data-sweep=".rh-sweep" aria-hidden="true"></canvas>
 <div class="rh-art" aria-hidden="true">
   <div class="rh-bg"></div>
   <div class="rh-beam"></div>
@@ -18,7 +18,7 @@ lightbox: auto
 </div>
 <div class="rh-flash" aria-hidden="true"></div>
 <div class="rh-inner">
-  <h1 class="rh-title">EconRadar</h1>
+  <div class="rh-title" role="heading" aria-level="1">EconRadar</div>
   <p class="rh-sub">My little app to keep up with the literature weekly, and now it's yours too!</p>
   <a class="radar-launch" href="https://rfernex.github.io/Apps/radar/">
     <span class="rl-ping" aria-hidden="true"></span>
