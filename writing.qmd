@@ -3,7 +3,7 @@ title: My Hobbies
 subtitle: Because economics is not the only thing that matters in life, this part of the site is strictly dedicated to pieces I wrote on other subjects that draw my interest. Enjoy the read!  
 toc: true
 toc-depth: 2
-css: [styles.css, assets/writing-language.css?v=2]
+css: [styles.css, assets/writing-language.css?v=3]
 include-after-body:
   text: '<script src="assets/writing-language.js?v=3" defer></script><script src="assets/portrait-reader.js" defer></script><script src="assets/dossier-cover.js" defer></script><script src="/assets/site.js" defer></script>'
 ---
@@ -41,7 +41,7 @@ include-after-body:
 ## Reports and analyses
 
 ::: {.work-entry}
-<div class="writing-thumb"><img src="assets/writing/eu-korea-fta-report.jpg" alt="" loading="lazy"></div>
+<div class="writing-thumb"><img src="assets/writing/eu-korea-fta-report.jpg?v=2" alt="" loading="lazy"></div>
 
 [Report]{.eyebrow}
 
@@ -107,7 +107,7 @@ An overview of Olmec studies from the eighteenth century to the early 1980s and 
 :::
 
 ::: {.work-entry}
-<div class="writing-thumb"><img src="assets/writing/femme-japonaise-ere-meiji.jpg" alt="" loading="lazy"></div>
+<div class="writing-thumb"><img src="assets/writing/femme-japonaise-ere-meiji.jpg?v=2" alt="" loading="lazy"></div>
 
 [Article]{.eyebrow}
 
