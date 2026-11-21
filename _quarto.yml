@@ -44,7 +44,7 @@ website:
         href: about.qmd
   page-footer:
     left: "© Romain Fernex · Economics · Set in IBM Plex"
-    right: "[CV](/Resources/CV_Romain_Fernex.pdf) · [GitHub](https://github.com/Rfernex) · [LinkedIn](https://www.linkedin.com/in/romain-fernex/) · [Contact](/about.qmd) · [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)"
+    right: "[CV](/Resources/CV_Romain_Fernex.pdf) · [GitHub](https://github.com/Rfernex) · [LinkedIn](https://www.linkedin.com/in/romain-fernex/) · [Contact](/about.qmd) · [Legal notice and privacy](/legal.qmd) · [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/)"
 format:
   html:
     theme: [cosmo, theme.scss]

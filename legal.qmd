@@ -1,0 +1,53 @@
+---
+title: Legal notice and privacy
+description: Who publishes this website and EconRadar, who hosts them, what data they handle, and the rights in their content.
+toc: true
+---
+
+This notice covers this website (rfernex.github.io) and the EconRadar app ([rfernex.github.io/Apps/radar](https://rfernex.github.io/Apps/radar/)). Last updated: 21 November 2026.
+
+## Publisher
+
+Both are published by Romain Fernex, as a private individual, on a non-commercial basis. Romain Fernex is also responsible for their content (publication director).
+
+Contact: [romain.fernex@sciencespo.fr](mailto:romain.fernex@sciencespo.fr)
+
+## Host
+
+GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 94107, United States. Contact: [support.github.com](https://support.github.com/contact).
+
+## Privacy
+
+**In short:** neither this website nor EconRadar has accounts, cookies, analytics, advertising, tracking or session recording. I do not collect, sell or share personal data.
+
+**Hosting:** GitHub serves the pages. To do so, GitHub receives your IP address and the usual technical details of your browser's request, and may keep them in its server logs for security. I have no access to those logs. See the [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
+
+**Fonts and scripts:** fonts (IBM Plex) are served from this website, not from Google Fonts or any other font service. Two pages that display mathematics (the master thesis and its appendix) load the MathJax library from jsDelivr and a compatibility script from cdnjs (Cloudflare): opening those pages sends your IP address to those services.
+
+**EconRadar:** what you do in the app (saved papers, read marks, notes, followed authors, filters, display settings) is kept in your browser's local storage, on your device only. It is never sent to me or to anyone else. You can delete it at any time by clearing this site's data in your browser. A backup file is created only when you ask for one, and stays on your device. If you choose to connect Zotero in the app's settings, your Zotero API key is stored in your browser, and the references you save are sent directly from your browser to Zotero ([Zotero privacy policy](https://www.zotero.org/support/privacy)).
+
+**Email:** if you write to me, I use your message and address only to reply, and keep them no longer than the conversation needs.
+
+**Links:** links to journals, publishers, GitHub or LinkedIn take you to sites with their own privacy policies.
+
+**Your rights:** under the General Data Protection Regulation (GDPR, the EU law on personal data), you can ask to access, correct or delete personal data about you, and object to its use, by writing to the address above. You can also complain to the French data protection authority, the [CNIL](https://www.cnil.fr/en/complaints).
+
+## Content and rights
+
+**This website:** unless stated otherwise, its texts and images are © Romain Fernex and may be shared under the [CC BY-ND 4.0](https://creativecommons.org/licenses/by-nd/4.0/) licence (credit the author, no modified versions).
+
+**Papers listed in EconRadar:** the papers, and their abstracts, belong to their authors and publishers. EconRadar does not host or reproduce them: each entry links to the publisher's page and, when one exists, to a legal open-access copy. Bibliographic details (titles, authors, institutions, dates, DOIs, links) come from [OpenAlex](https://openalex.org), [Crossref](https://www.crossref.org), [Semantic Scholar](https://www.semanticscholar.org) and [NBER](https://www.nber.org). Journal names are used only to say where a paper was published: EconRadar has no link with, and is not endorsed by, any journal, publisher or author.
+
+**Abstracts:** abstracts are read only to write each paper's summary and tags. They are never published, in the app or in its data files.
+
+**Removal requests:** if you are an author or a rights holder and want a summary corrected or an entry removed, write to the address above. I will act on it promptly.
+
+## AI-generated summaries
+
+Every research question, contribution, summary, conclusion line and identification line shown in EconRadar is written by a language model (mostly Claude, by Anthropic, and for a few papers free models reached through OpenRouter). Each paper's details name the model used. A paper appears in the app only once a model has summarised it.
+
+These summaries are produced automatically and can contain errors or omissions. They are a guide to decide what to read, not a substitute for the paper. They do not express the views of the authors, the journals or the publishers. Check the paper itself before citing it or relying on it. To report an inaccurate summary, write to the address above.
+
+## Liability
+
+This website and EconRadar are provided free of charge, as they are, without any guarantee of accuracy, completeness or availability. I am not responsible for the content of the external sites they link to.
