@@ -43,7 +43,7 @@
   });
 
   // Live figures from the app itself (same origin); the static text stays if this fails.
-  fetch('/Apps/radar/data/index.json', { cache: 'no-cache' })
+  fetch('/EconRadar/radar/data/index.json', { cache: 'no-cache' })
     .then(r => (r.ok ? r.json() : Promise.reject()))
     .then(d => {
       if (d.total) hero.querySelector('[data-radar-total]').textContent = d.total.toLocaleString('en-GB');

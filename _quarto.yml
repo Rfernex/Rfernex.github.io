@@ -64,6 +64,6 @@ format:
     lang: en
     date-format: "MMMM YYYY"
     include-after-body:
-      text: '<script src="/assets/site.js" defer></script>'
+      text: '<script src="/assets/site.js?v=2" defer></script>'
 execute:
   freeze: auto

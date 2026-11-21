@@ -4,7 +4,7 @@ description: Who publishes this website and EconRadar, who hosts them, what data
 toc: true
 ---
 
-This notice covers this website (rfernex.github.io) and the EconRadar app ([rfernex.github.io/Apps/radar](https://rfernex.github.io/Apps/radar/)). Last updated: 21 November 2026.
+This notice covers this website (rfernex.github.io) and the EconRadar app ([rfernex.github.io/EconRadar/radar](https://rfernex.github.io/EconRadar/radar/)). Last updated: 21 November 2026.
 
 ## Publisher
 

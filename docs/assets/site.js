@@ -20,7 +20,7 @@
   // EconRadar count (same origin on the live site; the static text stays otherwise)
   const count = document.querySelector('[data-radar-count]');
   if (count) {
-    fetch('/Apps/radar/data/index.json', { cache: 'no-cache' })
+    fetch('/EconRadar/radar/data/index.json', { cache: 'no-cache' })
       .then(r => (r.ok ? r.json() : Promise.reject()))
       .then(d => {
         if (!d.total) return;

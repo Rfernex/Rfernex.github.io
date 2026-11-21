@@ -20,14 +20,14 @@ lightbox: auto
 <div class="rh-inner">
   <div class="rh-title" role="heading" aria-level="1">EconRadar</div>
   <p class="rh-sub">My little app to keep up with the literature weekly, and now it's yours too!</p>
-  <a class="radar-launch" href="https://rfernex.github.io/Apps/radar/">
+  <a class="radar-launch" href="https://rfernex.github.io/EconRadar/radar/">
     <span class="rl-ping" aria-hidden="true"></span>
     <span class="rl-label">Open EconRadar</span>
     <span class="rl-arrow" aria-hidden="true">↗</span>
   </a>
   <p class="rh-stats"><span data-radar-total>20,000+</span> papers · 20 journals and NBER · <span data-radar-updated>updated every week</span></p>
 </div>
-<script src="assets/econradar/hero.js?v=6" defer></script>
+<script src="assets/econradar/hero.js?v=7" defer></script>
 ```
 :::
 
