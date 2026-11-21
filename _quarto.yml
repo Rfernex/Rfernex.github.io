@@ -1,6 +1,7 @@
 project:
   type: website
   output-dir: docs
+  post-render: _scripts/strip_polyfill.py
   resources:
     - assets/
     - styles.css
@@ -57,7 +58,9 @@ format:
     anchor-sections: false
     link-external-newwindow: false
     code-copy: true
-    html-math-method: mathjax
+    html-math-method:
+      method: mathjax
+      url: /assets/mathjax/tex-chtml-full.js
     lang: en
     date-format: "MMMM YYYY"
     include-after-body:
