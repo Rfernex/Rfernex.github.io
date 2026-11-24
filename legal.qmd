@@ -4,7 +4,7 @@ description: Who publishes this website and EconRadar, who hosts them, what data
 toc: true
 ---
 
-This notice covers this website (rfernex.github.io) and the EconRadar app ([rfernex.github.io/EconRadar/radar](https://rfernex.github.io/EconRadar/radar/)). Last updated: 21 November 2026.
+This notice covers this website (rfernex.github.io), the EconRadar app ([rfernex.github.io/EconRadar/radar](https://rfernex.github.io/EconRadar/radar/)) and my personal tools at rfernex.github.io/Apps. Last updated: 24 November 2026.
 
 ## Publisher
 
@@ -22,7 +22,7 @@ GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 941
 
 **Hosting:** GitHub serves the pages. To do so, GitHub receives your IP address and the usual technical details of your browser's request, and may keep them in its server logs for security. I have no access to those logs. See the [GitHub General Privacy Statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement).
 
-**Fonts and scripts:** the fonts (IBM Plex) and the script that displays mathematics (MathJax) are served from this website. No page loads anything from Google Fonts, a content delivery network or any other outside service, so your IP address reaches no one but the host.
+**Fonts and scripts:** all fonts and scripts, including the one that displays mathematics (MathJax), are served from this website. No page loads anything from Google Fonts, a content delivery network or any other outside service, so your IP address reaches no one but the host.
 
 **EconRadar:** what you do in the app (saved papers, read marks, notes, followed authors, filters, display settings) is kept in your browser's local storage, on your device only. It is never sent to me or to anyone else. You can delete it at any time by clearing this site's data in your browser. A backup file is created only when you ask for one, and stays on your device. If you choose to connect Zotero in the app's settings, your Zotero API key is stored in your browser, and the references you save are sent directly from your browser to Zotero ([Zotero privacy policy](https://www.zotero.org/support/privacy)).
 
@@ -34,6 +34,8 @@ GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 941
 - *Your choices:* if you are an author, you can ask for your information to be corrected, or object to it being shown, by writing to the address above. I will answer within one month.
 
 Followed authors are a reader's own choice: that list stays in the reader's browser, like the rest of the app's data.
+
+**Personal tools:** rfernex.github.io/Apps hosts small tools I made for my own use (time tracking and expenses). They are not meant for the public and are hidden from search engines. Anything typed into them is kept in the browser's local storage on that device and is never sent to me. If sync is turned on, a copy goes, through the GitHub API, to a private GitHub repository chosen by the person using the tool, with their own access token.
 
 **Email:** if you write to me, I use your message and address only to reply, and keep them no longer than the conversation needs.
 
