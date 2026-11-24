@@ -35,7 +35,7 @@ GitHub, Inc. (GitHub Pages), 88 Colin P. Kelly Jr. Street, San Francisco, CA 941
 
 Followed authors are a reader's own choice: that list stays in the reader's browser, like the rest of the app's data.
 
-**Personal tools:** rfernex.github.io/Apps hosts small tools I made for my own use (time tracking and expenses). They are not meant for the public and are hidden from search engines. Anything typed into them is kept in the browser's local storage on that device and is never sent to me. If sync is turned on, a copy goes, through the GitHub API, to a private GitHub repository chosen by the person using the tool, with their own access token.
+**Personal tools:** rfernex.github.io/Apps hosts small tools I made for my own use (time tracking, expenses, PhD applications, Italian, reading and GRE practice). They are not meant for the public and are hidden from search engines. Four of them are published encrypted and open only on my own devices: some of their features send text to outside services (translation, literature search, Zotero, language models), and only for me. Anything typed into them is kept in the browser's local storage on that device and is never sent to me. If sync is turned on, a copy goes, through the GitHub API, to a private GitHub repository chosen by the person using the tool, with their own access token.
 
 **Email:** if you write to me, I use your message and address only to reply, and keep them no longer than the conversation needs.
 
